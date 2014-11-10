@@ -1,6 +1,6 @@
 # ng-air.github.io
 
-![AngularAir logo](AngularAir.png)
+![AngularAir logo](logo.png)
 
 [@AngularAir](https://twitter.com/AngularAir) is a video podcast all about
 [AngularJS](https://angularjs.org/) hosted by
