@@ -92,7 +92,7 @@
     var vm = this;
     var authRef = new Firebase('https://bucketstreams.firebaseio.com');
     var authClient = $firebaseSimpleLogin(authRef);
-    var questions = new Firebase('htts://bucketstreams.firebaseio.com/ng-air/qa/questions');
+    var questions = new Firebase('https://bucketstreams.firebaseio.com/ng-air/qa/questions');
     var sync = $firebase(questions);
 
     vm.user = CurrentUser.getUser();
