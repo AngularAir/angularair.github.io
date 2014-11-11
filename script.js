@@ -1,5 +1,9 @@
 
 (function () {
+  if ((window.location.host === "ng-air.github.io") && (window.location.protocol !== "https:")) {
+    window.location.protocol = "https";
+  }
+  
   'use strict';
   var app = angular.module('ngAir', ['firebase']);
   app.constant('markdown', markdown); // global
