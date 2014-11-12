@@ -44,7 +44,7 @@
    * @param {string} url The URL of the series / topic / question to embed
    * @constructor
    */
-  function Moderator(url, el) {
+  function Moderator(url) {
     if (url.indexOf('spreadsheets.google.com/feeds/cells') > 0 &&
             (url.indexOf('http://') == 0 || url.indexOf('https://') == 0)) {
       this.embedSpreadsheet(url);
@@ -104,7 +104,7 @@
    * @type {int}
    */
   Moderator.prototype.width = 800;
-  Moderator.prototype.height = 600;
+  Moderator.prototype.height = 800;
 
   /**
    * Language to use in the embedded version.
@@ -199,8 +199,8 @@
    * Sets the embed target and executes the embed if ready.
    * @param {string} id The ID of the element to insert Moderator into.
    */
-  Moderator.prototype.embed = function(id) {
-    this.embedTarget = id;
+  Moderator.prototype.embed = function(el) {
+    this.embedTarget = el;
     this.maybeEmbed();
   }
 
@@ -216,8 +216,7 @@
                     "' frameborder=0 ",
                     "allowtransparency='true' ",
                     "scrolling='auto'></iframe>"].join("");
-      var el = document.getElementById(this.embedTarget);
-      el.innerHTML = iframe;
+      this.embedTarget.innerHTML = iframe;
     }
   }
 
@@ -259,11 +258,12 @@
   /**
    * Convenience function to embed Moderator from a URL with no special settings.
    * @param {string} url The URL of the Moderator series, topic, or question
-   * @param {string} id The ID of the element to embed Moderator into
+   * @param {*} el An element to embed onto
    */
-  function embedModerator(url, id) {
+  function embedModerator(url, el, width) {
     var mod = new Moderator(url);
-    mod.embed(id);
+    mod.width = width;
+    mod.embed(el);
   }
 
   // Export the MODERATOR_embed method
