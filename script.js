@@ -3,7 +3,7 @@
   if ((window.location.host === "ng-air.github.io") && (window.location.protocol !== "https:")) {
     window.location.protocol = "https";
   }
-  
+
   'use strict';
   var app = angular.module('ngAir', ['firebase']);
   app.constant('markdown', markdown); // global
@@ -107,6 +107,7 @@
     vm.deleteQuestion = deleteQuestion;
     vm.submitQuestion = submitQuestion;
     vm.toggleVote = toggleVote;
+    vm.userHasVoted = userHasVoted;
 
 
     function login() {
@@ -159,6 +160,10 @@
         question.votes.push(vm.user.id);
       }
       vm.questions.$save(question);
+    }
+
+    function userHasVoted(question) {
+      return vm.user && question.votes && question.votes.indexOf(vm.user.id) !== -1;
     }
 
     function checkUser() {

@@ -78,7 +78,6 @@
   </section>
 
   <section class="center">
-    <hr/>
     <p>
       Follow AngularAir on <a href="https://twitter.com/angularair">Twitter</a>
       and <a href="https://plus.google.com/u/0/104335210120652090229/posts">Google+</a>
@@ -123,14 +122,16 @@
       <h4>Questions</h4>
       <input type="search" placeholder="Search" class="form-control" ng-model="vm.questionSearch"/>
 
-      <div ng-repeat="question in vm.questions | sortByVotes | filter:vm.questionSearch">
-        <button ng-click="vm.toggleVote(question)" class="btn btn-default btn-sm">+{{question.votes.length || 0}}
-        </button>
-        <button ng-click="vm.deleteQuestion(question)" class="btn btn-danger btn-sm"
-                ng-if="vm.user.id === question.user.id">Delete
-        </button>
-        <strong>{{question.user.displayName}}</strong> asked:
-        <div>{{question.detail}}</div>
+      <div class="questions-list">
+        <div ng-repeat="question in vm.questions | sortByVotes | filter:vm.questionSearch">
+          <button ng-click="vm.toggleVote(question)" class="btn btn-default btn-sm" ng-class="{'btn-danger': vm.userHasVoted(question), 'btn-success': !vm.userHasVoted(question)}">+{{question.votes.length || 0}}
+          </button>
+          <button ng-click="vm.deleteQuestion(question)" class="btn btn-danger btn-sm"
+                  ng-if="vm.user.id === question.user.id">Delete
+          </button>
+          <strong>{{question.user.displayName}}</strong> asked:
+          <div>{{question.detail}}</div>
+        </div>
       </div>
     </div>
 
