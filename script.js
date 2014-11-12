@@ -102,7 +102,7 @@
         if (width < 800) {
           el.html(
             '<div>' +
-            'Your screen is pretty narrow.' +
+            'Your screen is pretty narrow. ' +
             'You may want to open up <a href="' + scope.moderatorUrl + '">the Q&A</a> in another tab...' +
             '</div>'
           )

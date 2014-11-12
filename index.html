@@ -64,6 +64,9 @@
         <br/>
         <small>{{::episode.displayDate}} {{::episode.time}}</small>
       </h3>
+      <div>
+        <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
+      </div>
       <div ng-repeat="group in episode.guests" class="guests clearfix guests-{{::group.length}}">
         <div ng-repeat="guest in group" class="guest">
           <a ng-href="https://twitter.com/{{::guest.twitter}}">
