@@ -43,7 +43,7 @@
         ]
       },
       {
-        title: 'Hurdles getting into Angular',
+        title: 'Hitting the Ground Running with Angular',
         displayDate: 'Tuesday, December 2nd, 2014',
         date: '2014-12-02',
         time: '12:00 PM (MST)',
