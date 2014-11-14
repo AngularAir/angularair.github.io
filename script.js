@@ -28,7 +28,7 @@
         title: 'The Angular Team on 1.3 & 2.0',
         displayDate: 'Friday, November 14th, 2014',
         date: '2014-11-14',
-        time: '3:00 PM (MST)',
+        time: '2:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/b/104335210120652090229/events/c2182d3bec32vs4jim7r8smc1q4',
         moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.41',
         guests: [
@@ -46,7 +46,7 @@
         title: 'Hitting the Ground Running with Angular',
         displayDate: 'Tuesday, December 2nd, 2014',
         date: '2014-12-02',
-        time: '12:00 PM (MST)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4',
         moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.42',
         guests: [
