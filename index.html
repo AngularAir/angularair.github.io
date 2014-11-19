@@ -76,6 +76,18 @@
         </div>
       </div>
       <div class="episode__description justify" ng-bind-html="::episode.description"></div>
+      <div class="episode__sponsors" ng-if="episode.sponsors.length">
+        <h4>Episode Sponsor{{episode.sponsors.length > 1 ? 's' : ''}}</h4>
+        <div ng-repeat="group in episode.sponsors" class="guests clearfix guests-{{::group.length}}">
+          <div ng-repeat="sponsor in group" class="guest">
+            <a ng-href="{{sponsor.website}}">
+              <img ng-src="episodes/{{::episode.date}}/{{::sponsor.name}}.png"
+                   alt="{{::sponsor.name}} Logo"/><span class="guest__name">{{::sponsor.name}}</span>
+            </a>
+          </div>
+        </div>
+        <div class="episode__description justify" ng-bind-html="::episode.sponsorship"></div>
+      </div>
       <div class="episode__qa justify">
         <h4>Q&A</h4>
         <small>
@@ -92,6 +104,16 @@
       </div>
       <hr/>
     </div>
+  </section>
+
+  <section id="past-episodes" class="episode">
+    <h2>Past Episodes</h2>
+    <ul>
+      <li ng-repeat="episode in vm.pastEpisodes">
+        <a ng-href="{{episode.hangoutUrl}}">{{episode.title}}</a>
+      </li>
+    </ul>
+    <hr/>
   </section>
 
   <section class="center">
