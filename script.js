@@ -28,19 +28,6 @@
     vm.generalModeratorUrl = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.40';
     vm.episodes = [
       {
-        title: 'Hitting the Ground Running with Angular',
-        displayDate: 'Tuesday, December 2nd, 2014',
-        date: '2014-12-02',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.42',
-        guests: [
-          [
-            {name: 'John Lindquist', twitter: 'johnlindquist'}
-          ]
-        ]
-      },
-      {
         title: 'Angular DevTools',
         displayDate: 'Tuesday, December 16th, 2014',
         date: '2014-12-16',
@@ -55,6 +42,19 @@
         sponsors: [
           [
             {name: 'ShirtJS', website: 'http://shirtjs.com/'}
+          ]
+        ]
+      },
+      {
+        title: 'Staying up with AngularJS',
+        displayDate: 'Tuesday, January 13th, 2015',
+        date: '2015-01-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cue886f2907d6l1avj1o2159j68',
+        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.45',
+        guests: [
+          [
+            {name: 'Air Lerner', twitter: 'auser'}
           ]
         ]
       }
@@ -76,6 +76,19 @@
           [
             {name: 'Igor Minar', twitter: 'IgorMinar'},
             {name: 'Pete Bacon Darwin', twitter: 'petebd'}
+          ]
+        ]
+      },
+      {
+        title: 'Hitting the Ground Running with Angular',
+        displayDate: 'Tuesday, December 2nd, 2014',
+        date: '2014-12-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4',
+        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.42',
+        guests: [
+          [
+            {name: 'John Lindquist', twitter: 'johnlindquist'}
           ]
         ]
       }
