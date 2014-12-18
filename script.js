@@ -28,24 +28,6 @@
     vm.generalModeratorUrl = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.40';
     vm.episodes = [
       {
-        title: 'Angular DevTools',
-        displayDate: 'Tuesday, December 16th, 2014',
-        date: '2014-12-16',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c6hntmhpemnkna04svmer2jnca8',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.44',
-        guests: [
-          [
-            {name: 'Brian Ford', twitter: 'briantford'}
-          ]
-        ],
-        sponsors: [
-          [
-            {name: 'ShirtJS', website: 'http://shirtjs.com/'}
-          ]
-        ]
-      },
-      {
         title: 'Staying up with AngularJS',
         displayDate: 'Tuesday, January 13th, 2015',
         date: '2015-01-13',
@@ -89,6 +71,24 @@
         guests: [
           [
             {name: 'John Lindquist', twitter: 'johnlindquist'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular DevTools',
+        displayDate: 'Tuesday, December 16th, 2014',
+        date: '2014-12-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c6hntmhpemnkna04svmer2jnca8',
+        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.44',
+        guests: [
+          [
+            {name: 'Brian Ford', twitter: 'briantford'}
+          ]
+        ],
+        sponsors: [
+          [
+            {name: 'ShirtJS', website: 'http://shirtjs.com/'}
           ]
         ]
       }
