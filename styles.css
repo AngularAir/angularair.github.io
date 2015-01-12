@@ -237,7 +237,7 @@ h2 {
   text-align: left;
 }
 
-.host img, .guest img {
+.host img:not(.no-circle), .guest img:not(.no-circle) {
   border-radius: 50%;
 }
 

@@ -62,27 +62,43 @@
       <h3 class="episode__title">
         <a ng-href="{{::episode.hangoutUrl}}">{{::episode.title}}</a>
         <br/>
-        <small>{{::episode.displayDate}} {{::episode.time}}</small>
+        <small>
+          {{::episode.displayDate}}
+          <span ng-if="::episode.time">
+            {{::episode.time}}
+          </span>
+          <small ng-if="::!episode.time">
+            (Time TBA)
+          </small>
+        </small>
       </h3>
       <div>
-        <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
+        <span ng-if="::episode.hangoutUrl">
+          <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
+        </span>
+        <span ng-if="::!episode.hangoutUrl">
+          Stay tuned for a hangouts link!
+        </span>
       </div>
       <div ng-repeat="group in episode.guests" class="guests clearfix guests-{{::group.length}}">
         <div ng-repeat="guest in group" class="guest">
           <a ng-href="https://twitter.com/{{::guest.twitter}}">
             <img ng-src="episodes/{{::episode.date}}/{{::guest.twitter}}.png"
-                 alt="{{::guest.name}} Profile Picture"/><span class="guest__name">{{::guest.name}}</span>
+                 ng-class="::{'no-circle': guest.noCircle}"
+                 alt="{{::guest.name}} Profile Picture"/>
+            <span class="guest__name">{{::guest.name}}</span>
           </a>
         </div>
       </div>
       <div class="episode__description justify" ng-bind-html="::episode.description"></div>
-      <div class="episode__sponsors" ng-if="episode.sponsors.length">
+      <div class="episode__sponsors" ng-if="::episode.sponsors.length">
         <h4>Episode Sponsor{{episode.sponsors.length > 1 ? 's' : ''}}</h4>
         <div ng-repeat="group in episode.sponsors" class="guests clearfix guests-{{::group.length}}">
           <div ng-repeat="sponsor in group" class="guest">
             <a ng-href="{{sponsor.website}}">
               <img ng-src="episodes/{{::episode.date}}/{{::sponsor.name}}.png"
-                   alt="{{::sponsor.name}} Logo"/><span class="guest__name">{{::sponsor.name}}</span>
+                   alt="{{::sponsor.name}} Logo"/>
+              <span class="guest__name">{{::sponsor.name}}</span>
             </a>
           </div>
         </div>
@@ -98,7 +114,12 @@
         </small>
 
         <div class="moderator-embed-container">
-          <moderator-embed moderator-url="{{::episode.moderatorUrl}}"></moderator-embed>
+          <div ng-if="::episode.moderatorUrl">
+            <moderator-embed moderator-url="{{::episode.moderatorUrl}}"></moderator-embed>
+          </div>
+          <div ng-if="::!episode.moderatorUrl">
+            Stay tuned for a moderator Q&A to be posted.
+          </div>
         </div>
 
       </div>
@@ -128,10 +149,6 @@
     <hr/>
     <h3>Participate</h3>
 
-    <p class="justify">
-      Want to be a part of the show? Here you can ask and vote for questions that will be addressed
-      during the show and join us on <a href="http://webchat.freenode.net/">IRC</a> (#ngair).
-    </p>
     <small class="text-muted justify">
       If you have a question that doesn't relate to any particular show, ask them here!
     </small>

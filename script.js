@@ -52,6 +52,19 @@
             {name: 'Kip Lawrence', twitter: 'mightykip'}
           ]
         ]
+      },
+      {
+        title: 'On-site ng-nl broadcast',
+        displayDate: 'Friday, February 13th, 2015',
+        date: '2015-02-13',
+        time: '',
+        hangoutUrl: '',
+        moderatorUrl: '',
+        guests: [
+          [
+            {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
+          ]
+        ]
       }
     ];
 
