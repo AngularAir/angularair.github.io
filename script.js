@@ -1,13 +1,12 @@
 
 (function () {
-
   'use strict';
+
   var app = angular.module('ngAir', []);
   app.constant('markdown', markdown);
   app.constant('MODERATOR', MODERATOR);
 
   app.factory('markdownGetter', function markdownGetter($http, markdown) {
-    'use strict';
     return {
       getDescription: getMarkdownFileGetter('description.md'),
       getSponsorship: getMarkdownFileGetter('sponsorship.md')
@@ -23,7 +22,6 @@
   });
 
   app.controller('MainCtrl', function MainCtrl(markdownGetter, $sce) {
-    'use strict';
     var vm = this;
     vm.generalModeratorUrl = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.40';
     vm.episodes = [
@@ -37,6 +35,21 @@
         guests: [
           [
             {name: 'Air Lerner', twitter: 'auser'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Community and Organizing ng-conf',
+        displayDate: 'Tuesday, January 27th, 2015',
+        date: '2015-01-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cto0heinllidfpqqtmlvputrvlg',
+        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.46',
+        guests: [
+          [
+            {name: 'Joe Eames', twitter: 'josepheames'},
+            {name: 'Aaron Frost', twitter: 'js_dev'},
+            {name: 'Kip Lawrence', twitter: 'mightykip'}
           ]
         ]
       }
@@ -105,7 +118,6 @@
   });
 
   app.factory('CurrentUser', function CurrentUser($window) {
-    'use strict';
     var key = 'user-obj';
     var store = $window.localStorage;
     var currentUser = null;
@@ -131,7 +143,6 @@
   });
 
   app.directive('moderatorEmbed', function moderatorEmbedDirective(MODERATOR) {
-    'use strict';
     return {
       restrict: 'E',
       scope: {

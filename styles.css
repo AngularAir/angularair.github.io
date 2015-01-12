@@ -44,6 +44,10 @@
     margin-bottom: 20px;
   }
 
+  .guests-3 {
+    max-width: 310px;
+  }
+
   .guests-1 {
     max-width: 90px;
   }
@@ -118,6 +122,10 @@
     margin-top: 40px;
     max-width: 400px;
     margin-bottom: 40px;
+  }
+
+  .guests-3 {
+    max-width: 620px;
   }
 
   .guests-1 {
