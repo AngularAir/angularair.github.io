@@ -97,6 +97,7 @@
           <div ng-repeat="sponsor in group" class="guest">
             <a ng-href="{{sponsor.website}}">
               <img ng-src="episodes/{{::episode.date}}/{{::sponsor.name}}.png"
+                   ng-class="::{'no-circle': sponsor.noCircle}"
                    alt="{{::sponsor.name}} Logo"/>
               <span class="guest__name">{{::sponsor.name}}</span>
             </a>
@@ -130,8 +131,16 @@
   <section id="past-episodes" class="episode">
     <h2>Past Episodes</h2>
     <ul>
-      <li ng-repeat="episode in vm.pastEpisodes">
-        <a ng-href="{{episode.hangoutUrl}}">{{episode.title}}</a>
+      <li ng-repeat="episode in ::vm.pastEpisodes">
+        <a ng-href="{{::episode.hangoutUrl}}">{{::'Episode ' + $index + ': ' + episode.title}}</a>
+        <small ng-if="::episode.sponsors">
+          Sponsored by:
+          <span ng-repeat="group in ::episode.sponsors">
+            <span ng-repeat="sponsor in ::group">
+              {{::!$first && $last ? ' and ' : ''}}<a ng-href="{{::sponsor.website}}">{{::sponsor.name}}</a>{{::!$last ? ',' : ''}}
+            </span>
+          </span>
+        </small>
       </li>
     </ul>
     <hr/>

@@ -36,6 +36,11 @@
           [
             {name: 'Air Lerner', twitter: 'auser'}
           ]
+        ],
+        sponsors: [
+          [
+            {name: 'ReactWeek', website: 'http://reactweek.com/', noCircle: true}
+          ]
         ]
       },
       {
