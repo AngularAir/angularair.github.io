@@ -36,7 +36,10 @@
           [
             {name: 'Joe Eames', twitter: 'josepheames'},
             {name: 'Aaron Frost', twitter: 'js_dev'},
-            {name: 'Kip Lawrence', twitter: 'mightykip'}
+          //],
+          //[
+            {name: 'Kip Lawrence', twitter: 'mightykip'},
+            {name: 'Dave Geddes', twitter: 'geddski'},
           ]
         ]
       },
