@@ -35,11 +35,12 @@
         guests: [
           [
             {name: 'Joe Eames', twitter: 'josepheames'},
-            {name: 'Aaron Frost', twitter: 'js_dev'},
-          //],
-          //[
+            {name: 'Aaron Frost', twitter: 'js_dev'}
+          ],
+          [
             {name: 'Kip Lawrence', twitter: 'mightykip'},
             {name: 'Dave Geddes', twitter: 'geddski'},
+            {name: 'Merrick Christensen', twitter: 'iammerrick'}
           ]
         ]
       },
