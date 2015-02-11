@@ -26,31 +26,12 @@
     vm.generalModeratorUrl = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.40';
     vm.episodes = [
       {
-        title: 'Angular Community and Organizing ng-conf',
-        displayDate: 'Tuesday, January 27th, 2015',
-        date: '2015-01-27',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cto0heinllidfpqqtmlvputrvlg',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.46',
-        guests: [
-          [
-            {name: 'Joe Eames', twitter: 'josepheames'},
-            {name: 'Aaron Frost', twitter: 'js_dev'}
-          ],
-          [
-            {name: 'Kip Lawrence', twitter: 'mightykip'},
-            {name: 'Dave Geddes', twitter: 'geddski'},
-            {name: 'Merrick Christensen', twitter: 'iammerrick'}
-          ]
-        ]
-      },
-      {
         title: 'On-site ng-nl broadcast',
         displayDate: 'Friday, February 13th, 2015',
         date: '2015-02-13',
-        time: '',
-        hangoutUrl: '',
-        moderatorUrl: '',
+        time: '3:30 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cenaie9oc70iu0c0e9cu3oot13c',
+        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.47',
         guests: [
           [
             {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
@@ -124,6 +105,25 @@
         sponsors: [
           [
             {name: 'ReactWeek', website: 'http://reactweek.com/', noCircle: true}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Community and Organizing ng-conf',
+        displayDate: 'Tuesday, January 27th, 2015',
+        date: '2015-01-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cto0heinllidfpqqtmlvputrvlg',
+        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.46',
+        guests: [
+          [
+            {name: 'Joe Eames', twitter: 'josepheames'},
+            {name: 'Aaron Frost', twitter: 'js_dev'}
+          ],
+          [
+            {name: 'Kip Lawrence', twitter: 'mightykip'},
+            {name: 'Dave Geddes', twitter: 'geddski'},
+            {name: 'Merrick Christensen', twitter: 'iammerrick'}
           ]
         ]
       }
