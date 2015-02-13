@@ -30,7 +30,7 @@
         displayDate: 'Friday, February 13th, 2015',
         date: '2015-02-13',
         time: '3:30 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cenaie9oc70iu0c0e9cu3oot13c',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c1iuqnqrrbumg08vrmgk6fpmeao',
         moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.47',
         guests: [
           [
