@@ -23,18 +23,37 @@
 
   app.controller('MainCtrl', function MainCtrl(markdownGetter, $sce) {
     var vm = this;
-    vm.generalModeratorUrl = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.40';
+    var moderatorBase = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7';
+    vm.generalModeratorUrl = moderatorBase + '.40';
     vm.episodes = [
       {
-        title: 'On-site ng-nl broadcast',
-        displayDate: 'Friday, February 13th, 2015',
-        date: '2015-02-13',
-        time: '3:30 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c1iuqnqrrbumg08vrmgk6fpmeao',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.47',
+        title: 'Ionic Framework',
+        displayDate: 'Tuesday, March 17th, 2015',
+        date: '2015-03-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmhq7mqarkoful8u7iusbjsdjtk',
+        moderatorUrl: moderatorBase + '.48',
         guests: [
           [
-            {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
+            {name: 'Adam Bradley', twitter: 'adamdbradley'},
+            {name: 'Mike Hartington', twitter: 'mhartington'}
+          ],
+          [
+            {name: 'Max Lynch', twitter: 'maxlynch'},
+            {name: 'Ben Sperry', twitter: 'benjsperry'}
+          ]
+        ]
+      },
+      {
+        title: 'i18n with Angular',
+        displayDate: 'Tuesday, March 31st, 2015',
+        date: '2015-03-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpn5hnihfuh175tbtbe3i75msgc',
+        moderatorUrl: moderatorBase + '.49',
+        guests: [
+          [
+            {name: 'Pascal Precht', twitter: 'PascalPrecht'}
           ]
         ]
       }
@@ -47,7 +66,7 @@
         date: '2014-11-14',
         time: '2:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/b/104335210120652090229/events/c2182d3bec32vs4jim7r8smc1q4',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.41',
+        moderatorUrl: moderatorBase + '.41',
         guests: [
           [
             {name: 'Bradly Green', twitter: 'bradlygreen'},
@@ -65,7 +84,7 @@
         date: '2014-12-02',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.42',
+        moderatorUrl: moderatorBase + '.42',
         guests: [
           [
             {name: 'John Lindquist', twitter: 'johnlindquist'}
@@ -78,7 +97,7 @@
         date: '2014-12-16',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c6hntmhpemnkna04svmer2jnca8',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.44',
+        moderatorUrl: moderatorBase + '.44',
         guests: [
           [
             {name: 'Brian Ford', twitter: 'briantford'}
@@ -96,7 +115,7 @@
         date: '2015-01-13',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cue886f2907d6l1avj1o2159j68',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.45',
+        moderatorUrl: moderatorBase + '.45',
         guests: [
           [
             {name: 'Air Lerner', twitter: 'auser'}
@@ -114,7 +133,7 @@
         date: '2015-01-27',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cto0heinllidfpqqtmlvputrvlg',
-        moderatorUrl: 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7.46',
+        moderatorUrl: moderatorBase + '.46',
         guests: [
           [
             {name: 'Joe Eames', twitter: 'josepheames'},
@@ -124,6 +143,19 @@
             {name: 'Kip Lawrence', twitter: 'mightykip'},
             {name: 'Dave Geddes', twitter: 'geddski'},
             {name: 'Merrick Christensen', twitter: 'iammerrick'}
+          ]
+        ]
+      },
+      {
+        title: 'On-site ng-nl broadcast',
+        displayDate: 'Friday, February 13th, 2015',
+        date: '2015-02-13',
+        time: '3:30 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c1iuqnqrrbumg08vrmgk6fpmeao',
+        moderatorUrl: moderatorBase + '.47',
+        guests: [
+          [
+            {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
           ]
         ]
       }
