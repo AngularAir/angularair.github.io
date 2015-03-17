@@ -77,6 +77,10 @@
     font-size: 10px;
   }
 
+  .person__name__twitter {
+    margin-top: -4px;
+  }
+
   #questions {
     font-size: 10px;
   }
@@ -159,6 +163,10 @@
 
   .person__name {
     font-size: 20px;
+  }
+
+  .person__name__twitter {
+    margin-top: -10px;
   }
 
   #questions {
@@ -263,7 +271,6 @@ h2 {
 
 .person__name__twitter {
   display: block;
-  margin-top: -10px;
 }
 
 .episode__qa, .episode__sponsors {
