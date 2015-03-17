@@ -45,6 +45,19 @@
         ]
       },
       {
+        title: 'Developing Open Source Angular Libraries',
+        displayDate: 'Tuesday, March 24th, 2015',
+        date: '2015-03-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c8vsorqvlsoi4r12m60l0fs22c4',
+        moderatorUrl: moderatorBase + '.4a',
+        guests: [
+          [
+            {name: 'Jason Dobry', twitter: 'jmdobry'}
+          ]
+        ]
+      },
+      {
         title: 'i18n with Angular',
         displayDate: 'Tuesday, March 31st, 2015',
         date: '2015-03-31',
@@ -199,24 +212,59 @@
   app.directive('moderatorEmbed', function moderatorEmbedDirective(MODERATOR) {
     return {
       restrict: 'E',
+      template: [
+        '<div>',
+          '<a ng-click="showQA()" style="cursor:pointer">Click to show Q&A</a>',
+        '</div>'
+      ].join(''),
       scope: {
         moderatorUrl: '@'
       },
       link: function(scope, el, attrs) {
-        var width = el.parent()[0].offsetWidth;
-        if (width < 800) {
-          el.html(
-            '<div>' +
-            'Your screen is pretty narrow. ' +
-            'You may want to open up <a href="' + scope.moderatorUrl + '">the Q&A</a> in another tab...' +
-            '</div>'
-          )
-        } else {
-          var mod = new MODERATOR(scope.moderatorUrl);
-          mod.width = width;
-          mod.embed(el[0]);
-        }
+        scope.showQA = function() {
+          var width = el.parent()[0].offsetWidth;
+          if (width < 800) {
+            el.html(
+              '<div>' +
+              'Your screen is pretty narrow. ' +
+              'You may want to open up <a href="' + scope.moderatorUrl + '">the Q&A</a> in another tab...' +
+              '</div>'
+            )
+          } else {
+            var mod = new MODERATOR(scope.moderatorUrl);
+            mod.width = width;
+            mod.embed(el[0]);
+          }
+        };
       }
     };
   });
+
+  window.featureShow = function featureShow(index) {
+    var originalEpisode = document.querySelectorAll('.episode')[index];
+    var $scope = angular.element(originalEpisode).scope();
+    var newGuests = [];
+    $scope.episode.guests.forEach(function(guests) {
+      newGuests = newGuests.concat(guests);
+    });
+    $scope.episode.guests = [newGuests];
+    $scope.$apply();
+    var episode = originalEpisode.querySelector('.main-episode-content').cloneNode(true);
+    var hangoutsUrl = episode.querySelector('.hangouts-url');
+    var episodeTitle = episode.querySelector('.episode__title');
+    var firstRowOfGuests = episode.querySelector('.guests');
+
+    episode.removeChild(hangoutsUrl);
+
+    episode.style.marginTop = '500px';
+    episode.style.marginBottom = '500px';
+
+    episodeTitle.style.textAlign = 'center';
+    episodeTitle.style.marginBottom = '0';
+
+    firstRowOfGuests.style.marginTop = '20px';
+
+    document.body.innerHTML = '';
+    document.body.appendChild(episode);
+  };
 })();

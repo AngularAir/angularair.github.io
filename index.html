@@ -34,13 +34,19 @@
     <div class="host">
       <a href="https://twitter.com/toddmotto">
         <img src="toddmotto.png" alt="Todd Motto Profile Picture"/>
-        <span class="host__name">Todd Motto</span>
+        <span class="person__name">
+          <span class="person__name__name">Todd Motto</span>
+          <small class="person__name__twitter">@toddmotto</small>
+        </span>
       </a>
     </div>
     <div class="host">
       <a href="https://twitter.com/kentcdodds">
         <img src="kentcdodds.png" alt="Kent C. Dodds Profile Picture"/>
-        <span class="host__name">Kent C. Dodds</span>
+        <span class="person__name">
+          <span class="person__name__name">Kent C. Dodds</span>
+          <small class="person__name__twitter">@kentcdodds</small>
+        </span>
       </a>
     </div>
   </section>
@@ -59,35 +65,40 @@
     <h2>Episodes</h2>
 
     <div ng-repeat="episode in vm.episodes" class="episode">
-      <h3 class="episode__title">
-        <a ng-href="{{::episode.hangoutUrl}}">{{::episode.title}}</a>
-        <br/>
-        <small>
-          {{::episode.displayDate}}
-          <span ng-if="::episode.time">
-            {{::episode.time}}
-          </span>
-          <small ng-if="::!episode.time">
-            (Time TBA)
+      <div class="main-episode-content">
+        <h3 class="episode__title">
+          <a ng-href="{{::episode.hangoutUrl}}">{{::episode.title}}</a>
+          <br/>
+          <small>
+            {{::episode.displayDate}}
+            <span ng-if="::episode.time">
+              {{::episode.time}}
+            </span>
+            <small ng-if="::!episode.time">
+              (Time TBA)
+            </small>
           </small>
-        </small>
-      </h3>
-      <div>
-        <span ng-if="::episode.hangoutUrl">
-          <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
-        </span>
-        <span ng-if="::!episode.hangoutUrl">
-          Stay tuned for a hangouts link!
-        </span>
-      </div>
-      <div ng-repeat="group in episode.guests" class="guests clearfix guests-{{::group.length}}">
-        <div ng-repeat="guest in group" class="guest">
-          <a ng-href="https://twitter.com/{{::guest.twitter}}">
-            <img ng-src="episodes/{{::episode.date}}/{{::guest.twitter}}.png"
-                 ng-class="::{'no-circle': guest.noCircle}"
-                 alt="{{::guest.name}} Profile Picture"/>
-            <span class="guest__name">{{::guest.name}}</span>
-          </a>
+        </h3>
+        <div class="hangouts-url">
+          <span ng-if="::episode.hangoutUrl">
+            <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
+          </span>
+          <span ng-if="::!episode.hangoutUrl">
+            Stay tuned for a hangouts link!
+          </span>
+        </div>
+        <div ng-repeat="group in episode.guests" class="guests clearfix guests-{{group.length}}">
+          <div ng-repeat="guest in group" class="guest">
+            <a ng-href="https://twitter.com/{{guest.twitter}}">
+              <img ng-src="episodes/{{episode.date}}/{{guest.twitter}}.png"
+                   ng-class="{'no-circle': guest.noCircle}"
+                   alt="{{guest.name}} Profile Picture"/>
+              <span class="person__name">
+                <span class="person__name__name">{{guest.name}}</span>
+                <small class="person__name__twitter">@{{guest.twitter}}</small>
+              </span>
+            </a>
+          </div>
         </div>
       </div>
       <div class="episode__description justify" ng-bind-html="::episode.description"></div>
@@ -99,7 +110,7 @@
               <img ng-src="episodes/{{::episode.date}}/{{::sponsor.name}}.png"
                    ng-class="::{'no-circle': sponsor.noCircle}"
                    alt="{{::sponsor.name}} Logo"/>
-              <span class="guest__name">{{::sponsor.name}}</span>
+              <span class="person__name">{{::sponsor.name}}</span>
             </a>
           </div>
         </div>

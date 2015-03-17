@@ -73,7 +73,7 @@
     max-width: 90px;
   }
 
-  .host__name, .guest__name {
+  .person__name {
     font-size: 10px;
   }
 
@@ -157,7 +157,7 @@
     max-width: 180px;
   }
 
-  .host__name, .guest__name {
+  .person__name {
     font-size: 20px;
   }
 
@@ -252,9 +252,18 @@ h2 {
 #description {
 }
 
-.host__name, .guest__name {
+.person__name {
   display: block;
   text-align: center;
+}
+
+.person__name__name {
+  display: block;
+}
+
+.person__name__twitter {
+  display: block;
+  margin-top: -10px;
 }
 
 .episode__qa, .episode__sponsors {
