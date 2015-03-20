@@ -27,24 +27,6 @@
     vm.generalModeratorUrl = moderatorBase + '.40';
     vm.episodes = [
       {
-        title: 'Ionic Framework',
-        displayDate: 'Tuesday, March 17th, 2015',
-        date: '2015-03-17',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmhq7mqarkoful8u7iusbjsdjtk',
-        moderatorUrl: moderatorBase + '.48',
-        guests: [
-          [
-            {name: 'Adam Bradley', twitter: 'adamdbradley'},
-            {name: 'Mike Hartington', twitter: 'mhartington'}
-          ],
-          [
-            {name: 'Max Lynch', twitter: 'maxlynch'},
-            {name: 'Ben Sperry', twitter: 'benjsperry'}
-          ]
-        ]
-      },
-      {
         title: 'Developing Open Source Angular Libraries',
         displayDate: 'Tuesday, March 24th, 2015',
         date: '2015-03-24',
@@ -53,7 +35,8 @@
         moderatorUrl: moderatorBase + '.4a',
         guests: [
           [
-            {name: 'Jason Dobry', twitter: 'jmdobry'}
+            {name: 'Jason Dobry', twitter: 'jmdobry'},
+            {name: 'Olivier Combe', twitter: 'OCombe'}
           ]
         ]
       },
@@ -169,6 +152,24 @@
         guests: [
           [
             {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
+          ]
+        ]
+      },
+      {
+        title: 'Ionic Framework',
+        displayDate: 'Tuesday, March 17th, 2015',
+        date: '2015-03-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmhq7mqarkoful8u7iusbjsdjtk',
+        moderatorUrl: moderatorBase + '.48',
+        guests: [
+          [
+            {name: 'Adam Bradley', twitter: 'adamdbradley'},
+            {name: 'Mike Hartington', twitter: 'mhartington'}
+          ],
+          [
+            {name: 'Max Lynch', twitter: 'maxlynch'},
+            {name: 'Ben Sperry', twitter: 'benjsperry'}
           ]
         ]
       }
