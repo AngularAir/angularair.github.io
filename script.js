@@ -52,6 +52,20 @@
             {name: 'Pascal Precht', twitter: 'PascalPrecht'}
           ]
         ]
+      },
+      {
+        title: 'Contributing to Angular',
+        displayDate: 'Tuesday, April 7th, 2015',
+        date: '2015-04-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
+        moderatorUrl: moderatorBase + '.4b',
+        guests: [
+          [
+            {name: 'Pawel Kozolowski', twitter: 'pkozlowski_os'},
+            {name: 'Rodric Haddad', twitter: 'rodyhaddad'}
+          ]
+        ]
       }
     ];
 
