@@ -27,20 +27,6 @@
     vm.generalModeratorUrl = moderatorBase + '.40';
     vm.episodes = [
       {
-        title: 'Developing Open Source Angular Libraries',
-        displayDate: 'Tuesday, March 24th, 2015',
-        date: '2015-03-24',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c8vsorqvlsoi4r12m60l0fs22c4',
-        moderatorUrl: moderatorBase + '.4a',
-        guests: [
-          [
-            {name: 'Jason Dobry', twitter: 'jmdobry'},
-            {name: 'Olivier Combe', twitter: 'OCombe'}
-          ]
-        ]
-      },
-      {
         title: 'i18n with Angular',
         displayDate: 'Tuesday, March 31st, 2015',
         date: '2015-03-31',
@@ -185,6 +171,20 @@
           [
             {name: 'Max Lynch', twitter: 'maxlynch'},
             {name: 'Ben Sperry', twitter: 'benjsperry'}
+          ]
+        ]
+      },
+      {
+        title: 'Developing Open Source Angular Libraries',
+        displayDate: 'Tuesday, March 24th, 2015',
+        date: '2015-03-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c8vsorqvlsoi4r12m60l0fs22c4',
+        moderatorUrl: moderatorBase + '.4a',
+        guests: [
+          [
+            {name: 'Jason Dobry', twitter: 'jmdobry'},
+            {name: 'Olivier Combe', twitter: 'OCombe'}
           ]
         ]
       }
