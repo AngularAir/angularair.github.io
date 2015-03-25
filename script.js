@@ -49,7 +49,8 @@
         moderatorUrl: moderatorBase + '.49',
         guests: [
           [
-            {name: 'Pascal Precht', twitter: 'PascalPrecht'}
+            {name: 'Pascal Precht', twitter: 'PascalPrecht'},
+            {name: 'Chirayu Krishnappa', twitter: 'chirayuk'}
           ]
         ]
       },
