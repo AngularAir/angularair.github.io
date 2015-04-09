@@ -27,30 +27,17 @@
     vm.generalModeratorUrl = moderatorBase + '.40';
     vm.episodes = [
       {
-        title: 'i18n with Angular',
-        displayDate: 'Tuesday, March 31st, 2015',
-        date: '2015-03-31',
+        title: 'Testing with Angular',
+        displayDate: 'Tuesday, April 14th, 2015',
+        date: '2015-04-14',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpn5hnihfuh175tbtbe3i75msgc',
-        moderatorUrl: moderatorBase + '.49',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cb42tejb88eliamj65o2ogh12qo',
+        moderatorUrl: moderatorBase + '.4c',
         guests: [
           [
-            {name: 'Pascal Precht', twitter: 'PascalPrecht'},
-            {name: 'Chirayu Krishnappa', twitter: 'chirayuk'}
-          ]
-        ]
-      },
-      {
-        title: 'Contributing to Angular',
-        displayDate: 'Tuesday, April 7th, 2015',
-        date: '2015-04-07',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
-        moderatorUrl: moderatorBase + '.4b',
-        guests: [
-          [
-            {name: 'Pawel Kozolowski', twitter: 'pkozlowski_os'},
-            {name: 'Rodric Haddad', twitter: 'rodyhaddad'}
+            {name: 'Andres Dominguez', twitter: 'andresdom'},
+            {name: 'Julie Ralph', twitter: 'SomeJulie'},
+            {name: 'Zan Thrash', twitter: 'zanthrash'}
           ]
         ]
       }
@@ -185,6 +172,34 @@
           [
             {name: 'Jason Dobry', twitter: 'jmdobry'},
             {name: 'Olivier Combe', twitter: 'OCombe'}
+          ]
+        ]
+      },
+      {
+        title: 'i18n with Angular',
+        displayDate: 'Tuesday, March 31st, 2015',
+        date: '2015-03-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpn5hnihfuh175tbtbe3i75msgc',
+        moderatorUrl: moderatorBase + '.49',
+        guests: [
+          [
+            {name: 'Pascal Precht', twitter: 'PascalPrecht'},
+            {name: 'Chirayu Krishnappa', twitter: 'chirayuk'}
+          ]
+        ]
+      },
+      {
+        title: 'Contributing to Angular',
+        displayDate: 'Tuesday, April 7th, 2015',
+        date: '2015-04-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
+        moderatorUrl: moderatorBase + '.4b',
+        guests: [
+          [
+            {name: 'Pawel Kozolowski', twitter: 'pkozlowski_os'},
+            {name: 'Rodric Haddad', twitter: 'rodyhaddad'}
           ]
         ]
       }
