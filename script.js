@@ -32,8 +32,11 @@
     vm.panelists = [
       [
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
-        {name: 'Kara Erickson', twitter: 'karaforthewin'},
+        {name: 'Kara Erickson', twitter: 'karaforthewin'}
+      ],
+      [
         {name: 'Olivier Combe', twitter: 'ocombe'},
+        {name: 'Scott Moss', twitter: 'scotups'},
         {name: 'Todd Motto', twitter: 'toddmotto'}
       ]
     ];
