@@ -1,0 +1,2 @@
+Patrick Stapleton, Jeff Whelpley, and Rob Wormald have been using Angular 2 Alpha a bit and will have some insightful
+things to say about their experience in this show that I think you'll definitely want to catch :-)

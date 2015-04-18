@@ -4,7 +4,6 @@
 
   var app = angular.module('ngAir', []);
   app.constant('markdown', markdown);
-  app.constant('MODERATOR', MODERATOR);
 
   app.factory('markdownGetter', function markdownGetter($http, markdown) {
     return {
@@ -23,21 +22,42 @@
 
   app.controller('MainCtrl', function MainCtrl(markdownGetter, $sce) {
     var vm = this;
-    var moderatorBase = 'https://www.google.com/moderator/#15/e=213bb7&t=213bb7';
-    vm.generalModeratorUrl = moderatorBase + '.40';
+
+    vm.host = {
+      name: 'Kent C. Dodds',
+      twitter: 'kentcdodds',
+      avatar: 'kentcdodds.png'
+    };
+
+    vm.panelists = [
+      [
+        {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
+        {name: 'Kara Erickson', twitter: 'karaforthewin'},
+        {name: 'Olivier Combe', twitter: 'ocombe'},
+        {name: 'Todd Motto', twitter: 'toddmotto'}
+      ]
+    ];
+
     vm.episodes = [
       {
-        title: 'Testing with Angular',
-        displayDate: 'Tuesday, April 14th, 2015',
-        date: '2015-04-14',
+        title: 'Introducing the Angular Air Panel',
+        displayDate: 'Tuesday, April 21st, 2015',
+        date: '2015-04-21',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cb42tejb88eliamj65o2ogh12qo',
-        moderatorUrl: moderatorBase + '.4c',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/ckq1tk7s4h3dk97n0co8jst305s',
+        guests: vm.panelists
+      },
+      {
+        title: 'Angular 2 Alpha',
+        displayDate: 'Tuesday, April 28th, 2015',
+        date: '2015-04-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpa0ojla7fkk8mfi6h0e0gm2ejo',
         guests: [
           [
-            {name: 'Andres Dominguez', twitter: 'andresdom'},
-            {name: 'Julie Ralph', twitter: 'SomeJulie'},
-            {name: 'Zan Thrash', twitter: 'zanthrash'}
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Rob Wormald', twitter: 'robwormald'}
           ]
         ]
       }
@@ -50,7 +70,6 @@
         date: '2014-11-14',
         time: '2:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/b/104335210120652090229/events/c2182d3bec32vs4jim7r8smc1q4',
-        moderatorUrl: moderatorBase + '.41',
         guests: [
           [
             {name: 'Bradly Green', twitter: 'bradlygreen'},
@@ -68,7 +87,6 @@
         date: '2014-12-02',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4',
-        moderatorUrl: moderatorBase + '.42',
         guests: [
           [
             {name: 'John Lindquist', twitter: 'johnlindquist'}
@@ -81,7 +99,6 @@
         date: '2014-12-16',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c6hntmhpemnkna04svmer2jnca8',
-        moderatorUrl: moderatorBase + '.44',
         guests: [
           [
             {name: 'Brian Ford', twitter: 'briantford'}
@@ -99,7 +116,6 @@
         date: '2015-01-13',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cue886f2907d6l1avj1o2159j68',
-        moderatorUrl: moderatorBase + '.45',
         guests: [
           [
             {name: 'Air Lerner', twitter: 'auser'}
@@ -117,7 +133,6 @@
         date: '2015-01-27',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cto0heinllidfpqqtmlvputrvlg',
-        moderatorUrl: moderatorBase + '.46',
         guests: [
           [
             {name: 'Joe Eames', twitter: 'josepheames'},
@@ -136,7 +151,6 @@
         date: '2015-02-13',
         time: '3:30 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c1iuqnqrrbumg08vrmgk6fpmeao',
-        moderatorUrl: moderatorBase + '.47',
         guests: [
           [
             {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
@@ -149,7 +163,6 @@
         date: '2015-03-17',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmhq7mqarkoful8u7iusbjsdjtk',
-        moderatorUrl: moderatorBase + '.48',
         guests: [
           [
             {name: 'Adam Bradley', twitter: 'adamdbradley'},
@@ -167,7 +180,6 @@
         date: '2015-03-24',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c8vsorqvlsoi4r12m60l0fs22c4',
-        moderatorUrl: moderatorBase + '.4a',
         guests: [
           [
             {name: 'Jason Dobry', twitter: 'jmdobry'},
@@ -181,7 +193,6 @@
         date: '2015-03-31',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpn5hnihfuh175tbtbe3i75msgc',
-        moderatorUrl: moderatorBase + '.49',
         guests: [
           [
             {name: 'Pascal Precht', twitter: 'PascalPrecht'},
@@ -195,17 +206,46 @@
         date: '2015-04-07',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
-        moderatorUrl: moderatorBase + '.4b',
         guests: [
           [
             {name: 'Pawel Kozolowski', twitter: 'pkozlowski_os'},
             {name: 'Rodric Haddad', twitter: 'rodyhaddad'}
           ]
         ]
+      },
+      {
+        title: 'Testing with Angular',
+        displayDate: 'Tuesday, April 14th, 2015',
+        date: '2015-04-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cb42tejb88eliamj65o2ogh12qo',
+        guests: [
+          [
+            {name: 'Andres Dominguez', twitter: 'andresdom'},
+            {name: 'Julie Ralph', twitter: 'SomeJulie'},
+            {name: 'Zan Thrash', twitter: 'zanthrash'}
+          ]
+        ]
       }
     ];
 
-    angular.forEach(vm.episodes, function (episode) {
+    angular.forEach(vm.panelists, function(panelistGroup) {
+      angular.forEach(panelistGroup, function(panelist) {
+        if (!panelist.avatar) {
+          panelist.avatar = 'panel/' + panelist.twitter + '.png';
+        }
+      });
+    });
+
+    angular.forEach(vm.episodes, function(episode) {
+      angular.forEach(episode.guests, function(group) {
+        angular.forEach(group, function(guest) {
+          if (!guest.avatar) {
+            guest.avatar = 'episodes/' + episode.date + '/' + guest.twitter + '.png';
+          }
+        });
+      });
+
       markdownGetter.getDescription(episode.date).then(function success(markdown) {
         episode.description = $sce.trustAsHtml(markdown);
       });
@@ -240,34 +280,29 @@
     }
   });
 
-  app.directive('moderatorEmbed', function moderatorEmbedDirective(MODERATOR) {
+  app.directive('personGroup', function personGroup() {
     return {
+      templateUrl: 'person-group-template.html',
       restrict: 'E',
-      template: [
-        '<div>',
-          '<a ng-click="showQA()" style="cursor:pointer">Click to show Q&A</a>',
-        '</div>'
-      ].join(''),
       scope: {
-        moderatorUrl: '@'
+        groups: '='
       },
-      link: function(scope, el, attrs) {
-        scope.showQA = function() {
-          var width = el.parent()[0].offsetWidth;
-          if (width < 800) {
-            el.html(
-              '<div>' +
-              'Your screen is pretty narrow. ' +
-              'You may want to open up <a href="' + scope.moderatorUrl + '">the Q&A</a> in another tab...' +
-              '</div>'
-            )
-          } else {
-            var mod = new MODERATOR(scope.moderatorUrl);
-            mod.width = width;
-            mod.embed(el[0]);
-          }
-        };
-      }
+      bindToController: true,
+      controllerAs: 'vm',
+      controller: angular.noop
+    };
+  });
+
+  app.directive('person', function person() {
+    return {
+      templateUrl: 'person-template.html',
+      restrict: 'A',
+      scope: {
+        person: '='
+      },
+      bindToController: true,
+      controllerAs: 'vm',
+      controller: angular.noop
     };
   });
 
@@ -283,7 +318,7 @@
     var episode = originalEpisode.querySelector('.main-episode-content').cloneNode(true);
     var hangoutsUrl = episode.querySelector('.hangouts-url');
     var episodeTitle = episode.querySelector('.episode__title');
-    var firstRowOfGuests = episode.querySelector('.guests');
+    var firstRowOfGuests = episode.querySelector('.group');
 
     episode.removeChild(hangoutsUrl);
 
@@ -292,6 +327,7 @@
 
     episodeTitle.style.textAlign = 'center';
     episodeTitle.style.marginBottom = '0';
+    episodeTitle.style.fontSize = '36px';
 
     firstRowOfGuests.style.marginTop = '20px';
 

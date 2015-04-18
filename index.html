@@ -22,46 +22,37 @@
     </h1>
 
     <h2>
-      AngularJS video podcast with
-      <a href="https://twitter.com/toddmotto">Todd Motto</a> and
+      AngularJS video podcast hosted by
       <a href="https://twitter.com/kentcdodds">Kent C. Dodds</a>
     </h2>
   </section>
 
   <div class="big-gap"></div>
 
-  <section id="hosts" class="clearfix">
-    <div class="host">
-      <a href="https://twitter.com/toddmotto">
-        <img src="toddmotto.png" alt="Todd Motto Profile Picture"/>
-        <span class="person__name">
-          <span class="person__name__name">Todd Motto</span>
-          <small class="person__name__twitter">@toddmotto</small>
-        </span>
-      </a>
-    </div>
-    <div class="host">
-      <a href="https://twitter.com/kentcdodds">
-        <img src="kentcdodds.png" alt="Kent C. Dodds Profile Picture"/>
-        <span class="person__name">
-          <span class="person__name__name">Kent C. Dodds</span>
-          <small class="person__name__twitter">@kentcdodds</small>
-        </span>
-      </a>
-    </div>
+  <section id="host" class="clearfix">
+    <div class="host person" person="vm.host"></div>
   </section>
 
   <section id="description" class="center">
-    <p class="justify">
-      Angular Air is a video podcast all about
-      <a href="https://angularjs.org/">AngularJS</a> hosted by
-      <a href="https://developers.google.com/experts/">Google Developer Expert</a>
-      Todd Motto and <a href="https://egghead.io/">Egghead.io</a> instructor Kent C. Dodds.
+    <p class="center">
+      Angular Air is a <strong>live</strong> video podcast all about
+      <a href="https://angularjs.org/">AngularJS</a>
+      <br/>
+      hosted by
+      <a href="https://egghead.io/">egghead.io</a> instructor Kent C. Dodds.
     </p>
   </section>
 
+  <hr/>
+
+  <section id="panelists">
+    <h2>Panelists</h2>
+    <person-group groups="vm.panelists"></person-group>
+  </section>
+
+  <hr/>
+
   <section id="episodes">
-    <hr/>
     <h2>Episodes</h2>
 
     <div ng-repeat="episode in vm.episodes" class="episode">
@@ -87,53 +78,13 @@
             Stay tuned for a hangouts link!
           </span>
         </div>
-        <div ng-repeat="group in episode.guests" class="guests clearfix guests-{{group.length}}">
-          <div ng-repeat="guest in group" class="guest">
-            <a ng-href="https://twitter.com/{{guest.twitter}}">
-              <img ng-src="episodes/{{episode.date}}/{{guest.twitter}}.png"
-                   ng-class="{'no-circle': guest.noCircle}"
-                   alt="{{guest.name}} Profile Picture"/>
-              <span class="person__name">
-                <span class="person__name__name">{{guest.name}}</span>
-                <small class="person__name__twitter">@{{guest.twitter}}</small>
-              </span>
-            </a>
-          </div>
-        </div>
+        <person-group groups="episode.guests"></person-group>
       </div>
       <div class="episode__description justify" ng-bind-html="::episode.description"></div>
       <div class="episode__sponsors" ng-if="::episode.sponsors.length">
         <h4>Episode Sponsor{{episode.sponsors.length > 1 ? 's' : ''}}</h4>
-        <div ng-repeat="group in episode.sponsors" class="guests clearfix guests-{{::group.length}}">
-          <div ng-repeat="sponsor in group" class="guest">
-            <a ng-href="{{sponsor.website}}">
-              <img ng-src="episodes/{{::episode.date}}/{{::sponsor.name}}.png"
-                   ng-class="::{'no-circle': sponsor.noCircle}"
-                   alt="{{::sponsor.name}} Logo"/>
-              <span class="person__name">{{::sponsor.name}}</span>
-            </a>
-          </div>
-        </div>
+        <person-group groups="episode.sponsors"></person-group>
         <div class="episode__description justify" ng-bind-html="::episode.sponsorship"></div>
-      </div>
-      <div class="episode__qa justify">
-        <h4>Q&A</h4>
-        <small>
-          We'll choose some of these questions to answer during the show!
-          <a ng-href="{{::episode.moderatorUrl}}">Ask / vote away!</a>
-          Note: If your question doesn't relate to this particular show, please use the
-          <a ng-href="{{::vm.generalModeratorUrl}}">General Q&A</a> to ask those questions.
-        </small>
-
-        <div class="moderator-embed-container">
-          <div ng-if="::episode.moderatorUrl">
-            <moderator-embed moderator-url="{{::episode.moderatorUrl}}"></moderator-embed>
-          </div>
-          <div ng-if="::!episode.moderatorUrl">
-            Stay tuned for a moderator Q&A to be posted.
-          </div>
-        </div>
-
       </div>
       <hr/>
     </div>
@@ -165,23 +116,28 @@
     </p>
   </section>
 
-  <section id="q-a">
-    <hr/>
-    <h3>Participate</h3>
-
-    <small class="text-muted justify">
-      If you have a question that doesn't relate to any particular show, ask them here!
-    </small>
-
-    <div class="moderator-embed-container">
-      <moderator-embed moderator-url="{{::vm.generalModeratorUrl}}"></moderator-embed>
-    </div>
-
-  </section>
 </div>
 
 <script src="markdown.min.js"></script>
-<script src="moderator-embed-api.js"></script>
+
+<script type="text/ng-template" id="person-group-template.html">
+  <div ng-repeat="group in vm.groups" class="group clearfix group-{{group.length}}">
+    <div ng-repeat="person in group" class="person" person="person"></div>
+  </div>
+</script>
+
+<script type="text/ng-template" id="person-template.html">
+  <a ng-href="https://twitter.com/{{::vm.person.twitter}}">
+    <img ng-src="{{::vm.person.avatar}}"
+         ng-class="::{'no-circle': vm.person.noCircle}"
+         alt="{{::vm.person.name}} Profile Picture"/>
+    <span class="person__name">
+      <span class="person__name__name">{{::vm.person.name}}</span>
+      <small class="person__name__twitter">@{{::vm.person.twitter}}</small>
+    </span>
+  </a>
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-sanitize.min.js"></script>
 

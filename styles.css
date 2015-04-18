@@ -37,39 +37,42 @@
     font-size: 12px;
   }
 
+  #host {
+    max-width: 90px;
+  }
 
-  #hosts, .guests {
+  .group {
     margin-top: 20px;
     max-width: 200px;
     margin-bottom: 20px;
   }
 
-  .guests-4 {
+  .group-4 {
     max-width: 420px;
   }
 
-  .guests-3 {
+  .group-3 {
     max-width: 310px;
   }
 
-  .guests-1 {
+  .group-1 {
     max-width: 90px;
   }
 
-  .host, .guest {
+  .host, .person {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .host:first-child, .guest:first-child {
+  .host:first-child, .person:first-child {
     padding-left: 0;
   }
 
-  .host:last-child, .guest:last-child {
+  .host:last-child, .person:last-child {
     padding-right: 0;
   }
 
-  .host img, .guest img {
+  .host img, .person img {
     max-width: 90px;
   }
 
@@ -126,38 +129,42 @@
     font-size: 24px;
   }
 
-  #hosts, .guests {
+  #host {
+    max-width: 180px;
+  }
+
+  .group {
     margin-top: 40px;
     max-width: 400px;
     margin-bottom: 40px;
   }
 
-  .guests-4 {
+  .group-4 {
     max-width: 840px;
   }
 
-  .guests-3 {
+  .group-3 {
     max-width: 620px;
   }
 
-  .guests-1 {
+  .group-1 {
     max-width: 180px;
   }
 
-  .host, .guest {
+  .host, .person {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .host:first-child, .guest:first-child {
+  .host:first-child, .person:first-child {
     padding-left: 0;
   }
 
-  .host:last-child, .guest:last-child {
+  .host:last-child, .person:last-child {
     padding-right: 0;
   }
 
-  .host img, .guest img {
+  .host img, .person img {
     max-width: 180px;
   }
 
@@ -235,25 +242,25 @@ h2 {
   color: #3d3d3d;
 }
 
-#hosts, .guests {
+#host, .group {
   position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
-.host, .guest {
+.host, .person {
   float: left;
 }
 
-.host:first-child, .guest:first-child {
+.host:first-child, .person:first-child {
   text-align: right;
 }
 
-.host:last-child, .guest:last-child {
+.host:last-child, .person:last-child {
   text-align: left;
 }
 
-.host img:not(.no-circle), .guest img:not(.no-circle) {
+.host img:not(.no-circle), .person img:not(.no-circle) {
   border-radius: 50%;
 }
 
