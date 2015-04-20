@@ -33,6 +33,7 @@
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
         {name: 'Kara Erickson', twitter: 'karaforthewin'},
+        {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
         {name: 'Scott Moss', twitter: 'scotups'}
       ],
       [
