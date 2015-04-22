@@ -21,7 +21,7 @@
     max-width: 120px;
   }
 
-  h1, .subscribe-icon {
+  h1, .link-icon {
     font-size: 40px;
     line-height: 46px;
   }
@@ -85,7 +85,7 @@
     margin-top: -4px;
   }
 
-  .subscribe-icon {
+  .link-icon {
     margin: 0 14px;
   }
 
@@ -115,7 +115,7 @@
     max-width: 300px;
   }
 
-  h1, .subscribe-icon {
+  h1, .link-icon {
     font-size: 80px;
     line-height: 90px;
   }
@@ -179,7 +179,7 @@
     margin-top: -10px;
   }
 
-  .subscribe-icon {
+  .link-icon {
     margin: 0 28px;
   }
 
@@ -238,7 +238,7 @@ hr {
 }
 
 h1 {
-  margin: 0 20px 20px;
+  margin: 40px 0 40px;
 }
 
 h2 {
@@ -270,7 +270,7 @@ h2 {
   border-radius: 50%;
 }
 
-.subscribe-icon {
+.link-icon {
   display: inline;
 }
 

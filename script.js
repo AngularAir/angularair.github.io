@@ -311,17 +311,26 @@
     };
   });
 
-  app.directive('subscribeIcon', function subscribeIcon() {
+  app.directive('linkIcon', function linkIcon() {
     return {
       restrict: 'E',
       template: function(el, attrs) {
         return [
-          '<div class="subscribe-icon">',
-            '<a href="' + attrs.link + '" title="Subscribe on ' + attrs.network + '">',
+          '<div class="link-icon">',
+            '<a href="' + attrs.link + '" title="' + attrs.title + '">',
               '<i class="fa fa-' + attrs.icon + '"></i>',
             '</a>',
           '</div>'
         ].join('');
+      }
+    };
+  });
+
+  app.directive('subscribeIcon', function subscribeIcon() {
+    return {
+      restrict: 'E',
+      template: function(el, attrs) {
+        return '<link-icon icon="' + attrs.icon + '" link="' + attrs.link + '" title="Subscribe on ' + attrs.network + '"></link-icon>'
       }
     };
   });
