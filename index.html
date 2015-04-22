@@ -8,11 +8,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css" />
+  <style>.ng-cloak{display:none}</style>
 </head>
 <body ng-app="ngAir" ng-controller="MainCtrl as vm">
 <a style="display:none" aria-hidden href="https://plus.google.com/104335210120652090229" rel="publisher">Google+</a>
-
-<div id="content">
+<div ng-if="false" class="center" style="margin-top:80px;margin-bottom:80px;">
+  <h1>Loading Angular Air...</h1>
+</div>
+<div id="content" class="ng-cloak">
   <div id="logo" class="center">
     <img src="logo.png"/>
   </div>
