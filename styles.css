@@ -21,8 +21,9 @@
     max-width: 120px;
   }
 
-  h1 {
+  h1, .subscribe-icon {
     font-size: 40px;
+    line-height: 46px;
   }
 
   h2 {
@@ -84,9 +85,10 @@
     margin-top: -4px;
   }
 
-  #questions {
-    font-size: 10px;
+  .subscribe-icon {
+    margin: 0 14px;
   }
+
 }
 
 /* Desktop */
@@ -113,8 +115,9 @@
     max-width: 300px;
   }
 
-  h1 {
+  h1, .subscribe-icon {
     font-size: 80px;
+    line-height: 90px;
   }
 
   h2 {
@@ -176,8 +179,8 @@
     margin-top: -10px;
   }
 
-  #questions {
-    font-size: 20px;
+  .subscribe-icon {
+    margin: 0 28px;
   }
 
 }
@@ -242,6 +245,9 @@ h2 {
   color: #3d3d3d;
 }
 
+
+
+
 #host, .group {
   position: relative;
   margin-left: auto;
@@ -264,6 +270,11 @@ h2 {
   border-radius: 50%;
 }
 
+.subscribe-icon {
+  display: inline;
+}
+
+
 #description {
 }
 
@@ -283,8 +294,3 @@ h2 {
 .episode__qa, .episode__sponsors {
   margin-top: 40px;
 }
-
-.moderator-embed-container {
-  margin: 20px 0;
-}
-

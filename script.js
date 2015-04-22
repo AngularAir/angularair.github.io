@@ -45,14 +45,6 @@
 
     vm.episodes = [
       {
-        title: 'Introducing the Angular Air Panel',
-        displayDate: 'Tuesday, April 21st, 2015',
-        date: '2015-04-21',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/ckq1tk7s4h3dk97n0co8jst305s',
-        guests: vm.panelists
-      },
-      {
         title: 'Angular 2 Alpha',
         displayDate: 'Tuesday, April 28th, 2015',
         date: '2015-04-28',
@@ -231,6 +223,14 @@
             {name: 'Zan Thrash', twitter: 'zanthrash'}
           ]
         ]
+      },
+      {
+        title: 'Introducing the Angular Air Panel',
+        displayDate: 'Tuesday, April 21st, 2015',
+        date: '2015-04-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/ckq1tk7s4h3dk97n0co8jst305s',
+        guests: vm.panelists
       }
     ];
 
@@ -308,6 +308,21 @@
       bindToController: true,
       controllerAs: 'vm',
       controller: angular.noop
+    };
+  });
+
+  app.directive('subscribeIcon', function subscribeIcon() {
+    return {
+      restrict: 'E',
+      template: function(el, attrs) {
+        return [
+          '<div class="subscribe-icon">',
+            '<a href="' + attrs.link + '" title="Subscribe on ' + attrs.network + '">',
+              '<i class="fa fa-' + attrs.icon + '"></i>',
+            '</a>',
+          '</div>'
+        ].join('');
+      }
     };
   });
 

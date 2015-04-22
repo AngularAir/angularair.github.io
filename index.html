@@ -6,6 +6,7 @@
   <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
   <title>Angular Air</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body ng-app="ngAir" ng-controller="MainCtrl as vm">
@@ -41,6 +42,14 @@
       hosted by
       <a href="https://egghead.io/">egghead.io</a> instructor Kent C. Dodds.
     </p>
+  </section>
+
+  <hr/>
+
+  <section id="podcast-links" class="center">
+    <subscribe-icon icon="apple" network="iTunes" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2"></subscribe-icon>
+    <subscribe-icon icon="youtube" network="YouTube" link="https://www.youtube.com/channel/UCdCOpvRk1lsBk26ePGDPLpQ"></subscribe-icon>
+    <subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></subscribe-icon>
   </section>
 
   <hr/>
@@ -86,9 +95,11 @@
         <person-group groups="episode.sponsors"></person-group>
         <div class="episode__description justify" ng-bind-html="::episode.sponsorship"></div>
       </div>
-      <hr/>
+      <hr ng-if="!$last"/>
     </div>
   </section>
+
+  <hr/>
 
   <section id="past-episodes" class="episode">
     <h2>Past Episodes</h2>
@@ -105,8 +116,9 @@
         </small>
       </li>
     </ul>
-    <hr/>
   </section>
+
+  <hr/>
 
   <section class="center">
     <p>
@@ -118,7 +130,6 @@
 
 </div>
 
-<script src="markdown.min.js"></script>
 
 <script type="text/ng-template" id="person-group-template.html">
   <div ng-repeat="group in vm.groups" class="group clearfix group-{{group.length}}">
@@ -138,8 +149,9 @@
   </a>
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-sanitize.min.js"></script>
+<script src="markdown.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-sanitize.min.js"></script>
 
 <script src="script.js"></script>
 <script>
