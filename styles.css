@@ -19,7 +19,7 @@
 
   #logo img {
     max-width: 120px;
-    min-height: 134px;
+    min-height: 120px;
   }
 
   h1, .link-icon {
@@ -114,7 +114,7 @@
   #logo img {
     margin-top: 20px;
     max-width: 300px;
-    min-height: 330px;
+    min-height: 300px;
   }
 
   h1, .link-icon {
