@@ -90,6 +90,10 @@
     margin: 0 14px;
   }
 
+  #t-spring img {
+    height: 150px;
+  }
+
 }
 
 /* Desktop */
@@ -248,7 +252,14 @@ h2 {
   color: #3d3d3d;
 }
 
+#t-spring img:first-child {
+  margin-right: 10px;
+}
 
+
+#t-spring img:last-child {
+  margin-left: 10px;
+}
 
 
 #host, .group {

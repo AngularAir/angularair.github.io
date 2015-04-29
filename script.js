@@ -45,16 +45,14 @@
 
     vm.episodes = [
       {
-        title: 'Angular 2 Alpha',
-        displayDate: 'Tuesday, April 28th, 2015',
-        date: '2015-04-28',
+        title: 'Angular and Firebase',
+        displayDate: 'Tuesday, May 5th, 2015',
+        date: '2015-05-05',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpa0ojla7fkk8mfi6h0e0gm2ejo',
+        hangoutUrl: 'https://plus.google.com/events/ctgocfv62l6lj1gj1ijus0hfl20',
         guests: [
           [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Rob Wormald', twitter: 'robwormald'}
+            {name: 'David East', twitter: '_davideast'}
           ]
         ]
       }
@@ -66,7 +64,7 @@
         displayDate: 'Friday, November 14th, 2014',
         date: '2014-11-14',
         time: '2:00 PM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/0/b/104335210120652090229/events/c2182d3bec32vs4jim7r8smc1q4',
+        hangoutUrl: 'https://plus.google.com/u/0/events/c2182d3bec32vs4jim7r8smc1q4',
         guests: [
           [
             {name: 'Bradly Green', twitter: 'bradlygreen'},
@@ -95,7 +93,7 @@
         displayDate: 'Tuesday, December 16th, 2014',
         date: '2014-12-16',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c6hntmhpemnkna04svmer2jnca8',
+        hangoutUrl: 'https://plus.google.com/events/c6hntmhpemnkna04svmer2jnca8',
         guests: [
           [
             {name: 'Brian Ford', twitter: 'briantford'}
@@ -112,7 +110,7 @@
         displayDate: 'Tuesday, January 13th, 2015',
         date: '2015-01-13',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cue886f2907d6l1avj1o2159j68',
+        hangoutUrl: 'https://plus.google.com/events/cue886f2907d6l1avj1o2159j68',
         guests: [
           [
             {name: 'Air Lerner', twitter: 'auser'}
@@ -129,7 +127,7 @@
         displayDate: 'Tuesday, January 27th, 2015',
         date: '2015-01-27',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cto0heinllidfpqqtmlvputrvlg',
+        hangoutUrl: 'https://plus.google.com/events/cto0heinllidfpqqtmlvputrvlg',
         guests: [
           [
             {name: 'Joe Eames', twitter: 'josepheames'},
@@ -147,7 +145,7 @@
         displayDate: 'Friday, February 13th, 2015',
         date: '2015-02-13',
         time: '3:30 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c1iuqnqrrbumg08vrmgk6fpmeao',
+        hangoutUrl: 'https://plus.google.com/events/c1iuqnqrrbumg08vrmgk6fpmeao',
         guests: [
           [
             {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
@@ -159,7 +157,7 @@
         displayDate: 'Tuesday, March 17th, 2015',
         date: '2015-03-17',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmhq7mqarkoful8u7iusbjsdjtk',
+        hangoutUrl: 'https://plus.google.com/events/cmhq7mqarkoful8u7iusbjsdjtk',
         guests: [
           [
             {name: 'Adam Bradley', twitter: 'adamdbradley'},
@@ -176,7 +174,7 @@
         displayDate: 'Tuesday, March 24th, 2015',
         date: '2015-03-24',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/c8vsorqvlsoi4r12m60l0fs22c4',
+        hangoutUrl: 'https://plus.google.com/events/c8vsorqvlsoi4r12m60l0fs22c4',
         guests: [
           [
             {name: 'Jason Dobry', twitter: 'jmdobry'},
@@ -189,7 +187,7 @@
         displayDate: 'Tuesday, March 31st, 2015',
         date: '2015-03-31',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cpn5hnihfuh175tbtbe3i75msgc',
+        hangoutUrl: 'https://plus.google.com/events/cpn5hnihfuh175tbtbe3i75msgc',
         guests: [
           [
             {name: 'Pascal Precht', twitter: 'PascalPrecht'},
@@ -202,7 +200,7 @@
         displayDate: 'Tuesday, April 7th, 2015',
         date: '2015-04-07',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
+        hangoutUrl: 'https://plus.google.com/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
         guests: [
           [
             {name: 'Pawel Kozolowski', twitter: 'pkozlowski_os'},
@@ -215,7 +213,7 @@
         displayDate: 'Tuesday, April 14th, 2015',
         date: '2015-04-14',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/cb42tejb88eliamj65o2ogh12qo',
+        hangoutUrl: 'https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo',
         guests: [
           [
             {name: 'Andres Dominguez', twitter: 'andresdom'},
@@ -229,8 +227,22 @@
         displayDate: 'Tuesday, April 21st, 2015',
         date: '2015-04-21',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/b/104335210120652090229/events/ckq1tk7s4h3dk97n0co8jst305s',
+        hangoutUrl: 'https://plus.google.com/events/ckq1tk7s4h3dk97n0co8jst305s',
         guests: vm.panelists
+      },
+      {
+        title: 'Angular 2 Alpha',
+        displayDate: 'Tuesday, April 28th, 2015',
+        date: '2015-04-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cpa0ojla7fkk8mfi6h0e0gm2ejo',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Rob Wormald', twitter: 'robwormald'}
+          ]
+        ]
       }
     ];
 
