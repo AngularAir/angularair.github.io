@@ -52,7 +52,9 @@
         hangoutUrl: 'https://plus.google.com/events/ctgocfv62l6lj1gj1ijus0hfl20',
         guests: [
           [
-            {name: 'David East', twitter: '_davideast', avatar: 'episodes/2015-05-05/davideast.png'}
+            {name: 'David East', twitter: '_davideast', avatar: 'episodes/2015-05-05/davideast.png'},
+            {name: 'Jacob Wenger', twitter: '_jwngr', avatar: 'episodes/2015-05-05/jwngr.png'},
+            {name: 'Kato Richardson', twitter: 'katowulf'}
           ]
         ]
       }
