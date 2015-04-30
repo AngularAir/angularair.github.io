@@ -308,3 +308,10 @@ h2 {
 .episode__qa, .episode__sponsors {
   margin-top: 40px;
 }
+
+.no-decorate,
+.no-decorate:focus,
+.no-decorate:active,
+.no-decorate:hover {
+  text-decoration: none;
+}
