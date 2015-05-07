@@ -45,16 +45,14 @@
 
     vm.episodes = [
       {
-        title: 'Angular and Firebase',
-        displayDate: 'Tuesday, May 5th, 2015',
-        date: '2015-05-05',
+        title: 'Angular Apps, JavaScript, and Search Optimization',
+        displayDate: 'Tuesday, May 12th, 2015',
+        date: '2015-05-12',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ctgocfv62l6lj1gj1ijus0hfl20',
+        hangoutUrl: 'https://plus.google.com/events/ci85lav8bdnjl356n5o0fkegb44',
         guests: [
           [
-            {name: 'David East', twitter: '_davideast', avatar: 'episodes/2015-05-05/davideast.png'},
-            {name: 'Jacob Wenger', twitter: '_jwngr', avatar: 'episodes/2015-05-05/jwngr.png'},
-            {name: 'Kato Richardson', twitter: 'katowulf'}
+            {name: 'John Mueller', twitter: 'johnmu'}
           ]
         ]
       }
@@ -243,6 +241,20 @@
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Rob Wormald', twitter: 'robwormald'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular and Firebase',
+        displayDate: 'Tuesday, May 5th, 2015',
+        date: '2015-05-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ctgocfv62l6lj1gj1ijus0hfl20',
+        guests: [
+          [
+            {name: 'David East', twitter: '_davideast', avatar: 'episodes/2015-05-05/davideast.png'},
+            {name: 'Jacob Wenger', twitter: '_jwngr', avatar: 'episodes/2015-05-05/jwngr.png'},
+            {name: 'Kato Richardson', twitter: 'katowulf'}
           ]
         ]
       }
