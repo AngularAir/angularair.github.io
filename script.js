@@ -52,7 +52,10 @@
         hangoutUrl: 'https://plus.google.com/events/ci85lav8bdnjl356n5o0fkegb44',
         guests: [
           [
-            {name: 'John Mueller', twitter: 'johnmu'}
+            {name: 'Adam Audette', twitter: 'audette'},
+            {name: 'John Mueller', twitter: 'johnmu'},
+            {name: 'Jody J. O\'Donnell', twitter: 'gimpslice'},
+            {name: 'Max Prin', twitter: 'maxxeight'}
           ]
         ]
       }
