@@ -63,7 +63,7 @@
         displayDate: 'Tuesday, May 19th, 2015',
         date: '2015-05-19',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: '',
+        hangoutUrl: 'https://plus.google.com/events/c7f6uq69p09v6jdvb0635pf7hok',
         guests: [
           [
             {name: 'Aaron Frost', twitter: 'js_dev'},
