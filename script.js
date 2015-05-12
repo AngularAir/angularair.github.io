@@ -58,6 +58,18 @@
             {name: 'Max Prin', twitter: 'maxxeight'}
           ]
         ]
+      }, {
+        title: 'Architecting huge Angular apps',
+        displayDate: 'Tuesday, May 19th, 2015',
+        date: '2015-05-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: '',
+        guests: [
+          [
+            {name: 'Aaron Frost', twitter: 'js_dev'},
+            {name: 'Ben Nadel', twitter: 'BenNadel'}
+          ]
+        ]
       }
     ];
 
