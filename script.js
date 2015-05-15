@@ -1,5 +1,4 @@
-
-(function () {
+(function() {
   'use strict';
 
   var app = angular.module('ngAir', []);
@@ -46,20 +45,6 @@
 
     vm.episodes = [
       {
-        title: 'Angular Apps, JavaScript, and Search Optimization',
-        displayDate: 'Tuesday, May 12th, 2015',
-        date: '2015-05-12',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ci85lav8bdnjl356n5o0fkegb44',
-        guests: [
-          [
-            {name: 'Adam Audette', twitter: 'audette'},
-            {name: 'John Mueller', twitter: 'johnmu'},
-            {name: 'Jody J. O\'Donnell', twitter: 'gimpslice'},
-            {name: 'Max Prin', twitter: 'maxxeight'}
-          ]
-        ]
-      }, {
         title: 'Architecting huge Angular apps',
         displayDate: 'Tuesday, May 19th, 2015',
         date: '2015-05-19',
@@ -273,6 +258,21 @@
             {name: 'Kato Richardson', twitter: 'katowulf'}
           ]
         ]
+      },
+      {
+        title: 'Angular Apps, JavaScript, and Search Optimization',
+        displayDate: 'Tuesday, May 12th, 2015',
+        date: '2015-05-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ci85lav8bdnjl356n5o0fkegb44',
+        guests: [
+          [
+            {name: 'Adam Audette', twitter: 'audette'},
+            {name: 'John Mueller', twitter: 'johnmu'},
+            {name: 'Jody J. O\'Donnell', twitter: 'gimpslice'},
+            {name: 'Max Prin', twitter: 'maxxeight'}
+          ]
+        ]
       }
     ];
 
@@ -359,9 +359,9 @@
       template: function(el, attrs) {
         return [
           '<div class="link-icon">',
-            '<a href="' + attrs.link + '" title="' + attrs.title + '">',
-              '<i class="fa fa-' + attrs.icon + '"></i>',
-            '</a>',
+          '<a href="' + attrs.link + '" title="' + attrs.title + '">',
+          '<i class="fa fa-' + attrs.icon + '"></i>',
+          '</a>',
           '</div>'
         ].join('');
       }
