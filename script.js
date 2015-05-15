@@ -39,7 +39,8 @@
       [
         {name: 'Todd Motto', twitter: 'toddmotto'},
         {name: 'Pascal Precht', twitter: 'PascalPrecht'},
-        {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'}
+        {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
+        {name: 'Patrick Stapleton', twitter: 'gdi2290'}
       ]
     ];
 
