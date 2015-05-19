@@ -1,4 +1,10 @@
-
+/*now that styles are loading, switch these*/
+.\+hide-without-styles.\--show {
+  display: block;
+}
+.\+show-without-styles {
+  display: none;
+}
 
 /* phone */
 @media only screen and (max-width: 767px) {

@@ -1,0 +1,22 @@
+{
+  host: {
+    name: 'Kent C. Dodds',
+    twitter: 'kentcdodds',
+    avatar: 'kentcdodds.png'
+  },
+  panelists: [
+    {name: 'Olivier Combe', twitter: 'ocombe'},
+    {name: 'Kara Erickson', twitter: 'karaforthewin'},
+    {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+    {name: 'Scott Moss', twitter: 'scotups'},
+    {name: 'Todd Motto', twitter: 'toddmotto'},
+    {name: 'Pascal Precht', twitter: 'PascalPrecht'},
+    {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
+    {name: 'Patrick Stapleton', twitter: 'gdi2290'}
+  ],
+  subscriptionIcons: [
+    {icon: 'apple', title: 'Subscribe on iTunes', link: 'https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2'},
+    {icon: 'youtube', title: 'Subscribe on YouTube', link: 'https://www.youtube.com/c/AngularAirPodcast'},
+    {icon: 'rss', title: 'Subscribe on RSS', link: 'http://angularair.podbean.com/feed/'}
+  ]
+}

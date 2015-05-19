@@ -1,0 +1,6 @@
+mixin person(data)
+  a(href="https://twitter.com/#{data.twitter}")
+    img(src="#{data.avatar}",class=(data.noCircle ? 'no-circle' : ''),alt="#{data.name} Profile Picture")
+    span.person__name
+      span.person__name__name #{data.name}
+      small.person__name__twitter @#{data.twitter}

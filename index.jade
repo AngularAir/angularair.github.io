@@ -1,0 +1,50 @@
+include includes/person
+include includes/icon
+
+doctype html
+html
+  head(lang="en")
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    link(rel="shortcut icon", type="image/png", href="favicon.png")
+    title Angular Air
+    style.
+      .\+hide-without-styles {display:none}
+  body
+    a(style="display:none",aria-hidden,href="https://plus.google.com/104335210120652090229",rel="publisher") Google+
+    div(class="+show-without-styles",style="margin-top:80px;margin-bottom:80px;text-align:center;")
+      h1 Loading Angular Air...
+    div(id="content" class="+hide-without-styles --show")
+      div(id="logo" class="center")
+        img(src="logo.png")
+      section(id="title" class="center")
+        h1 Angular Air
+        h2
+          | Angular video podcast hosted by
+          | <a href="https://twitter.com/#{host.twitter}">#{host.name}</a>
+
+      div(class="big-gap")
+
+      section(id="host" class="clearfix")
+        div.host
+          mixin person(host)
+      section#description.center
+        p.center
+          | Angular Air is a <strong>live</strong> video podcast all about <a href="https://angularjs.org/">Angular</a>
+          br
+          | hosted by <a href="https://egghead.io/">egghead.io</a> instructor <a href="https://twitter.com/kentcdodds">Kent C. Dodds</a>
+
+      hr
+
+    section.center(id="podcast-links")
+      each i in subscriptionIcons
+        mixin icon(i)
+
+
+
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css")
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+  style
+    include styles.css
+  script
+    include scripts/google-analytics.js
