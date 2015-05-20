@@ -1,0 +1,8 @@
+include person
+
+mixin person-group(groups)
+  each group in groups
+    .group.center.clearfix(class="group-#{group.length}")
+      each i in group
+        .person
+          mixin person(i)

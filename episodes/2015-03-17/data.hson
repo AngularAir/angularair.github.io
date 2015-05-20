@@ -1,0 +1,10 @@
+{
+  title: 'Ionic Framework',
+  hangoutUrl: 'https://plus.google.com/events/cmhq7mqarkoful8u7iusbjsdjtk',
+  guests: [
+    {name: 'Adam Bradley', twitter: 'adamdbradley'},
+    {name: 'Mike Hartington', twitter: 'mhartington'},
+    {name: 'Max Lynch', twitter: 'maxlynch'},
+    {name: 'Ben Sperry', twitter: 'benjsperry'}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  title: 'Angular 2 Alpha',
+  hangoutUrl: 'https://plus.google.com/events/cpa0ojla7fkk8mfi6h0e0gm2ejo',
+  guests: [
+    {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+    {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+    {name: 'Rob Wormald', twitter: 'robwormald'}
+  ]
+}

@@ -1,5 +1,7 @@
 include includes/person
 include includes/icon
+include includes/person-group
+include includes/episode
 
 doctype html
 html
@@ -9,23 +11,23 @@ html
     link(rel="shortcut icon", type="image/png", href="favicon.png")
     title Angular Air
     style.
-      .\+hide-without-styles {display:none}
+      .hide-without-styles {display:none}
   body
     a(style="display:none",aria-hidden,href="https://plus.google.com/104335210120652090229",rel="publisher") Google+
-    div(class="+show-without-styles",style="margin-top:80px;margin-bottom:80px;text-align:center;")
+    .show-without-styles(style="margin-top:80px;margin-bottom:80px;text-align:center;")
       h1 Loading Angular Air...
-    div(id="content" class="+hide-without-styles --show")
-      div(id="logo" class="center")
+    #content.hide-without-styles.show
+      .center(id="logo")
         img(src="logo.png")
-      section(id="title" class="center")
+      section#title.center
         h1 Angular Air
         h2
           | Angular video podcast hosted by
           | <a href="https://twitter.com/#{host.twitter}">#{host.name}</a>
 
-      div(class="big-gap")
+      .big-gap
 
-      section(id="host" class="clearfix")
+      section.clearfix#host
         div.host
           mixin person(host)
       section#description.center
@@ -40,7 +42,30 @@ html
       each i in subscriptionIcons
         mixin icon(i)
 
+    hr
+    section#panelists
+      h2 Panelists
+      mixin person-group(panelists)
+    hr
 
+    section#episodes
+      h2 Episodes
+      .episode
+        each e in episodes
+          mixin episode(e)
+
+    section#past-episodes.episode
+      h2 Past Episodes
+      ul
+        each e, eIndex in pastEpisodes
+          li
+            a(href="#{e.hangoutUrl}") Episode #{eIndex}: #{e.title}
+            if (e.sponsors)
+              small
+                | &nbsp;Sponsored by:&nbsp;
+                each sponsor, sIndex in e.sponsors
+                  span
+                    a(href="#{sponsor.website}") #{sponsor.name}
 
   link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css")
   link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")

@@ -1,0 +1,10 @@
+{
+  title: 'Staying up with AngularJS',
+  hangoutUrl: 'https://plus.google.com/events/cue886f2907d6l1avj1o2159j68',
+  guests: [
+    {name: 'Air Lerner', twitter: 'auser'}
+  ],
+  sponsors: [
+    {name: 'ReactWeek', website: 'http://reactweek.com/', noCircle: true}
+  ]
+}

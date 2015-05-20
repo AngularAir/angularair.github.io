@@ -1,0 +1,8 @@
+{
+  title: 'Contributing to Angular',
+  hangoutUrl: 'https://plus.google.com/events/cmoqjb7tmeaai8ugc5i2j81fpm8',
+  guests: [
+    {name: 'Pawel Kozolowski', twitter: 'pkozlowski_os'},
+    {name: 'Rodric Haddad', twitter: 'rodyhaddad'}
+  ]
+}

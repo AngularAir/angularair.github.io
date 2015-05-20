@@ -1,0 +1,8 @@
+{
+  title: 'Developing Open Source Angular Libraries',
+  hangoutUrl: 'https://plus.google.com/events/c8vsorqvlsoi4r12m60l0fs22c4',
+  guests: [
+    {name: 'Jason Dobry', twitter: 'jmdobry'},
+    {name: 'Olivier Combe', twitter: 'OCombe'}
+  ]
+}

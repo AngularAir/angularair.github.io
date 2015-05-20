@@ -1,0 +1,22 @@
+include person-group
+
+mixin episode(e)
+  .main-episode-content
+    h3.episode__title
+      a(href="#{e.hangoutUrl}") #{e.title}
+      br
+      small #{e.displayDate}
+
+    .hangouts-url
+      if (e.hangoutUrl)
+        | <a href="#{e.hangoutUrl}">Sign up here</a> to watch live!
+      else
+        | Stay tuned for a hangouts link
+    person-group(groups="e.guests")
+  .episode__description.justify
+    :markdown
+      #{e.description}
+  .episode__sponsors(ng-if="e.sponsors.length")
+    h4 Episode Sponsor{{e.sponsors.length &#62; 1 ? &#39;s&#39; : &#39;&#39;}
+    person-group(groups="e.sponsors")
+    .episode__description.justify(ng-bind-html="e.sponsorship")

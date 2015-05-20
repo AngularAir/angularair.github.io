@@ -1,0 +1,8 @@
+{
+  title: 'Hitting the Ground Running with Angular',
+  dateTime: '2014-12-02 11:00',
+  hangoutUrl: 'https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4',
+  guests: [
+    {name: 'John Lindquist', twitter: 'johnlindquist'}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  title: 'On-site ng-nl broadcast',
+  dateTime: '2015-02-13 12:30',
+  timezone: 'CET',
+  hangoutUrl: 'https://plus.google.com/events/c1iuqnqrrbumg08vrmgk6fpmeao',
+  guests: [
+    {name: 'NG-NL', twitter: 'ngnlconf', noCircle: true}
+  ]
+}

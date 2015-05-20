@@ -1,0 +1,12 @@
+{
+  title: 'Introducing the Angular Air Panel',
+  hangoutUrl: 'https://plus.google.com/events/ckq1tk7s4h3dk97n0co8jst305s',
+  guests: [
+    {name: 'Olivier Combe', twitter: 'ocombe', avatar: 'panel/ocombe.png'},
+    {name: 'Kara Erickson', twitter: 'karaforthewin', avatar: 'panel/karaforthewin.png'},
+    {name: 'Aimee Knight', twitter: 'Aimee_Knight', avatar: 'panel/Aimee_Knight.png'},
+    {name: 'Scott Moss', twitter: 'scotups', avatar: 'panel/scotups.png'},
+    {name: 'Pascal Precht', twitter: 'PascalPrecht', avatar: 'panel/PascalPrecht.png'},
+    {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu', avatar: 'panel/CarmenPopoviciu.png'}
+  ]
+}

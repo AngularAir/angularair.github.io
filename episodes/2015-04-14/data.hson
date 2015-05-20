@@ -1,0 +1,9 @@
+{
+  title: 'Testing with Angular',
+  hangoutUrl: 'https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo',
+  guests: [
+    {name: 'Andres Dominguez', twitter: 'andresdom'},
+    {name: 'Julie Ralph', twitter: 'SomeJulie'},
+    {name: 'Zan Thrash', twitter: 'zanthrash'}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  title: 'Angular DevTools',
+  hangoutUrl: 'https://plus.google.com/events/c6hntmhpemnkna04svmer2jnca8',
+  guests: [
+    {name: 'Brian Ford', twitter: 'briantford'}
+  ],
+  sponsors: [
+    {name: 'ShirtJS', website: 'http://shirtjs.com/'}
+  ]
+}

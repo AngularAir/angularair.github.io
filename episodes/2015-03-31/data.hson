@@ -1,0 +1,10 @@
+{
+  title: 'i18n with Angular',
+  hangoutUrl: 'https://plus.google.com/events/cpn5hnihfuh175tbtbe3i75msgc',
+  guests: [
+    [
+      {name: 'Pascal Precht', twitter: 'PascalPrecht'},
+      {name: 'Chirayu Krishnappa', twitter: 'chirayuk'}
+    ]
+  ]
+}
