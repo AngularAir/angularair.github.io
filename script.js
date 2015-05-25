@@ -45,15 +45,16 @@
 
     vm.episodes = [
       {
-        title: 'Architecting huge Angular apps',
-        displayDate: 'Tuesday, May 19th, 2015',
-        date: '2015-05-19',
+        title: 'Angular with Web Components',
+        displayDate: 'Tuesday, May 26th, 2015',
+        date: '2015-05-26',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c7f6uq69p09v6jdvb0635pf7hok',
+        hangoutUrl: 'https://plus.google.com/events/clffu5selsk7klhjrj2bdimd448',
         guests: [
           [
-            {name: 'Aaron Frost', twitter: 'js_dev'},
-            {name: 'Ben Nadel', twitter: 'BenNadel'}
+            vm.panelists[0][1], // kara
+            {name: 'Rado Kirov', twitter: 'radokirov'},
+            {name: 'Rachael L Moore', twitter: 'morewry'}
           ]
         ]
       }
@@ -271,6 +272,19 @@
             {name: 'John Mueller', twitter: 'johnmu'},
             {name: 'Jody J. O\'Donnell', twitter: 'gimpslice'},
             {name: 'Max Prin', twitter: 'maxxeight'}
+          ]
+        ]
+      },
+      {
+        title: 'Architecting huge Angular apps',
+        displayDate: 'Tuesday, May 19th, 2015',
+        date: '2015-05-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c7f6uq69p09v6jdvb0635pf7hok',
+        guests: [
+          [
+            {name: 'Aaron Frost', twitter: 'js_dev'},
+            {name: 'Ben Nadel', twitter: 'BenNadel'}
           ]
         ]
       }
