@@ -57,6 +57,18 @@
             {name: 'Rachael L Moore', twitter: 'morewry'}
           ]
         ]
+      },
+      {
+        title: 'Angular Internals',
+        displayDate: 'Tuesday, June 2nd, 2015',
+        date: '2015-06-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c0u8rs3581pjup4la0g2fm6fqc4',
+        guests: [
+          [
+            {name: 'Tero Parviainen', twitter: 'teropa'}
+          ]
+        ]
       }
     ];
 
