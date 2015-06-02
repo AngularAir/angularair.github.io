@@ -32,11 +32,10 @@
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
         {name: 'Kara Erickson', twitter: 'karaforthewin'},
-        {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
-        {name: 'Scott Moss', twitter: 'scotups'}
+        {name: 'Aimee Knight', twitter: 'Aimee_Knight'}
       ],
       [
-        {name: 'Todd Motto', twitter: 'toddmotto'},
+        {name: 'Scott Moss', twitter: 'scotups'},
         {name: 'Pascal Precht', twitter: 'PascalPrecht'},
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
         {name: 'Patrick Stapleton', twitter: 'gdi2290'}
