@@ -32,40 +32,27 @@
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
         {name: 'Kara Erickson', twitter: 'karaforthewin'},
-        {name: 'Aimee Knight', twitter: 'Aimee_Knight'}
+        {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+        {name: 'Scott Moss', twitter: 'scotups'}
       ],
       [
-        {name: 'Scott Moss', twitter: 'scotups'},
         {name: 'Pascal Precht', twitter: 'PascalPrecht'},
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
-        {name: 'Patrick Stapleton', twitter: 'gdi2290'}
+        {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+        {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
       ]
     ];
 
     vm.episodes = [
       {
-        title: 'Angular with Web Components',
-        displayDate: 'Tuesday, May 26th, 2015',
-        date: '2015-05-26',
+        title: 'Angular with TypeScript',
+        displayDate: 'Tuesday, June 9th, 2015',
+        date: '2015-06-09',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/clffu5selsk7klhjrj2bdimd448',
+        hangoutUrl: 'https://plus.google.com/events/cj80em4hgteokhsa1e6hc50mnq0',
         guests: [
           [
-            vm.panelists[0][1], // kara
-            {name: 'Rado Kirov', twitter: 'radokirov'},
-            {name: 'Rachael L Moore', twitter: 'morewry'}
-          ]
-        ]
-      },
-      {
-        title: 'Angular Internals',
-        displayDate: 'Tuesday, June 2nd, 2015',
-        date: '2015-06-02',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c0u8rs3581pjup4la0g2fm6fqc4',
-        guests: [
-          [
-            {name: 'Tero Parviainen', twitter: 'teropa'}
+            {name: 'Jonathan Turner', twitter: 'jntrnr'}
           ]
         ]
       }
@@ -296,6 +283,32 @@
           [
             {name: 'Aaron Frost', twitter: 'js_dev'},
             {name: 'Ben Nadel', twitter: 'BenNadel'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular with Web Components',
+        displayDate: 'Tuesday, May 26th, 2015',
+        date: '2015-05-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/clffu5selsk7klhjrj2bdimd448',
+        guests: [
+          [
+            vm.panelists[0][1], // kara
+            {name: 'Rado Kirov', twitter: 'radokirov'},
+            {name: 'Rachael L Moore', twitter: 'morewry'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Internals',
+        displayDate: 'Tuesday, June 2nd, 2015',
+        date: '2015-06-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c0u8rs3581pjup4la0g2fm6fqc4',
+        guests: [
+          [
+            {name: 'Tero Parviainen', twitter: 'teropa'}
           ]
         ]
       }
