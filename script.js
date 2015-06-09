@@ -45,14 +45,14 @@
 
     vm.episodes = [
       {
-        title: 'Angular with TypeScript',
-        displayDate: 'Tuesday, June 9th, 2015',
-        date: '2015-06-09',
+        title: 'Angular\'s New Router',
+        displayDate: 'Tuesday, June 16th, 2015',
+        date: '2015-06-16',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cj80em4hgteokhsa1e6hc50mnq0',
+        hangoutUrl: 'https://plus.google.com/events/cmb8uhkic1du93l1ffgc53vjdcg',
         guests: [
           [
-            {name: 'Jonathan Turner', twitter: 'jntrnr'}
+            {name: 'Brian Ford', twitter: 'briantford'}
           ]
         ]
       }
@@ -309,6 +309,18 @@
         guests: [
           [
             {name: 'Tero Parviainen', twitter: 'teropa'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular with TypeScript',
+        displayDate: 'Tuesday, June 9th, 2015',
+        date: '2015-06-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cj80em4hgteokhsa1e6hc50mnq0',
+        guests: [
+          [
+            {name: 'Jonathan Turner', twitter: 'jntrnr'}
           ]
         ]
       }
