@@ -45,30 +45,6 @@
 
     vm.episodes = [
       {
-        title: 'Angular\'s New Router',
-        displayDate: 'Tuesday, June 16th, 2015',
-        date: '2015-06-16',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cmb8uhkic1du93l1ffgc53vjdcg',
-        guests: [
-          [
-            {name: 'Brian Ford', twitter: 'briantford'}
-          ]
-        ]
-      },
-      {
-        title: 'Angular 2 Forms',
-        displayDate: 'Tuesday, June 23rd, 2015',
-        date: '2015-06-23',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/chv2s61pjie9eirimvm2m5och9g',
-        guests: [
-          [
-            {name: 'Victor Savkin', twitter: 'victorsavkin'}
-          ]
-        ]
-      },
-      {
         title: 'Angular Accessibility',
         displayDate: 'Tuesday, June 30th, 2015',
         date: '2015-06-30',
@@ -345,6 +321,30 @@
         guests: [
           [
             {name: 'Jonathan Turner', twitter: 'jntrnr'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular\'s New Router',
+        displayDate: 'Tuesday, June 16th, 2015',
+        date: '2015-06-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cmb8uhkic1du93l1ffgc53vjdcg',
+        guests: [
+          [
+            {name: 'Brian Ford', twitter: 'briantford'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular 2 Forms',
+        displayDate: 'Tuesday, June 23rd, 2015',
+        date: '2015-06-23',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/chv2s61pjie9eirimvm2m5och9g',
+        guests: [
+          [
+            {name: 'Victor Savkin', twitter: 'victorsavkin'}
           ]
         ]
       }
