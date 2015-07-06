@@ -45,14 +45,15 @@
 
     vm.episodes = [
       {
-        title: 'Angular Accessibility',
-        displayDate: 'Tuesday, June 30th, 2015',
-        date: '2015-06-30',
+        title: 'Angular Data',
+        displayDate: 'Tuesday, July 6th, 2015',
+        date: '2015-07-06',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ckd0vf27blav9ndi03h49ns4pos',
+        hangoutUrl: 'https://plus.google.com/events/ci6mg4094cs1vid645qjegclqi0',
         guests: [
           [
-            {name: 'Marcy Sutton', twitter: 'marcysutton'}
+            {name: 'Jeff Cross', twitter: 'jeffbcross'},
+            {name: 'Alex Rickabaugh', twitter: 'synalx'}
           ]
         ]
       }
@@ -345,6 +346,18 @@
         guests: [
           [
             {name: 'Victor Savkin', twitter: 'victorsavkin'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Accessibility',
+        displayDate: 'Tuesday, June 30th, 2015',
+        date: '2015-06-30',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ckd0vf27blav9ndi03h49ns4pos',
+        guests: [
+          [
+            {name: 'Marcy Sutton', twitter: 'marcysutton'}
           ]
         ]
       }
