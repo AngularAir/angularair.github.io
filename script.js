@@ -52,7 +52,7 @@
         hangoutUrl: 'https://plus.google.com/events/ci6mg4094cs1vid645qjegclqi0',
         guests: [
           [
-            {name: 'Jeff Cross', twitter: 'jeffbcross'},
+            {name: 'Jeff Cross', twitter: 'jeffbcross', imageType: '.jpg'},
             {name: 'Alex Rickabaugh', twitter: 'synalx'}
           ]
         ]
@@ -375,7 +375,7 @@
       angular.forEach(episode.guests, function(group) {
         angular.forEach(group, function(guest) {
           if (!guest.avatar) {
-            guest.avatar = 'episodes/' + episode.date + '/' + guest.twitter + '.png';
+            guest.avatar = 'episodes/' + episode.date + '/' + guest.twitter + (guest.imageType) ? guest.imageType : '.png';
           }
         });
       });
