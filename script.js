@@ -46,8 +46,8 @@
     vm.episodes = [
       {
         title: 'Angular Data',
-        displayDate: 'Tuesday, July 6th, 2015',
-        date: '2015-07-06',
+        displayDate: 'Tuesday, July 7th, 2015',
+        date: '2015-07-06', // need to rename the folder and update this date, can't do that in a github editor...
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ci6mg4094cs1vid645qjegclqi0',
         guests: [
