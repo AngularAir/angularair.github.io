@@ -45,15 +45,27 @@
 
     vm.episodes = [
       {
-        title: 'Angular Data',
-        displayDate: 'Tuesday, July 7th, 2015',
-        date: '2015-07-07',
+        title: 'angular-formly',
+        displayDate: 'Tuesday, July 14th, 2015',
+        date: '2015-07-14',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ci6mg4094cs1vid645qjegclqi0',
+        hangoutUrl: 'https://plus.google.com/events/c5k02na22bq5k5ftg63bqpvtteo',
         guests: [
           [
-            {name: 'Jeff Cross', twitter: 'jeffbcross', imageExt: 'jpg'},
-            {name: 'Alex Rickabaugh', twitter: 'synalx'}
+            {name: 'Kent C. Dodds', twitter: 'kentcdodds', avatar: 'kentcdodds.png'},
+            {name: 'Lukas Ruebbelke', twitter: 'simpulton'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular and Module Loading',
+        displayDate: 'Tuesday, July 21st, 2015',
+        date: '2015-07-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cmp8evvqkdikpjkis12r45fgqhc',
+        guests: [
+          [
+            {name: 'Guy Bedford', twitter: 'guybedford'}
           ]
         ]
       }
@@ -358,6 +370,19 @@
         guests: [
           [
             {name: 'Marcy Sutton', twitter: 'marcysutton'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Data',
+        displayDate: 'Tuesday, July 7th, 2015',
+        date: '2015-07-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ci6mg4094cs1vid645qjegclqi0',
+        guests: [
+          [
+            {name: 'Jeff Cross', twitter: 'jeffbcross', imageExt: 'jpg'},
+            {name: 'Alex Rickabaugh', twitter: 'synalx'}
           ]
         ]
       }
