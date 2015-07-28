@@ -22,10 +22,16 @@
   app.controller('MainCtrl', function MainCtrl(markdownGetter, $sce) {
     var vm = this;
 
+    //vm.host = {
+    //  name: 'Kent C. Dodds',
+    //  twitter: 'kentcdodds',
+    //  avatar: 'kentcdodds.png'
+    //};
+
     vm.host = {
-      name: 'Kent C. Dodds',
-      twitter: 'kentcdodds',
-      avatar: 'kentcdodds.png'
+      name: 'Jeff Whelpley',
+      twitter: 'jeffwhelpley',
+      avatar: 'jeffwhelpley.png'
     };
 
     vm.panelists = [
@@ -45,27 +51,53 @@
 
     vm.episodes = [
       {
-        title: 'angular-formly',
-        displayDate: 'Tuesday, July 14th, 2015',
-        date: '2015-07-14',
+        title: 'TypeScript or ES6 with Babel?',
+        displayDate: 'Tuesday, July 28th, 2015',
+        date: '2015-07-28',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c5k02na22bq5k5ftg63bqpvtteo',
+        hangoutUrl: 'https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k',
         guests: [
           [
-            {name: 'Kent C. Dodds', twitter: 'kentcdodds', avatar: 'kentcdodds.png'},
-            {name: 'Lukas Ruebbelke', twitter: 'simpulton'}
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight', avatar: 'Aimee_Knight.png'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290', avatar: 'gdi2290.png' }
           ]
         ]
       },
       {
-        title: 'Angular and Module Loading',
-        displayDate: 'Tuesday, July 21st, 2015',
-        date: '2015-07-21',
+        title: 'FalcorJS and Angular 2',
+        displayDate: 'Tuesday, August 4th, 2015',
+        date: '2015-08-04',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cmp8evvqkdikpjkis12r45fgqhc',
+        hangoutUrl: 'https://plus.google.com/events/ca3l6qalpu0uqcce58a379006m0',
         guests: [
           [
-            {name: 'Guy Bedford', twitter: 'guybedford'}
+            {name: 'Jafar Husain', twitter: 'jhusain'}
+          ]
+        ]
+      },
+      {
+        title: 'Performance, testing and everything in-between',
+        displayDate: 'Tuesday, August 11th, 2015',
+        date: '2015-08-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ce9lds6bk5nnre76da8hhig0n60',
+        guests: [
+          [
+            {name: 'Gleb Bahmutov', twitter: 'bahmutov'}
+          ]
+        ]
+      },
+      {
+        title: 'Auth0',
+        displayDate: 'Tuesday, August 18th, 2015',
+        date: '2015-08-18',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c0kajflmtfd8ellt6d7adpbg9mg',
+        guests: [
+          [
+            {name: 'Martin Gonto', twitter: 'mgonto'},
+            {name: 'Geoff Goodman', twitter: 'g_goodman'},
+            {name: 'Matias Woloski', twitter: 'woloski'}
           ]
         ]
       }
@@ -383,6 +415,31 @@
           [
             {name: 'Jeff Cross', twitter: 'jeffbcross', imageExt: 'jpg'},
             {name: 'Alex Rickabaugh', twitter: 'synalx'}
+          ]
+        ]
+      },
+      {
+        title: 'angular-formly',
+        displayDate: 'Tuesday, July 14th, 2015',
+        date: '2015-07-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c5k02na22bq5k5ftg63bqpvtteo',
+        guests: [
+          [
+            {name: 'Kent C. Dodds', twitter: 'kentcdodds', avatar: 'kentcdodds.png'},
+            {name: 'Lukas Ruebbelke', twitter: 'simpulton'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular and Module Loading',
+        displayDate: 'Tuesday, July 21st, 2015',
+        date: '2015-07-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cmp8evvqkdikpjkis12r45fgqhc',
+        guests: [
+          [
+            {name: 'Guy Bedford', twitter: 'guybedford'}
           ]
         ]
       }
