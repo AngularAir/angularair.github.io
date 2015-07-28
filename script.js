@@ -58,8 +58,8 @@
         hangoutUrl: 'https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k',
         guests: [
           [
-            {name: 'Aimee Knight', twitter: 'Aimee_Knight', avatar: 'Aimee_Knight.png'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290', avatar: 'gdi2290.png' }
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight' },
+            {name: 'Patrick Stapleton', twitter: 'gdi2290' }
           ]
         ]
       },
