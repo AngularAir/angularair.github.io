@@ -22,16 +22,10 @@
   app.controller('MainCtrl', function MainCtrl(markdownGetter, $sce) {
     var vm = this;
 
-    //vm.host = {
-    //  name: 'Kent C. Dodds',
-    //  twitter: 'kentcdodds',
-    //  avatar: 'kentcdodds.png'
-    //};
-
     vm.host = {
-      name: 'Jeff Whelpley',
-      twitter: 'jeffwhelpley',
-      avatar: 'jeffwhelpley.png'
+      name: 'Kent C. Dodds',
+      twitter: 'kentcdodds',
+      avatar: 'kentcdodds.png'
     };
 
     vm.panelists = [
@@ -58,6 +52,7 @@
         hangoutUrl: 'https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k',
         guests: [
           [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley' },
             {name: 'Aimee Knight', twitter: 'Aimee_Knight' },
             {name: 'Patrick Stapleton', twitter: 'gdi2290' }
           ]
