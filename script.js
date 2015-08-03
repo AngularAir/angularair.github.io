@@ -45,20 +45,6 @@
 
     vm.episodes = [
       {
-        title: 'TypeScript or ES6 with Babel?',
-        displayDate: 'Tuesday, July 28th, 2015',
-        date: '2015-07-28',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k',
-        guests: [
-          [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley' },
-            {name: 'Aimee Knight', twitter: 'Aimee_Knight' },
-            {name: 'Patrick Stapleton', twitter: 'gdi2290' }
-          ]
-        ]
-      },
-      {
         title: 'FalcorJS and Angular 2',
         displayDate: 'Tuesday, August 4th, 2015',
         date: '2015-08-04',
@@ -435,6 +421,20 @@
         guests: [
           [
             {name: 'Guy Bedford', twitter: 'guybedford'}
+          ]
+        ]
+      },
+      {
+        title: 'TypeScript or ES6 with Babel?',
+        displayDate: 'Tuesday, July 28th, 2015',
+        date: '2015-07-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley' },
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight' },
+            {name: 'Patrick Stapleton', twitter: 'gdi2290' }
           ]
         ]
       }
