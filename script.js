@@ -45,30 +45,6 @@
 
     vm.episodes = [
       {
-        title: 'FalcorJS and Angular 2',
-        displayDate: 'Tuesday, August 4th, 2015',
-        date: '2015-08-04',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ca3l6qalpu0uqcce58a379006m0',
-        guests: [
-          [
-            {name: 'Jafar Husain', twitter: 'jhusain'}
-          ]
-        ]
-      },
-      {
-        title: 'Performance, testing and everything in-between',
-        displayDate: 'Tuesday, August 11th, 2015',
-        date: '2015-08-11',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ce9lds6bk5nnre76da8hhig0n60',
-        guests: [
-          [
-            {name: 'Gleb Bahmutov', twitter: 'bahmutov'}
-          ]
-        ]
-      },
-      {
         title: 'Auth0',
         displayDate: 'Tuesday, August 18th, 2015',
         date: '2015-08-18',
@@ -79,6 +55,18 @@
             {name: 'Martin Gonto', twitter: 'mgonto'},
             {name: 'Geoff Goodman', twitter: 'g_goodman'},
             {name: 'Matias Woloski', twitter: 'woloski'}
+          ]
+        ]
+      },
+      {
+        title: 'Reactive Programming',
+        displayDate: 'Tuesday, August 25th, 2015',
+        date: '2015-08-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cln81vvg8du8kdbr03g7ngh32vs',
+        guests: [
+          [
+            {name: 'Matt Podwysocki', twitter: 'mattpodwysocki'}
           ]
         ]
       }
@@ -435,6 +423,30 @@
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley' },
             {name: 'Aimee Knight', twitter: 'Aimee_Knight' },
             {name: 'Patrick Stapleton', twitter: 'gdi2290' }
+          ]
+        ]
+      },
+      {
+        title: 'FalcorJS and Angular 2',
+        displayDate: 'Tuesday, August 4th, 2015',
+        date: '2015-08-04',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ca3l6qalpu0uqcce58a379006m0',
+        guests: [
+          [
+            {name: 'Jafar Husain', twitter: 'jhusain'}
+          ]
+        ]
+      },
+      {
+        title: 'Performance, testing and everything in-between',
+        displayDate: 'Tuesday, August 11th, 2015',
+        date: '2015-08-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ce9lds6bk5nnre76da8hhig0n60',
+        guests: [
+          [
+            {name: 'Gleb Bahmutov', twitter: 'bahmutov'}
           ]
         ]
       }
