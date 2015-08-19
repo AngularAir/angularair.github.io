@@ -31,12 +31,10 @@
     vm.panelists = [
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
-        {name: 'Kara Erickson', twitter: 'karaforthewin'},
         {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
         {name: 'Scott Moss', twitter: 'scotups'}
       ],
       [
-        {name: 'Pascal Precht', twitter: 'PascalPrecht'},
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
         {name: 'Patrick Stapleton', twitter: 'gdi2290'},
         {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
@@ -44,20 +42,6 @@
     ];
 
     vm.episodes = [
-      {
-        title: 'Auth0',
-        displayDate: 'Tuesday, August 18th, 2015',
-        date: '2015-08-18',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c0kajflmtfd8ellt6d7adpbg9mg',
-        guests: [
-          [
-            {name: 'Martin Gonto', twitter: 'mgonto'},
-            {name: 'Geoff Goodman', twitter: 'g_goodman'},
-            {name: 'Matias Woloski', twitter: 'woloski'}
-          ]
-        ]
-      },
       {
         title: 'Reactive Programming',
         displayDate: 'Tuesday, August 25th, 2015',
@@ -447,6 +431,20 @@
         guests: [
           [
             {name: 'Gleb Bahmutov', twitter: 'bahmutov'}
+          ]
+        ]
+      },
+      {
+        title: 'Auth0',
+        displayDate: 'Tuesday, August 18th, 2015',
+        date: '2015-08-18',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c0kajflmtfd8ellt6d7adpbg9mg',
+        guests: [
+          [
+            {name: 'Martin Gonto', twitter: 'mgonto'},
+            {name: 'Geoff Goodman', twitter: 'g_goodman'},
+            {name: 'Matias Woloski', twitter: 'woloski'}
           ]
         ]
       }
