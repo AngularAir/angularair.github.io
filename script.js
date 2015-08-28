@@ -1,3 +1,5 @@
+/* global angular, markdown */
+/* eslint no-var:0 */
 (function() {
   'use strict';
 
@@ -15,18 +17,22 @@
         return $http.get('episodes/' + episodeDate + '/' + fileName).then(function(response) {
           return markdown.toHTML(response.data, 'Maruku');
         });
-      }
+      };
     }
   });
 
   app.controller('MainCtrl', function MainCtrl(markdownGetter, $sce) {
     var vm = this;
 
-    vm.host = {
-      name: 'Kent C. Dodds',
-      twitter: 'kentcdodds',
-      avatar: 'kentcdodds.png'
-    };
+    vm.hosts = [
+      [
+        {
+          name: 'Kent C. Dodds',
+          twitter: 'kentcdodds',
+          avatar: 'kentcdodds.png'
+        }
+      ]
+    ];
 
     vm.panelists = [
       [
@@ -43,14 +49,35 @@
 
     vm.episodes = [
       {
-        title: 'Reactive Programming',
-        displayDate: 'Tuesday, August 25th, 2015',
-        date: '2015-08-25',
+        title: 'Angular UI-Router',
+        displayDate: 'Tuesday, September 1st, 2015',
+        date: '2015-09-01',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cln81vvg8du8kdbr03g7ngh32vs',
+        hangoutUrl: 'https://plus.google.com/events/cuc8f6acabb5g3fnu923t1156lo',
         guests: [
           [
-            {name: 'Matt Podwysocki', twitter: 'mattpodwysocki'}
+            {name: 'Chris Thielen', twitter: 'ChrisThielen'},
+            {name: 'Nate Abele', twitter: 'nateabele'}
+          ]
+        ]
+      },
+      {
+        title: 'TBA',
+        displayDate: 'Tuesday, September 8th, 2015',
+        date: '2015-09-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cqj1arbi4du7dd5laj58rclc6ck',
+        guests: []
+      },
+      {
+        title: 'Angular UI-Grid',
+        displayDate: 'Tuesday, Septebmer 15th, 2015',
+        date: '2015-09-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/coq8qmkmlgtug23f2mju2nfa5sc',
+        guests: [
+          [
+            {name: 'Niall Crosby', twitter: 'angularGrid'}
           ]
         ]
       }
@@ -404,9 +431,9 @@
         hangoutUrl: 'https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k',
         guests: [
           [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley' },
-            {name: 'Aimee Knight', twitter: 'Aimee_Knight' },
-            {name: 'Patrick Stapleton', twitter: 'gdi2290' }
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'}
           ]
         ]
       },
@@ -445,6 +472,18 @@
             {name: 'Martin Gonto', twitter: 'mgonto'},
             {name: 'Geoff Goodman', twitter: 'g_goodman'},
             {name: 'Matias Woloski', twitter: 'woloski'}
+          ]
+        ]
+      },
+      {
+        title: 'Reactive Programming',
+        displayDate: 'Tuesday, August 25th, 2015',
+        date: '2015-08-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cln81vvg8du8kdbr03g7ngh32vs',
+        guests: [
+          [
+            {name: 'Matt Podwysocki', twitter: 'mattpodwysocki'}
           ]
         ]
       }
@@ -546,7 +585,7 @@
     return {
       restrict: 'E',
       template: function(el, attrs) {
-        return '<link-icon icon="' + attrs.icon + '" link="' + attrs.link + '" title="Subscribe on ' + attrs.network + '"></link-icon>'
+        return '<link-icon icon="' + attrs.icon + '" link="' + attrs.link + '" title="Subscribe on ' + attrs.network + '"></link-icon>';
       }
     };
   });

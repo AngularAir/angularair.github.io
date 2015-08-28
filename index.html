@@ -24,28 +24,11 @@
     <h1>Angular Air</h1>
 
     <h2>
-      Angular video podcast hosted by
-      <a href="https://twitter.com/kentcdodds">Kent C. Dodds</a>
+      A <strong>live</strong> video podcast all about Angular
     </h2>
   </section>
 
-  <div class="big-gap"></div>
-
-  <section id="host" class="clearfix">
-    <div class="host person" person="vm.host"></div>
-  </section>
-
-  <section id="description" class="center">
-    <p class="center">
-      Angular Air is a <strong>live</strong> video podcast all about
-      <a href="https://angularjs.org/">Angular</a>
-      <br/>
-      hosted by
-      <a href="https://egghead.io/">egghead.io</a> instructor <a href="https://twitter.com/kentcdodds">Kent C. Dodds</a>
-    </p>
-  </section>
-
-  <hr/>
+  <hr />
 
   <section id="podcast-links" class="center">
     <subscribe-icon icon="apple" network="iTunes" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2"></subscribe-icon>
@@ -55,12 +38,6 @@
 
   <hr/>
 
-  <section id="panelists">
-    <h2>Panelists</h2>
-    <person-group groups="vm.panelists"></person-group>
-  </section>
-
-  <hr/>
 
   <section id="episodes">
     <h2>Episodes</h2>
@@ -117,6 +94,30 @@
         </small>
       </li>
     </ul>
+  </section>
+
+  <hr/>
+
+
+
+  <section class="clearfix">
+    <h2>Host</h2>
+    <person-group groups="vm.hosts"></person-group>
+    <div class="center">
+      Angular Air is hosted by
+      <a href="https://egghead.io/instructors/kentcdodds">egghead.io</a> instructor
+      <a href="https://twitter.com/kentcdodds">Kent C. Dodds</a>
+    </div>
+  </section>
+
+  <hr/>
+
+  <section id="panelists">
+    <h2>Panelists</h2>
+    <person-group groups="vm.panelists"></person-group>
+    <div class="center">
+      Angular Air has a panel of some of the most awesome Angular developers the community has to offer
+    </div>
   </section>
 
   <hr/>
