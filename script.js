@@ -70,7 +70,7 @@
         guests: []
       },
       {
-        title: 'ag-Grid',
+        title: 'Ag-Grid',
         displayDate: 'Tuesday, Septebmer 15th, 2015',
         date: '2015-09-15',
         time: '11:00 AM (Pacific Time)',
