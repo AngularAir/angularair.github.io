@@ -49,36 +49,25 @@
 
     vm.episodes = [
       {
-        title: 'Angular UI-Router',
-        displayDate: 'Tuesday, September 1st, 2015',
-        date: '2015-09-01',
+        title: 'Immutable.js with Angular',
+        displayDate: 'Tuesday, September 22nd, 2015',
+        date: '2015-09-22',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cuc8f6acabb5g3fnu923t1156lo',
+        hangoutUrl: 'https://plus.google.com/events/cv8l70o6msbta0pcd0g1924aimo',
         guests: [
-          [
-            {name: 'Chris Thielen', twitter: 'ChrisThielen'},
-            {name: 'Nate Abele', twitter: 'nateabele'}
-          ]
+            [
+              {name: 'Minko Gechev', twitter: 'mgechev'}
+            ]
         ]
       },
       {
-        title: 'TBA',
-        displayDate: 'Tuesday, September 8th, 2015',
-        date: '2015-09-08',
+        title: 'TBD',
+        displayDate: 'Tuesday, Septebmer 29th, 2015',
+        date: '2015-09-29',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cqj1arbi4du7dd5laj58rclc6ck',
-        guests: []
-      },
-      {
-        title: 'Ag-Grid',
-        displayDate: 'Tuesday, Septebmer 15th, 2015',
-        date: '2015-09-15',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/coq8qmkmlgtug23f2mju2nfa5sc',
+        hangoutUrl: 'https://plus.google.com/events/cnqln1vv6c1mji6gph8q6nvggss',
         guests: [
-          [
-            {name: 'Niall Crosby', twitter: 'angularGrid'}
-          ]
+          []
         ]
       }
     ];
@@ -484,6 +473,43 @@
         guests: [
           [
             {name: 'Matt Podwysocki', twitter: 'mattpodwysocki'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular UI-Router',
+        displayDate: 'Tuesday, September 1st, 2015',
+        date: '2015-09-01',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cuc8f6acabb5g3fnu923t1156lo',
+        guests: [
+          [
+            {name: 'Chris Thielen', twitter: 'ChrisThielen'},
+            {name: 'Nate Abele', twitter: 'nateabele'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Fundamentals',
+        displayDate: 'Tuesday, September 8th, 2015',
+        date: '2015-09-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cqj1arbi4du7dd5laj58rclc6ck',
+        guests: [
+          [
+            {name: 'Minko Gechev', twitter: 'mgechev'}
+          ]
+        ]
+      },
+      {
+        title: 'Ag-Grid',
+        displayDate: 'Tuesday, Septebmer 15th, 2015',
+        date: '2015-09-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/coq8qmkmlgtug23f2mju2nfa5sc',
+        guests: [
+          [
+            {name: 'Niall Crosby', twitter: 'angularGrid'}
           ]
         ]
       }
