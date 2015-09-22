@@ -61,13 +61,15 @@
         ]
       },
       {
-        title: 'TBD',
+        title: 'Angular Connect Primer',
         displayDate: 'Tuesday, Septebmer 29th, 2015',
         date: '2015-09-29',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cnqln1vv6c1mji6gph8q6nvggss',
         guests: [
-          []
+          [
+            {name: 'Pete Bacon Darwin', twitter: 'petebd'}
+          ]
         ]
       }
     ];
