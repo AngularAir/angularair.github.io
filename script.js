@@ -53,7 +53,7 @@
         displayDate: 'Tuesday, September 22nd, 2015',
         date: '2015-09-22',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cv8l70o6msbta0pcd0g1924aimo',
+        hangoutUrl: 'https://plus.google.com/events/crh57co6pljeqboef8r9net24po',
         guests: [
             [
               {name: 'Minko Gechev', twitter: 'mgechev'}
