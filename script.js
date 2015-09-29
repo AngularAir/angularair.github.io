@@ -65,7 +65,7 @@
         displayDate: 'Tuesday, Septebmer 29th, 2015',
         date: '2015-09-29',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cnqln1vv6c1mji6gph8q6nvggss',
+        hangoutUrl: 'https://plus.google.com/u/0/events/cpv6veia6f471gsglg7lg41rd70',
         guests: [
           [
             {name: 'Pete Bacon Darwin', twitter: 'petebd'}
