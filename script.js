@@ -68,7 +68,8 @@
         hangoutUrl: 'https://plus.google.com/u/0/events/cpv6veia6f471gsglg7lg41rd70',
         guests: [
           [
-            {name: 'Pete Bacon Darwin', twitter: 'petebd'}
+            {name: 'Pete Bacon Darwin', twitter: 'petebd'},
+            {name: 'Ruth Yarnit', twitter: 'RuthYarnit'}
           ]
         ]
       }
