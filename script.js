@@ -49,28 +49,15 @@
 
     vm.episodes = [
       {
-        title: 'Immutable.js with Angular',
-        displayDate: 'Tuesday, September 22nd, 2015',
-        date: '2015-09-22',
+        title: 'Angular 2 and React',
+        displayDate: 'Tuesday, October 6th, 2015',
+        date: '2015-10-06',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/crh57co6pljeqboef8r9net24po',
+        hangoutUrl: 'https://plus.google.com/events/cgrb5tdo541uo6l9p4sm96jf84k',
         guests: [
             [
-              {name: 'Minko Gechev', twitter: 'mgechev'}
+              {name: 'Tero Parviainen', twitter: 'teropa'}
             ]
-        ]
-      },
-      {
-        title: 'Angular Connect Primer',
-        displayDate: 'Tuesday, Septebmer 29th, 2015',
-        date: '2015-09-29',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/0/events/cpv6veia6f471gsglg7lg41rd70',
-        guests: [
-          [
-            {name: 'Pete Bacon Darwin', twitter: 'petebd'},
-            {name: 'Ruth Yarnit', twitter: 'RuthYarnit'}
-          ]
         ]
       }
     ];
@@ -513,6 +500,31 @@
         guests: [
           [
             {name: 'Niall Crosby', twitter: 'angularGrid'}
+          ]
+        ]
+      },
+      {
+        title: 'Immutable.js with Angular',
+        displayDate: 'Tuesday, September 22nd, 2015',
+        date: '2015-09-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/crh57co6pljeqboef8r9net24po',
+        guests: [
+            [
+              {name: 'Minko Gechev', twitter: 'mgechev'}
+            ]
+        ]
+      },
+      {
+        title: 'Angular Connect Primer',
+        displayDate: 'Tuesday, Septebmer 29th, 2015',
+        date: '2015-09-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/0/events/cpv6veia6f471gsglg7lg41rd70',
+        guests: [
+          [
+            {name: 'Pete Bacon Darwin', twitter: 'petebd'},
+            {name: 'Ruth Yarnit', twitter: 'RuthYarnit'}
           ]
         ]
       }
