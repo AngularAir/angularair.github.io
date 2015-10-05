@@ -56,7 +56,8 @@
         hangoutUrl: 'https://plus.google.com/events/cgrb5tdo541uo6l9p4sm96jf84k',
         guests: [
             [
-              {name: 'Tero Parviainen', twitter: 'teropa'}
+              {name: 'Tero Parviainen', twitter: 'teropa'},
+              {name: 'Minko Gechev', twitter: 'mgechev'}
             ]
         ]
       }
