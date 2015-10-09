@@ -74,8 +74,11 @@
         guests: [
           [
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
-            {name: 'Olivier Combe', twitter: 'OCombe'},
-            {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+            {name: 'Olivier Combe', twitter: 'ocombe'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'}
+          ],
+          [
+
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Scott Moss', twitter: 'scotups'},
             {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'}
