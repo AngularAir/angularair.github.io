@@ -49,16 +49,35 @@
 
     vm.episodes = [
       {
-        title: 'Angular 2 and React',
-        displayDate: 'Tuesday, October 6th, 2015',
-        date: '2015-10-06',
+        title: 'Ionic 2',
+        displayDate: 'Tuesday, October 13th, 2015',
+        date: '2015-10-13',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cgrb5tdo541uo6l9p4sm96jf84k',
+        hangoutUrl: 'https://plus.google.com/events/c7kt942fkohk44scrrgf35mluco',
         guests: [
-            [
-              {name: 'Tero Parviainen', twitter: 'teropa'},
-              {name: 'Minko Gechev', twitter: 'mgechev'}
-            ]
+          [
+            {name: 'Adam Bradley', twitter: 'adamdbradley'},
+            {name: 'Mike Hartington', twitter: 'mhartington'}
+          ],
+          [
+            {name: 'Max Lynch', twitter: 'maxlynch'},
+            {name: 'Ben Sperry', twitter: 'benjsperry'}
+          ]
+        ]
+      },
+      {
+        title: 'Live at Angular Connect',
+        displayDate: 'Tuesday, July 28th, 2015',
+        date: '2015-10-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c7e4ce3lp23ogqd7g37u77p4bo0',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Olivier Combe', twitter: 'OCombe'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'}
+          ]
         ]
       }
     ];
@@ -526,6 +545,19 @@
           [
             {name: 'Pete Bacon Darwin', twitter: 'petebd'},
             {name: 'Ruth Yarnit', twitter: 'RuthYarnit'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular 2 and React',
+        displayDate: 'Tuesday, October 6th, 2015',
+        date: '2015-10-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cgrb5tdo541uo6l9p4sm96jf84k',
+        guests: [
+          [
+            {name: 'Tero Parviainen', twitter: 'teropa'},
+            {name: 'Minko Gechev', twitter: 'mgechev'}
           ]
         ]
       }
