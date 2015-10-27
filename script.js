@@ -49,28 +49,11 @@
 
     vm.episodes = [
       {
-        title: 'Ionic 2',
-        displayDate: 'Tuesday, October 13th, 2015',
-        date: '2015-10-13',
+        title: 'Angular Connect Recap',
+        displayDate: 'Tuesday, October 27th, 2015',
+        date: '2015-10-27',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c7kt942fkohk44scrrgf35mluco',
-        guests: [
-          [
-            {name: 'Adam Bradley', twitter: 'adamdbradley'},
-            {name: 'Mike Hartington', twitter: 'mhartington'}
-          ],
-          [
-            {name: 'Max Lynch', twitter: 'maxlynch'},
-            {name: 'Ben Sperry', twitter: 'benjsperry'}
-          ]
-        ]
-      },
-      {
-        title: 'Live at Angular Connect',
-        displayDate: 'Tuesday, July 28th, 2015',
-        date: '2015-10-20',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c7e4ce3lp23ogqd7g37u77p4bo0',
+        hangoutUrl: 'https://plus.google.com/events/c5dur9vns3bqujp8akvhn5dkshk',
         guests: [
           [
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
@@ -565,7 +548,44 @@
             {name: 'Minko Gechev', twitter: 'mgechev'}
           ]
         ]
-      }
+      },
+      {
+        title: 'Ionic 2',
+        displayDate: 'Tuesday, October 13th, 2015',
+        date: '2015-10-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c7kt942fkohk44scrrgf35mluco',
+        guests: [
+          [
+            {name: 'Adam Bradley', twitter: 'adamdbradley'},
+            {name: 'Mike Hartington', twitter: 'mhartington'}
+          ],
+          [
+            {name: 'Max Lynch', twitter: 'maxlynch'},
+            {name: 'Ben Sperry', twitter: 'benjsperry'}
+          ]
+        ]
+      },
+      {
+        title: 'Live at Angular Connect',
+        displayDate: 'Tuesday, July 28th, 2015',
+        date: '2015-10-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c7e4ce3lp23ogqd7g37u77p4bo0',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Olivier Combe', twitter: 'ocombe'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'}
+          ],
+          [
+
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Scott Moss', twitter: 'scotups'},
+            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'}
+          ]
+        ]
+      },
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
