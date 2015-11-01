@@ -51,7 +51,7 @@
       {
         title: 'ngAnimate 2.0',
         displayDate: 'Tuesday, November 11th, 2015',
-        date: '2014-11-03',
+        date: '2015-11-03',
         time: '2:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/0/events/cof2s4dso4ju3v6gdr9pla2ls4g',
         guests: [
