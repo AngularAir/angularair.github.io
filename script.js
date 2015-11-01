@@ -49,22 +49,15 @@
 
     vm.episodes = [
       {
-        title: 'Angular Connect Recap',
-        displayDate: 'Tuesday, October 27th, 2015',
-        date: '2015-10-27',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c5dur9vns3bqujp8akvhn5dkshk',
+        title: 'ngAnimate 2.0',
+        displayDate: 'Tuesday, November 11th, 2015',
+        date: '2014-11-03',
+        time: '2:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/0/events/cof2s4dso4ju3v6gdr9pla2ls4g',
         guests: [
           [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
-            {name: 'Olivier Combe', twitter: 'ocombe'},
-            {name: 'Aimee Knight', twitter: 'Aimee_Knight'}
-          ],
-          [
-
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Scott Moss', twitter: 'scotups'},
-            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'}
+            {name: 'Matias Niemela', twitter: 'yearofmoo'},
+            {name: 'Robert Messerle', twitter: 'bobbo_O'}
           ]
         ]
       }
@@ -586,6 +579,26 @@
           ]
         ]
       },
+      {
+        title: 'Angular Connect Recap',
+        displayDate: 'Tuesday, October 27th, 2015',
+        date: '2015-10-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c5dur9vns3bqujp8akvhn5dkshk',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Olivier Combe', twitter: 'ocombe'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'}
+          ],
+          [
+
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Scott Moss', twitter: 'scotups'},
+            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'}
+          ]
+        ]
+      }
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
