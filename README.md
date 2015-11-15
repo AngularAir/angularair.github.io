@@ -1,4 +1,4 @@
-# [angular-air.com](http://angular-air.com)
+# [angularair.com](http://angularair.com)
 
 ![AngularAir logo](logo.png)
 
@@ -7,7 +7,7 @@
 [Egghead.io](https://egghead.io/) instructor
 [Kent C. Dodds](https://twitter.com/kentcdodds).
 
-This repo is [the website](http://ng-air.github.io) for ng-air.
+This repo is [the website](http://angularair.github.io) for AngularAir.
 
 Catch AngularAir on [Twitter](https://twitter.com/AngularAir) and
 [Google+](https://plus.google.com/+AngularAirPodcast/)
