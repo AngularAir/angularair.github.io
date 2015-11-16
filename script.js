@@ -49,15 +49,31 @@
 
     vm.episodes = [
       {
-        title: 'ngAnimate 2.0',
-        displayDate: 'Tuesday, November 11th, 2015',
-        date: '2015-11-03',
-        time: '2:00 PM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/0/events/cof2s4dso4ju3v6gdr9pla2ls4g',
+        title: 'The Importance of Learning JavaScript',
+        displayDate: 'Tuesday, November 17th, 2015',
+        date: '2015-11-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cm77tif4rcm3tb293t70c5kkb1o',
         guests: [
           [
-            {name: 'Matias Niemela', twitter: 'yearofmoo'},
-            {name: 'Robert Messerle', twitter: 'bobbo_O'}
+            {name: 'Kyle Simpson', twitter: 'getify'},
+          ]
+        ]
+      },
+      {
+        title: 'Angular Status Update',
+        displayDate: 'Tuesday, December 1st, 2015',
+        date: '2015-12-01',
+        time: '12:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c',
+        guests: [
+          [
+            {name: 'Bradly Green', twitter: 'bradlygreen'},
+            {name: 'Miško Hevery', twitter: 'mhevery'}
+          ],
+          [
+            {name: 'Igor Minar', twitter: 'IgorMinar'},
+            {name: 'Pete Bacon Darwin', twitter: 'petebd'}
           ]
         ]
       }
@@ -598,6 +614,26 @@
             {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'}
           ]
         ]
+      },
+      {
+        title: 'ngAnimate 2.0',
+        displayDate: 'Tuesday, November 3rd, 2015',
+        date: '2015-11-03',
+        time: '2:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/0/events/cof2s4dso4ju3v6gdr9pla2ls4g',
+        guests: [
+          [
+            {name: 'Matias Niemela', twitter: 'yearofmoo'},
+            {name: 'Robert Messerle', twitter: 'bobbo_O'}
+          ]
+        ]
+      },
+      {
+        title: 'Surprise Episode',
+        displayDate: 'Tuesday, November 11th, 2015',
+        date: '2015-011-11',
+        time: '10:15 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cpog9pa6hjqgjdo5hekci926ass',
       }
     ];
 
