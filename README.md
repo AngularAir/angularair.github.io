@@ -3,9 +3,8 @@
 ![AngularAir logo](logo.png)
 
 [@AngularAir](https://twitter.com/AngularAir) is a video podcast all about
-[AngularJS](https://angularjs.org/) hosted by
-[Egghead.io](https://egghead.io/) instructor
-[Kent C. Dodds](https://twitter.com/kentcdodds).
+[AngularJS](https://angularjs.org/) by
+[AngularClass](https://angularclass.com/) and hosted by [Jeff Whelpley](https://twitter.com/jeffwhelpley) and [PatrickJS](https://twitter.com/gdi2290).
 
 This repo is [the website](http://angularair.github.io) for AngularAir.
 
