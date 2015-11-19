@@ -27,9 +27,8 @@
     vm.hosts = [
       [
         {
-          name: 'Kent C. Dodds',
-          twitter: 'kentcdodds',
-          avatar: 'kentcdodds.png'
+          name: 'Jeff Whelpley',
+          twitter: 'jeffwhelpley'
         }
       ]
     ];
@@ -42,8 +41,7 @@
       ],
       [
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
-        {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-        {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
+        {name: 'Patrick Stapleton', twitter: 'gdi2290'}
       ]
     ];
 
