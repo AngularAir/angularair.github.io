@@ -29,7 +29,7 @@
         {
           name: 'Jeff Whelpley',
           twitter: 'jeffwhelpley',
-          avatar: 'jeffwhelpley.png'
+          avatar: 'panel/jeffwhelpley.png'
         }
       ]
     ];
