@@ -28,7 +28,8 @@
       [
         {
           name: 'Jeff Whelpley',
-          twitter: 'jeffwhelpley'
+          twitter: 'jeffwhelpley',
+          avatar: 'jeffwhelpley.png'
         }
       ]
     ];
@@ -46,18 +47,6 @@
     ];
 
     vm.episodes = [
-      {
-        title: 'The Importance of Learning JavaScript',
-        displayDate: 'Tuesday, November 17th, 2015',
-        date: '2015-11-17',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cm77tif4rcm3tb293t70c5kkb1o',
-        guests: [
-          [
-            {name: 'Kyle Simpson', twitter: 'getify'},
-          ]
-        ]
-      },
       {
         title: 'Angular Status Update',
         displayDate: 'Tuesday, December 1st, 2015',
@@ -632,6 +621,18 @@
         date: '2015-011-11',
         time: '10:15 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cpog9pa6hjqgjdo5hekci926ass',
+      },
+      {
+        title: 'The Importance of Learning JavaScript',
+        displayDate: 'Tuesday, November 17th, 2015',
+        date: '2015-11-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cm77tif4rcm3tb293t70c5kkb1o',
+        guests: [
+          [
+            {name: 'Kyle Simpson', twitter: 'getify'},
+          ]
+        ]
       }
     ];
 
