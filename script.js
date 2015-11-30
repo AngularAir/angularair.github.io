@@ -50,7 +50,7 @@
 
     vm.episodes = [
       {
-        title: 'Angular Community',
+        title: 'The Angular Community',
         displayDate: 'Tuesday, December 1st, 2015',
         date: '2015-12-01',
         time: '11:00 PM (Pacific Time)',
@@ -107,9 +107,7 @@
         guests: [
           [
             {name: 'Bradly Green', twitter: 'bradlygreen'},
-            {name: 'Miško Hevery', twitter: 'mhevery'}
-          ],
-          [
+            {name: 'Miško Hevery', twitter: 'mhevery'},
             {name: 'Igor Minar', twitter: 'IgorMinar'},
             {name: 'Pete Bacon Darwin', twitter: 'petebd'}
           ]
