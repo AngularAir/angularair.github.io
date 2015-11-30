@@ -38,7 +38,8 @@
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
         {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
-        {name: 'Scott Moss', twitter: 'scotups'}
+        {name: 'Scott Moss', twitter: 'scotups'},
+        {name: 'Rob Wormald', twitter: 'robwormald'}
       ],
       [
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
@@ -52,31 +53,68 @@
         title: 'Angular Community',
         displayDate: 'Tuesday, December 1st, 2015',
         date: '2015-12-01',
-        time: '12:00 PM (Pacific Time)',
+        time: '11:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c',
         guests: [
           [
             {name: 'Aaron Frost', twitter: 'js_dev'}
           ]
         ]
+      },
+      {
+        title: 'Writing Angular 2 Libraries',
+        displayDate: 'Tuesday, December 8th, 2015',
+        date: '2015-12-08',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c7m79d5o04nom5eednk5ecqtebk',
+        guests: [
+          [
+            {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular and Star Wars',
+        displayDate: 'Tuesday, December 15th, 2015',
+        date: '2015-12-15',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cthcfidro7bh8428hl8o5kt4128',
+        guests: [
+          [
+            {name: 'Kyle Newman', twitter: 'kyle_newman'},
+            {name: 'Randall Koutnik', twitter: 'rkoutnik'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Productivity Tips',
+        displayDate: 'Tuesday, December 22nd, 2015',
+        date: '2015-12-22',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ciph3us71f9liggnc4n8skq1hg8',
+        guests: [
+          [
+            {name: 'Ari Lerner', twitter: 'auser'}
+          ]
+        ]
+      },
+      {
+        title: 'The Angular Team',
+        displayDate: 'TBD',
+        date: '2015-01-05',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
+        guests: [
+          [
+            {name: 'Bradly Green', twitter: 'bradlygreen'},
+            {name: 'Miško Hevery', twitter: 'mhevery'}
+          ],
+          [
+            {name: 'Igor Minar', twitter: 'IgorMinar'},
+            {name: 'Pete Bacon Darwin', twitter: 'petebd'}
+          ]
+        ]
       }
-      //{
-      //  title: 'Angular Status Update',
-      //  displayDate: 'Tuesday, December 1st, 2015',
-      //  date: '2015-12-01',
-      //  time: '12:00 PM (Pacific Time)',
-      //  hangoutUrl: 'https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c',
-      //  guests: [
-      //    [
-      //      {name: 'Bradly Green', twitter: 'bradlygreen'},
-      //      {name: 'Miško Hevery', twitter: 'mhevery'}
-      //    ],
-      //    [
-      //      {name: 'Igor Minar', twitter: 'IgorMinar'},
-      //      {name: 'Pete Bacon Darwin', twitter: 'petebd'}
-      //    ]
-      //  ]
-      //}
     ];
 
     vm.pastEpisodes = [
