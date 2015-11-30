@@ -1,4 +1,4 @@
-Remember our first show over a year ago? We've got the same guests
-joining us for this one! These fine gentlemen will be sharing a status
-update with us for Angular 1.x and 2.0. Exciting times :D
+We decided to postpone our discussion with Brad, Igor, Misko and Pete until after they get past 
+a couple upcoming deadlines. We will move the date and send out notification to 
+everyone once we nail down the date for this one.﻿
 
