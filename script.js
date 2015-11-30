@@ -101,7 +101,7 @@
       {
         title: 'The Angular Team',
         displayDate: 'TBD',
-        date: '2015-01-05',
+        date: '2016-01-05',
         time: '11:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
         guests: [
