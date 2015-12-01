@@ -70,7 +70,7 @@
         guests: [
           [
             {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'},
-            {name: 'Jurgen Van de Moere', twitter: 'jvandemo '}
+            {name: 'Jurgen Van de Moere', twitter: 'jvandemo'}
           ]
         ]
       },
