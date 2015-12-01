@@ -69,7 +69,8 @@
         hangoutUrl: 'https://plus.google.com/events/c7m79d5o04nom5eednk5ecqtebk',
         guests: [
           [
-            {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'}
+            {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'},
+            {name: 'Jurgen Van de Moere', twitter: 'jvandemo '}
           ]
         ]
       },
