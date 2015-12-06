@@ -251,8 +251,8 @@
       },
       {
         title: 'Angular Universal',
-        displayDate: 'Tuesday, February 23, 2016',
-        date: '2016-02-23',
+        displayDate: 'Tuesday, March 8th, 2016',
+        date: '2016-03-08',
         time: '11:00 PM (Pacific Time)',
         hangoutUrl: 'https://hangouts.google.com/call/ienpkc2l2dn7xyeoasmsrpzjuma',
         guests: [
