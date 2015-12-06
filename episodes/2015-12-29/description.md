@@ -1,0 +1,1 @@
+The AngularAir panelists get together to discuss the future of Angular and JavaScript as we roll into the new year.

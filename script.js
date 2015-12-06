@@ -100,9 +100,30 @@
         ]
       },
       {
+        title: '2016 Angular Predictions',
+        displayDate: 'Tuesday, December 22nd, 2015',
+        date: '2015-12-29',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/uic26qxvnbd57b5o7tk2apvbnya',
+        guests: [
+          [
+            {name: 'Olivier Combe', twitter: 'ocombe'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+            {name: 'Scott Moss', twitter: 'scotups'},
+            {name: 'Rob Wormald', twitter: 'robwormald'}
+          ],
+          [
+            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Gleb Bahmutov', twitter: 'bahmutov'},
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
+          ]
+        ]
+      },
+      {
         title: 'The Angular Team',
         displayDate: 'TBD',
-        date: '2016-01-05',
+        date: '2016-01-01',
         time: '11:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
         guests: [
@@ -111,6 +132,133 @@
             {name: 'Miško Hevery', twitter: 'mhevery'},
             {name: 'Igor Minar', twitter: 'IgorMinar'},
             {name: 'Pete Bacon Darwin', twitter: 'petebd'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular UI and Beyond',
+        displayDate: 'Tuesday, January 5th, 2016',
+        date: '2016-01-05',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/h4kmw67sqbciqwg2vhc5ecw2zaa',
+        guests: [
+          [
+            {name: 'Wesley Cho', twitter: 'BahamutWC'},
+            {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
+          ]
+        ]
+      },
+      {
+        title: 'Empathy',
+        displayDate: 'Tuesday, January 12th, 2016',
+        date: '2016-01-12',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/q6uc4mrimjowaa3lufhcwovd6ua',
+        guests: [
+          [
+            {name: 'Joe Eames', twitter: 'josepheames'}
+          ]
+        ]
+      },
+      {
+        title: 'RxJS 5.0',
+        displayDate: 'Tuesday, January 19th, 2016',
+        date: '2016-01-19',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/v65l2osob3dceggyzc3x7ypqmia',
+        guests: [
+          [
+            {name: 'Ben Lesh', twitter: 'benlesh'}
+          ]
+        ]
+      },
+      {
+        title: 'TypeScript',
+        displayDate: 'Tuesday, January 26th, 2016',
+        date: '2016-01-26',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/337mtx6xhfyvaeiaczrr6vso7aa',
+        guests: [
+          [
+            {name: 'Alex Eagle', twitter: 'jakeherringbone'},
+            {name: 'Blake Embrey', twitter: 'blakeembrey'}
+          ]
+        ]
+      },
+      {
+        title: 'Teaching Angular and Mentoring',
+        displayDate: 'Tuesday, February 2nd, 2016',
+        date: '2016-02-02',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/mkp37uikcosnwzizrinmvkip6ea',
+        guests: [
+          [
+            {name: 'Pascal Precht', twitter: 'pascalprecht'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular and IoT',
+        displayDate: 'Tuesday, February 9th, 2016',
+        date: '2016-02-09',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/bk2fclnztswmc3xhfibzzcwir4a',
+        guests: [
+          [
+            {name: 'Zach Dunn', twitter: 'zachdunn'},
+            {name: 'Atticus White', twitter: 'atticoos'}
+          ]
+        ]
+      },
+      {
+        title: 'ng-nl',
+        displayDate: 'Tuesday, February 18th, 2016',
+        date: '2016-02-18',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/3ef6y3d5mgqppbheqph2q4se34a',
+        guests: [
+          [
+            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Olivier Combe', twitter: 'ocombe'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular 2 + Meteor',
+        displayDate: 'Tuesday, February 23rd, 2016',
+        date: '2016-02-23',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/l5v7i5574a6wgibxejdkmjqqqya',
+        guests: [
+          [
+            {name: 'Uri Goldshtein', twitter: 'UriGoldshtein'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular 2 + NativeScript',
+        displayDate: 'Tuesday, March 1st, 2016',
+        date: '2016-03-01',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/dm4zxcup2wwx4ugaelpqwdk3dya',
+        guests: [
+          [
+            {name: 'TJ VanToll', twitter: 'tjvantoll'},
+            {name: 'Jen Looper', twitter: 'jenlooper'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Universal',
+        displayDate: 'Tuesday, February 23, 2016',
+        date: '2016-02-23',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://hangouts.google.com/call/ienpkc2l2dn7xyeoasmsrpzjuma',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'}
           ]
         ]
       }

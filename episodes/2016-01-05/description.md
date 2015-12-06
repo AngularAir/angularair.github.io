@@ -1,4 +1,2 @@
-We decided to postpone our discussion with Brad, Igor, Misko and Pete until after they get past 
-a couple upcoming deadlines. We will move the date and send out notification to 
-everyone once we nail down the date for this one.﻿
-
+[Welsey Cho](https://twitter.com/BahamutWC) and [Jesus Rodriguez](https://twitter.com/foxandxss) 
+from the ui-bootstrap team join us to talk about their popular Angular library and its future.﻿
