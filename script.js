@@ -50,18 +50,6 @@
 
     vm.episodes = [
       {
-        title: 'The Angular Community',
-        displayDate: 'Tuesday, December 1st, 2015',
-        date: '2015-12-01',
-        time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c',
-        guests: [
-          [
-            {name: 'Aaron Frost', twitter: 'js_dev'}
-          ]
-        ]
-      },
-      {
         title: 'Writing Angular 2 Libraries',
         displayDate: 'Tuesday, December 8th, 2015',
         date: '2015-12-08',
@@ -818,7 +806,7 @@
         displayDate: 'Tuesday, November 11th, 2015',
         date: '2015-011-11',
         time: '10:15 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cpog9pa6hjqgjdo5hekci926ass',
+        hangoutUrl: 'https://plus.google.com/events/cpog9pa6hjqgjdo5hekci926ass'
       },
       {
         title: 'The Importance of Learning JavaScript',
@@ -828,7 +816,19 @@
         hangoutUrl: 'https://plus.google.com/events/cm77tif4rcm3tb293t70c5kkb1o',
         guests: [
           [
-            {name: 'Kyle Simpson', twitter: 'getify'},
+            {name: 'Kyle Simpson', twitter: 'getify'}
+          ]
+        ]
+      },
+      {
+        title: 'The Angular Community',
+        displayDate: 'Tuesday, December 1st, 2015',
+        date: '2015-12-01',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c',
+        guests: [
+          [
+            {name: 'Aaron Frost', twitter: 'js_dev'}
           ]
         ]
       }
