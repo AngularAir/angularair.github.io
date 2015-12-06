@@ -92,7 +92,7 @@
         displayDate: 'Tuesday, December 22nd, 2015',
         date: '2015-12-29',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/uic26qxvnbd57b5o7tk2apvbnya',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c5a1derd87d7i5ithcubcm8q858',
         guests: [
           [
             {name: 'Olivier Combe', twitter: 'ocombe'},
@@ -128,7 +128,7 @@
         displayDate: 'Tuesday, January 5th, 2016',
         date: '2016-01-05',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/h4kmw67sqbciqwg2vhc5ecw2zaa',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cn6og48n6l1s070im5b5qjac7ts',
         guests: [
           [
             {name: 'Wesley Cho', twitter: 'BahamutWC'},
@@ -141,7 +141,7 @@
         displayDate: 'Tuesday, January 12th, 2016',
         date: '2016-01-12',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/q6uc4mrimjowaa3lufhcwovd6ua',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/clffugstoslk8vjlh2qd5mjamrg',
         guests: [
           [
             {name: 'Joe Eames', twitter: 'josepheames'}
@@ -153,7 +153,7 @@
         displayDate: 'Tuesday, January 19th, 2016',
         date: '2016-01-19',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/v65l2osob3dceggyzc3x7ypqmia',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c2ic6t5id964kdo47dr0of5d3ag',
         guests: [
           [
             {name: 'Ben Lesh', twitter: 'benlesh'}
@@ -165,7 +165,7 @@
         displayDate: 'Tuesday, January 26th, 2016',
         date: '2016-01-26',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/337mtx6xhfyvaeiaczrr6vso7aa',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cd8aehgp75b2bm9esirp5adrmp0',
         guests: [
           [
             {name: 'Alex Eagle', twitter: 'jakeherringbone'},
@@ -178,7 +178,7 @@
         displayDate: 'Tuesday, February 2nd, 2016',
         date: '2016-02-02',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/mkp37uikcosnwzizrinmvkip6ea',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/ce8315emtscbq7ef0bo99jg0kao',
         guests: [
           [
             {name: 'Pascal Precht', twitter: 'pascalprecht'}
@@ -190,7 +190,7 @@
         displayDate: 'Tuesday, February 9th, 2016',
         date: '2016-02-09',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/bk2fclnztswmc3xhfibzzcwir4a',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cvb7kq9cus27q0l5505kbedl63s',
         guests: [
           [
             {name: 'Zach Dunn', twitter: 'zachdunn'},
@@ -203,7 +203,7 @@
         displayDate: 'Tuesday, February 18th, 2016',
         date: '2016-02-18',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/3ef6y3d5mgqppbheqph2q4se34a',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/caht91psf3c53e7ngrakc6m78so',
         guests: [
           [
             {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
@@ -217,7 +217,7 @@
         displayDate: 'Tuesday, February 23rd, 2016',
         date: '2016-02-23',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/l5v7i5574a6wgibxejdkmjqqqya',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cfjl7ehr4p9qd0fm90mh7b0aj74',
         guests: [
           [
             {name: 'Uri Goldshtein', twitter: 'UriGoldshtein'}
@@ -229,7 +229,7 @@
         displayDate: 'Tuesday, March 1st, 2016',
         date: '2016-03-01',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/dm4zxcup2wwx4ugaelpqwdk3dya',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cgg9c8c4cikfj75p2irru4bor14',
         guests: [
           [
             {name: 'TJ VanToll', twitter: 'tjvantoll'},
@@ -242,7 +242,7 @@
         displayDate: 'Tuesday, March 8th, 2016',
         date: '2016-03-08',
         time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://hangouts.google.com/call/ienpkc2l2dn7xyeoasmsrpzjuma',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
         guests: [
           [
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
