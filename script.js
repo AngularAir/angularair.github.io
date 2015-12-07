@@ -58,7 +58,7 @@
         guests: [
           [
             {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'},
-            {name: 'J. Van de Moere', twitter: 'jvandemo'}
+            {name: 'Nathan Walker', twitter: 'wwwalkerrun'}
           ]
         ]
       },
