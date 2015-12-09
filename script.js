@@ -50,19 +50,6 @@
 
     vm.episodes = [
       {
-        title: 'Writing Angular 2 Libraries',
-        displayDate: 'Tuesday, December 8th, 2015',
-        date: '2015-12-08',
-        time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c7m79d5o04nom5eednk5ecqtebk',
-        guests: [
-          [
-            {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'},
-            {name: 'Nathan Walker', twitter: 'wwwalkerrun'}
-          ]
-        ]
-      },
-      {
         title: 'Angular and Star Wars',
         displayDate: 'Tuesday, December 15th, 2015',
         date: '2015-12-15',
@@ -124,7 +111,7 @@
         ]
       },
       {
-        title: 'Angular UI and Beyond',
+        title: 'Getting into open source with the ng-bootstrap team',
         displayDate: 'Tuesday, January 5th, 2016',
         date: '2016-01-05',
         time: '11:00 PM (Pacific Time)',
@@ -829,6 +816,19 @@
         guests: [
           [
             {name: 'Aaron Frost', twitter: 'js_dev'}
+          ]
+        ]
+      },
+      {
+        title: 'Writing Angular 2 Libraries',
+        displayDate: 'Tuesday, December 8th, 2015',
+        date: '2015-12-08',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c7m79d5o04nom5eednk5ecqtebk',
+        guests: [
+          [
+            {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'},
+            {name: 'Nathan Walker', twitter: 'wwwalkerrun'}
           ]
         ]
       }
