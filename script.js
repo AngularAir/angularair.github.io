@@ -111,7 +111,7 @@
         ]
       },
       {
-        title: 'Getting into open source with the ng-bootstrap team',
+        title: 'Why should you contribute to open source?',
         displayDate: 'Tuesday, January 5th, 2016',
         date: '2016-01-05',
         time: '11:00 PM (Pacific Time)',
