@@ -50,7 +50,7 @@
 
     vm.episodes = [
       {
-        title: 'Angular and Star Wars',
+        title: 'Star Wars',
         displayDate: 'Tuesday, December 15th, 2015',
         date: '2015-12-15',
         time: '11:00 PM (Pacific Time)',
@@ -63,7 +63,7 @@
         ]
       },
       {
-        title: 'Angular Productivity Tips',
+        title: 'The Best Angular Productivity Tips',
         displayDate: 'Tuesday, December 22nd, 2015',
         date: '2015-12-22',
         time: '11:00 PM (Pacific Time)',
@@ -75,7 +75,7 @@
         ]
       },
       {
-        title: '2016 Angular Predictions',
+        title: 'What will happen to Angular in 2016?',
         displayDate: 'Tuesday, December 22nd, 2015',
         date: '2015-12-29',
         time: '11:00 PM (Pacific Time)',
@@ -111,7 +111,7 @@
         ]
       },
       {
-        title: 'Why should you contribute to open source?',
+        title: 'How to become an open source contributor',
         displayDate: 'Tuesday, January 5th, 2016',
         date: '2016-01-05',
         time: '11:00 PM (Pacific Time)',
@@ -124,7 +124,7 @@
         ]
       },
       {
-        title: 'Empathy',
+        title: 'Why empathy will make you a better developer',
         displayDate: 'Tuesday, January 12th, 2016',
         date: '2016-01-12',
         time: '11:00 PM (Pacific Time)',
@@ -136,7 +136,7 @@
         ]
       },
       {
-        title: 'RxJS 5.0',
+        title: 'What\'s new in RxJS 5.0?',
         displayDate: 'Tuesday, January 19th, 2016',
         date: '2016-01-19',
         time: '11:00 PM (Pacific Time)',
@@ -148,7 +148,7 @@
         ]
       },
       {
-        title: 'TypeScript',
+        title: 'TypeScript Deep Dive',
         displayDate: 'Tuesday, January 26th, 2016',
         date: '2016-01-26',
         time: '11:00 PM (Pacific Time)',
@@ -161,7 +161,7 @@
         ]
       },
       {
-        title: 'Teaching Angular and Mentoring',
+        title: 'Getting Past the Angular Learning Curve',
         displayDate: 'Tuesday, February 2nd, 2016',
         date: '2016-02-02',
         time: '11:00 PM (Pacific Time)',
@@ -173,7 +173,7 @@
         ]
       },
       {
-        title: 'Angular and IoT',
+        title: 'The Internet of Things (and Angular)',
         displayDate: 'Tuesday, February 9th, 2016',
         date: '2016-02-09',
         time: '11:00 PM (Pacific Time)',
@@ -186,7 +186,7 @@
         ]
       },
       {
-        title: 'ng-nl',
+        title: 'Live from ng-nl',
         displayDate: 'Tuesday, February 18th, 2016',
         date: '2016-02-18',
         time: '11:00 PM (Pacific Time)',
