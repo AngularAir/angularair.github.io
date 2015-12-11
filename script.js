@@ -51,8 +51,8 @@
     vm.episodes = [
       {
         title: 'Star Wars',
-        displayDate: 'Tuesday, December 15th, 2015',
-        date: '2015-12-15',
+        displayDate: 'Tuesday, December 17th, 2015',
+        date: '2015-12-17',
         time: '11:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cthcfidro7bh8428hl8o5kt4128',
         guests: [
@@ -98,7 +98,7 @@
       {
         title: 'The Angular Team',
         displayDate: 'TBD',
-        date: '2016-01-01',
+        date: '2015-12-15',
         time: '11:00 PM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
         guests: [

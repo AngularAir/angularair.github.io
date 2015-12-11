@@ -1,11 +1,4 @@
-To celebrate the release of Star Wars VII, we talk to two of the biggest Star Wars fans around.
- 
-[Kyle Newman](https://twitter.com/kyle_newman) was the director of the Star Wars-related cult classic, 
-[Fanboys](http://www.imdb.com/title/tt0489049/), and his wife, 
-[Jaime King](https://twitter.com/Jaime_King), voiced Aurra Sing on 
-[The Clone Wars](http://www.imdb.com/title/tt0458290/) TV show.
- 
-[Randall Koutnik](https://twitter.com/rkoutnik) who has worked on 
-[Batarang](https://github.com/angular/batarang), apparently owns every Stars Wars toy ever produced.
- 
-This is going to be a fun episode that you are not going to want to miss!﻿
+We decided to postpone our discussion with Brad, Igor, Misko and Pete until after they get past 
+a couple upcoming deadlines. We will move the date and send out notification to 
+everyone once we nail down the date for this one.﻿
+
