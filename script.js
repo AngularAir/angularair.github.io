@@ -50,6 +50,20 @@
 
     vm.episodes = [
       {
+        title: 'The Angular Team',
+        displayDate: 'Tuesday, December 15th, 2015',
+        date: '2015-12-15',
+        time: '11:00 PM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
+        guests: [
+          [
+            {name: 'Bradly Green', twitter: 'bradlygreen'},
+            {name: 'Miško Hevery', twitter: 'mhevery'},
+            {name: 'Igor Minar', twitter: 'IgorMinar'}
+          ]
+        ]
+      },
+      {
         title: 'Star Wars',
         displayDate: 'Tuesday, December 17th, 2015',
         date: '2015-12-17',
@@ -92,20 +106,6 @@
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Gleb Bahmutov', twitter: 'bahmutov'},
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
-          ]
-        ]
-      },
-      {
-        title: 'The Angular Team',
-        displayDate: 'TBD',
-        date: '2015-12-15',
-        time: '11:00 PM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
-        guests: [
-          [
-            {name: 'Bradly Green', twitter: 'bradlygreen'},
-            {name: 'Miško Hevery', twitter: 'mhevery'},
-            {name: 'Igor Minar', twitter: 'IgorMinar'}
           ]
         ]
       },

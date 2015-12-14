@@ -1,4 +1,2 @@
-We decided to postpone our discussion with Brad, Igor and Misko until after they get past 
-a couple upcoming deadlines. We will move the date and send out notification to 
-everyone once we nail down the date for this one.﻿
+Brad, Igor and Misko stop by to give us the 4-1-1 on Angular.
 
