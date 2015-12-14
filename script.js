@@ -105,8 +105,7 @@
           [
             {name: 'Bradly Green', twitter: 'bradlygreen'},
             {name: 'Miško Hevery', twitter: 'mhevery'},
-            {name: 'Igor Minar', twitter: 'IgorMinar'},
-            {name: 'Pete Bacon Darwin', twitter: 'petebd'}
+            {name: 'Igor Minar', twitter: 'IgorMinar'}
           ]
         ]
       },
