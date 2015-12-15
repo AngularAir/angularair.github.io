@@ -53,7 +53,7 @@
         title: 'The Angular Team',
         displayDate: 'Tuesday, December 15th, 2015',
         date: '2015-12-15',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
         guests: [
           [
@@ -67,7 +67,7 @@
         title: 'Star Wars',
         displayDate: 'Tuesday, December 17th, 2015',
         date: '2015-12-17',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cthcfidro7bh8428hl8o5kt4128',
         guests: [
           [
@@ -80,7 +80,7 @@
         title: 'The Best Angular Productivity Tips',
         displayDate: 'Tuesday, December 22nd, 2015',
         date: '2015-12-22',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ciph3us71f9liggnc4n8skq1hg8',
         guests: [
           [
@@ -92,7 +92,7 @@
         title: 'What will happen to Angular in 2016?',
         displayDate: 'Tuesday, December 22nd, 2015',
         date: '2015-12-29',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c5a1derd87d7i5ithcubcm8q858',
         guests: [
           [
@@ -113,7 +113,7 @@
         title: 'How to become an open source contributor',
         displayDate: 'Tuesday, January 5th, 2016',
         date: '2016-01-05',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cn6og48n6l1s070im5b5qjac7ts',
         guests: [
           [
@@ -126,7 +126,7 @@
         title: 'Why empathy will make you a better developer',
         displayDate: 'Tuesday, January 12th, 2016',
         date: '2016-01-12',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/clffugstoslk8vjlh2qd5mjamrg',
         guests: [
           [
@@ -138,7 +138,7 @@
         title: 'What\'s new in RxJS 5.0?',
         displayDate: 'Tuesday, January 19th, 2016',
         date: '2016-01-19',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c2ic6t5id964kdo47dr0of5d3ag',
         guests: [
           [
@@ -150,7 +150,7 @@
         title: 'TypeScript Deep Dive',
         displayDate: 'Tuesday, January 26th, 2016',
         date: '2016-01-26',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cd8aehgp75b2bm9esirp5adrmp0',
         guests: [
           [
@@ -163,7 +163,7 @@
         title: 'Getting Past the Angular Learning Curve',
         displayDate: 'Tuesday, February 2nd, 2016',
         date: '2016-02-02',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/ce8315emtscbq7ef0bo99jg0kao',
         guests: [
           [
@@ -175,7 +175,7 @@
         title: 'The Internet of Things (and Angular)',
         displayDate: 'Tuesday, February 9th, 2016',
         date: '2016-02-09',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cvb7kq9cus27q0l5505kbedl63s',
         guests: [
           [
@@ -188,7 +188,7 @@
         title: 'Live from ng-nl',
         displayDate: 'Tuesday, February 18th, 2016',
         date: '2016-02-18',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/caht91psf3c53e7ngrakc6m78so',
         guests: [
           [
@@ -202,7 +202,7 @@
         title: 'Angular 2 + Meteor',
         displayDate: 'Tuesday, February 23rd, 2016',
         date: '2016-02-23',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cfjl7ehr4p9qd0fm90mh7b0aj74',
         guests: [
           [
@@ -214,7 +214,7 @@
         title: 'Angular 2 + NativeScript',
         displayDate: 'Tuesday, March 1st, 2016',
         date: '2016-03-01',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cgg9c8c4cikfj75p2irru4bor14',
         guests: [
           [
@@ -227,7 +227,7 @@
         title: 'Angular Universal',
         displayDate: 'Tuesday, March 8th, 2016',
         date: '2016-03-08',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
         guests: [
           [
@@ -810,7 +810,7 @@
         title: 'The Angular Community',
         displayDate: 'Tuesday, December 1st, 2015',
         date: '2015-12-01',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c',
         guests: [
           [
@@ -822,7 +822,7 @@
         title: 'Writing Angular 2 Libraries',
         displayDate: 'Tuesday, December 8th, 2015',
         date: '2015-12-08',
-        time: '11:00 PM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/c7m79d5o04nom5eednk5ecqtebk',
         guests: [
           [
