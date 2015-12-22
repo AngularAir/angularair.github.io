@@ -71,13 +71,7 @@
           [
             {name: 'Olivier Combe', twitter: 'ocombe'},
             {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
-            {name: 'Scott Moss', twitter: 'scotups'},
-            {name: 'Rob Wormald', twitter: 'robwormald'}
-          ],
-          [
-            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Gleb Bahmutov', twitter: 'bahmutov'},
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
           ]
         ]
