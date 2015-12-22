@@ -50,33 +50,6 @@
 
     vm.episodes = [
       {
-        title: 'The Angular Team',
-        displayDate: 'Tuesday, December 15th, 2015',
-        date: '2015-12-15',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
-        guests: [
-          [
-            {name: 'Bradly Green', twitter: 'bradlygreen'},
-            {name: 'Miško Hevery', twitter: 'mhevery'},
-            {name: 'Igor Minar', twitter: 'IgorMinar'}
-          ]
-        ]
-      },
-      {
-        title: 'Star Wars',
-        displayDate: 'Tuesday, December 17th, 2015',
-        date: '2015-12-17',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cthcfidro7bh8428hl8o5kt4128',
-        guests: [
-          [
-            {name: 'Kyle Newman', twitter: 'kyle_newman'},
-            {name: 'Randall Koutnik', twitter: 'rkoutnik'}
-          ]
-        ]
-      },
-      {
         title: 'The Best Angular Productivity Tips',
         displayDate: 'Tuesday, December 22nd, 2015',
         date: '2015-12-22',
@@ -828,6 +801,33 @@
           [
             {name: 'Dmitriy Shekhovtsov', twitter: 'valorkin'},
             {name: 'Nathan Walker', twitter: 'wwwalkerrun'}
+          ]
+        ]
+      },
+      {
+        title: 'The Angular Team',
+        displayDate: 'Tuesday, December 15th, 2015',
+        date: '2015-12-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc',
+        guests: [
+          [
+            {name: 'Bradly Green', twitter: 'bradlygreen'},
+            {name: 'Miško Hevery', twitter: 'mhevery'},
+            {name: 'Igor Minar', twitter: 'IgorMinar'}
+          ]
+        ]
+      },
+      {
+        title: 'Star Wars',
+        displayDate: 'Tuesday, December 17th, 2015',
+        date: '2015-12-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cthcfidro7bh8428hl8o5kt4128',
+        guests: [
+          [
+            {name: 'Kyle Newman', twitter: 'kyle_newman'},
+            {name: 'Randall Koutnik', twitter: 'rkoutnik'}
           ]
         ]
       }
