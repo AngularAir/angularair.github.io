@@ -50,33 +50,6 @@
 
     vm.episodes = [
       {
-        title: 'The Best Angular Productivity Tips',
-        displayDate: 'Tuesday, December 22nd, 2015',
-        date: '2015-12-22',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ciph3us71f9liggnc4n8skq1hg8',
-        guests: [
-          [
-            {name: 'Ari Lerner', twitter: 'auser'}
-          ]
-        ]
-      },
-      {
-        title: 'What will happen to Angular in 2016?',
-        displayDate: 'Tuesday, December 22nd, 2015',
-        date: '2015-12-29',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c5a1derd87d7i5ithcubcm8q858',
-        guests: [
-          [
-            {name: 'Olivier Combe', twitter: 'ocombe'},
-            {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
-          ]
-        ]
-      },
-      {
         title: 'How to become an open source contributor',
         displayDate: 'Tuesday, January 5th, 2016',
         date: '2016-01-05',
@@ -822,6 +795,33 @@
           [
             {name: 'Kyle Newman', twitter: 'kyle_newman'},
             {name: 'Randall Koutnik', twitter: 'rkoutnik'}
+          ]
+        ]
+      },
+      {
+        title: 'The Best Angular Productivity Tips',
+        displayDate: 'Tuesday, December 22nd, 2015',
+        date: '2015-12-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ciph3us71f9liggnc4n8skq1hg8',
+        guests: [
+          [
+            {name: 'Ari Lerner', twitter: 'auser'}
+          ]
+        ]
+      },
+      {
+        title: 'What will happen to Angular in 2016?',
+        displayDate: 'Tuesday, December 22nd, 2015',
+        date: '2015-12-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c5dcjhneao15dvc6hkbq0in9fo8?authkey=CMjs_8qK3qa4cQ',
+        guests: [
+          [
+            {name: 'Olivier Combe', twitter: 'ocombe'},
+            {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
           ]
         ]
       }
