@@ -50,19 +50,6 @@
 
     vm.episodes = [
       {
-        title: 'How to become an open source contributor',
-        displayDate: 'Tuesday, January 5th, 2016',
-        date: '2016-01-05',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cn6og48n6l1s070im5b5qjac7ts',
-        guests: [
-          [
-            {name: 'Wesley Cho', twitter: 'BahamutWC'},
-            {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
-          ]
-        ]
-      },
-      {
         title: 'Why empathy will make you a better developer',
         displayDate: 'Tuesday, January 12th, 2016',
         date: '2016-01-12',
@@ -822,6 +809,19 @@
             {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'}
+          ]
+        ]
+      },
+      {
+        title: 'How to become an open source contributor',
+        displayDate: 'Tuesday, January 5th, 2016',
+        date: '2016-01-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cn6og48n6l1s070im5b5qjac7ts',
+        guests: [
+          [
+            {name: 'Wesley Cho', twitter: 'BahamutWC'},
+            {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
           ]
         ]
       }
