@@ -39,28 +39,17 @@
         {name: 'Olivier Combe', twitter: 'ocombe'},
         {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
         {name: 'Scott Moss', twitter: 'scotups'},
-        {name: 'Rob Wormald', twitter: 'robwormald'}
+        {name: 'Ari Lerner', twitter: 'auser'}
       ],
       [
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
         {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-        {name: 'Gleb Bahmutov', twitter: 'bahmutov'}
+        {name: 'Gleb Bahmutov', twitter: 'bahmutov'},
+        {name: 'Todd Motto', twitter: 'toddmotto'}
       ]
     ];
 
     vm.episodes = [
-      {
-        title: 'Why empathy will make you a better developer',
-        displayDate: 'Tuesday, January 12th, 2016',
-        date: '2016-01-12',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/clffugstoslk8vjlh2qd5mjamrg',
-        guests: [
-          [
-            {name: 'Joe Eames', twitter: 'josepheames'}
-          ]
-        ]
-      },
       {
         title: 'What\'s new in RxJS 5.0?',
         displayDate: 'Tuesday, January 19th, 2016',
@@ -822,6 +811,18 @@
           [
             {name: 'Wesley Cho', twitter: 'BahamutWC'},
             {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
+          ]
+        ]
+      },
+      {
+        title: 'Why empathy will make you a better developer',
+        displayDate: 'Tuesday, January 12th, 2016',
+        date: '2016-01-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/clffugstoslk8vjlh2qd5mjamrg',
+        guests: [
+          [
+            {name: 'Joe Eames', twitter: 'josepheames'}
           ]
         ]
       }
