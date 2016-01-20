@@ -51,18 +51,6 @@
 
     vm.episodes = [
       {
-        title: 'What\'s new in RxJS 5.0?',
-        displayDate: 'Tuesday, January 19th, 2016',
-        date: '2016-01-19',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c2ic6t5id964kdo47dr0of5d3ag',
-        guests: [
-          [
-            {name: 'Ben Lesh', twitter: 'benlesh'}
-          ]
-        ]
-      },
-      {
         title: 'TypeScript Deep Dive',
         displayDate: 'Tuesday, January 26th, 2016',
         date: '2016-01-26',
@@ -823,6 +811,18 @@
         guests: [
           [
             {name: 'Joe Eames', twitter: 'josepheames'}
+          ]
+        ]
+      },
+      {
+        title: 'What\'s new in RxJS 5.0?',
+        displayDate: 'Tuesday, January 19th, 2016',
+        date: '2016-01-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/c2ic6t5id964kdo47dr0of5d3ag',
+        guests: [
+          [
+            {name: 'Ben Lesh', twitter: 'benlesh'}
           ]
         ]
       }
