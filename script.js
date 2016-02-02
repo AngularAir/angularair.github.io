@@ -51,19 +51,6 @@
 
     vm.episodes = [
       {
-        title: 'TypeScript Deep Dive',
-        displayDate: 'Tuesday, January 26th, 2016',
-        date: '2016-01-26',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cd8aehgp75b2bm9esirp5adrmp0',
-        guests: [
-          [
-            {name: 'Alex Eagle', twitter: 'jakeherringbone'},
-            {name: 'Blake Embrey', twitter: 'blakeembrey'}
-          ]
-        ]
-      },
-      {
         title: 'Getting Past the Angular Learning Curve',
         displayDate: 'Tuesday, February 2nd, 2016',
         date: '2016-02-02',
@@ -90,7 +77,7 @@
       },
       {
         title: 'Live from ng-nl',
-        displayDate: 'Tuesday, February 18th, 2016',
+        displayDate: 'Thursday, February 18th, 2016',
         date: '2016-02-18',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/caht91psf3c53e7ngrakc6m78so',
@@ -823,6 +810,19 @@
         guests: [
           [
             {name: 'Ben Lesh', twitter: 'benlesh'}
+          ]
+        ]
+      },
+      {
+        title: 'TypeScript Deep Dive',
+        displayDate: 'Tuesday, January 26th, 2016',
+        date: '2016-01-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cd8aehgp75b2bm9esirp5adrmp0',
+        guests: [
+          [
+            {name: 'Alex Eagle', twitter: 'jakeherringbone'},
+            {name: 'Blake Embrey', twitter: 'blakeembrey'}
           ]
         ]
       }
