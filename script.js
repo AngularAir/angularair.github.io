@@ -51,18 +51,6 @@
 
     vm.episodes = [
       {
-        title: 'Getting Past the Angular Learning Curve',
-        displayDate: 'Tuesday, February 2nd, 2016',
-        date: '2016-02-02',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/ce8315emtscbq7ef0bo99jg0kao',
-        guests: [
-          [
-            {name: 'Pascal Precht', twitter: 'pascalprecht'}
-          ]
-        ]
-      },
-      {
         title: 'The Internet of Things (and Angular)',
         displayDate: 'Tuesday, February 9th, 2016',
         date: '2016-02-09',
@@ -72,6 +60,18 @@
           [
             {name: 'Zach Dunn', twitter: 'zachdunn'},
             {name: 'Atticus White', twitter: 'atticoos'}
+          ]
+        ]
+      },
+      {
+        title: 'TBD',
+        displayDate: 'Thursday, February 11th, 2016',
+        date: '2016-02-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cf3aue086abasnlah35lgr373fs',
+        guests: [
+          [
+            {name: 'Victor Savkin', twitter: 'victorsavkin'}
           ]
         ]
       },
@@ -823,6 +823,18 @@
           [
             {name: 'Alex Eagle', twitter: 'jakeherringbone'},
             {name: 'Blake Embrey', twitter: 'blakeembrey'}
+          ]
+        ]
+      },
+      {
+        title: 'Getting Past the Angular Learning Curve',
+        displayDate: 'Tuesday, February 2nd, 2016',
+        date: '2016-02-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/ce8315emtscbq7ef0bo99jg0kao',
+        guests: [
+          [
+            {name: 'Pascal Precht', twitter: 'pascalprecht'}
           ]
         ]
       }
