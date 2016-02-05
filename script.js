@@ -64,7 +64,7 @@
         ]
       },
       {
-        title: 'Angular Reactive Redux (ARR)',
+        title: 'Angular 2 Reactive Redux (ARR)',
         displayDate: 'Thursday, February 11th, 2016',
         date: '2016-02-11',
         time: '11:00 AM (Pacific Time)',
