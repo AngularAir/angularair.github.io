@@ -71,7 +71,9 @@
         hangoutUrl: 'https://plus.google.com/events/cf3aue086abasnlah35lgr373fs',
         guests: [
           [
-            {name: 'Victor Savkin', twitter: 'victorsavkin'}
+            {name: 'Victor Savkin', twitter: 'victorsavkin'},
+            {name: 'Dan Abramov', twitter: 'dan_abramov'},
+            {name: 'Rob Wormald', twitter: 'robwormald'}
           ]
         ]
       },
