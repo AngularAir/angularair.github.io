@@ -51,19 +51,6 @@
 
     vm.episodes = [
       {
-        title: 'The Internet of Things (and Angular)',
-        displayDate: 'Tuesday, February 9th, 2016',
-        date: '2016-02-09',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cvb7kq9cus27q0l5505kbedl63s',
-        guests: [
-          [
-            {name: 'Zach Dunn', twitter: 'zachdunn'},
-            {name: 'Atticus White', twitter: 'atticoos'}
-          ]
-        ]
-      },
-      {
         title: 'Angular 2 Reactive Redux (ARR)',
         displayDate: 'Thursday, February 11th, 2016',
         date: '2016-02-11',
@@ -837,6 +824,19 @@
         guests: [
           [
             {name: 'Pascal Precht', twitter: 'pascalprecht'}
+          ]
+        ]
+      },
+      {
+        title: 'The Internet of Things (and Angular)',
+        displayDate: 'Tuesday, February 9th, 2016',
+        date: '2016-02-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cvb7kq9cus27q0l5505kbedl63s',
+        guests: [
+          [
+            {name: 'Zach Dunn', twitter: 'zachdunn'},
+            {name: 'Atticus White', twitter: 'atticoos'}
           ]
         ]
       }
