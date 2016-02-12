@@ -37,33 +37,17 @@
     vm.panelists = [
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
-        {name: 'Aimee Knight', twitter: 'Aimee_Knight'},
-        {name: 'Scott Moss', twitter: 'scotups'},
+        {name: 'Patrick Stapleton', twitter: 'gdi2290'},
         {name: 'Ari Lerner', twitter: 'auser'}
       ],
       [
         {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
-        {name: 'Patrick Stapleton', twitter: 'gdi2290'},
         {name: 'Gleb Bahmutov', twitter: 'bahmutov'},
         {name: 'Todd Motto', twitter: 'toddmotto'}
       ]
     ];
 
     vm.episodes = [
-      {
-        title: 'Angular 2 Reactive Redux (ARR)',
-        displayDate: 'Thursday, February 11th, 2016',
-        date: '2016-02-11',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cf3aue086abasnlah35lgr373fs',
-        guests: [
-          [
-            {name: 'Victor Savkin', twitter: 'victorsavkin'},
-            {name: 'Dan Abramov', twitter: 'dan_abramov'},
-            {name: 'Rob Wormald', twitter: 'robwormald'}
-          ]
-        ]
-      },
       {
         title: 'Live from ng-nl',
         displayDate: 'Thursday, February 18th, 2016',
@@ -837,6 +821,19 @@
           [
             {name: 'Zach Dunn', twitter: 'zachdunn'},
             {name: 'Atticus White', twitter: 'atticoos'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular 2 Reactive Redux (ARR)',
+        displayDate: 'Thursday, February 11th, 2016',
+        date: '2016-02-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cf3aue086abasnlah35lgr373fs',
+        guests: [
+          [
+            {name: 'Victor Savkin', twitter: 'victorsavkin'},
+            {name: 'Dan Abramov', twitter: 'dan_abramov'}
           ]
         ]
       }
