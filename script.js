@@ -110,7 +110,7 @@
         hangoutUrl: 'https://plus.google.com/events/cic3ubebr8v6lvquvsr86m0jl6s',
         guests: [
           [
-            {name: 'Julie Ralph', twitter: 'marclaval'}
+            {name: 'Julie Ralph', twitter: 'somejulie'}
           ]
         ]
       },
