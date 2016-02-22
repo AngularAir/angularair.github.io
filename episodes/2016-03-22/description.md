@@ -1,0 +1,1 @@
+Julie is a testing guru at Google and she has been the mastermind behind Protractor and other testing tools for many years now. She joins us to explain how these tools have change over time and what is different with Angular 2 and the next generation of JavaScript technologies.

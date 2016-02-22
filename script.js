@@ -49,21 +49,7 @@
 
     vm.episodes = [
       {
-        title: 'Live from ng-nl',
-        displayDate: 'Thursday, February 18th, 2016',
-        date: '2016-02-18',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/caht91psf3c53e7ngrakc6m78so',
-        guests: [
-          [
-            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Olivier Combe', twitter: 'ocombe'}
-          ]
-        ]
-      },
-      {
-        title: 'Angular 2 + Meteor',
+        title: 'Full-stack Reactive Programming using Angular 2 + Meteor',
         displayDate: 'Tuesday, February 23rd, 2016',
         date: '2016-02-23',
         time: '11:00 AM (Pacific Time)',
@@ -75,7 +61,7 @@
         ]
       },
       {
-        title: 'Angular 2 + NativeScript',
+        title: 'Is NativeScript the holy grail for mobile development?',
         displayDate: 'Tuesday, March 1st, 2016',
         date: '2016-03-01',
         time: '11:00 AM (Pacific Time)',
@@ -88,9 +74,50 @@
         ]
       },
       {
-        title: 'Angular Universal',
+        title: 'Why Ionic 2 is going to rock your world',
         displayDate: 'Tuesday, March 8th, 2016',
         date: '2016-03-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cpivehd4oeo985fq087pm2fscls',
+        guests: [
+          [
+            {name: 'Adam Bradley', twitter: 'adamdbradley'},
+            {name: 'Mike Hartington', twitter: 'mhartington'}
+          ],
+          [
+            {name: 'Max Lynch', twitter: 'maxlynch'},
+            {name: 'Ben Sperry', twitter: 'benjsperry'}
+          ]
+        ]
+      },
+      {
+        title: 'Using React Native with Angular 2',
+        displayDate: 'Tuesday, March 15th, 2016',
+        date: '2016-03-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c51038h7v51bqdmghv0vjj0su5c',
+        guests: [
+          [
+            {name: 'Marc Laval', twitter: 'marclaval'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular 2 testing using Protractor, Karma and more',
+        displayDate: 'Tuesday, March 22nd, 2016',
+        date: '2016-03-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cic3ubebr8v6lvquvsr86m0jl6s',
+        guests: [
+          [
+            {name: 'Julie Ralph', twitter: 'marclaval'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Universal',
+        displayDate: 'Tuesday, March 29th, 2016',
+        date: '2016-03-29',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
         guests: [
@@ -834,6 +861,20 @@
           [
             {name: 'Victor Savkin', twitter: 'victorsavkin'},
             {name: 'Dan Abramov', twitter: 'dan_abramov'}
+          ]
+        ]
+      },
+      {
+        title: 'Live from ng-nl',
+        displayDate: 'Thursday, February 18th, 2016',
+        date: '2016-02-18',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/caht91psf3c53e7ngrakc6m78so',
+        guests: [
+          [
+            {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Olivier Combe', twitter: 'ocombe'}
           ]
         ]
       }
