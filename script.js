@@ -115,11 +115,11 @@
         ]
       },
       {
-        title: 'Angular Universal',
+        title: 'Angular Universal in Production',
         displayDate: 'Tuesday, March 29th, 2016',
         date: '2016-03-29',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
+        hangoutUrl: 'https://plus.google.com/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
         guests: [
           [
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
