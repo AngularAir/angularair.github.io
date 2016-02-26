@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Full-stack Reactive Programming using Angular 2 + Meteor',
-        displayDate: 'Tuesday, February 23rd, 2016',
-        date: '2016-02-23',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cfjl7ehr4p9qd0fm90mh7b0aj74',
-        guests: [
-          [
-            {name: 'Uri Goldshtein', twitter: 'UriGoldshtein'}
-          ]
-        ]
-      },
-      {
         title: 'Is NativeScript the holy grail for mobile development?',
         displayDate: 'Tuesday, March 1st, 2016',
         date: '2016-03-01',
@@ -987,6 +975,18 @@
             {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Olivier Combe', twitter: 'ocombe'}
+          ]
+        ]
+      },
+      {
+        title: 'Full-stack Reactive Programming using Angular 2 + Meteor',
+        displayDate: 'Tuesday, February 23rd, 2016',
+        date: '2016-02-23',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cfjl7ehr4p9qd0fm90mh7b0aj74',
+        guests: [
+          [
+            {name: 'Uri Goldshtein', twitter: 'UriGoldshtein'}
           ]
         ]
       }
