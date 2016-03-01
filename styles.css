@@ -315,3 +315,14 @@ h2 {
 .no-decorate:hover {
   text-decoration: none;
 }
+
+.sponsor-image {
+  width: 200px;
+  margin: 40px auto 0;
+  display: block;
+}
+
+.sponsor-text {
+  font-size: 18px;
+  text-align: center;
+}
