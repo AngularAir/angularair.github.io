@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>Angular Air</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css" />
+  <style>.ng-cloak{display:none}</style>
+</head>
+<body ng-app="ngAir" ng-controller="MainCtrl as vm">
+<a style="display:none" aria-hidden href="https://plus.google.com/104335210120652090229" rel="publisher">Google+</a>
+<div ng-if="::false" class="center" style="margin-top:80px;margin-bottom:80px;">
+  <h1>Loading Angular Air...</h1>
+</div>
+<div id="content" class="ng-cloak">
+  <div id="logo" class="center">
+    <img src="logo.png"/>
+  </div>
+
+  <section id="title" class="center">
+    <h1>Angular Air</h1>
+
+    <h2>
+      A <strong>live</strong> video podcast all about Angular
+    </h2>
+    <p>
+      Brought to you by
+      <a href="http://angularclass.com">AngularClass</a>, <a href="https://auth0.com">Auth0</a> and <a href="#sponsors">others</a>
+    </p>
+  </section>
+
+  <hr />
+
+  <section id="podcast-links" class="center">
+    <subscribe-icon icon="apple" network="iTunes" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2"></subscribe-icon>
+    <subscribe-icon icon="youtube" network="YouTube" link="https://www.youtube.com/c/AngularAirPodcast"></subscribe-icon>
+    <subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></subscribe-icon>
+  </section>
+
+  <hr/>
+
+
+  <section id="episodes">
+    <h2>Upcoming Episodes</h2>
+
+    <div ng-repeat="episode in vm.episodes" class="episode">
+      <div class="main-episode-content">
+        <h3 class="episode__title">
+          <a ng-href="{{::episode.hangoutUrl}}">{{::episode.title}}</a>
+          <br/>
+          <small>
+            {{::episode.displayDate}}
+            <span ng-if="::episode.time">
+              {{::episode.time}}
+            </span>
+            <small ng-if="::!episode.time">
+              (Time TBA)
+            </small>
+          </small>
+        </h3>
+        <div class="hangouts-url">
+          <span ng-if="::episode.hangoutUrl">
+            <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
+          </span>
+          <span ng-if="::!episode.hangoutUrl">
+            Stay tuned for a hangouts link!
+          </span>
+        </div>
+        <person-group groups="episode.guests"></person-group>
+      </div>
+      <div class="episode__description justify" ng-bind-html="::episode.description"></div>
+      <div class="episode__sponsors" ng-if="::episode.sponsors.length">
+        <h4>Episode Sponsor{{episode.sponsors.length > 1 ? 's' : ''}}</h4>
+        <person-group groups="episode.sponsors"></person-group>
+        <div class="episode__description justify" ng-bind-html="::episode.sponsorship"></div>
+      </div>
+      <hr ng-if="!$last"/>
+    </div>
+  </section>
+
+  <hr/>
+
+  <section id="sponsors">
+
+    <h2>Sponsors</h2>
+
+    <h3>Premier Sponsor</h3>
+
+    <a href="http://angularclass.com" title="Onsite Angular Training (US)">
+      <img
+              style="width: 200px;margin: 40px auto 0;display: block;"
+              src="https://cloud.githubusercontent.com/assets/1016365/9863770/cb0620fc-5af7-11e5-89df-d4b0b2cdfc43.png"
+              alt="Onsite Angular Training (US)">
+      <p style="font-size: 18px;text-align:center">
+        AngularClass<br/>
+        Onsite Angular Training (US)
+      </p>
+    </a>
+
+    <h3>Platinium Sponsor</h3>
+
+    <a href="https://auth0.com" title="Single Sign On and Token Based Auth0">
+      <img
+              style="width: 200px;margin: 40px auto 0;display: block;"
+              src="https://styleguide.auth0.com/lib/logos/img/logo-blue.png"
+              alt="Single Sign On and Token Based Auth0">
+      <p style="font-size: 18px;text-align:center">
+        Auth0<br/>
+        Single Sign On & Token Based Authentication
+      </p>
+    </a>
+
+    <h3>Gold Sponsor</h3>
+
+    <a href="http://thoughtram.io" title="Onsite Angular Training (Europe)">
+      <img
+              style="width: 200px;margin: 40px auto 0;display: block;"
+              src="http://thoughtram.io/images/thoughtram-brain-with-logo-line-blue.png"
+              alt="Onsite Angular Training (Europe)">
+      <p style="font-size: 18px;text-align:center">
+        Thoughtram<br/>
+        Onsite Angular Training (Europe)
+      </p>
+    </a>
+
+  </section>
+
+  <hr/>
+
+  <section id="past-episodes" class="episode">
+    <h2>Past Episodes</h2>
+    <ul>
+      <li ng-repeat="episode in ::vm.pastEpisodes">
+        <a ng-href="{{::episode.hangoutUrl}}">{{::'Episode ' + $index + ': ' + episode.title}}</a>
+        <small ng-if="::episode.sponsors">
+          Sponsored by:
+          <span ng-repeat="group in ::episode.sponsors">
+            <span ng-repeat="sponsor in ::group">
+              {{::!$first && $last ? ' and ' : ''}}<a ng-href="{{::sponsor.website}}">{{::sponsor.name}}</a>{{::!$last ? ',' : ''}}
+            </span>
+          </span>
+        </small>
+      </li>
+    </ul>
+  </section>
+
+  <hr/>
+
+
+
+  <section class="clearfix">
+    <h2>Host</h2>
+    <person-group groups="vm.hosts"></person-group>
+    <div class="center">
+      AngularAir is hosted by
+      <a href="https://twitter.com/jeffwhelpley">Jeff Whelpley</a>
+    </div>
+  </section>
+
+  <hr/>
+
+  <section id="panelists">
+    <h2>Panelists</h2>
+    <person-group groups="vm.panelists"></person-group>
+    <div class="center">
+      AngularAir has a panel of some of the most awesome Angular developers the community has to offer
+    </div>
+  </section>
+
+  <hr/>
+
+  <section class="center">
+    <h2>Video Podcast</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF75bDBd1tIdwQq6TNd-wNx0AcB8JPeDK" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <hr/>
+
+  <section class="center">
+    <h2>Audio Podcast</h2>
+    <iframe id="multi_iframe" frameborder="0" scrolling="no" allowfullscreen="" src="https://www.podbean.com/media/player/multi?playlist=https%3A%2F%2Fplaylist.podbean.com%2F716841%2Fplaylist_multi.xml&width=420&height=315&download=0&share=1&fonts=Helvetica&auto=0&connection=https&skin=9" width="420" height="315"></iframe>
+  </section>
+
+  <hr/>
+
+  <section class="center">
+    <link-icon icon="twitter" link="https://twitter.com/angularair" title="Angular Air on Twitter"></link-icon>
+    <link-icon icon="google-plus" link="https://plus.google.com/u/0/+AngularAirPodcast/posts" title="Angular Air on Google+"></link-icon>
+  </section>
+
+</div>
+
+
+<script type="text/ng-template" id="person-group-template.html">
+  <div ng-repeat="group in vm.groups" class="group clearfix group-{{group.length}}">
+    <div ng-repeat="person in group" class="person" person="person"></div>
+  </div>
+</script>
+
+<script type="text/ng-template" id="person-template.html">
+  <a ng-href="https://twitter.com/{{::vm.person.twitter}}">
+    <img ng-src="{{::vm.person.avatar}}"
+         ng-class="::{'no-circle': vm.person.noCircle}"
+         alt="{{::vm.person.name}} Profile Picture"/>
+    <span class="person__name">
+      <span class="person__name__name">{{::vm.person.name}}</span>
+      <small class="person__name__twitter">@{{::vm.person.twitter}}</small>
+    </span>
+  </a>
+</script>
+
+<script src="markdown.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-sanitize.min.js"></script>
+
+<script src="script.js"></script>
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-56527541-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
