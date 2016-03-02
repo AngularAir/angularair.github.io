@@ -49,19 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Is NativeScript the holy grail for mobile development?',
-        displayDate: 'Tuesday, March 1st, 2016',
-        date: '2016-03-01',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cgg9c8c4cikfj75p2irru4bor14',
-        guests: [
-          [
-            {name: 'TJ VanToll', twitter: 'tjvantoll'},
-            {name: 'Jen Looper', twitter: 'jenlooper'}
-          ]
-        ]
-      },
-      {
         title: 'Why Ionic 2 is going to rock your world',
         displayDate: 'Tuesday, March 8th, 2016',
         date: '2016-03-08',
@@ -987,6 +974,19 @@
         guests: [
           [
             {name: 'Uri Goldshtein', twitter: 'UriGoldshtein'}
+          ]
+        ]
+      },
+      {
+        title: 'Is NativeScript the holy grail for mobile development?',
+        displayDate: 'Tuesday, March 1st, 2016',
+        date: '2016-03-01',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/1/b/104335210120652090229/events/cgg9c8c4cikfj75p2irru4bor14',
+        guests: [
+          [
+            {name: 'TJ VanToll', twitter: 'tjvantoll'},
+            {name: 'Jen Looper', twitter: 'jenlooper'}
           ]
         ]
       }
