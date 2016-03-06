@@ -67,8 +67,8 @@
       },
       {
         title: 'Using React Native with Angular 2',
-        displayDate: 'Tuesday, March 15th, 2016',
-        date: '2016-03-15',
+        displayDate: 'Monday, March 14th, 2016',
+        date: '2016-03-14',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/c51038h7v51bqdmghv0vjj0su5c',
         guests: [
@@ -714,7 +714,7 @@
       },
       {
         title: 'Live at Angular Connect',
-        displayDate: 'Tuesday, July 28th, 2015',
+        displayDate: 'Tuesday, October 20th, 2015',
         date: '2015-10-20',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/c7e4ce3lp23ogqd7g37u77p4bo0',
@@ -850,7 +850,7 @@
       },
       {
         title: 'What will happen to Angular in 2016?',
-        displayDate: 'Tuesday, December 22nd, 2015',
+        displayDate: 'Tuesday, December 28nd, 2015',
         date: '2015-12-29',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/c5dcjhneao15dvc6hkbq0in9fo8?authkey=CMjs_8qK3qa4cQ',
