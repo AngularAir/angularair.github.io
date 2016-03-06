@@ -10,230 +10,821 @@
   <link rel="stylesheet" href="styles.css" />
   <style>.ng-cloak{display:none}</style>
 </head>
-<body ng-app="ngAir" ng-controller="MainCtrl as vm">
-<a style="display:none" aria-hidden href="https://plus.google.com/104335210120652090229" rel="publisher">Google+</a>
-<div ng-if="::false" class="center" style="margin-top:80px;margin-bottom:80px;">
-  <h1>Loading Angular Air...</h1>
-</div>
-<div id="content" class="ng-cloak">
-  <div id="logo" class="center">
-    <img src="logo.png"/>
-  </div>
+<body>
 
-  <section id="title" class="center">
-    <h1>Angular Air</h1>
+  <app>
+  <ng-air>
+    <div class="center" id="logo">
+      <img src="logo.png"></img>
+    </div>
 
-    <h2>
-      A <strong>live</strong> video podcast all about Angular
-    </h2>
-    <p>
-      Brought to you by
-      <a href="http://angularclass.com">AngularClass</a>, <a href="https://auth0.com">Auth0</a> and <a href="#sponsors">others</a>
-    </p>
-  </section>
+    <section class="center" id="title">
+      <h1>Angular Air</h1>
 
-  <hr />
+      <h2>
+        A <strong>live</strong> video podcast all about Angular
+      </h2>
+      <p>
+        Brought to you by
+        <a href="http://angularclass.com">AngularClass</a>, <a href="https://auth0.com">Auth0</a> and <a href="#sponsors">others</a>
+      </p>
+    </section>
 
-  <section id="podcast-links" class="center">
-    <subscribe-icon icon="apple" network="iTunes" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2"></subscribe-icon>
-    <subscribe-icon icon="youtube" network="YouTube" link="https://www.youtube.com/c/AngularAirPodcast"></subscribe-icon>
-    <subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></subscribe-icon>
-  </section>
+    <hr>
 
-  <hr/>
+    <section class="center" id="podcast-links">
+      <subscribe-icon icon="apple" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2" network="iTunes"></subscribe-icon>
+      <subscribe-icon icon="youtube" link="https://www.youtube.com/c/AngularAirPodcast" network="YouTube"></subscribe-icon>
+      <subscribe-icon icon="rss" link="http://angularair.podbean.com/feed/" network="RSS"></subscribe-icon>
+    </section>
+
+    <hr>
 
 
-  <section id="episodes">
-    <h2>Upcoming Episodes</h2>
+    <section id="episodes">
+      <h2>Upcoming Episodes</h2>
 
-    <div ng-repeat="episode in vm.episodes" class="episode">
-      <div class="main-episode-content">
-        <h3 class="episode__title">
-          <a ng-href="{{::episode.hangoutUrl}}">{{::episode.title}}</a>
-          <br/>
-          <small>
-            {{::episode.displayDate}}
-            <span ng-if="::episode.time">
-              {{::episode.time}}
-            </span>
-            <small ng-if="::!episode.time">
-              (Time TBA)
+      <!--template bindings={}--><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/u/1/b/104335210120652090229/events/cgg9c8c4cikfj75p2irru4bor14">
+              Is NativeScript the holy grail for mobile development?
+            </a>
+            <br>
+            <small>
+              Tuesday, March 1st, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
             </small>
-          </small>
-        </h3>
-        <div class="hangouts-url">
-          <span ng-if="::episode.hangoutUrl">
-            <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
-          </span>
-          <span ng-if="::!episode.hangoutUrl">
-            Stay tuned for a hangouts link!
-          </span>
-        </div>
-        <person-group groups="episode.guests"></person-group>
-      </div>
-      <div class="episode__description justify" ng-bind-html="::episode.description"></div>
-      <div class="episode__sponsors" ng-if="::episode.sponsors.length">
-        <h4>Episode Sponsor{{episode.sponsors.length > 1 ? 's' : ''}}</h4>
-        <person-group groups="episode.sponsors"></person-group>
-        <div class="episode__description justify" ng-bind-html="::episode.sponsorship"></div>
-      </div>
-      <hr ng-if="!$last"/>
-    </div>
-  </section>
-
-  <hr/>
-
-  <section id="sponsors">
-
-    <h2>Sponsors</h2>
-
-    <h3>Premier Sponsor</h3>
-
-    <a href="http://angularclass.com" title="Onsite Angular Training (US)">
-      <img
-              style="width: 200px;margin: 40px auto 0;display: block;"
-              src="https://cloud.githubusercontent.com/assets/1016365/9863770/cb0620fc-5af7-11e5-89df-d4b0b2cdfc43.png"
-              alt="Onsite Angular Training (US)">
-      <p style="font-size: 18px;text-align:center">
-        AngularClass<br/>
-        Onsite Angular Training (US)
-      </p>
-    </a>
-
-    <h3>Platinium Sponsor</h3>
-
-    <a href="https://auth0.com" title="Single Sign On and Token Based Auth0">
-      <img
-              style="width: 200px;margin: 40px auto 0;display: block;"
-              src="https://styleguide.auth0.com/lib/logos/img/logo-blue.png"
-              alt="Single Sign On and Token Based Auth0">
-      <p style="font-size: 18px;text-align:center">
-        Auth0<br/>
-        Single Sign On & Token Based Authentication
-      </p>
-    </a>
-
-    <h3>Gold Sponsor</h3>
-
-    <a href="http://thoughtram.io" title="Onsite Angular Training (Europe)">
-      <img
-              style="width: 200px;margin: 40px auto 0;display: block;"
-              src="http://thoughtram.io/images/thoughtram-brain-with-logo-line-blue.png"
-              alt="Onsite Angular Training (Europe)">
-      <p style="font-size: 18px;text-align:center">
-        Thoughtram<br/>
-        Onsite Angular Training (Europe)
-      </p>
-    </a>
-
-  </section>
-
-  <hr/>
-
-  <section id="past-episodes" class="episode">
-    <h2>Past Episodes</h2>
-    <ul>
-      <li ng-repeat="episode in ::vm.pastEpisodes">
-        <a ng-href="{{::episode.hangoutUrl}}">{{::'Episode ' + $index + ': ' + episode.title}}</a>
-        <small ng-if="::episode.sponsors">
-          Sponsored by:
-          <span ng-repeat="group in ::episode.sponsors">
-            <span ng-repeat="sponsor in ::group">
-              {{::!$first && $last ? ' and ' : ''}}<a ng-href="{{::sponsor.website}}">{{::sponsor.name}}</a>{{::!$last ? ',' : ''}}
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/u/1/b/104335210120652090229/events/cgg9c8c4cikfj75p2irru4bor14">
+                Sign up here
+              </a>
+              to watch live!
             </span>
-          </span>
-        </small>
-      </li>
-    </ul>
-  </section>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
 
-  <hr/>
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/cpivehd4oeo985fq087pm2fscls">
+              Why Ionic 2 is going to rock your world
+            </a>
+            <br>
+            <small>
+              Tuesday, March 8th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/cpivehd4oeo985fq087pm2fscls">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/c51038h7v51bqdmghv0vjj0su5c">
+              Using React Native with Angular 2
+            </a>
+            <br>
+            <small>
+              Tuesday, March 15th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/c51038h7v51bqdmghv0vjj0su5c">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/cic3ubebr8v6lvquvsr86m0jl6s">
+              Angular 2 testing using Protractor, Karma and more
+            </a>
+            <br>
+            <small>
+              Tuesday, March 22nd, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/cic3ubebr8v6lvquvsr86m0jl6s">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/cnqeh2ttgv3kd3b65rqp2sepnjk">
+              Angular Universal in Production
+            </a>
+            <br>
+            <small>
+              Tuesday, March 29th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/cnqeh2ttgv3kd3b65rqp2sepnjk">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/u/2/b/104335210120652090229/events/cqb570mn1mksjdvelr8nas0spc8">
+              ASP.NET and Angular 2 - A Match Made in Heaven
+            </a>
+            <br>
+            <small>
+              Tuesday, April 5th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/u/2/b/104335210120652090229/events/cqb570mn1mksjdvelr8nas0spc8">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/c60npm49ibhlmhm47tklk4vfi1k">
+              Using Web Workers for High Performance Angular 2 Web Apps
+            </a>
+            <br>
+            <small>
+              Tuesday, April 12th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/c60npm49ibhlmhm47tklk4vfi1k">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/ckrfbveshgvprali49c27mrt7j0">
+              How Service Workers will change the way you think about web apps
+            </a>
+            <br>
+            <small>
+              Tuesday, April 19th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/ckrfbveshgvprali49c27mrt7j0">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/ct2hvohrj1lk87rqfpgm2ehhoh0">
+              Getting ready for the biggest event of the year
+            </a>
+            <br>
+            <small>
+              Tuesday, April 26th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/ct2hvohrj1lk87rqfpgm2ehhoh0">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/crlijodqg6odseh2uf803epmphg">
+              Live from ng-conf
+            </a>
+            <br>
+            <small>
+              Wednesday, May 4th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/crlijodqg6odseh2uf803epmphg">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/crlijodqg6odseh2uf803epmphg">
+              ng-conf recap show
+            </a>
+            <br>
+            <small>
+              Wednesday, May 10th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/crlijodqg6odseh2uf803epmphg">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/ct57q5p9m7v2ier3m1n89ip7jm8">
+              How should I migrate my Angular 1 app?
+            </a>
+            <br>
+            <small>
+              Wednesday, May 17th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/ct57q5p9m7v2ier3m1n89ip7jm8">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/cj5fm6ehi8bcota1dul7evnkh1k">
+              OSS round II
+            </a>
+            <br>
+            <small>
+              Wednesday, May 24th, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/cj5fm6ehi8bcota1dul7evnkh1k">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div><div class="episode">
+        <div class="main-episode-content">
+          <h3 class="episode__title">
+            <a href="https://plus.google.com/events/cjbbedm2m6kvm1p0natjbm30q00">
+              The awesome power of GraphQL
+            </a>
+            <br>
+            <small>
+              Wednesday, May 31st, 2016
+              <!--template bindings={}--><span>
+                11:00 AM (Pacific Time)
+              </span>
+              <!--template bindings={}-->
+            </small>
+          </h3>
+          <div class="hangouts-url">
+            <!--template bindings={}--><span>
+              <a href="https://plus.google.com/events/cjbbedm2m6kvm1p0natjbm30q00">
+                Sign up here
+              </a>
+              to watch live!
+            </span>
+            <!--template bindings={}-->
+          </div>
+          <person-group>
+  <!--template bindings={}-->
+  </person-group>
+        </div>
+
+        <!--template bindings={}-->
+
+        <!--template bindings={}-->
+        <hr ng-if="!$last">
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="sponsors">
+
+      <h2>Sponsors</h2>
+
+      <h3>Premier Sponsor</h3>
+
+      <a href="http://angularclass.com" title="Onsite Angular Training (US)">
+        <img alt="Onsite Angular Training (US)" src="https://cloud.githubusercontent.com/assets/1016365/9863770/cb0620fc-5af7-11e5-89df-d4b0b2cdfc43.png" style="width: 200px;margin: 40px auto 0;display: block;"></img>
+        <p style="font-size: 18px;text-align:center">
+          AngularClass<br>
+          Onsite Angular Training (US)
+        </p>
+      </a>
+
+      <h3>Platinium Sponsor</h3>
+
+      <a href="https://auth0.com" title="Single Sign On and Token Based Auth0">
+        <img alt="Single Sign On and Token Based Auth0" src="https://styleguide.auth0.com/lib/logos/img/logo-blue.png" style="width: 200px;margin: 40px auto 0;display: block;"></img>
+        <p style="font-size: 18px;text-align:center">
+          Auth0<br>
+          Single Sign On & Token Based Authentication
+        </p>
+      </a>
+
+      <h3>Gold Sponsor</h3>
+
+      <a href="http://thoughtram.io" title="Onsite Angular Training (Europe)">
+        <img alt="Onsite Angular Training (Europe)" src="http://thoughtram.io/images/thoughtram-brain-with-logo-line-blue.png" style="width: 200px;margin: 40px auto 0;display: block;"></img>
+        <p style="font-size: 18px;text-align:center">
+          Thoughtram<br>
+          Onsite Angular Training (Europe)
+        </p>
+      </a>
+
+    </section>
+
+    <hr>
+
+    <section class="episode" id="past-episodes">
+      <h2>Past Episodes</h2>
+      <ul>
+        <!--template bindings={}--><li>
+          <a href="https://plus.google.com/u/0/events/c2182d3bec32vs4jim7r8smc1q4">Episode 0: The Angular Team on 1.3 & 2.0</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/0/events/cg90utbgkqg89fg43k62kav02v4">Episode 1: Hitting the Ground Running with Angular</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c6hntmhpemnkna04svmer2jnca8">Episode 2: Angular DevTools</a>
+          <!--template bindings={}--><small>
+            Sponsored by:
+            <!--template bindings={}--><span>
+              <!--template bindings={}--><span>
+                 and 
+                <a href="http://shirtjs.com/">
+                  ShirtJS
+                </a>
+                
+              </span>
+            </span>
+          </small>
+        </li><li>
+          <a href="https://plus.google.com/events/cue886f2907d6l1avj1o2159j68">Episode 3: Staying up with AngularJS</a>
+          <!--template bindings={}--><small>
+            Sponsored by:
+            <!--template bindings={}--><span>
+              <!--template bindings={}--><span>
+                 and 
+                <a href="http://reactweek.com/">
+                  ReactWeek
+                </a>
+                
+              </span>
+            </span>
+          </small>
+        </li><li>
+          <a href="https://plus.google.com/events/cto0heinllidfpqqtmlvputrvlg">Episode 4: Angular Community and Organizing ng-conf</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c1iuqnqrrbumg08vrmgk6fpmeao">Episode 5: On-site ng-nl broadcast</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cmhq7mqarkoful8u7iusbjsdjtk">Episode 6: Ionic Framework</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c8vsorqvlsoi4r12m60l0fs22c4">Episode 7: Developing Open Source Angular Libraries</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cpn5hnihfuh175tbtbe3i75msgc">Episode 8: i18n with Angular</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cmoqjb7tmeaai8ugc5i2j81fpm8">Episode 9: Contributing to Angular</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cb42tejb88eliamj65o2ogh12qo">Episode 10: Testing with Angular</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ckq1tk7s4h3dk97n0co8jst305s">Episode 11: Introducing the Angular Air Panel</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cpa0ojla7fkk8mfi6h0e0gm2ejo">Episode 12: Angular 2 Alpha</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ctgocfv62l6lj1gj1ijus0hfl20">Episode 13: Angular and Firebase</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ci85lav8bdnjl356n5o0fkegb44">Episode 14: Angular Apps, JavaScript, and Search Optimization</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c7f6uq69p09v6jdvb0635pf7hok">Episode 15: Architecting huge Angular apps</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/clffu5selsk7klhjrj2bdimd448">Episode 16: Angular with Web Components</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c0u8rs3581pjup4la0g2fm6fqc4">Episode 17: Angular Internals</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cj80em4hgteokhsa1e6hc50mnq0">Episode 18: Angular with TypeScript</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cmb8uhkic1du93l1ffgc53vjdcg">Episode 19: Angular's New Router</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/chv2s61pjie9eirimvm2m5och9g">Episode 20: Angular 2 Forms</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ckd0vf27blav9ndi03h49ns4pos">Episode 21: Angular Accessibility</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ci6mg4094cs1vid645qjegclqi0">Episode 22: Angular Data</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c5k02na22bq5k5ftg63bqpvtteo">Episode 23: angular-formly</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cmp8evvqkdikpjkis12r45fgqhc">Episode 24: Angular and Module Loading</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cvo18elq1u8vam3lhnoa4dheo4k">Episode 25: TypeScript or ES6 with Babel?</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ca3l6qalpu0uqcce58a379006m0">Episode 26: FalcorJS and Angular 2</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ce9lds6bk5nnre76da8hhig0n60">Episode 27: Performance, testing and everything in-between</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c0kajflmtfd8ellt6d7adpbg9mg">Episode 28: Auth0</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cln81vvg8du8kdbr03g7ngh32vs">Episode 29: Reactive Programming</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cuc8f6acabb5g3fnu923t1156lo">Episode 30: Angular UI-Router</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cqj1arbi4du7dd5laj58rclc6ck">Episode 31: Angular Fundamentals</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/coq8qmkmlgtug23f2mju2nfa5sc">Episode 32: Ag-Grid</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/crh57co6pljeqboef8r9net24po">Episode 33: Immutable.js with Angular</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/0/events/cpv6veia6f471gsglg7lg41rd70">Episode 34: Angular Connect Primer</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cgrb5tdo541uo6l9p4sm96jf84k">Episode 35: Angular 2 and React</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c7kt942fkohk44scrrgf35mluco">Episode 36: Ionic 2</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c7e4ce3lp23ogqd7g37u77p4bo0">Episode 37: Live at Angular Connect</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c5dur9vns3bqujp8akvhn5dkshk">Episode 38: Angular Connect Recap</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/0/events/cof2s4dso4ju3v6gdr9pla2ls4g">Episode 39: ngAnimate 2.0</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cpog9pa6hjqgjdo5hekci926ass">Episode 40: Surprise Episode</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cm77tif4rcm3tb293t70c5kkb1o">Episode 41: The Importance of Learning JavaScript</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c497n1rurigtea0nlq3q7c9qn9c">Episode 42: The Angular Community</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c7m79d5o04nom5eednk5ecqtebk">Episode 43: Writing Angular 2 Libraries</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ccggam0timdvlr50fd4erjct2pc">Episode 44: The Angular Team</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cthcfidro7bh8428hl8o5kt4128">Episode 45: Star Wars</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/ciph3us71f9liggnc4n8skq1hg8">Episode 46: The Best Angular Productivity Tips</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/c5dcjhneao15dvc6hkbq0in9fo8?authkey=CMjs_8qK3qa4cQ">Episode 47: What will happen to Angular in 2016?</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/cn6og48n6l1s070im5b5qjac7ts">Episode 48: How to become an open source contributor</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/clffugstoslk8vjlh2qd5mjamrg">Episode 49: Why empathy will make you a better developer</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/c2ic6t5id964kdo47dr0of5d3ag">Episode 50: What's new in RxJS 5.0?</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/cd8aehgp75b2bm9esirp5adrmp0">Episode 51: TypeScript Deep Dive</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/ce8315emtscbq7ef0bo99jg0kao">Episode 52: Getting Past the Angular Learning Curve</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/cvb7kq9cus27q0l5505kbedl63s">Episode 53: The Internet of Things (and Angular)</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/events/cf3aue086abasnlah35lgr373fs">Episode 54: Angular 2 Reactive Redux (ARR)</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/caht91psf3c53e7ngrakc6m78so">Episode 55: Live from ng-nl</a>
+          <!--template bindings={}-->
+        </li><li>
+          <a href="https://plus.google.com/u/1/b/104335210120652090229/events/cfjl7ehr4p9qd0fm90mh7b0aj74">Episode 56: Full-stack Reactive Programming using Angular 2 + Meteor</a>
+          <!--template bindings={}-->
+        </li>
+      </ul>
+    </section>
+
+    <hr>
 
 
 
-  <section class="clearfix">
-    <h2>Host</h2>
-    <person-group groups="vm.hosts"></person-group>
-    <div class="center">
-      AngularAir is hosted by
-      <a href="https://twitter.com/jeffwhelpley">Jeff Whelpley</a>
-    </div>
-  </section>
+    <section class="clearfix">
+      <h2>Host</h2>
+      <person-group>
+  <!--template bindings={}-->
+  </person-group>
+      <div class="center">
+        AngularAir is hosted by
+        <a href="https://twitter.com/jeffwhelpley">Jeff Whelpley</a>
+      </div>
+    </section>
 
-  <hr/>
+    <hr>
 
-  <section id="panelists">
-    <h2>Panelists</h2>
-    <person-group groups="vm.panelists"></person-group>
-    <div class="center">
-      AngularAir has a panel of some of the most awesome Angular developers the community has to offer
-    </div>
-  </section>
+    <section id="panelists">
+      <h2>Panelists</h2>
+      <person-group>
+  <!--template bindings={}-->
+  </person-group>
+      <div class="center">
+        AngularAir has a panel of some of the most awesome Angular developers the community has to offer
+      </div>
+    </section>
 
-  <hr/>
+    <hr>
 
-  <section class="center">
-    <h2>Video Podcast</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF75bDBd1tIdwQq6TNd-wNx0AcB8JPeDK" frameborder="0" allowfullscreen></iframe>
-  </section>
+    <section class="center">
+      <h2>Video Podcast</h2>
+      <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF75bDBd1tIdwQq6TNd-wNx0AcB8JPeDK" width="560"></iframe>
+    </section>
 
-  <hr/>
+    <hr>
 
-  <section class="center">
-    <h2>Audio Podcast</h2>
-    <iframe id="multi_iframe" frameborder="0" scrolling="no" allowfullscreen="" src="https://www.podbean.com/media/player/multi?playlist=https%3A%2F%2Fplaylist.podbean.com%2F716841%2Fplaylist_multi.xml&width=420&height=315&download=0&share=1&fonts=Helvetica&auto=0&connection=https&skin=9" width="420" height="315"></iframe>
-  </section>
+    <section class="center">
+      <h2>Audio Podcast</h2>
+      <iframe allowfullscreen="" frameborder="0" height="315" id="multi_iframe" scrolling="no" src="https://www.podbean.com/media/player/multi?playlist=https%3A%2F%2Fplaylist.podbean.com%2F716841%2Fplaylist_multi.xml&width=420&height=315&download=0&share=1&fonts=Helvetica&auto=0&connection=https&skin=9" width="420"></iframe>
+    </section>
 
-  <hr/>
+    <hr>
 
-  <section class="center">
-    <link-icon icon="twitter" link="https://twitter.com/angularair" title="Angular Air on Twitter"></link-icon>
-    <link-icon icon="google-plus" link="https://plus.google.com/u/0/+AngularAirPodcast/posts" title="Angular Air on Google+"></link-icon>
-  </section>
+    <section class="center">
+      <link-icon icon="twitter" link="https://twitter.com/angularair" title="Angular Air on Twitter"></link-icon>
+      <link-icon icon="google-plus" link="https://plus.google.com/u/0/+AngularAirPodcast/posts" title="Angular Air on Google+"></link-icon>
+    </section>
 
-</div>
+  </ng-air>
+  </app>
 
 
-<script type="text/ng-template" id="person-group-template.html">
-  <div ng-repeat="group in vm.groups" class="group clearfix group-{{group.length}}">
-    <div ng-repeat="person in group" class="person" person="person"></div>
-  </div>
-</script>
+  </script>
 
-<script type="text/ng-template" id="person-template.html">
-  <a ng-href="https://twitter.com/{{::vm.person.twitter}}">
-    <img ng-src="{{::vm.person.avatar}}"
-         ng-class="::{'no-circle': vm.person.noCircle}"
-         alt="{{::vm.person.name}} Profile Picture"/>
-    <span class="person__name">
-      <span class="person__name__name">{{::vm.person.name}}</span>
-      <small class="person__name__twitter">@{{::vm.person.twitter}}</small>
-    </span>
-  </a>
-</script>
+  <script src="markdown.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-sanitize.min.js"></script>
 
-<script src="markdown.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-sanitize.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-<script src="script.js"></script>
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-56527541-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
 
-  ga('create', 'UA-56527541-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-
-</script>
+  </script>
 </body>
 </html>
