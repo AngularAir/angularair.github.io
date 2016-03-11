@@ -49,23 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Why Ionic 2 is going to rock your world',
-        displayDate: 'Tuesday, March 8th, 2016',
-        date: '2016-03-08',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cpivehd4oeo985fq087pm2fscls',
-        guests: [
-          [
-            {name: 'Adam Bradley', twitter: 'adamdbradley'},
-            {name: 'Mike Hartington', twitter: 'mhartington'}
-          ],
-          [
-            {name: 'Max Lynch', twitter: 'maxlynch'},
-            {name: 'Ben Sperry', twitter: 'benjsperry'}
-          ]
-        ]
-      },
-      {
         title: 'Using React Native with Angular 2',
         displayDate: 'Monday, March 14th, 2016',
         date: '2016-03-14',
@@ -90,7 +73,7 @@
         ]
       },
       {
-        title: 'Angular Universal in Production',
+        title: 'Angular Universal',
         displayDate: 'Tuesday, March 29th, 2016',
         date: '2016-03-29',
         time: '11:00 AM (Pacific Time)',
@@ -987,6 +970,23 @@
           [
             {name: 'TJ VanToll', twitter: 'tjvantoll'},
             {name: 'Jen Looper', twitter: 'jenlooper'}
+          ]
+        ]
+      },
+      {
+        title: 'Why Ionic 2 is going to rock your world',
+        displayDate: 'Tuesday, March 8th, 2016',
+        date: '2016-03-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cpivehd4oeo985fq087pm2fscls',
+        guests: [
+          [
+            {name: 'Adam Bradley', twitter: 'adamdbradley'},
+            {name: 'Mike Hartington', twitter: 'mhartington'}
+          ],
+          [
+            {name: 'Max Lynch', twitter: 'maxlynch'},
+            {name: 'Ben Sperry', twitter: 'benjsperry'}
           ]
         ]
       }
