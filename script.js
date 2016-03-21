@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Using React Native with Angular 2',
-        displayDate: 'Monday, March 14th, 2016',
-        date: '2016-03-14',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c51038h7v51bqdmghv0vjj0su5c',
-        guests: [
-          [
-            {name: 'Marc Laval', twitter: 'marclaval'}
-          ]
-        ]
-      },
-      {
         title: 'Angular 2 testing using Protractor, Karma and more',
         displayDate: 'Tuesday, March 22nd, 2016',
         date: '2016-03-22',
@@ -987,6 +975,18 @@
           [
             {name: 'Max Lynch', twitter: 'maxlynch'},
             {name: 'Ben Sperry', twitter: 'benjsperry'}
+          ]
+        ]
+      },
+      {
+        title: 'Using React Native with Angular 2',
+        displayDate: 'Monday, March 14th, 2016',
+        date: '2016-03-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c51038h7v51bqdmghv0vjj0su5c',
+        guests: [
+          [
+            {name: 'Marc Laval', twitter: 'marclaval'}
           ]
         ]
       }
