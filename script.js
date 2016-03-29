@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Angular 2 testing using Protractor, Karma and more',
-        displayDate: 'Tuesday, March 22nd, 2016',
-        date: '2016-03-22',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cic3ubebr8v6lvquvsr86m0jl6s',
-        guests: [
-          [
-            {name: 'Julie Ralph', twitter: 'somejulie'}
-          ]
-        ]
-      },
-      {
         title: 'Angular Universal',
         displayDate: 'Tuesday, March 29th, 2016',
         date: '2016-03-29',
@@ -987,6 +975,17 @@
         guests: [
           [
             {name: 'Marc Laval', twitter: 'marclaval'}
+          ]
+        ]
+      },      {
+        title: 'Angular 2 testing using Protractor, Karma and more',
+        displayDate: 'Tuesday, March 22nd, 2016',
+        date: '2016-03-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cic3ubebr8v6lvquvsr86m0jl6s',
+        guests: [
+          [
+            {name: 'Julie Ralph', twitter: 'somejulie'}
           ]
         ]
       }
