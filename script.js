@@ -49,19 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Angular Universal',
-        displayDate: 'Tuesday, March 29th, 2016',
-        date: '2016-03-29',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
-        guests: [
-          [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'}
-          ]
-        ]
-      },
-      {
         title: 'ASP.NET and Angular 2 - A Match Made in Heaven',
         displayDate: 'Tuesday, April 5th, 2016',
         date: '2016-04-05',
@@ -986,6 +973,18 @@
         guests: [
           [
             {name: 'Julie Ralph', twitter: 'somejulie'}
+          ]
+        ]
+      },      {
+        title: 'Angular Universal',
+        displayDate: 'Tuesday, March 29th, 2016',
+        date: '2016-03-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cnqeh2ttgv3kd3b65rqp2sepnjk',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'}
           ]
         ]
       }
