@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'ASP.NET and Angular 2 - A Match Made in Heaven',
-        displayDate: 'Tuesday, April 5th, 2016',
-        date: '2016-04-05',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/u/2/b/104335210120652090229/events/cqb570mn1mksjdvelr8nas0spc8',
-        guests: [
-          [
-            {name: 'Steve Sanderson', twitter: 'stevensanderson'}
-          ]
-        ]
-      },
-      {
         title: 'Using Web Workers for High Performance Angular 2 Web Apps',
         displayDate: 'Tuesday, April 12th, 2016',
         date: '2016-04-12',
@@ -985,6 +973,18 @@
           [
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'}
+          ]
+        ]
+      },
+      {
+        title: 'ASP.NET and Angular 2 - A Match Made in Heaven',
+        displayDate: 'Tuesday, April 5th, 2016',
+        date: '2016-04-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/u/2/b/104335210120652090229/events/cqb570mn1mksjdvelr8nas0spc8',
+        guests: [
+          [
+            {name: 'Steve Sanderson', twitter: 'stevensanderson'}
           ]
         ]
       }
