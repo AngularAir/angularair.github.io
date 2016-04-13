@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Using Web Workers for High Performance Angular 2 Web Apps',
-        displayDate: 'Tuesday, April 12th, 2016',
-        date: '2016-04-12',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/c60npm49ibhlmhm47tklk4vfi1k',
-        guests: [
-          [
-            {name: 'Jason Teplitz', twitter: 'jteplitz'}
-          ]
-        ]
-      },
-      {
         title: 'How Service Workers will change the way you think about web apps',
         displayDate: 'Tuesday, April 19th, 2016',
         date: '2016-04-19',
@@ -985,6 +973,18 @@
         guests: [
           [
             {name: 'Steve Sanderson', twitter: 'stevensanderson'}
+          ]
+        ]
+      },
+      {
+        title: 'Using Web Workers for High Performance Angular 2 Web Apps',
+        displayDate: 'Tuesday, April 12th, 2016',
+        date: '2016-04-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/c60npm49ibhlmhm47tklk4vfi1k',
+        guests: [
+          [
+            {name: 'Jason Teplitz', twitter: 'jteplitz'}
           ]
         ]
       }
