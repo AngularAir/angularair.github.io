@@ -66,7 +66,7 @@
         displayDate: 'Wednesday, May 4th, 2016',
         date: '2016-05-04',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/crlijodqg6odseh2uf803epmphg',
+        hangoutUrl: 'https://plus.google.com/events/csjpb8tmp00lfqcivjovd18anvg',
         guests: [
           [
             {name: 'ng-conf', twitter: 'ngconf'}
