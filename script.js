@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'How Service Workers will change the way you think about web apps',
-        displayDate: 'Tuesday, April 19th, 2016',
-        date: '2016-04-19',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ckrfbveshgvprali49c27mrt7j0',
-        guests: [
-          [
-            {name: 'Minko Gechev', twitter: 'mgechev'}
-          ]
-        ]
-      },
-      {
         title: 'Getting ready for the biggest event of the year',
         displayDate: 'Tuesday, April 26th, 2016',
         date: '2016-04-26',
@@ -985,6 +973,18 @@
         guests: [
           [
             {name: 'Jason Teplitz', twitter: 'jteplitz'}
+          ]
+        ]
+      },
+      {
+        title: 'How Service Workers will change the way you think about web apps',
+        displayDate: 'Tuesday, April 19th, 2016',
+        date: '2016-04-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ckrfbveshgvprali49c27mrt7j0',
+        guests: [
+          [
+            {name: 'Minko Gechev', twitter: 'mgechev'}
           ]
         ]
       }
