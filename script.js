@@ -49,19 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Getting ready for the biggest event of the year',
-        displayDate: 'Tuesday, April 26th, 2016',
-        date: '2016-04-26',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ct2hvohrj1lk87rqfpgm2ehhoh0',
-        guests: [
-          [
-            {name: 'Joe Eames', twitter: 'josepheames'},
-            {name: 'Aaron Frost', twitter: 'js_dev'}
-          ]
-        ]
-      },
-      {
         title: 'Live from ng-conf',
         displayDate: 'Wednesday, May 4th, 2016',
         date: '2016-05-04',
@@ -985,6 +972,19 @@
         guests: [
           [
             {name: 'Minko Gechev', twitter: 'mgechev'}
+          ]
+        ]
+      },
+      {
+        title: 'Getting ready for the biggest event of the year',
+        displayDate: 'Tuesday, April 26th, 2016',
+        date: '2016-04-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ct2hvohrj1lk87rqfpgm2ehhoh0',
+        guests: [
+          [
+            {name: 'Joe Eames', twitter: 'josepheames'},
+            {name: 'Aaron Frost', twitter: 'js_dev'}
           ]
         ]
       }
