@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Live from ng-conf',
-        displayDate: 'Wednesday, May 4th, 2016',
-        date: '2016-05-04',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/csjpb8tmp00lfqcivjovd18anvg',
-        guests: [
-          [
-            {name: 'ng-conf', twitter: 'ngconf'}
-          ]
-        ]
-      },
-      {
         title: 'ng-conf recap show',
         displayDate: 'Wednesday, May 10th, 2016',
         date: '2016-05-10',
@@ -985,6 +973,17 @@
           [
             {name: 'Joe Eames', twitter: 'josepheames'},
             {name: 'Aaron Frost', twitter: 'js_dev'}
+          ]
+        ]
+      },     {
+        title: 'Live from ng-conf',
+        displayDate: 'Wednesday, May 4th, 2016',
+        date: '2016-05-04',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/csjpb8tmp00lfqcivjovd18anvg',
+        guests: [
+          [
+            {name: 'ng-conf', twitter: 'ngconf'}
           ]
         ]
       }
