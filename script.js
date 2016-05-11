@@ -50,7 +50,7 @@
     vm.episodes = [
       {
         title: 'ng-conf recap show',
-        displayDate: 'Wednesday, May 10th, 2016',
+        displayDate: 'Tuesday, May 10th, 2016',
         date: '2016-05-10',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/crlijodqg6odseh2uf803epmphg',
@@ -64,7 +64,7 @@
       },
       {
         title: 'How should I migrate my Angular 1 app?',
-        displayDate: 'Wednesday, May 17th, 2016',
+        displayDate: 'Tuesday, May 17th, 2016',
         date: '2016-05-17',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/ct57q5p9m7v2ier3m1n89ip7jm8',
@@ -76,7 +76,7 @@
       },
       {
         title: 'OSS round II',
-        displayDate: 'Wednesday, May 24th, 2016',
+        displayDate: 'Tuesday, May 24th, 2016',
         date: '2016-05-24',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cj5fm6ehi8bcota1dul7evnkh1k',
@@ -89,7 +89,7 @@
       },
       {
         title: 'The awesome power of GraphQL',
-        displayDate: 'Wednesday, May 31st, 2016',
+        displayDate: 'Tuesday, May 31st, 2016',
         date: '2016-05-31',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cjbbedm2m6kvm1p0natjbm30q00',
