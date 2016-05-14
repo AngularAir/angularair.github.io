@@ -49,20 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'ng-conf recap show',
-        displayDate: 'Wednesday, May 10th, 2016',
-        date: '2016-05-10',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/crlijodqg6odseh2uf803epmphg',
-        guests: [
-          [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Olivier Combe', twitter: 'ocombe'}
-          ]
-        ]
-      },
-      {
         title: 'How should I migrate my Angular 1 app?',
         displayDate: 'Wednesday, May 17th, 2016',
         date: '2016-05-17',
@@ -984,6 +970,20 @@
         guests: [
           [
             {name: 'ng-conf', twitter: 'ngconf'}
+          ]
+        ]
+      },
+      {
+        title: 'ng-conf recap show',
+        displayDate: 'Wednesday, May 10th, 2016',
+        date: '2016-05-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/crlijodqg6odseh2uf803epmphg',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Olivier Combe', twitter: 'ocombe'}
           ]
         ]
       }
