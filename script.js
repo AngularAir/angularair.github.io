@@ -49,33 +49,8 @@
 
     vm.episodes = [
       {
-        title: 'How should I migrate my Angular 1 app?',
-        displayDate: 'Wednesday, May 18th, 2016',
-        date: '2016-05-18',
-        time: '10:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/ct57q5p9m7v2ier3m1n89ip7jm8',
-        guests: [
-          [
-            {name: 'Tero Parviainen', twitter: 'teropa'}
-          ]
-        ]
-      },
-      {
-        title: 'OSS round II',
-        displayDate: 'Tuesday, May 24th, 2016',
-        date: '2016-05-24',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cj5fm6ehi8bcota1dul7evnkh1k',
-        guests: [
-          [
-            {name: 'Wesley Cho', twitter: 'BahamutWC'},
-            {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
-          ]
-        ]
-      },
-      {
         title: 'The awesome power of GraphQL',
-        displayDate: 'Tuesday, May 31st, 2016',
+        displayDate: 'TBD',
         date: '2016-05-31',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cjbbedm2m6kvm1p0natjbm30q00',
@@ -984,6 +959,31 @@
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Olivier Combe', twitter: 'ocombe'}
+          ]
+        ]
+      },
+      {
+        title: 'How should I migrate my Angular 1 app?',
+        displayDate: 'Wednesday, May 18th, 2016',
+        date: '2016-05-18',
+        time: '10:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/ct57q5p9m7v2ier3m1n89ip7jm8',
+        guests: [
+          [
+            {name: 'Tero Parviainen', twitter: 'teropa'}
+          ]
+        ]
+      },
+      {
+        title: 'OSS round II',
+        displayDate: 'Tuesday, May 24th, 2016',
+        date: '2016-05-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cj5fm6ehi8bcota1dul7evnkh1k',
+        guests: [
+          [
+            {name: 'Wesley Cho', twitter: 'BahamutWC'},
+            {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
           ]
         ]
       }
