@@ -49,9 +49,23 @@
 
     vm.episodes = [
       {
+        title: 'Discussion Show',
+        displayDate: 'Thursday, July 9th, 2016',
+        date: '2016-06-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cla61qq8fuors7hgosj2oeveel0',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Olivier Combe', twitter: 'ocombe'}
+          ]
+        ]
+      },
+      {
         title: 'The awesome power of GraphQL',
         displayDate: 'TBD',
-        date: '2016-05-31',
+        date: '2016-07-26',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/cjbbedm2m6kvm1p0natjbm30q00',
         guests: [
