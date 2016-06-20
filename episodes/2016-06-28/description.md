@@ -1,0 +1,1 @@
+You love Firebase, but you aint seen nothin yet. Firebase 3.0 just landed and has many new amazing features. Best of all for Angular 2 devs, AngularFire 2 makes using all these new Firebase goodness so easy. David joins us to give a live tutorial.

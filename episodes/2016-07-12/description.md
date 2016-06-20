@@ -1,0 +1,1 @@
+The new UI Router can work with any front end framework including Angular 2. Chris joins us to show us how to start using the new UI Router with Angular 1 and Angular 2.

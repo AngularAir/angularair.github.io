@@ -1,0 +1,1 @@
+How can you do a server side redirect from within Angular 2 code on the server? How do you optimize memory and performance? Patrick drops knowledge bombs and shows us the code we all need to build awesome universal apps.

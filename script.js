@@ -49,28 +49,74 @@
 
     vm.episodes = [
       {
-        title: 'Discussion Show',
-        displayDate: 'Thursday, July 9th, 2016',
-        date: '2016-06-09',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cla61qq8fuors7hgosj2oeveel0',
+        title: 'The making of ng-show with Shai Reznik',
+        displayDate: 'Thursday, June 23rd, 2016',
+        date: '2016-06-23',
+        time: '8:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-show',
         guests: [
           [
-            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
-            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-            {name: 'Olivier Combe', twitter: 'ocombe'}
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
           ]
         ]
       },
       {
-        title: 'The awesome power of GraphQL',
-        displayDate: 'TBD',
-        date: '2016-07-26',
+        title: 'AngularFire 2 Tutorial with David East',
+        displayDate: 'Tuesday, June 28th, 2016',
+        date: '2016-06-28',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/cjbbedm2m6kvm1p0natjbm30q00',
+        hangoutUrl: 'http://ngair.io/ng-fire',
         guests: [
           [
-            {name: 'Jim Cummins', twitter: 'jimthedev'}
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
+        displayDate: 'Thursday, July 7th, 2016',
+        date: '2016-07-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/universal-tutorial',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'UI Router Tutorial with Chris Thielen',
+        displayDate: 'Tuesday, July 12th, 2016',
+        date: '2016-07-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ui-router',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Discussion Topics Show',
+        displayDate: 'Tuesday, July 19th, 2016',
+        date: '2016-07-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/chfouvk205ohtarmuqcsml5c78c',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'CLI Tutorial with Mike Brocchi',
+        displayDate: 'Tuesday, July 26th, 2016',
+        date: '2016-07-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-cli',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
           ]
         ]
       }
@@ -998,6 +1044,20 @@
           [
             {name: 'Wesley Cho', twitter: 'BahamutWC'},
             {name: 'Jesus Rodriguez', twitter: 'Foxandxss'}
+          ]
+        ]
+      },
+      {
+        title: 'Discussion Show',
+        displayDate: 'Thursday, July 9th, 2016',
+        date: '2016-06-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/cla61qq8fuors7hgosj2oeveel0',
+        guests: [
+          [
+            {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
+            {name: 'Patrick Stapleton', twitter: 'gdi2290'},
+            {name: 'Olivier Combe', twitter: 'ocombe'}
           ]
         ]
       }

@@ -1,0 +1,1 @@
+Shai rocked the Angular community in 2015 with the amazing ng-WAT talk. Then he out did himself at ng-conf this year with the ng-show. We talk to him about how it all came together and what is up next.
