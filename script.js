@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'The making of ng-show with Shai Reznik',
-        displayDate: 'Thursday, June 23rd, 2016',
-        date: '2016-06-23',
-        time: '8:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-show',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'AngularFire 2 Tutorial with David East',
         displayDate: 'Tuesday, June 28th, 2016',
         date: '2016-06-28',
@@ -1058,6 +1046,18 @@
             {name: 'Jeff Whelpley', twitter: 'jeffwhelpley'},
             {name: 'Patrick Stapleton', twitter: 'gdi2290'},
             {name: 'Olivier Combe', twitter: 'ocombe'}
+          ]
+        ]
+      },
+      {
+        title: 'The making of ng-show with Shai Reznik',
+        displayDate: 'Thursday, June 23rd, 2016',
+        date: '2016-06-23',
+        time: '8:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-show',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
           ]
         ]
       }
