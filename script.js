@@ -49,30 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'AngularFire 2 Tutorial with David East',
-        displayDate: 'Tuesday, June 28th, 2016',
-        date: '2016-06-28',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-fire',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
-        title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
-        displayDate: 'Thursday, July 7th, 2016',
-        date: '2016-07-07',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/universal-tutorial',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'UI Router Tutorial with Chris Thielen',
         displayDate: 'Tuesday, July 12th, 2016',
         date: '2016-07-12',
@@ -102,6 +78,18 @@
         date: '2016-07-26',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-cli',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
+        displayDate: 'Tuesday, August 9th, 2016',
+        date: '2016-08-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/universal-tutorial',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -1055,6 +1043,18 @@
         date: '2016-06-23',
         time: '8:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-show',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'AngularFire 2 Tutorial with David East',
+        displayDate: 'Tuesday, June 28th, 2016',
+        date: '2016-06-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-fire',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
