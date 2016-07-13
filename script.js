@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'UI Router Tutorial with Chris Thielen',
-        displayDate: 'Tuesday, July 12th, 2016',
-        date: '2016-07-12',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ui-router',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'Discussion Topics Show',
         displayDate: 'Tuesday, July 19th, 2016',
         date: '2016-07-19',
@@ -85,11 +73,47 @@
         ]
       },
       {
+        title: 'Webpack 2 with Sean Larkin',
+        displayDate: 'Tuesday, August 2nd, 2016',
+        date: '2016-08-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-webpack2',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
         title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
         displayDate: 'Tuesday, August 9th, 2016',
         date: '2016-08-09',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/universal-tutorial',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Data Table with Austin Daniels',
+        displayDate: 'Tuesday, August 16th, 2016',
+        date: '2016-08-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-data-table',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Todd Motto: The Man. The Myth. The Legend.',
+        displayDate: 'Tuesday, August 25th, 2016',
+        date: '2016-08-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-todd',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -1055,6 +1079,18 @@
         date: '2016-06-28',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-fire',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'UI Router Tutorial with Chris Thielen',
+        displayDate: 'Tuesday, July 12th, 2016',
+        date: '2016-07-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ui-router',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}

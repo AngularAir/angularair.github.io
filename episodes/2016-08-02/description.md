@@ -1,0 +1,1 @@
+The popular build tool of choice among many Angular 2 developers appears to be Webpack. Sean is a long time Angular developer and now a member of the Webpack core team. He will explain what has changed with the latest major release and how Angular benefits from all the awesomeness that is Webpack.

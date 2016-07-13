@@ -1,0 +1,1 @@
+Grid format for data is hard. The Angular Data Table project makes it easy. Austin drops in to AngularAir to talk about creating this Angular 2 library. Even if you don't need a data table in your app, this is going to be an interesting discussion about the challenges of managing large sets of data in Angular 1 and 2.
