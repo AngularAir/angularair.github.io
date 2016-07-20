@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Discussion Topics Show',
-        displayDate: 'Tuesday, July 19th, 2016',
-        date: '2016-07-19',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://plus.google.com/events/chfouvk205ohtarmuqcsml5c78c',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'CLI Tutorial with Mike Brocchi',
         displayDate: 'Tuesday, July 26th, 2016',
         date: '2016-07-26',
@@ -97,7 +85,7 @@
         ]
       },
       {
-        title: 'Angular Data Table with Austin Daniels',
+        title: 'Angular Data Table with Austin McDaniel',
         displayDate: 'Tuesday, August 16th, 2016',
         date: '2016-08-16',
         time: '11:00 AM (Pacific Time)',
@@ -1091,6 +1079,18 @@
         date: '2016-07-12',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ui-router',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Discussion Topics Show',
+        displayDate: 'Tuesday, July 19th, 2016',
+        date: '2016-07-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://plus.google.com/events/chfouvk205ohtarmuqcsml5c78c',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
