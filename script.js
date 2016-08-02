@@ -86,8 +86,8 @@
       },
       {
         title: 'Todd Motto: The Man. The Myth. The Legend.',
-        displayDate: 'Tuesday, August 25th, 2016',
-        date: '2016-08-25',
+        displayDate: 'Tuesday, August 23rd, 2016',
+        date: '2016-08-23',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-todd',
         guests: [
