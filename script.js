@@ -49,18 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'CLI Tutorial with Mike Brocchi',
-        displayDate: 'Tuesday, July 26th, 2016',
-        date: '2016-07-26',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-cli',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'Webpack 2 with Sean Larkin',
         displayDate: 'Tuesday, August 2nd, 2016',
         date: '2016-08-02',
@@ -1091,6 +1079,18 @@
         date: '2016-07-19',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://plus.google.com/events/chfouvk205ohtarmuqcsml5c78c',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'CLI Tutorial with Mike Brocchi',
+        displayDate: 'Tuesday, July 26th, 2016',
+        date: '2016-07-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-cli',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
