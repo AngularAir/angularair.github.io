@@ -48,30 +48,18 @@
     ];
 
     vm.episodes = [
-      {
-        title: 'Webpack 2 with Sean Larkin',
-        displayDate: 'Tuesday, August 2nd, 2016',
-        date: '2016-08-02',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-webpack2',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
-        title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
-        displayDate: 'Tuesday, August 9th, 2016',
-        date: '2016-08-09',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/universal-tutorial',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
+      // {
+      //   title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
+      //   displayDate: 'Tuesday, August 9th, 2016',
+      //   date: '2016-08-09',
+      //   time: '11:00 AM (Pacific Time)',
+      //   hangoutUrl: 'http://ngair.io/universal-tutorial',
+      //   guests: [
+      //     [
+      //       // {name: 'Shai Reznik', twitter: 'jimthedev'}
+      //     ]
+      //   ]
+      // },
       {
         title: 'Angular Data Table with Austin McDaniel',
         displayDate: 'Tuesday, August 16th, 2016',
@@ -1091,6 +1079,18 @@
         date: '2016-07-26',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-cli',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Webpack 2 with Sean Larkin',
+        displayDate: 'Tuesday, August 2nd, 2016',
+        date: '2016-08-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-webpack2',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
