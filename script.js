@@ -73,11 +73,83 @@
         ]
       },
       {
-        title: 'Todd Motto: The Man. The Myth. The Legend.',
+        title: 'Todd Motto: The Man. The Myth. The Legend',
         displayDate: 'Tuesday, August 23rd, 2016',
         date: '2016-08-23',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-todd',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'GraphQL and Apollo with Uri Goldshtein',
+        displayDate: 'Tuesday, August 30th, 2016',
+        date: '2016-08-30',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/graphql-apollo',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'ng1 to ng2 migration with Joe Eames',
+        displayDate: 'Tuesday, September 6th, 2016',
+        date: '2016-09-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng1-ng2',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'The Meta Show',
+        displayDate: 'Tuesday, September 13th, 2016',
+        date: '2016-09-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/meta-show',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Getting Ready for AngularConnect',
+        displayDate: 'Tuesday, September 20th, 2016',
+        date: '2016-09-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ac2016-prep',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'LIVE at AngularConnect',
+        displayDate: 'Tuesday, September 27th, 2016',
+        date: '2016-09-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/AngularConnect-2016',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Discussion Show with Shai Reznik',
+        displayDate: 'Tuesday, October 4th, 2016',
+        date: '2016-10-04',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-shai',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
