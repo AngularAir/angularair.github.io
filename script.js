@@ -86,9 +86,9 @@
       },
       {
         title: 'GraphQL and Apollo with Uri Goldshtein',
-        displayDate: 'Tuesday, August 30th, 2016',
-        date: '2016-08-30',
-        time: '11:00 AM (Pacific Time)',
+        displayDate: 'Tuesday, Septebmer 6th, 2016',
+        date: '2016-09-06',
+        time: '10:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/graphql-apollo',
         guests: [
           [
