@@ -113,7 +113,7 @@
         displayDate: 'Tuesday, September 13th, 2016',
         date: '2016-09-13',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/meta-show',
+        hangoutUrl: 'http://ngair.io/ng-meta',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -125,7 +125,7 @@
         displayDate: 'Tuesday, September 20th, 2016',
         date: '2016-09-20',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ac2016-prep',
+        hangoutUrl: 'http://ngair.io/ac-2016-prep',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -137,7 +137,7 @@
         displayDate: 'Tuesday, September 27th, 2016',
         date: '2016-09-27',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/AngularConnect-2016',
+        hangoutUrl: 'http://ngair.io/AngularConnect2016',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -149,7 +149,7 @@
         displayDate: 'Tuesday, October 4th, 2016',
         date: '2016-10-04',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-shai',
+        hangoutUrl: 'http://ngair.io/chat-with-shai',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
