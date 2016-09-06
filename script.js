@@ -61,30 +61,6 @@
       //   ]
       // },
       {
-        title: 'Angular Data Table with Austin McDaniel',
-        displayDate: 'Tuesday, August 16th, 2016',
-        date: '2016-08-16',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-data-table',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
-        title: 'Todd Motto: The Man. The Myth. The Legend',
-        displayDate: 'Tuesday, August 23rd, 2016',
-        date: '2016-08-23',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-todd',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'GraphQL and Apollo with Uri Goldshtein',
         displayDate: 'Tuesday, Septebmer 6th, 2016',
         date: '2016-09-06',
@@ -1163,6 +1139,30 @@
         date: '2016-08-02',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-webpack2',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Data Table with Austin McDaniel',
+        displayDate: 'Tuesday, August 16th, 2016',
+        date: '2016-08-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-data-table',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Todd Motto: The Man. The Myth. The Legend',
+        displayDate: 'Tuesday, August 23rd, 2016',
+        date: '2016-08-23',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-todd',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
