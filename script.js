@@ -61,30 +61,6 @@
       //   ]
       // },
       {
-        title: 'GraphQL and Apollo with Uri Goldshtein',
-        displayDate: 'Tuesday, Septebmer 6th, 2016',
-        date: '2016-09-06',
-        time: '10:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/graphql-apollo',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
-        title: 'ng1 to ng2 migration with Joe Eames',
-        displayDate: 'Tuesday, September 6th, 2016',
-        date: '2016-09-06',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng1-ng2',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'The Meta Show',
         displayDate: 'Tuesday, September 13th, 2016',
         date: '2016-09-13',
@@ -1163,6 +1139,30 @@
         date: '2016-08-23',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-todd',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'GraphQL and Apollo with Uri Goldshtein',
+        displayDate: 'Tuesday, September 6th, 2016',
+        date: '2016-09-06',
+        time: '10:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/graphql-apollo',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'ng1 to ng2 migration with Joe Eames',
+        displayDate: 'Tuesday, September 6th, 2016',
+        date: '2016-09-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng1-ng2',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
