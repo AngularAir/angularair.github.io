@@ -61,21 +61,9 @@
       //   ]
       // },
       {
-        title: 'The Meta Show',
-        displayDate: 'Tuesday, September 13th, 2016',
-        date: '2016-09-13',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-meta',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'Getting Ready for AngularConnect',
-        displayDate: 'Tuesday, September 20th, 2016',
-        date: '2016-09-20',
+        displayDate: 'Thursday, September 20th, 2016',
+        date: '2016-09-22',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ac-2016-prep',
         guests: [
@@ -102,6 +90,18 @@
         date: '2016-10-04',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/chat-with-shai',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'The Meta Show',
+        displayDate: 'Tuesday, September 13th, 2016',
+        date: '2016-10-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-meta',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
