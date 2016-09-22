@@ -65,7 +65,7 @@
         displayDate: 'Thursday, September 20th, 2016',
         date: '2016-09-22',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ac-2016-prep',
+        hangoutUrl: 'http://ngair.io/ng-storm',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -101,7 +101,7 @@
         displayDate: 'Tuesday, September 13th, 2016',
         date: '2016-10-11',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-meta',
+        hangoutUrl: 'http://ngair.io/metashow',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
