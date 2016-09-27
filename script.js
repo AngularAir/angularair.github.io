@@ -64,7 +64,7 @@
         title: 'LIVE at AngularConnect',
         displayDate: 'Tuesday, September 27th, 2016',
         date: '2016-09-27',
-        time: '11:00 AM (Pacific Time)',
+        time: '10:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/AngularConnect2016',
         guests: [
           [
