@@ -61,18 +61,6 @@
       //   ]
       // },
       {
-        title: 'Getting Ready for AngularConnect',
-        displayDate: 'Thursday, September 20th, 2016',
-        date: '2016-09-22',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-storm',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'LIVE at AngularConnect',
         displayDate: 'Tuesday, September 27th, 2016',
         date: '2016-09-27',
@@ -1163,6 +1151,18 @@
         date: '2016-09-06',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng1-ng2',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Getting Ready for AngularConnect',
+        displayDate: 'Thursday, September 20th, 2016',
+        date: '2016-09-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-storm',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
