@@ -61,19 +61,7 @@
       //   ]
       // },
       {
-        title: 'LIVE at AngularConnect',
-        displayDate: 'Tuesday, September 27th, 2016',
-        date: '2016-09-27',
-        time: '10:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/AngularConnect2016',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
-        title: 'Discussion Show with Shai Reznik',
+        title: 'Angular Connect and the Future Beyond Final with Shai Reznik',
         displayDate: 'Tuesday, October 4th, 2016',
         date: '2016-10-04',
         time: '11:00 AM (Pacific Time)',
@@ -1163,6 +1151,19 @@
         date: '2016-09-22',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-storm',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+
+      {
+        title: 'LIVE at AngularConnect',
+        displayDate: 'Tuesday, September 27th, 2016',
+        date: '2016-09-27',
+        time: '10:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/AngularConnect2016',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
