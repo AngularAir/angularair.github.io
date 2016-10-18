@@ -41,7 +41,7 @@
         {name: 'Todd Motto', twitter: 'toddmotto'}
       ],
       [
-        {name: 'Justin Schwartzenberger', twitter: 'schwarty'},
+        {name: 'Schwarty', twitter: 'schwarty'},
         {name: 'Mike Brocchi', twitter: 'brocco'},
         {name: 'Austin McDaniel', twitter: 'amcdnl'}
       ]
