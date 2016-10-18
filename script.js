@@ -38,34 +38,22 @@
       [
         {name: 'Olivier Combe', twitter: 'ocombe'},
         {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-        {name: 'Ari Lerner', twitter: 'auser'}
+        {name: 'Todd Motto', twitter: 'toddmotto'}
       ],
       [
-        {name: 'Carmen Popoviciu', twitter: 'CarmenPopoviciu'},
-        {name: 'Gleb Bahmutov', twitter: 'bahmutov'},
-        {name: 'Todd Motto', twitter: 'toddmotto'}
+        {name: 'Justin Schwartzenberger', twitter: 'schwarty'},
+        {name: 'Mike Brocchi', twitter: 'brocco'},
+        {name: 'Austin McDaniel', twitter: 'amcdnl'}
       ]
     ];
 
     vm.episodes = [
-      // {
-      //   title: 'Angular Universal Tricks and Tips Tutorial with Patrick Stapleton',
-      //   displayDate: 'Tuesday, August 9th, 2016',
-      //   date: '2016-08-09',
-      //   time: '11:00 AM (Pacific Time)',
-      //   hangoutUrl: 'http://ngair.io/universal-tutorial',
-      //   guests: [
-      //     [
-      //       // {name: 'Shai Reznik', twitter: 'jimthedev'}
-      //     ]
-      //   ]
-      // },
       {
-        title: 'Angular Connect and the Future Beyond Final with Shai Reznik',
-        displayDate: 'Tuesday, October 4th, 2016',
-        date: '2016-10-04',
+        title: 'Creating Angular 2 UI Libraries with Kyle Ledbetter',
+        displayDate: 'Thursday, October 20, 2016',
+        date: '2016-10-20',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/chat-with-shai',
+        hangoutUrl: 'http://ngair.io/ui-libs',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -73,11 +61,35 @@
         ]
       },
       {
-        title: 'The Meta Show',
-        displayDate: 'Tuesday, September 13th, 2016',
-        date: '2016-10-11',
+        title: 'Angular in the Enterprise with Gary Trinklein and Nhut Tran',
+        displayDate: 'Tuesday, October 25, 2016',
+        date: '2016-10-25',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/metashow',
+        hangoutUrl: 'http://ngair.io/ng-enterprise',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Material with Kara Erickson',
+        displayDate: 'Tuesday, November 1, 2016',
+        date: '2016-11-01',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/material-kara',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Wazzup',
+        displayDate: 'Tuesday, November 8, 2016',
+        date: '2016-11-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-wazzup',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -1157,13 +1169,36 @@
           ]
         ]
       },
-
       {
         title: 'LIVE at AngularConnect',
         displayDate: 'Tuesday, September 27th, 2016',
         date: '2016-09-27',
         time: '10:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/AngularConnect2016',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Angular Connect and the Future Beyond Final with Shai Reznik',
+        displayDate: 'Tuesday, October 4th, 2016',
+        date: '2016-10-04',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/chat-with-shai',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'The Meta Show',
+        displayDate: 'Tuesday, September 13th, 2016',
+        date: '2016-10-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/metashow',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
