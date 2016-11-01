@@ -49,30 +49,6 @@
 
     vm.episodes = [
       {
-        title: 'Creating Angular 2 UI Libraries with Kyle Ledbetter',
-        displayDate: 'Thursday, October 20, 2016',
-        date: '2016-10-20',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ui-libs',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
-        title: 'Angular in the Enterprise with Gary Trinklein and Nhut Tran',
-        displayDate: 'Tuesday, October 25, 2016',
-        date: '2016-10-25',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-enterprise',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'Angular Material with Kara Erickson',
         displayDate: 'Tuesday, November 1, 2016',
         date: '2016-11-01',
@@ -1204,6 +1180,30 @@
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
           ]
         ]
+      },
+      {
+          title: 'Creating Angular 2 UI Libraries with Kyle Ledbetter',
+          displayDate: 'Thursday, October 20, 2016',
+          date: '2016-10-20',
+          time: '11:00 AM (Pacific Time)',
+          hangoutUrl: 'http://ngair.io/ui-libs',
+          guests: [
+              [
+                  // {name: 'Shai Reznik', twitter: 'jimthedev'}
+              ]
+          ]
+      },
+      {
+          title: 'Angular in the Enterprise with Gary Trinklein and Nhut Tran',
+          displayDate: 'Tuesday, October 25, 2016',
+          date: '2016-10-25',
+          time: '11:00 AM (Pacific Time)',
+          hangoutUrl: 'http://ngair.io/ng-enterprise',
+          guests: [
+              [
+                  // {name: 'Shai Reznik', twitter: 'jimthedev'}
+              ]
+          ]
       }
     ];
 
