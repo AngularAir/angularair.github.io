@@ -27,9 +27,9 @@
     vm.hosts = [
       [
         {
-          name: 'Jeff Whelpley',
-          twitter: 'jeffwhelpley',
-          avatar: 'panel/jeffwhelpley.png'
+          name: 'Justin Schwartzenberger',
+          twitter: 'schwarty',
+          avatar: 'panel/schwarty.png'
         }
       ]
     ];
@@ -41,7 +41,7 @@
         {name: 'Todd Motto', twitter: 'toddmotto'}
       ],
       [
-        {name: 'Schwarty', twitter: 'schwarty'},
+        {name: 'Alyssa Nicoll', twitter: 'AlyssaNicoll'},
         {name: 'Mike Brocchi', twitter: 'brocco'},
         {name: 'Austin McDaniel', twitter: 'amcdnl'}
       ]
@@ -49,11 +49,11 @@
 
     vm.episodes = [
       {
-        title: 'Angular Material with Kara Erickson',
-        displayDate: 'Tuesday, November 1, 2016',
-        date: '2016-11-01',
+        title: 'AngularUP 2016 Conference with Adam Klein, Boris Dinkevich and Nir Kaufman',
+        displayDate: 'Tuesday, November 15, 2016',
+        date: '2016-11-15',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/material-kara',
+        hangoutUrl: 'http://ngair.io/angularup2016',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -61,11 +61,11 @@
         ]
       },
       {
-        title: 'Wazzup',
-        displayDate: 'Tuesday, November 8, 2016',
-        date: '2016-11-08',
+        title: 'The TIL Episode',
+        displayDate: 'Tuesday, November 22, 2016',
+        date: '2016-11-22',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ng-wazzup',
+        hangoutUrl: 'http://ngair.io/til-episode-2016',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
@@ -1204,6 +1204,30 @@
                   // {name: 'Shai Reznik', twitter: 'jimthedev'}
               ]
           ]
+      },
+      {
+        title: 'Angular Material with Kara Erickson',
+        displayDate: 'Tuesday, November 1, 2016',
+        date: '2016-11-01',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/material-kara',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'Wazzup?',
+        displayDate: 'Tuesday, November 8, 2016',
+        date: '2016-11-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ng-wazzup',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
       }
     ];
 
