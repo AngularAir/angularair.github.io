@@ -53,7 +53,7 @@
         displayDate: 'Tuesday, November 15, 2016',
         date: '2016-11-15',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/angularup2016',
+        hangoutUrl: 'http://ngair.io/angularup2',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
