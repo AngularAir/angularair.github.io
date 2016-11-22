@@ -65,7 +65,7 @@
         guests: [[]]
       },
       {
-        title: 'D3 with Marjan Georgiev, Olivier Combe and Austin McDaniel',
+        title: 'Angular and D3 for Data Visualization with Marjan Georgiev, Olivier Combe and Austin McDaniel',
         displayDate: 'Tuesday, December 6, 2016',
         date: '2016-12-06',
         time: '11:00 AM (Pacific Time)',
