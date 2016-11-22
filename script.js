@@ -49,28 +49,44 @@
 
     vm.episodes = [
       {
-        title: 'AngularUP 2016 Conference with Adam Klein, Boris Dinkevich and Nir Kaufman',
-        displayDate: 'Tuesday, November 15, 2016',
-        date: '2016-11-15',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/angularup2',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
         title: 'The TIL Episode',
         displayDate: 'Tuesday, November 22, 2016',
         date: '2016-11-22',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/til-episode-2016',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
+        guests: [[]]
+      },
+      {
+        title: 'ngrx with Mike Ryan',
+        displayDate: 'Tuesday, November 29, 2016',
+        date: '2016-11-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ngrx-2016',
+        guests: [[]]
+      },
+      {
+        title: 'D3 with Marjan Georgiev, Olivier Combe and Austin McDaniel',
+        displayDate: 'Tuesday, December 6, 2016',
+        date: '2016-12-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/d3-2016',
+        guests: [[]]
+      },
+      {
+        title: 'Education Tech with Wesley Cho, Victor Mejia and Minko Gechev',
+        displayDate: 'Tuesday, December 13, 2016',
+        date: '2016-12-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/edtech-2016',
+        guests: [[]]
+      },
+      {
+        title: 'Techniques for Testing with Duncan Hunter and Adam Stephensen',
+        displayDate: 'Tuesday, December 20, 2016',
+        date: '2016-12-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/testing-2016',
+        guests: [[]]
       }
     ];
 
@@ -1223,6 +1239,18 @@
         date: '2016-11-08',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ng-wazzup',
+        guests: [
+          [
+            // {name: 'Shai Reznik', twitter: 'jimthedev'}
+          ]
+        ]
+      },
+      {
+        title: 'AngularUP 2016 Conference with Adam Klein, Boris Dinkevich and Nir Kaufman',
+        displayDate: 'Tuesday, November 15, 2016',
+        date: '2016-11-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/angularup2',
         guests: [
           [
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
