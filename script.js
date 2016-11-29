@@ -1023,6 +1023,7 @@
         ]
       },
       {
+          number: 70,
         title: 'The making of ng-show with Shai Reznik',
         displayDate: 'Thursday, June 23rd, 2016',
         date: '2016-06-23',
@@ -1035,6 +1036,7 @@
         ]
       },
       {
+          number: 71,
         title: 'AngularFire 2 Tutorial with David East',
         displayDate: 'Tuesday, June 28th, 2016',
         date: '2016-06-28',
@@ -1047,6 +1049,7 @@
         ]
       },
       {
+          number: 72,
         title: 'UI Router Tutorial with Chris Thielen',
         displayDate: 'Tuesday, July 12th, 2016',
         date: '2016-07-12',
@@ -1059,6 +1062,7 @@
         ]
       },
       {
+          number: 73,
         title: 'Discussion Topics Show',
         displayDate: 'Tuesday, July 19th, 2016',
         date: '2016-07-19',
@@ -1071,6 +1075,7 @@
         ]
       },
       {
+          number: 74,
         title: 'CLI Tutorial with Mike Brocchi',
         displayDate: 'Tuesday, July 26th, 2016',
         date: '2016-07-26',
@@ -1083,6 +1088,7 @@
         ]
       },
       {
+          number: 75,
         title: 'Webpack 2 with Sean Larkin',
         displayDate: 'Tuesday, August 2nd, 2016',
         date: '2016-08-02',
@@ -1095,6 +1101,7 @@
         ]
       },
       {
+          number: 76,
         title: 'Angular Data Table with Austin McDaniel',
         displayDate: 'Tuesday, August 16th, 2016',
         date: '2016-08-16',
@@ -1107,6 +1114,7 @@
         ]
       },
       {
+          number: 77,
         title: 'Todd Motto: The Man. The Myth. The Legend',
         displayDate: 'Tuesday, August 23rd, 2016',
         date: '2016-08-23',
@@ -1119,6 +1127,7 @@
         ]
       },
       {
+          number: 78,
         title: 'GraphQL and Apollo with Uri Goldshtein',
         displayDate: 'Tuesday, September 6th, 2016',
         date: '2016-09-06',
@@ -1131,6 +1140,7 @@
         ]
       },
       {
+          number: 79,
         title: 'ng1 to ng2 migration with Joe Eames',
         displayDate: 'Tuesday, September 6th, 2016',
         date: '2016-09-06',
@@ -1143,6 +1153,7 @@
         ]
       },
       {
+          number: 80,
         title: 'Getting Ready for AngularConnect',
         displayDate: 'Thursday, September 20th, 2016',
         date: '2016-09-22',
@@ -1155,18 +1166,7 @@
         ]
       },
       {
-        title: 'LIVE at AngularConnect',
-        displayDate: 'Tuesday, September 27th, 2016',
-        date: '2016-09-27',
-        time: '10:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/AngularConnect2016',
-        guests: [
-          [
-            // {name: 'Shai Reznik', twitter: 'jimthedev'}
-          ]
-        ]
-      },
-      {
+          number: 82,
         title: 'Angular Connect and the Future Beyond Final with Shai Reznik',
         displayDate: 'Tuesday, October 4th, 2016',
         date: '2016-10-04',
@@ -1179,6 +1179,7 @@
         ]
       },
       {
+          number: 83,
         title: 'The Meta Show',
         displayDate: 'Tuesday, September 13th, 2016',
         date: '2016-10-11',
@@ -1191,6 +1192,7 @@
         ]
       },
       {
+          number: 84,
           title: 'Creating Angular 2 UI Libraries with Kyle Ledbetter',
           displayDate: 'Thursday, October 20, 2016',
           date: '2016-10-20',
@@ -1203,6 +1205,7 @@
           ]
       },
       {
+          number: 85,
           title: 'Angular in the Enterprise with Gary Trinklein and Nhut Tran',
           displayDate: 'Tuesday, October 25, 2016',
           date: '2016-10-25',
@@ -1215,6 +1218,7 @@
           ]
       },
       {
+        number: 86,
         title: 'Angular Material with Kara Erickson',
         displayDate: 'Tuesday, November 1, 2016',
         date: '2016-11-01',
@@ -1227,6 +1231,7 @@
         ]
       },
       {
+        number: 87,
         title: 'Wazzup?',
         displayDate: 'Tuesday, November 8, 2016',
         date: '2016-11-08',
@@ -1239,6 +1244,7 @@
         ]
       },
       {
+        number: 88,
         title: 'AngularUP 2016 Conference with Adam Klein, Boris Dinkevich and Nir Kaufman',
         displayDate: 'Tuesday, November 15, 2016',
         date: '2016-11-15',

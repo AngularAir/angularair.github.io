@@ -109,7 +109,7 @@
     <h2>Past Episodes</h2>
     <ul>
       <li ng-repeat="episode in ::vm.pastEpisodes">
-        <a ng-href="{{::episode.hangoutUrl}}">{{::'Episode ' + episode.number + ': ' + episode.title}}</a>
+        <a ng-href="{{::episode.hangoutUrl}}">Episode{{episode.number > 0 ? ' ' + episode.number : ''}}: {{::episode.title}}</a>
         <small ng-if="::episode.sponsors">
           Sponsored by:
           <span ng-repeat="group in ::episode.sponsors">
