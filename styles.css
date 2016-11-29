@@ -207,6 +207,7 @@ body {
 a {
   text-decoration: none;
   color: #8c0c12;
+  cursor: pointer;
 }
 
 a:hover, a:focus {
@@ -307,6 +308,19 @@ h2 {
 
 .episode__qa, .episode__sponsors {
   margin-top: 40px;
+}
+
+.episode .notes a.toggle {
+  font-style: italic;
+  font-size: .9em;
+}
+
+.episode__notes {
+  background-color: #ebebeb;
+  padding: 1.2em;
+}
+.episode__notes h3 {
+  margin-top: 10px;
 }
 
 .no-decorate,

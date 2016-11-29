@@ -64,10 +64,10 @@
         </h3>
         <div class="hangouts-url">
           <span ng-if="::episode.hangoutUrl">
-            <a ng-href="{{::episode.hangoutUrl}}">Sign up here</a> to watch live!
+            <a ng-href="{{::episode.hangoutUrl}}">Head here</a> to watch live!
           </span>
           <span ng-if="::!episode.hangoutUrl">
-            Stay tuned for a hangouts link!
+            Stay tuned for a YouTube link!
           </span>
         </div>
         <person-group groups="episode.guests"></person-group>
@@ -109,7 +109,7 @@
     <h2>Past Episodes</h2>
     <ul>
       <li ng-repeat="episode in ::vm.pastEpisodes">
-        <a ng-href="{{::episode.hangoutUrl}}">{{::'Episode ' + $index + ': ' + episode.title}}</a>
+        <a ng-href="{{::episode.hangoutUrl}}">{{::'Episode ' + episode.number + ': ' + episode.title}}</a>
         <small ng-if="::episode.sponsors">
           Sponsored by:
           <span ng-repeat="group in ::episode.sponsors">
@@ -118,6 +118,14 @@
             </span>
           </span>
         </small>
+        <div ng-if="::episode.hasNotes" class="notes">
+          <a ng-click="episode.notesAreVisible = !episode.notesAreVisible" class="toggle">
+            Show Notes {{episode.notesAreVisible ? '-' : '+'}}
+          </a>
+          <div class="episode__notes justify"
+             ng-style="{'display': episode.notesAreVisible ? 'block' : 'none'}"
+             ng-bind-html="::episode.notes"></div>
+        </div>
       </li>
     </ul>
   </section>
@@ -145,7 +153,7 @@
 
   <section class="center">
     <h2>Video Podcast</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF75bDBd1tIdwQq6TNd-wNx0AcB8JPeDK" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF75bDBd1tIdRwcpXJ9nLTlyMP1AXkA_S" frameborder="0" allowfullscreen></iframe>
   </section>
 
   <hr/>

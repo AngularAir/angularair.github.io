@@ -9,7 +9,8 @@
   app.factory('markdownGetter', function markdownGetter($http, markdown) {
     return {
       getDescription: getMarkdownFileGetter('description.md'),
-      getSponsorship: getMarkdownFileGetter('sponsorship.md')
+      getSponsorship: getMarkdownFileGetter('sponsorship.md'),
+      getNotes: getMarkdownFileGetter('notes.md')
     };
 
     function getMarkdownFileGetter(fileName) {
@@ -48,14 +49,6 @@
     ];
 
     vm.episodes = [
-      {
-        title: 'The TIL Episode',
-        displayDate: 'Tuesday, November 22, 2016',
-        date: '2016-11-22',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/til-episode-2016',
-        guests: [[]]
-      },
       {
         title: 'ngrx with Mike Ryan',
         displayDate: 'Tuesday, November 29, 2016',
@@ -1256,6 +1249,17 @@
             // {name: 'Shai Reznik', twitter: 'jimthedev'}
           ]
         ]
+      },
+      {
+        number: 89,
+        title: 'The TIL Episode',
+        displayDate: 'Tuesday, November 22, 2016',
+        date: '2016-11-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/til-episode-2016',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
       }
     ];
 
@@ -1276,12 +1280,27 @@
         });
       });
 
-      markdownGetter.getDescription(episode.date).then(function success(markdown) {
-        episode.description = $sce.trustAsHtml(markdown);
+      // markdownGetter.getDescription(episode.date).then(function success(markdown) {
+      //   episode.description = $sce.trustAsHtml(markdown);
+      // });
+      // markdownGetter.getSponsorship(episode.date).then(function success(markdown) {
+      //   episode.sponsorship = $sce.trustAsHtml(markdown);
+      // });
+    });
+
+    angular.forEach(vm.pastEpisodes, function (episode) {
+      angular.forEach(episode.guests, function (group) {
+        angular.forEach(group, function (guest) {
+          if (!guest.avatar) {
+            guest.avatar = 'episodes/' + episode.date + '/' + guest.twitter + '.' + (guest.imageExt || 'png');
+          }
+        });
       });
-      markdownGetter.getSponsorship(episode.date).then(function success(markdown) {
-        episode.sponsorship = $sce.trustAsHtml(markdown);
-      });
+      if(episode.hasNotes) {
+        markdownGetter.getNotes(episode.date).then(function success(markdown) {
+          episode.notes = $sce.trustAsHtml(markdown);
+        });
+      }
     });
   });
 
