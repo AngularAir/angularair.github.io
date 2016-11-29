@@ -121,7 +121,7 @@
         </small>
         <div ng-if="::episode.hasNotes" class="notes">
           <a ng-click="episode.notesAreVisible = !episode.notesAreVisible" class="toggle">
-            Show Notes {{episode.notesAreVisible ? '-' : '+'}}
+            Notes ({{episode.notesAreVisible ? 'click to hide' : 'click to show'}})
           </a>
           <div class="episode__notes justify"
              ng-style="{'display': episode.notesAreVisible ? 'block' : 'none'}"
