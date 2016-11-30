@@ -50,17 +50,6 @@
 
     vm.episodes = [
       {
-        number: 90,
-        title: 'ngrx with Mike Ryan',
-        displayDate: 'Tuesday, November 29, 2016',
-        date: '2016-11-29',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ngrx-2016',
-        guests: [[]],
-        hasNotes: true,
-        notesAreVisible: false
-      },
-      {
         title: 'Angular and D3 for Data Visualization with Marjan Georgiev, Olivier Combe and Austin McDaniel',
         displayDate: 'Tuesday, December 6, 2016',
         date: '2016-12-06',
@@ -1266,6 +1255,17 @@
         date: '2016-11-22',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/til-episode-2016',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 90,
+        title: 'ngrx with Mike Ryan',
+        displayDate: 'Tuesday, November 29, 2016',
+        date: '2016-11-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ngrx-2016',
         guests: [[]],
         hasNotes: true,
         notesAreVisible: false
