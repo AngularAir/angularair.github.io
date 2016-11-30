@@ -50,12 +50,15 @@
 
     vm.episodes = [
       {
+        number: 90,
         title: 'ngrx with Mike Ryan',
         displayDate: 'Tuesday, November 29, 2016',
         date: '2016-11-29',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ngrx-2016',
-        guests: [[]]
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
       },
       {
         title: 'Angular and D3 for Data Visualization with Marjan Georgiev, Olivier Combe and Austin McDaniel',
@@ -1285,6 +1288,11 @@
           }
         });
       });
+      if(episode.hasNotes) {
+        markdownGetter.getNotes(episode.date).then(function success(markdown) {
+          episode.notes = $sce.trustAsHtml(markdown);
+        });
+      }
 
       // markdownGetter.getDescription(episode.date).then(function success(markdown) {
       //   episode.description = $sce.trustAsHtml(markdown);

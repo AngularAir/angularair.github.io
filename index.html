@@ -48,6 +48,7 @@
     <h2>Upcoming Episodes</h2>
 
     <div ng-repeat="episode in vm.episodes" class="episode">
+      <a ng-if="episode.number > 0" id="episode-{{::episode.number}}"></a>
       <div class="main-episode-content">
         <h3 class="episode__title">
           <a ng-href="{{::episode.hangoutUrl}}">{{::episode.title}}</a>
@@ -69,6 +70,14 @@
           <span ng-if="::!episode.hangoutUrl">
             Stay tuned for a YouTube link!
           </span>
+        </div>
+        <div ng-if="::episode.hasNotes" class="notes">
+          <a ng-click="episode.notesAreVisible = !episode.notesAreVisible" class="toggle">
+            Notes ({{episode.notesAreVisible ? 'click to hide' : 'click to show'}})
+          </a>
+          <div class="episode__notes justify"
+              ng-style="{'display': episode.notesAreVisible ? 'block' : 'none'}"
+              ng-bind-html="::episode.notes"></div>
         </div>
         <person-group groups="episode.guests"></person-group>
       </div>
