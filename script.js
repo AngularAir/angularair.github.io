@@ -50,14 +50,6 @@
 
     vm.episodes = [
       {
-        title: 'Angular and D3 for Data Visualization with Marjan Georgiev, Olivier Combe and Austin McDaniel',
-        displayDate: 'Tuesday, December 6, 2016',
-        date: '2016-12-06',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/d3-2016',
-        guests: [[]]
-      },
-      {
         title: 'Education Tech with Wesley Cho, Victor Mejia and Minko Gechev',
         displayDate: 'Tuesday, December 13, 2016',
         date: '2016-12-13',
@@ -1266,6 +1258,17 @@
         date: '2016-11-29',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ngrx-2016',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 91,
+        title: 'Angular and D3 for Data Visualization with Marjan Georgiev, Olivier Combe and Austin McDaniel',
+        displayDate: 'Tuesday, December 6, 2016',
+        date: '2016-12-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/d3-2016',
         guests: [[]],
         hasNotes: true,
         notesAreVisible: false
