@@ -50,12 +50,15 @@
 
     vm.episodes = [
       {
+        number: 92,
         title: 'Education Tech with Wesley Cho, Victor Mejia and Minko Gechev',
         displayDate: 'Tuesday, December 13, 2016',
         date: '2016-12-13',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/edtech-2016',
-        guests: [[]]
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
       },
       {
         title: 'Techniques for Testing with Duncan Hunter and Adam Stephensen',
