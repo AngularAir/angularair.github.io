@@ -1,1 +1,0 @@
-The Angular Air panelists talk about Angular 1.x Fundamentals.

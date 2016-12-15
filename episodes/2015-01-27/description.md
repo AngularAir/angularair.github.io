@@ -1,2 +1,0 @@
-We're super stoked to have the ng-conf organizers join us for this episode of Angular Air! We'll be going over what a
-great community angular has, what made ng-conf 1.0 so great and why we should be so excited for ng-conf 2.0.
