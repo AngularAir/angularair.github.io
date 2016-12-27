@@ -59,6 +59,39 @@
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
+      },
+      {
+        number: 95,
+        title: 'TIL #2',
+        displayDate: 'Tuesday, January 3, 2017',
+        date: '2017-01-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/til2-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 96,
+        title: 'Discovering Angular Content with Michaela Lehr',
+        displayDate: 'Tuesday, January 10, 2017',
+        date: '2017-01-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/content-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 97,
+        title: 'RxJS with Ben Lesh and Tracy Lee',
+        displayDate: 'Tuesday, January 17, 2017',
+        date: '2017-01-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/rxjs-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
       }
     ];
 
