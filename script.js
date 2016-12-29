@@ -50,17 +50,6 @@
 
     vm.episodes = [
       {
-        number: 94,
-        title: 'Life On and Beyond the Angular Core Team with Jeff Cross and Victor Savkin',
-        displayDate: 'Tuesday, December 27, 2016',
-        date: '2016-12-27',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/nrwl-2016',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 95,
         title: 'TIL #2',
         displayDate: 'Tuesday, January 3, 2017',
@@ -1319,6 +1308,17 @@
         date: '2016-12-20',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/testing-2016',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },      
+      {
+        number: 94,
+        title: 'Life On and Beyond the Angular Core Team with Jeff Cross and Victor Savkin',
+        displayDate: 'Tuesday, December 27, 2016',
+        date: '2016-12-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/nrwl-2016',
         guests: [[]],
         hasNotes: true,
         notesAreVisible: false
