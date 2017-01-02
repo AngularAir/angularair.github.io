@@ -1,16 +1,24 @@
 <div id="logo" class="center">
   <img src="assets/logo.png" />
 </div>
-
+<section class="center">
+  <app-link-icon icon="twitter" link="https://twitter.com/angularair" title="Angular Air on Twitter">
+    <div class="app-link-icon"><a href="https://twitter.com/angularair" title="Angular Air on Twitter"><i
+      class="fa fa-twitter"></i></a></div>
+  </app-link-icon>
+  <app-link-icon icon="google-plus" link="https://plus.google.com/u/0/+AngularAirPodcast/posts"
+                 title="Angular Air on Google+">
+    <div class="app-link-icon"><a href="https://plus.google.com/u/0/+AngularAirPodcast/posts"
+                                  title="Angular Air on Google+"><i class="fa fa-google-plus"></i></a></div>
+  </app-link-icon>
+</section>
 <section id="title" class="center">
   <h1>AngularAir</h1>
   <h2>
     A <strong>live</strong> video podcast all about Angular
   </h2>
   <p>
-    Brought to you by
-    <a href="https://auth0.com/learn/angular-authentication/?utm_source=angular_air&utm_medium=sponsored_link&utm_campaign=target_angular">Auth0</a>,
-    <a href="http://angularclass.com">AngularClass</a> and <a href="#sponsors">others</a>
+    Brought to you with support from <a href="http://angularclass.com">AngularClass</a>
   </p>
 </section>
 <hr />
@@ -20,3 +28,15 @@
   <app-subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></app-subscribe-icon>
 </section>
 <hr/>
+<section>
+  <h2>Featured Episode</h2>
+  <app-episode-card [episode]="(model | async)?.featuredEpisode"></app-episode-card>
+</section>
+<section>
+  <h2>Upcoming Episodes</h2>
+  <app-episode-card *ngFor="let episode of (model | async)?.upcomingEpisodes" [episode]="episode"></app-episode-card>
+</section>
+<section>
+  <h2>Past Episodes</h2>
+  <app-episode-card *ngFor="let episode of (model | async)?.pastEpisodes" [episode]="episode"></app-episode-card>
+</section>

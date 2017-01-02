@@ -6,19 +6,29 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LinkIconComponent } from './shared/link-icon/link-icon.component';
 import { SubscribeIconComponent } from './shared/subscribe-icon/subscribe-icon.component';
+import { DateService } from "./shared/date.service";
+import { StoreModule } from "@ngrx/store";
+import { rootReducer } from "./shared/state/root.reducer";
+
+import appState from './data.json';
+import { EpisodeCardComponent } from './shared/episode-card/episode-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LinkIconComponent,
-    SubscribeIconComponent
+    SubscribeIconComponent,
+    EpisodeCardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    StoreModule.provideStore(rootReducer, appState.data)
   ],
-  providers: [],
+  providers: [
+    DateService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
