@@ -15,11 +15,20 @@
 <section id="title" class="center">
   <h1>AngularAir</h1>
   <h2>
-    A <strong>live</strong> video podcast all about Angular
+    A <strong>live</strong> weekly video podcast covering the Angular JavaScript platform.
   </h2>
   <p>
     Brought to you with support from <a href="http://angularclass.com">AngularClass</a>
   </p>
+</section>
+<section>
+  <h2>Host</h2>
+  <app-person-card *ngFor="let person of (model | async)?.hosts" [person]="person"></app-person-card>
+</section>
+<section>
+  <h2>Panelists</h2>
+  <p>AngularAir is fortunate to have a panel of awesome Angular developers from the community!</p>
+  <app-person-card *ngFor="let person of (model | async)?.panelists" [person]="person"></app-person-card>
 </section>
 <hr />
 <section id="podcast-links" class="center">

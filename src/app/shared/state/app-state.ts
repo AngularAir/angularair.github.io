@@ -16,7 +16,6 @@ export interface Episode {
 }
 
 export interface Person {
-  id: number,
   fullName: string,
   twitterHandle: string
 }

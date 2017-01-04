@@ -8,17 +8,19 @@ import { LinkIconComponent } from './shared/link-icon/link-icon.component';
 import { SubscribeIconComponent } from './shared/subscribe-icon/subscribe-icon.component';
 import { DateService } from "./shared/date.service";
 import { StoreModule } from "@ngrx/store";
-import { rootReducer } from "./shared/state/root.reducer";
+import { rootReducer } from "./shared/state/reducers/root.reducer";
 
 import appState from './data.json';
 import { EpisodeCardComponent } from './shared/episode-card/episode-card.component';
+import { PersonCardComponent } from './shared/person-card/person-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LinkIconComponent,
     SubscribeIconComponent,
-    EpisodeCardComponent
+    EpisodeCardComponent,
+    PersonCardComponent
   ],
   imports: [
     BrowserModule,

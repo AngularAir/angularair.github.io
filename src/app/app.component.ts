@@ -15,25 +15,39 @@ export class AppComponent {
 
   constructor(store: Store<AppState>, dateService: DateService) {
     let featuredDateRange = dateService.getWeekStartAndEndDateTimeUtc();
-    console.log(featuredDateRange);
     this.model = Observable.combineLatest(
-      store.select((state: AppState) => {
-        return state.episodes
-      }),
-      (episodes) => {
+      store.select(state => state),
+      ({episodes, people, currentHostsIds, currentPanelistsIds}) => {
+        let currentDateUtc = Date.now();
+        let mapEpisode = (episode: Episode) => {
+          return Object.assign(episode, {
+            guests: episode.guestIds.map(id => people[id]),
+            isFeatured: episode.dateTimeUtc > featuredDateRange.start && episode.dateTimeUtc < featuredDateRange.end,
+            isUpcoming: episode.dateTimeUtc > featuredDateRange.end,
+            isPast: episode.dateTimeUtc < featuredDateRange.start,
+            published: episode.dateTimeUtc < currentDateUtc
+          });
+        };
         return {
+          hosts: currentHostsIds.map(id => people[id]),
+          panelists: currentPanelistsIds.map(id => people[id]),
           featuredEpisode: episodes
-            .find((episode: Episode) => episode.dateTimeUtc > featuredDateRange.start && episode.dateTimeUtc < featuredDateRange.end),
+            .map(mapEpisode)
+            .find(episode => episode.isFeatured),
           upcomingEpisodes: episodes
-            .filter((episode: Episode) => episode.dateTimeUtc > featuredDateRange.end)
+            .map(mapEpisode)
+            .filter(episode => episode.isUpcoming)
             .sort((episode1: Episode, episode2: Episode) => {
               return episode1.dateTimeUtc - episode2.dateTimeUtc;
-            }),
+            })
+            .map(mapEpisode),
           pastEpisodes: episodes
-            .filter((episode: Episode) => episode.dateTimeUtc < featuredDateRange.start)
+            .map(mapEpisode)
+            .filter(episode => episode.isPast)
             .sort((episode1: Episode, episode2: Episode) => {
               return episode2.dateTimeUtc - episode1.dateTimeUtc;
             })
+
         }
       });
   }

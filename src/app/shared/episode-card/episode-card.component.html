@@ -1,2 +1,11 @@
 <a href="{{episode.url}}">ngAir {{episode.id}} - {{episode.title}}</a>
-<div>{{episode.dateTimeUtc | date:'medium'}}</div>
+<div>
+  {{episode.published ? 'Aired On' : 'Live on'}}:
+  {{episode.dateTimeUtc | date:'fullDate'}} at {{episode.dateTimeUtc | date:'h:mm a (Z)'}}
+</div>
+<div *ngIf="episode.guests?.length > 0">
+  Guests:
+  <span *ngFor="let person of episode.guests">
+    {{person.fullName}} <a href="https://twitter.com/{{person.twitterHandle}}">@{{person.twitterHandle}}</a>
+  </span>
+</div>

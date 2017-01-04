@@ -6,74 +6,85 @@
       {
         "id": 96,
         "title": "Discovering Angular Content",
-        "dateTimeUtc": 1484046000000,
-        "url": "http://ngair.io/content-2017"
+        "dateTimeUtc": 1484074800000,
+        "url": "http://ngair.io/content-2017",
+        "guestIds": []
       },
       {
         "id": 95,
         "title": "TIL #2",
-        "dateTimeUtc": 1483441200000,
-        "url": "http://ngair.io/til2-2017"
+        "dateTimeUtc": 1483470000000,
+        "url": "http://ngair.io/til2-2017",
+        "guestIds": []
       },
       {
         "id": 94,
         "title": "Life On and Beyond the Angular Core Team",
-        "dateTimeUtc": 1482836400000,
-        "url": "http://ngair.io/nrwl-2016"
+        "dateTimeUtc": 1482865200000,
+        "url": "http://ngair.io/nrwl-2016",
+        "guestIds": [10,11]
       },
       {
         "id": 93,
         "title": "Techniques for Testing",
-        "dateTimeUtc": 1482231600000,
-        "url": "http://ngair.io/testing-2016"
+        "dateTimeUtc": 1482260400000,
+        "url": "http://ngair.io/testing-2016",
+        "guestIds": [12,13]
       }
     ],
-    "people": [
-      {
-        "id": 1,
-        "fullName": "Kent C. Dodds",
-        "twitterHandle": "kentcdodds"
+    "people": {
+      "13": {
+        "fullName": "Adam Stephensen",
+        "twitterHandle": "adamstephensen"
       },
-      {
-        "id": 2,
-        "fullName": "Todd Motto",
-        "twitterHandle": "toddmotto"
+      "12": {
+        "fullName": "Duncan Hunter",
+        "twitterHandle": "dunchunter"
       },
-      {
-        "id": 3,
-        "fullName": "Jeff Whelpley",
-        "twitterHandle": "jeffwhelpley"
+      "11": {
+        "fullName": "Jeff Cross",
+        "twitterHandle": "jeffbcross"
       },
-      {
-        "id": 4,
-        "fullName": "Justin Schwartzenberger",
-        "twitterHandle": "schwarty"
+      "10": {
+        "fullName": "Victor Savkin",
+        "twitterHandle": "victorsavkin"
       },
-      {
-        "id": 5,
-        "fullName": "Patrick Stapleton",
-        "twitterHandle": "gdi2290"
+      "9": {
+        "fullName": "Alyssa Nicoll",
+        "twitterHandle": "AlyssaNicoll"
       },
-      {
-        "id": 6,
-        "fullName": "Olivier Combe",
-        "twitterHandle": "ocombe"
-      },
-      {
-        "id": 7,
-        "fullName": "Mike Brocchi",
-        "twitterHandle": "brocco"
-      },
-      {
-        "id": 8,
+      "8": {
         "fullName": "Austin McDaniel",
         "twitterHandle": "amcdnl"
       },
-      {
-        "id": 9,
-        "fullName": "Alyssa Nicoll",
-        "twitterHandle": "AlyssaNicoll"
+      "7": {
+        "fullName": "Mike Brocchi",
+        "twitterHandle": "brocco"
+      },
+      "6": {
+        "fullName": "Olivier Combe",
+        "twitterHandle": "ocombe"
+      },
+      "5": {
+        "fullName": "Patrick Stapleton",
+        "twitterHandle": "gdi2290"
+      },
+      "4": {
+        "fullName": "Justin Schwartzenberger",
+        "twitterHandle": "schwarty"
+      },
+      "3": {
+        "fullName": "Jeff Whelpley",
+        "twitterHandle": "jeffwhelpley"
+      },
+      "2": {
+        "fullName": "Todd Motto",
+        "twitterHandle": "toddmotto"
+      },
+      "1": {
+        "fullName": "Kent C. Dodds",
+        "twitterHandle": "kentcdodds"
       }
-    ]
+    }
   }
 }
