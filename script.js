@@ -50,17 +50,6 @@
 
     vm.episodes = [
       {
-        number: 95,
-        title: 'TIL #2',
-        displayDate: 'Tuesday, January 3, 2017',
-        date: '2017-01-03',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/til2-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 96,
         title: 'Discovering Angular Content with Michaela Lehr',
         displayDate: 'Tuesday, January 10, 2017',
@@ -1319,6 +1308,17 @@
         date: '2016-12-27',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/nrwl-2016',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 95,
+        title: 'TIL #2',
+        displayDate: 'Tuesday, January 3, 2017',
+        date: '2017-01-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/til2-2017',
         guests: [[]],
         hasNotes: true,
         notesAreVisible: false
