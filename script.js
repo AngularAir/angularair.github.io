@@ -51,7 +51,7 @@
     vm.episodes = [
       {
         number: 96,
-        title: 'Discovering Angular Content with Michaela Lehr',
+        title: 'Discovering Angular Content with Michaela Lehr and Gerard Sans',
         displayDate: 'Tuesday, January 10, 2017',
         date: '2017-01-10',
         time: '11:00 AM (Pacific Time)',
@@ -67,6 +67,39 @@
         date: '2017-01-17',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/rxjs-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 98,
+        title: 'PWAs and Mobile with Sani Yusuf',
+        displayDate: 'Tuesday, January 24, 2017',
+        date: '2017-01-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/pwa-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 99,
+        title: 'Organizing ng-cruise with Joe Eames, Tracy Lee and Gerard Sans',
+        displayDate: 'Tuesday, January 31, 2017',
+        date: '2017-01-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ngcruise-promo-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 100,
+        title: 'Episode 100 Special',
+        displayDate: 'Tuesday, February 7, 2017',
+        date: '2017-02-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/episode100-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
