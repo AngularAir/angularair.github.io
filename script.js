@@ -50,17 +50,6 @@
 
     vm.episodes = [
       {
-        number: 96,
-        title: 'Discovering Angular Content with Michaela Lehr and Gerard Sans',
-        displayDate: 'Tuesday, January 10, 2017',
-        date: '2017-01-10',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/content-2017',
-        guests: [[]],
-        hasNotes: true,
-        notesAreVisible: false
-      },
-      {
         number: 97,
         title: 'RxJS with Ben Lesh and Tracy Lee',
         displayDate: 'Tuesday, January 17, 2017',
@@ -1352,6 +1341,17 @@
         date: '2017-01-03',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/til2-2017',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 96,
+        title: 'Discovering Angular Content with Michaela Lehr and Gerard Sans',
+        displayDate: 'Tuesday, January 10, 2017',
+        date: '2017-01-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/content-2017',
         guests: [[]],
         hasNotes: true,
         notesAreVisible: false
