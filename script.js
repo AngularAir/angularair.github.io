@@ -50,17 +50,6 @@
 
     vm.episodes = [
       {
-        number: 97,
-        title: 'RxJS with Ben Lesh and Tracy Lee',
-        displayDate: 'Tuesday, January 17, 2017',
-        date: '2017-01-17',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/rxjs-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 98,
         title: 'PWAs and Mobile with Sani Yusuf',
         displayDate: 'Tuesday, January 24, 2017',
@@ -1352,6 +1341,17 @@
         date: '2017-01-10',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/content-2017',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 97,
+        title: 'RxJS with Ben Lesh and Tracy Lee',
+        displayDate: 'Tuesday, January 17, 2017',
+        date: '2017-01-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/rxjs-2017',
         guests: [[]],
         hasNotes: true,
         notesAreVisible: false
