@@ -37,7 +37,7 @@
   <app-subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></app-subscribe-icon>
 </section>
 <hr/>
-<section>
+<section *ngIf="(model | async)?.featuredEpisode">
   <h2>Featured Episode</h2>
   <app-episode-card [episode]="(model | async)?.featuredEpisode"></app-episode-card>
 </section>
