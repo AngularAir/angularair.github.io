@@ -7,7 +7,7 @@
 
 ### Guests
 + [Tracy Lee](https://twitter.com/ladyleet)
-+ [Ben Lesh](https://twitter.com/)
++ [Ben Lesh](https://twitter.com/benlesh)
 
 ### Episode Notes
 + Introductions
