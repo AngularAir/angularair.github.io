@@ -11,7 +11,8 @@
 ### Episode Notes
 + Introductions
     + Sani
-        + Ionic blog post about travels - http://blog.ionic.io/ionics-diverse-worldwide-community/
+        + Ionic blog post about travels  
+          <http://blog.ionic.io/ionics-diverse-worldwide-community/>
 + PWAs
     + What do we refer to when we say PWA
     + Why are they important
