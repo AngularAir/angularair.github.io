@@ -37,36 +37,56 @@
 
     vm.panelists = [
       [
-        {name: 'Olivier Combe', twitter: 'ocombe'},
-        {name: 'Patrick Stapleton', twitter: 'gdi2290'},
-        {name: 'Todd Motto', twitter: 'toddmotto'}
-      ],
-      [
         {name: 'Alyssa Nicoll', twitter: 'AlyssaNicoll'},
         {name: 'Mike Brocchi', twitter: 'brocco'},
         {name: 'Austin McDaniel', twitter: 'amcdnl'}
+      ],
+      [
+        {name: 'Olivier Combe', twitter: 'ocombe'}
       ]
     ];
 
     vm.episodes = [
       {
-        number: 99,
-        title: 'Organizing ng-cruise with Joe Eames, Tracy Lee, Gerard Sans and Some Speakers',
-        displayDate: 'Tuesday, January 31, 2017',
-        date: '2017-01-31',
+        number: 101,
+        title: 'ngAir 101 - Contributor Days with Stephen Fluin and Tracy Lee',
+        displayDate: 'Tuesday, February 14, 2017',
+        date: '2017-02-14',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ngcruise-promo-2017',
+        hangoutUrl: 'http://ngair.io/ep101-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
       {
-        number: 100,
-        title: 'Episode 100 Special',
-        displayDate: 'Tuesday, February 7, 2017',
-        date: '2017-02-07',
+        number: 102,
+        title: 'ngAir 102 - DI on the Server with Jeff Whelpley',
+        displayDate: 'Tuesday, February 21, 2017',
+        date: '2017-02-21',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/episode100-2017',
+        hangoutUrl: 'http://ngair.io/ep102-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 103,
+        title: 'ngAir 103 - Animation in Angular with Matias Niemela',
+        displayDate: 'Tuesday, February 28, 2017',
+        date: '2017-02-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep103-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 104,
+        title: 'ngAir 104 - Web Security with Philippe De Ryck ',
+        displayDate: 'Tuesday, March 7, 2017',
+        date: '2017-03-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep104-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1354,6 +1374,28 @@
         hangoutUrl: 'http://ngair.io/pwa-2017',
         guests: [[]],
         hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 99,
+        title: 'Organizing ng-cruise with Joe Eames, Tracy Lee, Gerard Sans and Some Speakers',
+        displayDate: 'Tuesday, January 31, 2017',
+        date: '2017-01-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ngcruise-promo-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 100,
+        title: 'Episode 100 Special',
+        displayDate: 'Tuesday, February 7, 2017',
+        date: '2017-02-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/episode100-2017',
+        guests: [[]],
+        hasNotes: false,
         notesAreVisible: false
       }
     ];
