@@ -24,6 +24,7 @@
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
+        "playground": "environments/environment.playground.ts",
         "prod": "environments/environment.prod.ts"
       }
     }
