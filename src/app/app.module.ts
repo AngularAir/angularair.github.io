@@ -13,20 +13,26 @@ import { rootReducer } from "./shared/state/reducers/root.reducer";
 import appState from './data.json';
 import { EpisodeCardComponent } from './shared/episode-card/episode-card.component';
 import { PersonCardComponent } from './shared/person-card/person-card.component';
+import {RouterModule, Routes} from "@angular/router";
+
+const appRoutes: Routes = [
+  {path: 'episode/:id', loadChildren: 'app/episode/episode.module#EpisodeModule'}
+];
 
 @NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    RouterModule.forRoot(appRoutes),
+    StoreModule.provideStore(rootReducer, appState.data)
+  ],
   declarations: [
     AppComponent,
     LinkIconComponent,
     SubscribeIconComponent,
     EpisodeCardComponent,
     PersonCardComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,
-    StoreModule.provideStore(rootReducer, appState.data)
   ],
   providers: [
     DateService

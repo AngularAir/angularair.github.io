@@ -15,7 +15,7 @@
 <section id="title" class="center">
   <h1>AngularAir</h1>
   <h2>
-    A <strong>live</strong> weekly video podcast covering the Angular JavaScript platform.
+    A <strong>live</strong> weekly videocast covering the Angular JavaScript platform.
   </h2>
   <p>
     Brought to you with support from <a href="http://angularclass.com">AngularClass</a>
@@ -49,3 +49,4 @@
   <h2>Past Episodes</h2>
   <app-episode-card *ngFor="let episode of (model | async)?.pastEpisodes" [episode]="episode"></app-episode-card>
 </section>
+<router-outlet></router-outlet>
