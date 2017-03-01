@@ -48,28 +48,6 @@
 
     vm.episodes = [
       {
-        number: 101,
-        title: 'ngAir 101 - Contributor Days with Stephen Fluin and Tracy Lee',
-        displayDate: 'Tuesday, February 14, 2017',
-        date: '2017-02-14',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep101-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 102,
-        title: 'ngAir 102 - DI on the Server with Jeff Whelpley',
-        displayDate: 'Tuesday, February 21, 2017',
-        date: '2017-02-21',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep102-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 103,
         title: 'ngAir 103 - Animation in Angular with Matias Niemela',
         displayDate: 'Tuesday, February 28, 2017',
@@ -77,7 +55,7 @@
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep103-2017',
         guests: [[]],
-        hasNotes: false,
+        hasNotes: true,
         notesAreVisible: false
       },
       {
@@ -1384,7 +1362,7 @@
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ngcruise-promo-2017',
         guests: [[]],
-        hasNotes: false,
+        hasNotes: true,
         notesAreVisible: false
       },
       {
@@ -1395,7 +1373,29 @@
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/episode100-2017',
         guests: [[]],
-        hasNotes: false,
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 101,
+        title: 'ngAir 101 - Contributor Days with Stephen Fluin and Tracy Lee',
+        displayDate: 'Tuesday, February 14, 2017',
+        date: '2017-02-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep101-2017',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 102,
+        title: 'ngAir 102 - DI on the Server with Jeff Whelpley',
+        displayDate: 'Tuesday, February 21, 2017',
+        date: '2017-02-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep102-2017',
+        guests: [[]],
+        hasNotes: true,
         notesAreVisible: false
       }
     ];
