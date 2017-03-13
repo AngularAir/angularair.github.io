@@ -48,23 +48,34 @@
 
     vm.episodes = [
       {
-        number: 103,
-        title: 'ngAir 103 - Animation in Angular with Matias Niemela',
-        displayDate: 'Tuesday, February 28, 2017',
-        date: '2017-02-28',
+        number: 105,
+        title: 'ngAir 105 - Rapid API Development with Sails with Justin James',
+        displayDate: 'Tuesday, March 14, 2017',
+        date: '2017-03-14',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep103-2017',
+        hangoutUrl: 'http://ngair.io/ep105-2017',
         guests: [[]],
-        hasNotes: true,
+        hasNotes: false,
         notesAreVisible: false
       },
       {
-        number: 104,
-        title: 'ngAir 104 - Web Security with Philippe De Ryck ',
-        displayDate: 'Tuesday, March 7, 2017',
-        date: '2017-03-07',
+        number: 106,
+        title: 'ngAir 106 - Styling Angular Applications with Brian Treese',
+        displayDate: 'Tuesday, March 21, 2017',
+        date: '2017-03-21',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep104-2017',
+        hangoutUrl: 'http://ngair.io/ep106-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 107,
+        title: 'ngAir 107 - Angular CLI with Hans Larsen',
+        displayDate: 'Tuesday, March 28, 2017',
+        date: '2017-03-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep107-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1396,6 +1407,28 @@
         hangoutUrl: 'http://ngair.io/ep102-2017',
         guests: [[]],
         hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 103,
+        title: 'ngAir 103 - Animation in Angular with Matias Niemela',
+        displayDate: 'Tuesday, February 28, 2017',
+        date: '2017-02-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep103-2017',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 104,
+        title: 'ngAir 104 - Web Security with Philippe De Ryck ',
+        displayDate: 'Tuesday, March 7, 2017',
+        date: '2017-03-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep104-2017',
+        guests: [[]],
+        hasNotes: false,
         notesAreVisible: false
       }
     ];
