@@ -55,7 +55,7 @@
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep105-2017',
         guests: [[]],
-        hasNotes: false,
+        hasNotes: true,
         notesAreVisible: false
       },
       {
@@ -1428,7 +1428,7 @@
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep104-2017',
         guests: [[]],
-        hasNotes: false,
+        hasNotes: true,
         notesAreVisible: false
       }
     ];
