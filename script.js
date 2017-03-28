@@ -48,34 +48,23 @@
 
     vm.episodes = [
       {
-        number: 105,
-        title: 'ngAir 105 - Rapid API Development with Sails with Justin James',
-        displayDate: 'Tuesday, March 14, 2017',
-        date: '2017-03-14',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep105-2017',
-        guests: [[]],
-        hasNotes: true,
-        notesAreVisible: false
-      },
-      {
-        number: 106,
-        title: 'ngAir 106 - Styling Angular Applications with Brian Treese',
-        displayDate: 'Tuesday, March 21, 2017',
-        date: '2017-03-21',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep106-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 107,
         title: 'ngAir 107 - Angular CLI with Hans Larsen',
         displayDate: 'Tuesday, March 28, 2017',
         date: '2017-03-28',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep107-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 108,
+        title: 'ngAir 108 - Live from ngconf 2017',
+        displayDate: 'Thursday, April 6, 2017',
+        date: '2017-04-06',
+        time: '9:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep108-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1429,6 +1418,28 @@
         hangoutUrl: 'http://ngair.io/ep104-2017',
         guests: [[]],
         hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 105,
+        title: 'ngAir 105 - Rapid API Development with Sails with Justin James',
+        displayDate: 'Tuesday, March 14, 2017',
+        date: '2017-03-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep105-2017',
+        guests: [[]],
+        hasNotes: true,
+        notesAreVisible: false
+      },
+      {
+        number: 106,
+        title: 'ngAir 106 - Styling Angular Applications with Brian Treese',
+        displayDate: 'Tuesday, March 21, 2017',
+        date: '2017-03-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep106-2017',
+        guests: [[]],
+        hasNotes: false,
         notesAreVisible: false
       }
     ];
