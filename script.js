@@ -48,23 +48,25 @@
 
     vm.episodes = [
       {
-        number: 107,
-        title: 'ngAir 107 - Angular CLI with Hans Larsen',
-        displayDate: 'Tuesday, March 28, 2017',
-        date: '2017-03-28',
+        number: 109,
+        title: 'ngAir 109 - Angular Contributor Days Recap',
+        displayDate: 'Thursday, April 11, 2017',
+        date: '2017-04-11',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep107-2017',
+        hangoutUrl: 'http://ngair.io/ep109-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
+      
+      
       {
-        number: 108,
-        title: 'ngAir 108 - Live from ngconf 2017',
-        displayDate: 'Thursday, April 6, 2017',
-        date: '2017-04-06',
-        time: '9:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep108-2017',
+        number: 111,
+        title: 'ngAir 111 - AngularUp Conference 2017',
+        displayDate: 'Thursday, April 11, 2017',
+        date: '2017-04-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep111-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1438,6 +1440,28 @@
         date: '2017-03-21',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep106-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 107,
+        title: 'ngAir 107 - Angular CLI with Hans Larsen',
+        displayDate: 'Tuesday, March 28, 2017',
+        date: '2017-03-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep107-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 108,
+        title: 'ngAir 108 - Live from ngconf 2017',
+        displayDate: 'Thursday, April 6, 2017',
+        date: '2017-04-06',
+        time: '9:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep108-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
