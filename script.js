@@ -62,7 +62,7 @@
       
       {
         number: 111,
-        title: 'ngAir 111 - AngularUp Conference 2017',
+        title: 'ngAir 111 - AngularUP Conference 2017',
         displayDate: 'Thursday, April 11, 2017',
         date: '2017-04-25',
         time: '11:00 AM (Pacific Time)',
