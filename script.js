@@ -68,6 +68,17 @@
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
+      },
+      {
+        number: 112,
+        title: 'ngAir 112 - Creating and Maintaining Documentation',
+        displayDate: 'Thursday, May 2, 2017',
+        date: '2017-05-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep112-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
       }
     ];
 
