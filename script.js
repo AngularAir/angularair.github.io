@@ -58,8 +58,17 @@
         hasNotes: false,
         notesAreVisible: false
       },
-      
-      
+      {
+        number: 110,
+        title: 'ngAir 110 - The TIL Episode #3',
+        displayDate: 'Tuesda, April 18, 2017',
+        date: '2017-04-18',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep110-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
       {
         number: 111,
         title: 'ngAir 111 - AngularUP Conference 2017',
