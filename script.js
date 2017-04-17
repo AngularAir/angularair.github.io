@@ -48,17 +48,6 @@
 
     vm.episodes = [
       {
-        number: 109,
-        title: 'ngAir 109 - Angular Contributor Days Recap',
-        displayDate: 'Thursday, April 11, 2017',
-        date: '2017-04-11',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep109-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 110,
         title: 'ngAir 110 - The TIL Episode #3',
         displayDate: 'Tuesda, April 18, 2017',
@@ -1471,6 +1460,17 @@
         date: '2017-04-06',
         time: '9:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep108-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 109,
+        title: 'ngAir 109 - Angular Contributor Days Recap',
+        displayDate: 'Thursday, April 11, 2017',
+        date: '2017-04-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep109-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
