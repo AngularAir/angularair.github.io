@@ -50,7 +50,7 @@
       {
         number: 110,
         title: 'ngAir 110 - The TIL Episode #3',
-        displayDate: 'Tuesda, April 18, 2017',
+        displayDate: 'Tuesday, April 18, 2017',
         date: '2017-04-18',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep110-2017',
@@ -60,8 +60,8 @@
       },
       {
         number: 111,
-        title: 'ngAir 111 - AngularUP Conference 2017',
-        displayDate: 'Thursday, April 11, 2017',
+        title: 'ngAir 111 - Mystery...TBD',
+        displayDate: 'Tuesday, April 25, 2017',
         date: '2017-04-25',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep111-2017',
