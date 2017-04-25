@@ -60,7 +60,7 @@
       },
       {
         number: 111,
-        title: 'ngAir 111 - Mystery...TBD',
+        title: 'ngAir 111 - Component Libraries with Ed Morales and Dmitriy Shekhovtsov',
         displayDate: 'Tuesday, April 25, 2017',
         date: '2017-04-25',
         time: '11:00 AM (Pacific Time)',
