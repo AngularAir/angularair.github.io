@@ -48,23 +48,12 @@
 
     vm.episodes = [
       {
-        number: 111,
-        title: 'ngAir 111 - Building Component Libraries with Ed Morales and Dmitriy Shekhovtsov',
-        displayDate: 'Tuesday, April 25, 2017',
-        date: '2017-04-25',
+        number: 113,
+        title: 'ngAir 113 - AngularUP Conference Discussion',
+        displayDate: 'Thursday, May 9, 2017',
+        date: '2017-05-09',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep111-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 112,
-        title: 'ngAir 112 - Creating and Maintaining Documentation',
-        displayDate: 'Thursday, May 2, 2017',
-        date: '2017-05-02',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep112-2017',
+        hangoutUrl: 'http://ngair.io/ep113-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1482,6 +1471,28 @@
         date: '2017-04-18',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep110-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 111,
+        title: 'ngAir 111 - Building Component Libraries with Ed Morales and Dmitriy Shekhovtsov',
+        displayDate: 'Tuesday, April 25, 2017',
+        date: '2017-04-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep111-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 112,
+        title: 'ngAir 112 - Creating and Maintaining Documentation',
+        displayDate: 'Thursday, May 2, 2017',
+        date: '2017-05-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep112-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
