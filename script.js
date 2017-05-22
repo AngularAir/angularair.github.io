@@ -47,17 +47,28 @@
     ];
 
     vm.episodes = [
-      {
-        number: 113,
-        title: 'ngAir 113 - AngularUP Conference Discussion',
-        displayDate: 'Thursday, May 9, 2017',
-        date: '2017-05-09',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep113-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      }
+        {
+            number: 114,
+            title: 'ngAir 114 - Building a Plugin System with Fabian Wiles',
+            displayDate: 'Tuesday, May 16, 2017',
+            date: '2017-05-16',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep114-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 115,
+            title: 'ngAir 115 - Fun and Games and Ngrx with Ken Rimple',
+            displayDate: 'Tuesday, May 23, 2017',
+            date: '2017-05-23',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep115-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        }
     ];
 
     vm.pastEpisodes = [
@@ -1493,6 +1504,17 @@
         date: '2017-05-02',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep112-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      }, 
+      {
+        number: 113,
+        title: 'ngAir 113 - AngularUP Conference Discussion',
+        displayDate: 'Tuesday, May 9, 2017',
+        date: '2017-05-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep113-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
