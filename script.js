@@ -1565,7 +1565,7 @@
       },
       {
         number: 112,
-        title: 'ngAir 112 - Creating and Maintaining Documentation',
+        title: 'ngAir 112 - Creating and Maintaining Documentation with Vincent Ogloblinsky and Wassim Chegham',
         displayDate: 'Thursday, May 2, 2017',
         date: '2017-05-02',
         time: '11:00 AM (Pacific Time)',
@@ -1576,7 +1576,7 @@
       }, 
       {
         number: 113,
-        title: 'ngAir 113 - AngularUP Conference Discussion',
+        title: 'ngAir 113 - AngularUP Conference Discussion with Uri Shaked',
         displayDate: 'Tuesday, May 9, 2017',
         date: '2017-05-09',
         time: '11:00 AM (Pacific Time)',
