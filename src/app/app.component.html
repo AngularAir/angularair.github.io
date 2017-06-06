@@ -2,15 +2,15 @@
   <img src="assets/logo.png" />
 </div>
 <section class="center">
-  <app-link-icon icon="twitter" link="https://twitter.com/angularair" title="Angular Air on Twitter">
+  <ngair-link-icon icon="twitter" link="https://twitter.com/angularair" title="Angular Air on Twitter">
     <div class="app-link-icon"><a href="https://twitter.com/angularair" title="Angular Air on Twitter"><i
       class="fa fa-twitter"></i></a></div>
-  </app-link-icon>
-  <app-link-icon icon="google-plus" link="https://plus.google.com/u/0/+AngularAirPodcast/posts"
+  </ngair-link-icon>
+  <ngair-link-icon icon="google-plus" link="https://plus.google.com/u/0/+AngularAirPodcast/posts"
                  title="Angular Air on Google+">
     <div class="app-link-icon"><a href="https://plus.google.com/u/0/+AngularAirPodcast/posts"
                                   title="Angular Air on Google+"><i class="fa fa-google-plus"></i></a></div>
-  </app-link-icon>
+  </ngair-link-icon>
 </section>
 <section id="title" class="center">
   <h1>AngularAir</h1>
@@ -23,30 +23,30 @@
 </section>
 <section>
   <h2>Host</h2>
-  <app-person-card *ngFor="let person of (model | async)?.hosts" [person]="person"></app-person-card>
+  <ngair-person-card *ngFor="let person of (model | async)?.hosts" [person]="person"></ngair-person-card>
 </section>
 <section>
   <h2>Panelists</h2>
   <p>AngularAir is fortunate to have a panel of awesome Angular developers from the community!</p>
-  <app-person-card *ngFor="let person of (model | async)?.panelists" [person]="person"></app-person-card>
+  <ngair-person-card *ngFor="let person of (model | async)?.panelists" [person]="person"></ngair-person-card>
 </section>
 <hr />
 <section id="podcast-links" class="center">
-  <app-subscribe-icon icon="apple" network="iTunes" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2"></app-subscribe-icon>
-  <app-subscribe-icon icon="youtube" network="YouTube" link="https://www.youtube.com/c/AngularAirPodcast"></app-subscribe-icon>
-  <app-subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></app-subscribe-icon>
+  <ngair-subscribe-icon icon="apple" network="iTunes" link="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2"></ngair-subscribe-icon>
+  <ngair-subscribe-icon icon="youtube" network="YouTube" link="https://www.youtube.com/c/AngularAirPodcast"></ngair-subscribe-icon>
+  <ngair-subscribe-icon icon="rss" network="RSS" link="http://angularair.podbean.com/feed/"></ngair-subscribe-icon>
 </section>
 <hr/>
 <section *ngIf="(model | async)?.featuredEpisode">
   <h2>Featured Episode</h2>
-  <app-episode-card [episode]="(model | async)?.featuredEpisode"></app-episode-card>
+  <ngair-episode-card [episode]="(model | async)?.featuredEpisode"></ngair-episode-card>
 </section>
 <section>
   <h2>Upcoming Episodes</h2>
-  <app-episode-card *ngFor="let episode of (model | async)?.upcomingEpisodes" [episode]="episode"></app-episode-card>
+  <ngair-episode-card *ngFor="let episode of (model | async)?.upcomingEpisodes" [episode]="episode"></ngair-episode-card>
 </section>
 <section>
   <h2>Past Episodes</h2>
-  <app-episode-card *ngFor="let episode of (model | async)?.pastEpisodes" [episode]="episode"></app-episode-card>
+  <ngair-episode-card *ngFor="let episode of (model | async)?.pastEpisodes" [episode]="episode"></ngair-episode-card>
 </section>
 <router-outlet></router-outlet>

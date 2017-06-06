@@ -1,6 +1,6 @@
 {
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "version": "1.0.0-beta.22-1",
     "name": "angularair"
   },
   "apps": [
@@ -13,29 +13,32 @@
       ],
       "index": "index.html",
       "main": "main.ts",
+      "polyfills": "polyfills.ts",
       "test": "test.ts",
-      "tsconfig": "tsconfig.json",
-      "prefix": "app",
-      "mobile": false,
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "ngair",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "../node_modules/prismjs/themes/prism-okaidia.css"
       ],
       "scripts": [],
+      "environmentSource": "environments/environment.ts",
       "environments": {
-        "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "playground": "environments/environment.playground.ts",
         "prod": "environments/environment.prod.ts"
       }
     }
   ],
-  "addons": [],
-  "packages": [],
-  "e2e": {
-    "protractor": {
-      "config": "./protractor.conf.js"
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
     }
-  },
+  ],
   "test": {
     "karma": {
       "config": "./karma.conf.js"
@@ -43,19 +46,15 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "changeDetection": "OnPush",
-    "prefixInterfaces": false,
-    "inline": {
-      "style": false,
-      "template": false
+    "component": {
+      "spec": false,
+      "changeDetection": "OnPush"
     },
-    "spec": {
-      "class": false,
-      "component": true,
-      "directive": true,
-      "module": false,
-      "pipe": true,
-      "service": true
+    "directive": {
+      "spec": false
+    },
+    "module": {
+      "spec": false
     }
   }
 }

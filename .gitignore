@@ -26,6 +26,7 @@ debug.log
 testem.log
 /typings
 /yarn-error.log
+/yarn.lock
 
 # e2e
 /e2e/*.js

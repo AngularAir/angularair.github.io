@@ -1,7 +1,7 @@
 import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-subscribe-icon',
+  selector: 'ngair-subscribe-icon',
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './subscribe-icon.component.html',
   styleUrls: ['./subscribe-icon.component.scss']

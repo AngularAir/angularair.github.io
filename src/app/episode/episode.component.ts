@@ -1,25 +1,23 @@
-import {ChangeDetectionStrategy, Component} from "@angular/core";
-import {NotesService} from "./notes.service";
-import {ActivatedRoute, Params} from "@angular/router";
+import { ChangeDetectionStrategy, Component } from "@angular/core";
+import { ActivatedRoute, Params } from "@angular/router";
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
-  selector: 'app-episode',
-  template: `
-    <pre><code>{{notes}}</code></pre>`,
+  selector: 'ngair-episode',
+    template: `<markdown [data]="notes?.$value"></markdown>`,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class EpisodeComponent {
-  notes: string;
+  notes;
 
-  constructor(private route: ActivatedRoute, private notesService: NotesService) {
+  constructor(private db: AngularFireDatabase,
+              private route: ActivatedRoute) {
   }
 
   ngOnInit() {
     this.route.params
-      .switchMap((params: Params) => this.notesService.getNotesByEpisodeId(+params['id']))
-      .subscribe((notes: string) => {
-        this.notes = notes;
-        console.log('wee');
+      .subscribe((params: Params) => {
+        this.notes = this.db.object(`/episodeNotes/${params['id']}`);
       }, error => {
       });
   }

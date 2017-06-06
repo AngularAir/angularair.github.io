@@ -3,7 +3,7 @@
   {{episode.published ? 'Aired On' : 'Live on'}}:
   {{episode.dateTimeUtc | date:'fullDate'}} at {{episode.dateTimeUtc | date:'h:mm a (Z)'}}
 </div>
-<div *ngIf="episode.guests?.length > 0">
+<div *ngIf="episode.guests">
   Guests:
   <span *ngFor="let person of episode.guests">
     {{person.fullName}} <a href="https://twitter.com/{{person.twitterHandle}}">@{{person.twitterHandle}}</a>

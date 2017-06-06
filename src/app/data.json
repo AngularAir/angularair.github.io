@@ -1,90 +1,112 @@
 {
-  "data": {
-    "currentHostsIds": [4],
-    "currentPanelistsIds": [7,8,9,6],
-    "episodes": [
-      {
-        "id": 96,
-        "title": "Discovering Angular Content",
-        "dateTimeUtc": 1484074800000,
-        "url": "http://ngair.io/content-2017",
-        "guestIds": []
+  "currentHosts": {
+    "justinschwartzenberger": true
+  },
+  "currentPanelists": {
+    "mikebrocchi": true,
+    "austinmcdaniel": true,
+    "alyssanicoll": true
+  },
+  "episodes": {
+    "96": {
+      "title": "Discovering Angular Content",
+      "dateTimeUtc": 1484074800000,
+      "url": "http://ngair.io/content-2017",
+      "guests": {},
+      "panelists": {}
+    },
+    "95": {
+      "title": "TIL #2",
+      "dateTimeUtc": 1483470000000,
+      "url": "http://ngair.io/til2-2017",
+      "guests": {},
+      "panelists": {}
+    },
+    "94": {
+      "title": "Life On and Beyond the Angular Core Team",
+      "dateTimeUtc": 1482865200000,
+      "url": "http://ngair.io/nrwl-2016",
+      "guests": {
+        "victorsavkin": true,
+        "jeffcross": true
       },
-      {
-        "id": 95,
-        "title": "TIL #2",
-        "dateTimeUtc": 1483470000000,
-        "url": "http://ngair.io/til2-2017",
-        "guestIds": []
-      },
-      {
-        "id": 94,
-        "title": "Life On and Beyond the Angular Core Team",
-        "dateTimeUtc": 1482865200000,
-        "url": "http://ngair.io/nrwl-2016",
-        "guestIds": [10,11]
-      },
-      {
-        "id": 93,
-        "title": "Techniques for Testing",
-        "dateTimeUtc": 1482260400000,
-        "url": "http://ngair.io/testing-2016",
-        "guestIds": [12,13]
+      "panelists": {
+        "mikebrocchi": true,
+        "austinmcdaniel": true,
+        "alyssanicoll": true
       }
-    ],
-    "people": {
-      "13": {
-        "fullName": "Adam Stephensen",
-        "twitterHandle": "adamstephensen"
+    },
+    "93": {
+      "title": "Techniques for Testing",
+      "dateTimeUtc": 1482260400000,
+      "url": "http://ngair.io/testing-2016",
+      "guests": {
+        "duncanhunter": true,
+        "adamstephensen": true
       },
-      "12": {
-        "fullName": "Duncan Hunter",
-        "twitterHandle": "dunchunter"
-      },
-      "11": {
-        "fullName": "Jeff Cross",
-        "twitterHandle": "jeffbcross"
-      },
-      "10": {
-        "fullName": "Victor Savkin",
-        "twitterHandle": "victorsavkin"
-      },
-      "9": {
-        "fullName": "Alyssa Nicoll",
-        "twitterHandle": "AlyssaNicoll"
-      },
-      "8": {
-        "fullName": "Austin McDaniel",
-        "twitterHandle": "amcdnl"
-      },
-      "7": {
-        "fullName": "Mike Brocchi",
-        "twitterHandle": "brocco"
-      },
-      "6": {
-        "fullName": "Olivier Combe",
-        "twitterHandle": "ocombe"
-      },
-      "5": {
-        "fullName": "Patrick Stapleton",
-        "twitterHandle": "gdi2290"
-      },
-      "4": {
-        "fullName": "Justin Schwartzenberger",
-        "twitterHandle": "schwarty"
-      },
-      "3": {
-        "fullName": "Jeff Whelpley",
-        "twitterHandle": "jeffwhelpley"
-      },
-      "2": {
-        "fullName": "Todd Motto",
-        "twitterHandle": "toddmotto"
-      },
-      "1": {
-        "fullName": "Kent C. Dodds",
-        "twitterHandle": "kentcdodds"
+      "panelists": {
+        "mikebrocchi": true,
+        "austinmcdaniel": true,
+        "victormejia": true
       }
+    }
+  },
+  "people": {
+    "adamstephensen": {
+      "fullName": "Adam Stephensen",
+      "twitterHandle": "adamstephensen"
+    },
+    "duncanhunter": {
+      "fullName": "Duncan Hunter",
+      "twitterHandle": "dunchunter"
+    },
+    "jeffcross": {
+      "fullName": "Jeff Cross",
+      "twitterHandle": "jeffbcross"
+    },
+    "victorsavkin": {
+      "fullName": "Victor Savkin",
+      "twitterHandle": "victorsavkin"
+    },
+    "alyssanicoll": {
+      "fullName": "Alyssa Nicoll",
+      "twitterHandle": "AlyssaNicoll"
+    },
+    "austinmcdaniel": {
+      "fullName": "Austin McDaniel",
+      "twitterHandle": "amcdnl"
+    },
+    "mikebrocchi": {
+      "fullName": "Mike Brocchi",
+      "twitterHandle": "brocco"
+    },
+    "oliviercombe": {
+      "fullName": "Olivier Combe",
+      "twitterHandle": "ocombe"
+    },
+    "patrickstapleton": {
+      "fullName": "Patrick Stapleton",
+      "twitterHandle": "gdi2290"
+    },
+    "justinschwartzenberger": {
+      "fullName": "Justin Schwartzenberger",
+      "twitterHandle": "schwarty"
+    },
+    "jeffwhelpley": {
+      "fullName": "Jeff Whelpley",
+      "twitterHandle": "jeffwhelpley"
+    },
+    "toddmotto": {
+      "fullName": "Todd Motto",
+      "twitterHandle": "toddmotto"
+    },
+    "kentcdodds": {
+      "fullName": "Kent C. Dodds",
+      "twitterHandle": "kentcdodds"
+    },
+    "victormejia": {
+      "fullName": "Victor Mejia",
+      "twitterHandle": "_victormejia"
     }
   }
 }
