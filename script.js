@@ -48,23 +48,89 @@
 
     vm.episodes = [
         {
-            number: 114,
-            title: 'ngAir 114 - Building a Plugin System with Fabian Wiles',
-            displayDate: 'Tuesday, May 16, 2017',
-            date: '2017-05-16',
+            number: 116,
+            title: 'ngAir 116 - Practical RxJS and Performance with Onur Dogangönül',
+            displayDate: 'Tuesday, June 7, 2017',
+            date: '2017-06-07',
             time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep114-2017',
+            hangoutUrl: 'http://ngair.io/ep116-2017',
             guests: [[]],
             hasNotes: false,
             notesAreVisible: false
         },
         {
-            number: 115,
-            title: 'ngAir 115 - Fun and Games and Ngrx with Ken Rimple',
-            displayDate: 'Tuesday, May 23, 2017',
-            date: '2017-05-23',
+            number: 117,
+            title: 'ngAir 117 - ngDoc.io with Joe Eames',
+            displayDate: 'Tuesday, June 15, 2017',
+            date: '2017-06-15',
             time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep115-2017',
+            hangoutUrl: 'http://ngair.io/ep117-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 118,
+            title: 'ngAir 118 - i18n and Translation with Olivier Combe',
+            displayDate: 'Tuesday, June 20, 2017',
+            date: '2017-06-20',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep118-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 119,
+            title: 'ngAir 119 - ngGirls and ngAtl with Shmuela Jacobs and Zackary Chapple',
+            displayDate: 'Tuesday, June 27, 2017',
+            date: '2017-06-27',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep119-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 120,
+            title: 'ngAir 120 - Debugging with the CLI and VSCode',
+            displayDate: 'Tuesday, July 5, 2017',
+            date: '2017-07-05',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep120-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 121,
+            title: 'ngAir 121 - Components as a Service with Aaron Frost',
+            displayDate: 'Tuesday, July 11, 2017',
+            date: '2017-07-11',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep121-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 123,
+            title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
+            displayDate: 'Tuesday, July 25, 2017',
+            date: '2017-07-25',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep123-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
+            number: 124,
+            title: 'ngAir 124 - Flex-Layout with Thomas Burleson',
+            displayDate: 'Tuesday, August 1, 2017',
+            date: '2017-08-01',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep124-2017',
             guests: [[]],
             hasNotes: false,
             notesAreVisible: false
@@ -1515,6 +1581,28 @@
         date: '2017-05-09',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep113-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 114,
+        title: 'ngAir 114 - Building a Plugin System with Fabian Wiles',
+        displayDate: 'Tuesday, May 16, 2017',
+        date: '2017-05-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep114-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 115,
+        title: 'ngAir 115 - Fun and Games and Ngrx with Ken Rimple',
+        displayDate: 'Tuesday, May 23, 2017',
+        date: '2017-05-23',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep115-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
