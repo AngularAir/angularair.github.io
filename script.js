@@ -61,7 +61,7 @@
         {
             number: 117,
             title: 'ngAir 117 - ngDoc.io with Joe Eames',
-            displayDate: 'Tuesday, June 15, 2017',
+            displayDate: 'Thursday, June 15, 2017',
             date: '2017-06-15',
             time: '11:00 AM (Pacific Time)',
             hangoutUrl: 'http://ngair.io/ep117-2017',
