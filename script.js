@@ -48,28 +48,6 @@
 
     vm.episodes = [
         {
-            number: 116,
-            title: 'ngAir 116 - Practical RxJS and Performance with Onur Dogangönül',
-            displayDate: 'Tuesday, June 7, 2017',
-            date: '2017-06-07',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep116-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
-            number: 117,
-            title: 'ngAir 117 - ngDoc.io with Joe Eames',
-            displayDate: 'Thursday, June 15, 2017',
-            date: '2017-06-15',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep117-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
             number: 118,
             title: 'ngAir 118 - i18n and Translation with Olivier Combe',
             displayDate: 'Tuesday, June 20, 2017',
@@ -93,7 +71,7 @@
         },
         {
             number: 120,
-            title: 'ngAir 120 - Debugging with the CLI and VSCode',
+            title: 'ngAir 120 - Code Sharing between NativeScript and Web with Sebastian Witalec',
             displayDate: 'Tuesday, July 5, 2017',
             date: '2017-07-05',
             time: '11:00 AM (Pacific Time)',
@@ -1606,7 +1584,29 @@
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
-      }
+      },
+      {
+        number: 116,
+        title: 'ngAir 116 - Practical RxJS and Performance with Onur Dogangönül',
+        displayDate: 'Tuesday, June 7, 2017',
+        date: '2017-06-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep116-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 117,
+        title: 'ngAir 117 - ngDoc.io with Joe Eames',
+        displayDate: 'Thursday, June 15, 2017',
+        date: '2017-06-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep117-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
