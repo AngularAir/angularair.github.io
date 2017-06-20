@@ -49,7 +49,7 @@
     vm.episodes = [
         {
             number: 118,
-            title: 'ngAir 118 - i18n and Translation with Olivier Combe',
+            title: 'ngAir 118 - i18n and Translation with Olivier Combe and Victor Berchet',
             displayDate: 'Tuesday, June 20, 2017',
             date: '2017-06-20',
             time: '11:00 AM (Pacific Time)',
