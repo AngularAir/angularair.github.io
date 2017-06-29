@@ -112,6 +112,17 @@
             guests: [[]],
             hasNotes: false,
             notesAreVisible: false
+        },
+        {
+            number: 126,
+            title: 'ngAir 126 - Managing Code for Multiple Apps and Teams with Jeff Whelpley',
+            displayDate: 'Tuesday, August 15, 2017',
+            date: '2017-08-15',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep126-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
         }
     ];
 
