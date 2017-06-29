@@ -48,17 +48,6 @@
 
     vm.episodes = [
         {
-            number: 118,
-            title: 'ngAir 118 - i18n and Translation with Olivier Combe and Victor Berchet',
-            displayDate: 'Tuesday, June 20, 2017',
-            date: '2017-06-20',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep118-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
             number: 119,
             title: 'ngAir 119 - ngGirls and ngAtl with Shmuela Jacobs and Zackary Chapple',
             displayDate: 'Tuesday, June 27, 2017',
@@ -72,7 +61,7 @@
         {
             number: 120,
             title: 'ngAir 120 - Code Sharing between NativeScript and Web with Sebastian Witalec',
-            displayDate: 'Tuesday, July 5, 2017',
+            displayDate: 'Wednesday, July 5, 2017',
             date: '2017-07-05',
             time: '11:00 AM (Pacific Time)',
             hangoutUrl: 'http://ngair.io/ep120-2017',
@@ -1614,6 +1603,17 @@
         date: '2017-06-15',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep117-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 118,
+        title: 'ngAir 118 - i18n and Translation with Olivier Combe and Victor Berchet',
+        displayDate: 'Tuesday, June 20, 2017',
+        date: '2017-06-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep118-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
