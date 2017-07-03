@@ -81,6 +81,17 @@
             notesAreVisible: false
         },
         {
+            number: 122,
+            title: 'ngAir 122 - Authentication with Younes JAAIDI',
+            displayDate: 'Tuesday, July 18, 2017',
+            date: '2017-07-18',
+            time: '11:00 AM (Pacific Time)',
+            hangoutUrl: 'http://ngair.io/ep122-2017',
+            guests: [[]],
+            hasNotes: false,
+            notesAreVisible: false
+        },
+        {
             number: 123,
             title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
             displayDate: 'Tuesday, July 25, 2017',
