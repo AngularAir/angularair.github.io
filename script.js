@@ -48,17 +48,6 @@
 
     vm.episodes = [
         {
-            number: 119,
-            title: 'ngAir 119 - ngGirls and ngAtl with Shmuela Jacobs and Zackary Chapple',
-            displayDate: 'Tuesday, June 27, 2017',
-            date: '2017-06-27',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep119-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
             number: 120,
             title: 'ngAir 120 - Code Sharing between NativeScript and Web with Sebastian Witalec',
             displayDate: 'Wednesday, July 5, 2017',
@@ -1636,6 +1625,17 @@
         date: '2017-06-20',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep118-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 119,
+        title: 'ngAir 119 - ngGirls and ngAtl with Shmuela Jacobs and Zackary Chapple',
+        displayDate: 'Tuesday, June 27, 2017',
+        date: '2017-06-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep119-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
