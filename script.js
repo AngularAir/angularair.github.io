@@ -47,6 +47,7 @@
     ];
 
     vm.episodes = [
+      
         {
             number: 122,
             title: 'ngAir 122 - Authentication with Younes JAAIDI',
