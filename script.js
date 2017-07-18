@@ -48,28 +48,6 @@
 
     vm.episodes = [
         {
-            number: 120,
-            title: 'ngAir 120 - Code Sharing between NativeScript and Web with Sebastian Witalec',
-            displayDate: 'Wednesday, July 5, 2017',
-            date: '2017-07-05',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep120-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
-            number: 121,
-            title: 'ngAir 121 - Components as a Service with Aaron Frost',
-            displayDate: 'Tuesday, July 11, 2017',
-            date: '2017-07-11',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep121-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
             number: 122,
             title: 'ngAir 122 - Authentication with Younes JAAIDI',
             displayDate: 'Tuesday, July 18, 2017',
@@ -1636,6 +1614,28 @@
         date: '2017-06-27',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep119-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 120,
+        title: 'ngAir 120 - Code Sharing between NativeScript and Web with Sebastian Witalec',
+        displayDate: 'Wednesday, July 5, 2017',
+        date: '2017-07-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep120-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 121,
+        title: 'ngAir 121 - Components as a Service with Aaron Frost',
+        displayDate: 'Tuesday, July 11, 2017',
+        date: '2017-07-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep121-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
