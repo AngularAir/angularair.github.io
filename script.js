@@ -48,21 +48,10 @@
 
     vm.episodes = [
         {
-            number: 123,
-            title: 'No Episode This Week (will reschedule)',
-            displayDate: 'Tuesday, July 25, 2017',
-            date: '2017-07-25',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: '',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
             number: 124,
             title: 'ngAir 124 - Flex-Layout with Thomas Burleson',
-            displayDate: 'Tuesday, August 1, 2017',
-            date: '2017-08-01',
+            displayDate: 'Friday, August 4, 2017',
+            date: '2017-08-04',
             time: '11:00 AM (Pacific Time)',
             hangoutUrl: 'http://ngair.io/ep124-2017',
             guests: [[]],
@@ -1649,6 +1638,17 @@
         date: '2017-07-18',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep122-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 123,
+        title: 'No Episode This Week (will reschedule)',
+        displayDate: 'Tuesday, July 25, 2017',
+        date: '2017-07-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: '',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
