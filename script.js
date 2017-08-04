@@ -52,7 +52,7 @@
             title: 'ngAir 124 - Flex-Layout with Thomas Burleson',
             displayDate: 'Friday, August 4, 2017',
             date: '2017-08-04',
-            time: '11:00 AM (Pacific Time)',
+            time: '02:00 PM (Pacific Time)',
             hangoutUrl: 'http://ngair.io/ep124-2017',
             guests: [[]],
             hasNotes: false,
