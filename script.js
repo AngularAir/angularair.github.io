@@ -48,19 +48,8 @@
 
     vm.episodes = [
         {
-            number: 124,
-            title: 'ngAir 124 - Flex-Layout with Thomas Burleson',
-            displayDate: 'Friday, August 4, 2017',
-            date: '2017-08-04',
-            time: '02:00 PM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep124-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
             number: 125,
-            title: 'ngAir 125 - Debugging with the CLI and VSCode',
+            title: 'ngAir 125 - Debugging with the CLI and VSCode with Tony Sneed',
             displayDate: 'Tuesday, August 8, 2017',
             date: '2017-08-08',
             time: '11:00 AM (Pacific Time)',
@@ -1649,6 +1638,17 @@
         date: '2017-07-25',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: '',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 124,
+        title: 'ngAir 124 - Flex-Layout with Thomas Burleson',
+        displayDate: 'Friday, August 4, 2017',
+        date: '2017-08-04',
+        time: '02:00 PM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep124-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
