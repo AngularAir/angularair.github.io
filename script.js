@@ -47,41 +47,30 @@
     ];
 
     vm.episodes = [
-        {
-            number: 125,
-            title: 'ngAir 125 - Debugging with the CLI and VSCode with Tony Sneed',
-            displayDate: 'Tuesday, August 8, 2017',
-            date: '2017-08-08',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep125-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        },
-        {
-            number: 126,
-            title: 'ngAir 126 - Managing Code for Multiple Apps and Teams with Jeff Whelpley',
-            displayDate: 'Tuesday, August 15, 2017',
-            date: '2017-08-15',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep126-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        }
-        /*
-        {
-            number: 123,
-            title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
-            displayDate: 'Tuesday, July 25, 2017',
-            date: '2017-07-25',
-            time: '11:00 AM (Pacific Time)',
-            hangoutUrl: 'http://ngair.io/ep123-2017',
-            guests: [[]],
-            hasNotes: false,
-            notesAreVisible: false
-        }
-        */
+      {
+        number: 127,
+        title: 'ngAir 127 - The history and future of Angular with Brad Green',
+        displayDate: 'Tuesday, August 22, 2017',
+        date: '2017-08-22',
+        time: '8:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep127-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      }
+      /*
+      {
+        number: 123,
+        title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
+        displayDate: 'Tuesday, July 25, 2017',
+        date: '2017-07-25',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep123-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      }
+      */
     ];
 
     vm.pastEpisodes = [
@@ -1649,6 +1638,28 @@
         date: '2017-08-04',
         time: '02:00 PM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep124-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 125,
+        title: 'ngAir 125 - Debugging with the CLI and VSCode with Tony Sneed',
+        displayDate: 'Tuesday, August 8, 2017',
+        date: '2017-08-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep125-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 126,
+        title: 'ngAir 126 - Managing Code for Multiple Apps and Teams with Jeff Whelpley and Gleb Bahmutov',
+        displayDate: 'Tuesday, August 15, 2017',
+        date: '2017-08-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep126-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
