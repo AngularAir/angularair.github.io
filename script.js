@@ -39,7 +39,8 @@
       [
         {name: 'Alyssa Nicoll', twitter: 'AlyssaNicoll'},
         {name: 'Mike Brocchi', twitter: 'brocco'},
-        {name: 'Austin McDaniel', twitter: 'amcdnl'}
+        {name: 'Austin McDaniel', twitter: 'amcdnl'},
+        {name: 'Bonnie Brennan', twitter: 'bonnster75'}
       ],
       [
         {name: 'Olivier Combe', twitter: 'ocombe'}
