@@ -49,12 +49,12 @@
 
     vm.episodes = [
       {
-        number: 127,
-        title: 'ngAir 127 - The history and future of Angular with Brad Green',
-        displayDate: 'Tuesday, August 22, 2017',
-        date: '2017-08-22',
-        time: '8:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep127-2017',
+        number: 128,
+        title: 'ngAir 128 - MachineLabs with Pascal Precht and Christoph Burgdorf',
+        displayDate: 'Tuesday, August 29, 2017',
+        date: '2017-08-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep128-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1661,6 +1661,17 @@
         date: '2017-08-15',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep126-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 127,
+        title: 'ngAir 127 - The history and future of Angular with Brad Green',
+        displayDate: 'Tuesday, August 22, 2017',
+        date: '2017-08-22',
+        time: '8:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep127-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
