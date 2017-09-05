@@ -49,12 +49,23 @@
 
     vm.episodes = [
       {
-        number: 128,
-        title: 'ngAir 128 - MachineLabs with Pascal Precht and Christoph Burgdorf',
-        displayDate: 'Tuesday, August 29, 2017',
-        date: '2017-08-29',
+        number: 129,
+        title: 'ngAir 129 - Using 3rd Party Libs in Angular with Joe Skeen',
+        displayDate: 'Tuesday, September 5, 2017',
+        date: '2017-09-05',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep128-2017',
+        hangoutUrl: 'http://ngair.io/ep129-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 130,
+        title: 'ngAir 130 - AngularJS to Angular with Denny Kruep',
+        displayDate: 'Tuesday, September 12, 2017',
+        date: '2017-09-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep130-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1672,6 +1683,17 @@
         date: '2017-08-22',
         time: '8:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep127-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 128,
+        title: 'ngAir 128 - MachineLabs with Pascal Precht and Christoph Burgdorf',
+        displayDate: 'Tuesday, August 29, 2017',
+        date: '2017-08-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep128-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
