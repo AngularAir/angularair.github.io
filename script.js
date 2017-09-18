@@ -49,40 +49,38 @@
 
     vm.episodes = [
       {
-        number: 129,
-        title: 'ngAir 129 - Using 3rd Party Libs in Angular with Joe Skeen',
-        displayDate: 'Tuesday, September 5, 2017',
-        date: '2017-09-05',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep129-2017',
+        number: 123,
+        title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
+        displayDate: 'Tuesday, Sept 19, 2017',
+        date: '2017-09-19',
+        time: '12:00 PM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep123-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
       {
-        number: 130,
-        title: 'ngAir 130 - AngularJS to Angular with Denny Kruep',
-        displayDate: 'Tuesday, September 12, 2017',
-        date: '2017-09-12',
+        number: 131,
+        title: 'ngAir 131 - TBD',
+        displayDate: 'Tuesday, Sept 26, 2017',
+        date: '2017-09-26',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep130-2017',
+        hangoutUrl: 'http://ngair.io/ep131-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
-      }
-      /*
+      },
       {
-        number: 123,
-        title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
-        displayDate: 'Tuesday, July 25, 2017',
-        date: '2017-07-25',
+        number: 132,
+        title: 'ngAir 132 - AngularJS to Angular Part 2 with Denny Kruep',
+        displayDate: 'Tuesday, Oct 3, 2017',
+        date: '2017-10-03',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep123-2017',
+        hangoutUrl: 'http://ngair.io/ep132-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       }
-      */
     ];
 
     vm.pastEpisodes = [
@@ -1694,6 +1692,28 @@
         date: '2017-08-29',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep128-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 129,
+        title: 'ngAir 129 - Using 3rd Party Libs in Angular with Joe Skeen',
+        displayDate: 'Tuesday, September 5, 2017',
+        date: '2017-09-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep129-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 130,
+        title: 'ngAir 130 - AngularJS to Angular with Denny Kruep',
+        displayDate: 'Tuesday, September 12, 2017',
+        date: '2017-09-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep130-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
