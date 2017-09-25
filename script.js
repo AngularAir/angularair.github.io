@@ -49,19 +49,8 @@
 
     vm.episodes = [
       {
-        number: 123,
-        title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
-        displayDate: 'Tuesday, Sept 19, 2017',
-        date: '2017-09-19',
-        time: '12:00 PM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep123-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 131,
-        title: 'ngAir 131 - TBD',
+        title: 'ngAir 131 - Learning Without a Teacher with Samantha Rhodes',
         displayDate: 'Tuesday, Sept 26, 2017',
         date: '2017-09-26',
         time: '11:00 AM (Pacific Time)',
@@ -1632,11 +1621,11 @@
       },
       {
         number: 123,
-        title: 'No Episode This Week (will reschedule)',
-        displayDate: 'Tuesday, July 25, 2017',
-        date: '2017-07-25',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: '',
+        title: 'ngAir 123 - VR and WebGL with Ayşegül Yönet',
+        displayDate: 'Tuesday, Sept 19, 2017',
+        date: '2017-09-19',
+        time: '12:00 PM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep123-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
