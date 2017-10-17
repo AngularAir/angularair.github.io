@@ -49,23 +49,12 @@
 
     vm.episodes = [
       {
-        number: 131,
-        title: 'ngAir 131 - Learning Without a Teacher with Samantha Rhodes',
-        displayDate: 'Tuesday, Sept 26, 2017',
-        date: '2017-09-26',
+        number: 133,
+        title: 'ngAir 133 - Recap of AngularMix 2017',
+        displayDate: 'Tuesday, Oct 17, 2017',
+        date: '2017-10-17',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep131-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 132,
-        title: 'ngAir 132 - AngularJS to Angular Part 2 with Denny Kruep',
-        displayDate: 'Tuesday, Oct 3, 2017',
-        date: '2017-10-03',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep132-2017',
+        hangoutUrl: 'http://ngair.io/ep133-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1703,6 +1692,28 @@
         date: '2017-09-12',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep130-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 131,
+        title: 'ngAir 131 - Learning Without a Teacher with Samantha Rhodes',
+        displayDate: 'Tuesday, Sept 26, 2017',
+        date: '2017-09-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep131-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 132,
+        title: 'ngAir 132 - AngularJS to Angular Part 2 with Denny Kruep',
+        displayDate: 'Tuesday, Oct 3, 2017',
+        date: '2017-10-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep132-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
