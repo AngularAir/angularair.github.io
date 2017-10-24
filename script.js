@@ -47,14 +47,25 @@
       ]
     ];
 
-    vm.episodes = [
+    vm.episodes = [      
       {
-        number: 133,
-        title: 'ngAir 133 - Recap of AngularMix 2017',
-        displayDate: 'Tuesday, Oct 17, 2017',
-        date: '2017-10-17',
+        number: 134,
+        title: 'ngAir 134 - Schematics with Mike Brocchi',
+        displayDate: 'Tuesday, Oct 24, 2017',
+        date: '2017-10-24',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep133-2017',
+        hangoutUrl: 'http://ngair.io/ep134-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },      
+      {
+        number: 135,
+        title: 'ngAir 135 - AngularFire with David East',
+        displayDate: 'Tuesday, Oct 31, 2017',
+        date: '2017-10-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep135-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1714,6 +1725,17 @@
         date: '2017-10-03',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep132-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 133,
+        title: 'ngAir 133 - Recap of AngularMix 2017',
+        displayDate: 'Tuesday, Oct 17, 2017',
+        date: '2017-10-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep133-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
