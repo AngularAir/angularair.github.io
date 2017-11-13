@@ -50,7 +50,7 @@
     vm.episodes = [      
       {
         number: 136,
-        title: 'ngAir 136 - NGCONF: The Hype is Real with Joe Eames and Aaron Frost',
+        title: 'ngAir 136 - NG-CONF: The Hype is Real with Joe Eames and Aaron Frost',
         displayDate: 'Thursday, Nov 16th, 2017',
         date: '2017-11-16',
         time: '11:00 AM (Pacific Time)',
