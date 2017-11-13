@@ -49,23 +49,12 @@
 
     vm.episodes = [      
       {
-        number: 134,
-        title: 'ngAir 134 - Schematics with Mike Brocchi',
-        displayDate: 'Tuesday, Oct 24, 2017',
-        date: '2017-10-24',
+        number: 136,
+        title: 'ngAir 136 - NGCONF: The Hype is Real with Joe Eames and Aaron Frost',
+        displayDate: 'Thursday, Nov 16th, 2017',
+        date: '2017-11-16',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep134-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },      
-      {
-        number: 135,
-        title: 'ngAir 135 - AngularFire with David East',
-        displayDate: 'Tuesday, Oct 31, 2017',
-        date: '2017-10-31',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep135-2017',
+        hangoutUrl: 'http://ngair.io/ep136-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1739,7 +1728,29 @@
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
-      }
+      },
+      {
+        number: 134,
+        title: 'ngAir 134 - Schematics with Mike Brocchi',
+        displayDate: 'Tuesday, Oct 24, 2017',
+        date: '2017-10-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep134-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },      
+      {
+        number: 135,
+        title: 'ngAir 135 - AngularFire with David East',
+        displayDate: 'Tuesday, Oct 31, 2017',
+        date: '2017-10-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep135-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
