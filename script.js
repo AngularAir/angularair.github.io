@@ -47,14 +47,58 @@
       ]
     ];
 
-    vm.episodes = [      
+    vm.episodes = [
       {
-        number: 136,
-        title: 'ngAir 136 - NG-CONF: The Hype is Real with Joe Eames and Aaron Frost',
-        displayDate: 'Thursday, Nov 16th, 2017',
-        date: '2017-11-16',
+        number: 137,
+        title: 'ngAir 137 - Angular is in the Air with Stephen Fluin',
+        displayDate: 'Tuesday, Nov 21th, 2017',
+        date: '2017-11-21',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep136-2017',
+        hangoutUrl: 'http://ngair.io/ep137-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 138,
+        title: 'ngAir 138 - Change Detection with Maxim Koretskyi',
+        displayDate: 'Tuesday, Nov 28th, 2017',
+        date: '2017-11-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep138-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 139,
+        title: 'ngAir 139 - StackBlitz with Eric Simons',
+        displayDate: 'Tuesday, Dec 8th, 2017',
+        date: '2017-12-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep139-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 140,
+        title: 'ngAir 140 - Nx for Enterprise Angular Development with Victor Savkin',
+        displayDate: 'Tuesday, Dec 12th, 2017',
+        date: '2017-12-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep140-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 141,
+        title: 'ngAir 141 - Angular and Electron with Mark Halpin',
+        displayDate: 'Tuesday, Dec 19th, 2017',
+        date: '2017-12-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep141-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1747,6 +1791,17 @@
         date: '2017-10-31',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep135-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 136,
+        title: 'ngAir 136 - NG-CONF: The Hype is Real with Joe Eames and Aaron Frost',
+        displayDate: 'Thursday, Nov 16th, 2017',
+        date: '2017-11-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep136-2017',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
