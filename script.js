@@ -50,7 +50,7 @@
     vm.episodes = [
       {
         number: 137,
-        title: 'ngAir 137 - Angular is in the Air with Stephen Fluin',
+        title: 'ngAir 137 - Leveling Up Your Angular Skills with Stephen Fluin',
         displayDate: 'Tuesday, Nov 21th, 2017',
         date: '2017-11-21',
         time: '11:00 AM (Pacific Time)',
