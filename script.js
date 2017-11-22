@@ -64,7 +64,7 @@
         title: 'ngAir 138 - Change Detection with Maxim Koretskyi',
         displayDate: 'Tuesday, Nov 28th, 2017',
         date: '2017-11-28',
-        time: '11:00 AM (Pacific Time)',
+        time: '10:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep138-2017',
         guests: [[]],
         hasNotes: false,
@@ -73,7 +73,7 @@
       {
         number: 139,
         title: 'ngAir 139 - StackBlitz with Eric Simons',
-        displayDate: 'Tuesday, Dec 8th, 2017',
+        displayDate: 'Friday, Dec 8th, 2017',
         date: '2017-12-08',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep139-2017',
