@@ -42,63 +42,28 @@
         {name: 'Austin McDaniel', twitter: 'amcdnl'},
         {name: 'Bonnie Brennan', twitter: 'bonnster75'}
       ],
-      [
-        {name: 'Olivier Combe', twitter: 'ocombe'}
-      ]
+      []
     ];
 
-    vm.episodes = [
+    vm.episodes = [     
       {
-        number: 137,
-        title: 'ngAir 137 - Leveling Up Your Angular Skills with Stephen Fluin',
-        displayDate: 'Tuesday, Nov 21th, 2017',
-        date: '2017-11-21',
+        number: 142,
+        title: 'ngAir 142 - Angular Elements with Rob Wormald',
+        displayDate: 'Tuesday, Jan 2nd, 2018',
+        date: '2018-01-02',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep137-2017',
+        hangoutUrl: 'http://ngair.io/ep142-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
       {
-        number: 138,
-        title: 'ngAir 138 - Change Detection with Maxim Koretskyi',
-        displayDate: 'Tuesday, Nov 28th, 2017',
-        date: '2017-11-28',
-        time: '10:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep138-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 139,
-        title: 'ngAir 139 - StackBlitz with Eric Simons',
-        displayDate: 'Friday, Dec 8th, 2017',
-        date: '2017-12-08',
+        number: 143,
+        title: 'ngAir 143 - Angular PWA with Stephen Fluin',
+        displayDate: 'Tuesday, Jan 9th, 2018',
+        date: '2018-01-09',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep139-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 140,
-        title: 'ngAir 140 - Nx for Enterprise Angular Development with Victor Savkin',
-        displayDate: 'Tuesday, Dec 12th, 2017',
-        date: '2017-12-12',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep140-2017',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 141,
-        title: 'ngAir 141 - Angular and Electron with Mark Halpin',
-        displayDate: 'Tuesday, Dec 19th, 2017',
-        date: '2017-12-19',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep141-2017',
+        hangoutUrl: 'http://ngair.io/ep143-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1806,6 +1771,61 @@
         hasNotes: false,
         notesAreVisible: false
       },
+      {
+        number: 137,
+        title: 'ngAir 137 - Leveling Up Your Angular Skills with Stephen Fluin',
+        displayDate: 'Tuesday, Nov 21th, 2017',
+        date: '2017-11-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep137-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 138,
+        title: 'ngAir 138 - Change Detection with Maxim Koretskyi',
+        displayDate: 'Tuesday, Nov 28th, 2017',
+        date: '2017-11-28',
+        time: '10:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep138-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 139,
+        title: 'ngAir 139 - StackBlitz with Eric Simons',
+        displayDate: 'Friday, Dec 8th, 2017',
+        date: '2017-12-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep139-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 140,
+        title: 'ngAir 140 - Nx for Enterprise Angular Development with Victor Savkin',
+        displayDate: 'Tuesday, Dec 12th, 2017',
+        date: '2017-12-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep140-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 141,
+        title: 'ngAir 141 - Angular and Electron with Mark Halpin',
+        displayDate: 'Tuesday, Dec 19th, 2017',
+        date: '2017-12-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep141-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      }
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
