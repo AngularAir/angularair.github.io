@@ -47,23 +47,12 @@
 
     vm.episodes = [     
       {
-        number: 142,
-        title: 'ngAir 142 - Angular Elements with Rob Wormald',
-        displayDate: 'Tuesday, Jan 2nd, 2018',
-        date: '2018-01-02',
+        number: 144,
+        title: 'ngAir 144 - The Other Cool NgRx Stuff with Brandon Roberts and Mike Ryan',
+        displayDate: 'Tuesday, Jan 16th, 2018',
+        date: '2018-01-16',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep142-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 143,
-        title: 'ngAir 143 - Angular PWA with Stephen Fluin',
-        displayDate: 'Tuesday, Jan 9th, 2018',
-        date: '2018-01-09',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep143-2018',
+        hangoutUrl: 'http://ngair.io/ep144-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1822,6 +1811,28 @@
         date: '2017-12-19',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep141-2017',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 142,
+        title: 'ngAir 142 - Angular Elements with Rob Wormald',
+        displayDate: 'Tuesday, Jan 2nd, 2018',
+        date: '2018-01-02',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep142-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 143,
+        title: 'ngAir 143 - Angular PWA with Stephen Fluin',
+        displayDate: 'Tuesday, Jan 9th, 2018',
+        date: '2018-01-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep143-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
