@@ -45,14 +45,14 @@
       []
     ];
 
-    vm.episodes = [     
+    vm.episodes = [ 
       {
-        number: 144,
-        title: 'ngAir 144 - The Other Cool NgRx Stuff with Brandon Roberts and Mike Ryan',
-        displayDate: 'Tuesday, Jan 16th, 2018',
-        date: '2018-01-16',
+        number: 145,
+        title: 'ngAir 145 - ngVikings Conference Discussion',
+        displayDate: 'Friday, Jan 26th, 2018',
+        date: '2018-01-26',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep144-2018',
+        hangoutUrl: 'http://ngair.io/ep145-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1833,6 +1833,17 @@
         date: '2018-01-09',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep143-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 144,
+        title: 'ngAir 144 - The Other Cool NgRx Stuff with Brandon Roberts and Mike Ryan',
+        displayDate: 'Tuesday, Jan 16th, 2018',
+        date: '2018-01-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep144-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
