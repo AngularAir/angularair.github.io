@@ -47,12 +47,23 @@
 
     vm.episodes = [ 
       {
-        number: 145,
-        title: 'ngAir 145 - ngVikings Conference Discussion',
-        displayDate: 'Friday, Jan 26th, 2018',
-        date: '2018-01-26',
+        number: 146,
+        title: 'ngAir 146 - Storybook and Angular With Norbert de Langen',
+        displayDate: 'Tuesday, Jan 30th, 2018',
+        date: '2018-01-30',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep145-2018',
+        hangoutUrl: 'http://ngair.io/ep146-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 148,
+        title: 'ngAir 148 - Angular Universal with Jason Jean',
+        displayDate: 'Tuesday, Feb 13th, 2018',
+        date: '2018-02-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep148-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1844,6 +1855,17 @@
         date: '2018-01-16',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep144-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 145,
+        title: 'ngAir 145 - ngVikings Conference Discussion',
+        displayDate: 'Friday, Jan 26th, 2018',
+        date: '2018-01-26',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep145-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
