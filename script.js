@@ -47,12 +47,12 @@
 
     vm.episodes = [ 
       {
-        number: 146,
-        title: 'ngAir 146 - Storybook and Angular With Norbert de Langen',
-        displayDate: 'Tuesday, Jan 30th, 2018',
-        date: '2018-01-30',
+        number: 147,
+        title: 'ngAir 147 - Angular in 10 Years with Jeff Whelpley',
+        displayDate: 'Tuesday, Feb 6th, 2018',
+        date: '2018-02-06',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep146-2018',
+        hangoutUrl: 'http://ngair.io/ep147-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -64,6 +64,17 @@
         date: '2018-02-13',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep148-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 149,
+        title: 'ngAir 149 - ng-packagr with David Herges',
+        displayDate: 'Tuesday, Feb 20th, 2018',
+        date: '2018-02-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep149-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1866,6 +1877,17 @@
         date: '2018-01-26',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep145-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 146,
+        title: 'ngAir 146 - Storybook and Angular With Norbert de Langen',
+        displayDate: 'Tuesday, Jan 30th, 2018',
+        date: '2018-01-30',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep146-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
