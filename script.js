@@ -121,11 +121,6 @@
           [
             {name: 'Brian Ford', twitter: 'briantford'}
           ]
-        ],
-        sponsors: [
-          [
-            {name: 'ShirtJS', website: 'http://shirtjs.com/'}
-          ]
         ]
       },
       {
