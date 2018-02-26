@@ -60,8 +60,8 @@
       {
         number: 151,
         title: 'ngAir 151 - Angular Tooling with Minko Gechev',
-        displayDate: 'Tuesday, Mar 7th, 2018',
-        date: '2018-03-07',
+        displayDate: 'Tuesday, Mar 6th, 2018',
+        date: '2018-03-06',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep151-2018',
         guests: [[]],
