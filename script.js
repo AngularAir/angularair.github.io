@@ -45,25 +45,38 @@
       []
     ];
 
-    vm.episodes = [ 
+    vm.episodes = [      
       {
-        number: 150,
-        title: 'ngAir 150 - The TIL Episode #4',
-        displayDate: 'Tuesday, Feb 27th, 2018',
-        date: '2018-02-27',
+        number: 152,
+        title: 'ngAir 152 - Countdown to ng-conf with Joe Eames and Aaron Frost',
+        displayDate: 'Tuesday, Mar 13th, 2018',
+        date: '2018-03-13',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep150-2018',
+        hangoutUrl: 'http://ngair.io/ep152-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
       {
-        number: 151,
-        title: 'ngAir 151 - Angular Tooling with Minko Gechev',
-        displayDate: 'Tuesday, Mar 6th, 2018',
-        date: '2018-03-06',
+        number: 153,
+        title: 'ngAir 153 - NGXS: A New State Management for Angular Apps with Austin McDaniel',
+        displayDate: 'Tuesday, Mar 20th, 2018',
+        date: '2018-03-20',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep151-2018',
+        hangoutUrl: 'http://ngair.io/ep153-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      
+      
+      {
+        number: 155,
+        title: 'ngAir 155 - Dependency Injection with Jecelyn Yeen',
+        displayDate: 'Tuesday, Apr 3rd, 2018',
+        date: '2018-04-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep155-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1905,6 +1918,39 @@
         date: '2018-02-20',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep149-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 150.0,
+        title: 'ngAir 150 (Part 1) - The TIL Episode #4',
+        displayDate: 'Tuesday, Feb 27th, 2018',
+        date: '2018-02-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep150-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 150.1,
+        title: 'ngAir 150 (Part 2) - The TIL Episode #4',
+        displayDate: 'Tuesday, Feb 27th, 2018',
+        date: '2018-02-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/gLt7ey1kuto',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 151,
+        title: 'ngAir 151 - Angular Tooling with Minko Gechev',
+        displayDate: 'Tuesday, Mar 6th, 2018',
+        date: '2018-03-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep151-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
