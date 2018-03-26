@@ -45,37 +45,24 @@
       []
     ];
 
-    vm.episodes = [      
+    vm.episodes = [
       {
-        number: 152,
-        title: 'ngAir 152 - Countdown to ng-conf with Joe Eames and Aaron Frost',
-        displayDate: 'Tuesday, Mar 13th, 2018',
-        date: '2018-03-13',
+        number: 154,
+        title: 'ngAir 154 - RxJS with Tracy Lee, Ben Lesh and Jay Phelps',
+        displayDate: 'Tuesday, Mar 27th, 2018',
+        date: '2018-03-27',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep152-2018',
+        hangoutUrl: 'http://ngair.io/ep154-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
-      {
-        number: 153,
-        title: 'ngAir 153 - NGXS: A New State Management for Angular Apps with Austin McDaniel',
-        displayDate: 'Tuesday, Mar 20th, 2018',
-        date: '2018-03-20',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep153-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      
-      
       {
         number: 155,
         title: 'ngAir 155 - Dependency Injection with Jecelyn Yeen',
         displayDate: 'Tuesday, Apr 3rd, 2018',
         date: '2018-04-03',
-        time: '11:00 AM (Pacific Time)',
+        time: '4:00 PM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep155-2018',
         guests: [[]],
         hasNotes: false,
@@ -1951,6 +1938,28 @@
         date: '2018-03-06',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep151-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 152,
+        title: 'ngAir 152 - Countdown to ng-conf with Joe Eames and Aaron Frost',
+        displayDate: 'Tuesday, Mar 13th, 2018',
+        date: '2018-03-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep152-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 153,
+        title: 'ngAir 153 - NGXS: A New State Management for Angular Apps with Austin McDaniel',
+        displayDate: 'Tuesday, Mar 20th, 2018',
+        date: '2018-03-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep153-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
