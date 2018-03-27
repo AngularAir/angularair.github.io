@@ -52,7 +52,7 @@
         displayDate: 'Tuesday, Mar 27th, 2018',
         date: '2018-03-27',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep154-2018',
+        hangoutUrl: 'http://ngair.io/ep154--2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
