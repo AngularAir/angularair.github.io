@@ -45,25 +45,14 @@
       []
     ];
 
-    vm.episodes = [
+    vm.episodes = [      
       {
-        number: 154,
-        title: 'ngAir 154 - RxJS with Tracy Lee, Ben Lesh and Jay Phelps',
-        displayDate: 'Tuesday, Mar 27th, 2018',
-        date: '2018-03-27',
+        number: 156,
+        title: 'ngAir 156 - Continuous Integration for Angular Applications with Victor Mejia',
+        displayDate: 'Tuesday, Apr 10th, 2018',
+        date: '2018-04-10',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep154--2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 155,
-        title: 'ngAir 155 - Dependency Injection with Jecelyn Yeen',
-        displayDate: 'Tuesday, Apr 3rd, 2018',
-        date: '2018-04-03',
-        time: '4:00 PM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep155-2018',
+        hangoutUrl: 'http://ngair.io/ep156-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1960,6 +1949,28 @@
         date: '2018-03-20',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep153-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 154,
+        title: 'ngAir 154 - RxJS with Tracy Lee, Ben Lesh and Jay Phelps',
+        displayDate: 'Tuesday, Mar 27th, 2018',
+        date: '2018-03-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep154--2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 155,
+        title: 'ngAir 155 - Dependency Injection with Jecelyn Yeen',
+        displayDate: 'Tuesday, Apr 3rd, 2018',
+        date: '2018-04-03',
+        time: '4:00 PM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep155-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
