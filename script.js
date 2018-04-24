@@ -47,12 +47,56 @@
 
     vm.episodes = [      
       {
-        number: 156,
-        title: 'ngAir 156 - Continuous Integration for Angular Applications with Victor Mejia',
-        displayDate: 'Tuesday, Apr 10th, 2018',
-        date: '2018-04-10',
+        number: 158,
+        title: 'ngAir 158 - Framework Summit Conference with Joe Eames',
+        displayDate: 'Tuesday, Apr 24th, 2018',
+        date: '2018-04-24',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep156-2018',
+        hangoutUrl: 'http://ngair.io/ep158-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 159,
+        title: 'ngAir 159 - Angular Contributor Days with Tracy Lee and Stephen Fluin',
+        displayDate: 'Tuesday, May 1st, 2018',
+        date: '2018-05-01',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep159-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 160,
+        title: 'ngAir 160 - Angular Universal Part 2 with Jason Jean',
+        displayDate: 'Monday, May 7th, 2018',
+        date: '2018-05-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep160-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 161,
+        title: 'ngAir 161 - NgRx Jest Testing with Jesse Sanders',
+        displayDate: 'Tuesday, May 15th, 2018',
+        date: '2018-05-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep161-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 162,
+        title: 'ngAir 162 - Advanced Caching with RxJS with Dominic Elm',
+        displayDate: 'Tuesday, May 22nd, 2018',
+        date: '2018-05-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep162-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -1971,6 +2015,28 @@
         date: '2018-04-03',
         time: '4:00 PM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep155-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 156,
+        title: 'ngAir 156 - Continuous Integration for Angular Applications with Victor Mejia',
+        displayDate: 'Tuesday, Apr 10th, 2018',
+        date: '2018-04-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep156-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 157,
+        title: 'ngAir 157 - Live from ng-conf',
+        displayDate: 'Friday, Apr 20th, 2018',
+        date: '2018-04-20',
+        time: '1:00 pM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep157-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
