@@ -45,36 +45,25 @@
       []
     ];
 
-    vm.episodes = [      
-      {
-        number: 158,
-        title: 'ngAir 158 - Framework Summit Conference with Joe Eames',
-        displayDate: 'Tuesday, Apr 24th, 2018',
-        date: '2018-04-24',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep158-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 159,
-        title: 'ngAir 159 - Angular Contributor Days with Tracy Lee and Stephen Fluin',
-        displayDate: 'Tuesday, May 1st, 2018',
-        date: '2018-05-01',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep159-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
+    vm.episodes = [
       {
         number: 160,
         title: 'ngAir 160 - Angular Universal Part 2 with Jason Jean',
-        displayDate: 'Monday, May 7th, 2018',
-        date: '2018-05-07',
+        displayDate: 'Tuesday, May 8th, 2018',
+        date: '2018-05-08',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep160-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 163,
+        title: 'ngAir 163 - We switched a map, and that what happened behind the scenes...with Mike Brocchi, Shai Reznik and Pete Bacon Darwin',
+        displayDate: 'Thursday, May 10th, 2018',
+        date: '2018-05-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep163-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2037,6 +2026,28 @@
         date: '2018-04-20',
         time: '1:00 pM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep157-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 158,
+        title: 'ngAir 158 - Framework Summit Conference with Joe Eames',
+        displayDate: 'Tuesday, Apr 24th, 2018',
+        date: '2018-04-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep158-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 159,
+        title: 'ngAir 159 - Angular Contributor Days with Tracy Lee and Stephen Fluin',
+        displayDate: 'Tuesday, May 1st, 2018',
+        date: '2018-05-01',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep159-2018',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
