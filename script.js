@@ -47,49 +47,49 @@
 
     vm.episodes = [
       {
-        number: 160,
-        title: 'ngAir 160 - Angular Universal Part 2 with Jason Jean',
-        displayDate: 'Tuesday, May 8th, 2018',
-        date: '2018-05-08',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep160-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 163,
-        title: 'ngAir 163 - We switched a map, and that what happened behind the scenes...with Mike Brocchi, Shai Reznik and Pete Bacon Darwin',
-        displayDate: 'Thursday, May 10th, 2018',
-        date: '2018-05-10',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep163-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 161,
-        title: 'ngAir 161 - NgRx Jest Testing with Jesse Sanders',
-        displayDate: 'Tuesday, May 15th, 2018',
-        date: '2018-05-15',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep161-2018',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 162,
-        title: 'ngAir 162 - Advanced Caching with RxJS with Dominic Elm',
+        title: 'ngAir 162 - Angular CLI 6 with Mike Brocchi',
         displayDate: 'Tuesday, May 22nd, 2018',
         date: '2018-05-22',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'http://ngair.io/ep162-2018',
+        hangoutUrl: 'https://youtu.be/I5bRRwPh1H8',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
-      }
+      },
+      {
+        number: 164,
+        title: 'ngAir 164 - TBD',
+        displayDate: 'Tuesday, May 29th, 2018',
+        date: '2018-05-29',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: '',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 165,
+        title: 'ngAir 165 - Mind-controlling the Web with Angular with Alex Castillo',
+        displayDate: 'Tuesday, June 5th, 2018',
+        date: '2018-06-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/NQazP6kNbng',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 166,
+        title: 'ngAir 166 - Advanced Caching with RxJS with Dominic Elm',
+        displayDate: 'Tuesday, June 12th, 2018',
+        date: '2018-06-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/j7Gb1qw23ks',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
     ];
 
     vm.pastEpisodes = [
@@ -2051,7 +2051,40 @@
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
-      }
+      },
+      {
+        number: 160,
+        title: 'ngAir 160 - Angular Universal Part 2 with Jason Jean',
+        displayDate: 'Tuesday, May 8th, 2018',
+        date: '2018-05-08',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep160-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 161,
+        title: 'ngAir 161 - NgRx Jest Testing with Jesse Sanders',
+        displayDate: 'Tuesday, May 15th, 2018',
+        date: '2018-05-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep161-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 163,
+        title: 'ngAir 163 - We switched a map, and that what happened behind the scenes...with Mike Brocchi, Shai Reznik and Pete Bacon Darwin',
+        displayDate: 'Thursday, May 10th, 2018',
+        date: '2018-05-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'http://ngair.io/ep163-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
