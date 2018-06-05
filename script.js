@@ -47,30 +47,8 @@
 
     vm.episodes = [
       {
-        number: 162,
-        title: 'ngAir 162 - Angular CLI 6 with Mike Brocchi',
-        displayDate: 'Tuesday, May 22nd, 2018',
-        date: '2018-05-22',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/I5bRRwPh1H8',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 164,
-        title: 'ngAir 164 - TBD',
-        displayDate: 'Tuesday, May 29th, 2018',
-        date: '2018-05-29',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: '',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 165,
-        title: 'ngAir 165 - Mind-controlling the Web with Angular with Alex Castillo',
+        title: 'ngAir 164 - Mind-controlling the Web with Angular with Alex Castillo',
         displayDate: 'Tuesday, June 5th, 2018',
         date: '2018-06-05',
         time: '11:00 AM (Pacific Time)',
@@ -80,8 +58,8 @@
         notesAreVisible: false
       },
       {
-        number: 166,
-        title: 'ngAir 166 - Advanced Caching with RxJS with Dominic Elm',
+        number: 165,
+        title: 'ngAir 165 - Advanced Caching with RxJS with Dominic Elm',
         displayDate: 'Tuesday, June 12th, 2018',
         date: '2018-06-12',
         time: '11:00 AM (Pacific Time)',
@@ -2070,6 +2048,17 @@
         date: '2018-05-15',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep161-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 162,
+        title: 'ngAir 162 - Angular CLI 6 with Mike Brocchi',
+        displayDate: 'Tuesday, May 22nd, 2018',
+        date: '2018-05-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/I5bRRwPh1H8',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
