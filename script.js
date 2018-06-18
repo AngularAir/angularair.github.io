@@ -47,23 +47,45 @@
 
     vm.episodes = [
       {
-        number: 164,
-        title: 'ngAir 164 - Mind-controlling the Web with Angular with Alex Castillo',
-        displayDate: 'Tuesday, June 5th, 2018',
-        date: '2018-06-05',
+        number: 166,
+        title: 'ngAir 166 - Angular CDK with Jeremy Elbourn',
+        displayDate: 'Tuesday, June 19th, 2018',
+        date: '2018-06-19',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/NQazP6kNbng',
+        hangoutUrl: 'https://youtu.be/b04UeKOcqCE',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
       {
-        number: 165,
-        title: 'ngAir 165 - Advanced Caching with RxJS with Dominic Elm',
-        displayDate: 'Tuesday, June 12th, 2018',
-        date: '2018-06-12',
+        number: 167,
+        title: 'ngAir 167 - Building Serverless Applications with Simona Cotin',
+        displayDate: 'Tuesday, July 3rd, 2018',
+        date: '2018-07-03',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/j7Gb1qw23ks',
+        hangoutUrl: 'https://youtu.be/2KMihd6hwmc',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 168,
+        title: 'ngAir 168 - Memoization and Angular Pipes with Minko Gechev',
+        displayDate: 'Tuesday, July 10th, 2018',
+        date: '2018-07-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/4nUaiCHVYYo',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 171,
+        title: 'ngAir 171 - xplat multi-platform tools for Nx workspaces with Nathan Walker',
+        displayDate: 'Tuesday, July 31st, 2018',
+        date: '2018-07-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/0I8D25nab5c',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2070,6 +2092,28 @@
         date: '2018-05-10',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'http://ngair.io/ep163-2018',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 164,
+        title: 'ngAir 164 - Mind-controlling the Web with Angular with Alex Castillo',
+        displayDate: 'Tuesday, June 5th, 2018',
+        date: '2018-06-05',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/NQazP6kNbng',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 165,
+        title: 'ngAir 165 - Advanced Caching with RxJS with Dominic Elm',
+        displayDate: 'Tuesday, June 12th, 2018',
+        date: '2018-06-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/j7Gb1qw23ks',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
