@@ -47,30 +47,8 @@
 
     vm.episodes = [
       {
-        number: 166,
-        title: 'ngAir 166 - Angular CDK with Jeremy Elbourn',
-        displayDate: 'Tuesday, June 19th, 2018',
-        date: '2018-06-19',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/b04UeKOcqCE',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 167,
-        title: 'ngAir 167 - Building Serverless Applications with Simona Cotin',
-        displayDate: 'Tuesday, July 3rd, 2018',
-        date: '2018-07-03',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/2KMihd6hwmc',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
         number: 168,
-        title: 'ngAir 168 - Memoization and Angular Pipes with Minko Gechev',
+        title: 'ngAir 168 - Predictive Prefetching Using Machine Learning and Guess.js with Minko Gechev',
         displayDate: 'Tuesday, July 10th, 2018',
         date: '2018-07-10',
         time: '11:00 AM (Pacific Time)',
@@ -80,10 +58,10 @@
         notesAreVisible: false
       },
       {
-        number: 171,
-        title: 'ngAir 171 - xplat multi-platform tools for Nx workspaces with Nathan Walker',
-        displayDate: 'Tuesday, July 31st, 2018',
-        date: '2018-07-31',
+        number: 173,
+        title: 'ngAir 173 - xplat multi-platform tools for Nx workspaces with Nathan Walker',
+        displayDate: 'Tuesday, August 14th, 2018',
+        date: '2018-08-14',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/0I8D25nab5c',
         guests: [[]],
@@ -2114,6 +2092,28 @@
         date: '2018-06-12',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/j7Gb1qw23ks',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 166,
+        title: 'ngAir 166 - Angular CDK with Jeremy Elbourn',
+        displayDate: 'Tuesday, June 19th, 2018',
+        date: '2018-06-19',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/b04UeKOcqCE',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 167,
+        title: 'ngAir 167 - Building Serverless Applications with Simona Cotin',
+        displayDate: 'Tuesday, July 3rd, 2018',
+        date: '2018-07-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/2KMihd6hwmc',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
