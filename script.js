@@ -48,7 +48,7 @@
     vm.episodes = [
       {
         number: 169,
-        title: 'ngAir 169 - TIL #5',
+        title: 'ngAir 169 - TIL (Today I Learned) #5',
         displayDate: 'Tuesday, July 17th, 2018',
         date: '2018-07-17',
         time: '11:00 AM (Pacific Time)',
