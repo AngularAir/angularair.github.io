@@ -47,12 +47,12 @@
 
     vm.episodes = [
       {
-        number: 168,
-        title: 'ngAir 168 - Predictive Prefetching Using Machine Learning and Guess.js with Minko Gechev',
-        displayDate: 'Tuesday, July 10th, 2018',
-        date: '2018-07-10',
+        number: 169,
+        title: 'ngAir 169 - TIL #5',
+        displayDate: 'Tuesday, July 17th, 2018',
+        date: '2018-07-17',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/4nUaiCHVYYo',
+        hangoutUrl: 'https://youtu.be/faNnrsKMhsQ',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2114,6 +2114,17 @@
         date: '2018-07-03',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/2KMihd6hwmc',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 168,
+        title: 'ngAir 168 - Predictive Prefetching Using Machine Learning and Guess.js with Minko Gechev',
+        displayDate: 'Tuesday, July 10th, 2018',
+        date: '2018-07-10',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/4nUaiCHVYYo',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
