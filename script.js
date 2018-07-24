@@ -47,12 +47,12 @@
 
     vm.episodes = [
       {
-        number: 169,
-        title: 'ngAir 169 - TIL (Today I Learned) #5',
-        displayDate: 'Tuesday, July 17th, 2018',
-        date: '2018-07-17',
+        number: 170,
+        title: 'ngAir 170 - From Zero to However Far We Can Get With Nx',
+        displayDate: 'Tuesday, July 24th, 2018',
+        date: '2018-07-24',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/faNnrsKMhsQ',
+        hangoutUrl: 'https://youtu.be/0N589xX2ZQw',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2125,6 +2125,17 @@
         date: '2018-07-10',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/4nUaiCHVYYo',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 169,
+        title: 'ngAir 169 - TIL (Today I Learned) #5',
+        displayDate: 'Tuesday, July 17th, 2018',
+        date: '2018-07-17',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/faNnrsKMhsQ',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
