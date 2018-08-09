@@ -70,7 +70,7 @@
       },      
       {
         number: 173,
-        title: 'ngAir 173 - Special Announcement with Victor Savkin, Dan Muller, Ayşegül Yönet and James Henry',
+        title: 'ngAir 173 - Angular Console with Victor Savkin, Dan Muller, Ayşegül Yönet and James Henry',
         displayDate: 'Wednesday, Aug 15th, 2018',
         date: '2018-08-15',
         time: '11:00 AM (Pacific Time)',
