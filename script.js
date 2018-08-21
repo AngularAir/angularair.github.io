@@ -46,45 +46,13 @@
     ];
 
     vm.episodes = [
-      {
-        number: 171,
-        title: 'ngAir 171 - Angular Playground for Scenario Driven Development',
-        displayDate: 'Tuesday, August 7th, 2018',
-        date: '2018-08-07',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/lq_EngmFrbU',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 172,
-        title: 'ngAir 172 - xplat multi-platform tools for Nx workspaces with Nathan Walker',
-        displayDate: 'Tuesday, August 14th, 2018',
-        date: '2018-08-14',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/0I8D25nab5c',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },      
-      {
-        number: 173,
-        title: 'ngAir 173 - Angular Console with Victor Savkin, Dan Muller, Ayşegül Yönet and James Henry',
-        displayDate: 'Wednesday, Aug 15th, 2018',
-        date: '2018-08-15',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/rzQzrkKYS0c',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
+
       {
         number: 174,
         title: 'ngAir 174 - What’s New With NativeScript With TJ VanToll',
         displayDate: 'Tuesday, August 21st, 2018',
-        date: '2018-0',
-        time: '11:00 AM (Pacific Time)',
+        date: '2018-08-21',
+        time: '12:00 PM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/DRa8c5W-YU0',
         guests: [[]],
         hasNotes: false,
@@ -2180,6 +2148,39 @@
         date: '2018-07-24',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/0N589xX2ZQw',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 171,
+        title: 'ngAir 171 - Angular Playground for Scenario Driven Development',
+        displayDate: 'Tuesday, August 7th, 2018',
+        date: '2018-08-07',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/lq_EngmFrbU',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 172,
+        title: 'ngAir 172 - xplat multi-platform tools for Nx workspaces with Nathan Walker',
+        displayDate: 'Tuesday, August 14th, 2018',
+        date: '2018-08-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/0I8D25nab5c',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },      
+      {
+        number: 173,
+        title: 'ngAir 173 - Angular Console with Victor Savkin, Dan Muller, Ayşegül Yönet and James Henry',
+        displayDate: 'Wednesday, Aug 15th, 2018',
+        date: '2018-08-15',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/rzQzrkKYS0c',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
