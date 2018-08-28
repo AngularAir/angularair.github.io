@@ -46,14 +46,13 @@
     ];
 
     vm.episodes = [
-
       {
-        number: 174,
-        title: 'ngAir 174 - What’s New With NativeScript With TJ VanToll',
-        displayDate: 'Tuesday, August 21st, 2018',
-        date: '2018-08-21',
-        time: '12:00 PM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/DRa8c5W-YU0',
+        number: 175,
+        title: 'ngAir 175 - GraphQL With Bonnie Brennan',
+        displayDate: 'Tuesday, August 28th, 2018',
+        date: '2018-08-28',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/zvmMtihBt0Y',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2181,6 +2180,17 @@
         date: '2018-08-15',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/rzQzrkKYS0c',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 174,
+        title: 'ngAir 174 - What’s New With NativeScript With TJ VanToll',
+        displayDate: 'Tuesday, August 21st, 2018',
+        date: '2018-08-21',
+        time: '12:00 PM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/DRa8c5W-YU0',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
