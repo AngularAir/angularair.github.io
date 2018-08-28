@@ -51,7 +51,7 @@
         title: 'ngAir 175 - GraphQL With Bonnie Brennan',
         displayDate: 'Tuesday, August 28th, 2018',
         date: '2018-08-28',
-        time: '11:00 AM (Pacific Time)',
+        time: '1:00 PM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/zvmMtihBt0Y',
         guests: [[]],
         hasNotes: false,
