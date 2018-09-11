@@ -48,7 +48,7 @@
     vm.episodes = [
       {
         number: 176,
-        title: 'ngAir 176 - Containerizing Angular Apps with Docker with Dan Whalin',
+        title: 'ngAir 176 - Containerizing Angular Apps with Docker with Dan Wahlin',
         displayDate: 'Tuesday, Sept 11th, 2018',
         date: '2018-09-11',
         time: '11:00 AM (Pacific Time)',
