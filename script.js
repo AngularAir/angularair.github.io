@@ -47,23 +47,23 @@
 
     vm.episodes = [
       {
-        number: 175,
-        title: 'ngAir 175 - GraphQL With Bonnie Brennan',
-        displayDate: 'Tuesday, August 28th, 2018',
-        date: '2018-08-28',
-        time: '1:00 PM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/zvmMtihBt0Y',
+        number: 176,
+        title: 'ngAir 176 - Containerizing Angular Apps with Docker with Dan Whalin',
+        displayDate: 'Tuesday, Sept 11th, 2018',
+        date: '2018-09-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/AahRR73LtOY',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
       },
       {
         number: 177,
-        title: 'ngAir 177 - Containerizing Angular Apps with Docker with Dan Whalin',
-        displayDate: 'Tuesday, Sept 11th, 2018',
-        date: '2018-09-11',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/AahRR73LtOY',
+        title: 'ngAir 177 - Angular Ivy with Uri Shaked',
+        displayDate: 'Tuesday, Sept 14th, 2018',
+        date: '2018-09-14',
+        time: '1:00 PM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/XdfAWRKb-oI',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2191,6 +2191,17 @@
         date: '2018-08-21',
         time: '12:00 PM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/DRa8c5W-YU0',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 175,
+        title: 'ngAir 175 - GraphQL With Bonnie Brennan',
+        displayDate: 'Tuesday, August 28th, 2018',
+        date: '2018-08-28',
+        time: '1:00 PM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/zvmMtihBt0Y',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
