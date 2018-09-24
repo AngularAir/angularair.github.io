@@ -47,23 +47,12 @@
 
     vm.episodes = [
       {
-        number: 176,
-        title: 'ngAir 176 - Containerizing Angular Apps with Docker with Dan Wahlin',
-        displayDate: 'Tuesday, Sept 11th, 2018',
-        date: '2018-09-11',
+        number: 178,
+        title: 'ngAir 178 - Angular on Google Cloud With Jeff Whelpley',
+        displayDate: 'Monday, Sept 24th, 2018',
+        date: '2018-09-24',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/AahRR73LtOY',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 177,
-        title: 'ngAir 177 - Angular Ivy with Uri Shaked',
-        displayDate: 'Tuesday, Sept 14th, 2018',
-        date: '2018-09-14',
-        time: '1:00 PM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/XdfAWRKb-oI',
+        hangoutUrl: 'https://youtu.be/mrNPQOVRtao',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2202,6 +2191,28 @@
         date: '2018-08-28',
         time: '1:00 PM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/zvmMtihBt0Y',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 176,
+        title: 'ngAir 176 - Containerizing Angular Apps with Docker with Dan Wahlin',
+        displayDate: 'Tuesday, Sept 11th, 2018',
+        date: '2018-09-11',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/AahRR73LtOY',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 177,
+        title: 'ngAir 177 - Angular Ivy with Uri Shaked',
+        displayDate: 'Tuesday, Sept 14th, 2018',
+        date: '2018-09-14',
+        time: '1:00 PM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/XdfAWRKb-oI',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
