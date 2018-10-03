@@ -47,12 +47,34 @@
 
     vm.episodes = [
       {
-        number: 178,
-        title: 'ngAir 178 - Angular on Google Cloud With Jeff Whelpley',
-        displayDate: 'Monday, Sept 24th, 2018',
-        date: '2018-09-24',
+        number: 179,
+        title: 'ngAir 179 - AngularConnect Preview with Pete Bacon Darwin',
+        displayDate: 'Wed, Oct 3rd, 2018',
+        date: '2018-10-03',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/mrNPQOVRtao',
+        hangoutUrl: 'https://youtu.be/IzmlHOHFnJU',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 180,
+        title: 'ngAir 180 - Angular in the .NET World with Jeremy Likness',
+        displayDate: 'Tuesday, Oct 9th, 2018',
+        date: '2018-10-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/ipEC6aDGJeM',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 182,
+        title: 'ngAir 182 - Policy-Based Client-Side Encryption in Angular with Robert Pinna',
+        displayDate: 'Tuesday, Oct 23rd, 2018',
+        date: '2018-10-23',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/jiR2AcsTkTE',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2213,6 +2235,17 @@
         date: '2018-09-14',
         time: '1:00 PM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/XdfAWRKb-oI',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 178,
+        title: 'ngAir 178 - Angular on Google Cloud With Jeff Whelpley',
+        displayDate: 'Monday, Sept 24th, 2018',
+        date: '2018-09-24',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/mrNPQOVRtao',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
