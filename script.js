@@ -69,8 +69,8 @@
         notesAreVisible: false
       },
       {
-        number: 182,
-        title: 'ngAir 182 - Policy-Based Client-Side Encryption in Angular with Robert Pinna',
+        number: 181,
+        title: 'ngAir 181 - Policy-Based Client-Side Encryption in Angular with Robert Pinna',
         displayDate: 'Tuesday, Oct 23rd, 2018',
         date: '2018-10-23',
         time: '11:00 AM (Pacific Time)',
