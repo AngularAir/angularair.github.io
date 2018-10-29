@@ -47,34 +47,12 @@
 
     vm.episodes = [
       {
-        number: 179,
-        title: 'ngAir 179 - AngularConnect Preview with Pete Bacon Darwin',
-        displayDate: 'Wed, Oct 3rd, 2018',
-        date: '2018-10-03',
+        number: 182,
+        title: 'ngAir 182 - Angular 7',
+        displayDate: 'Wednesday, Oct 31st, 2018',
+        date: '2018-10-31',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/IzmlHOHFnJU',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 180,
-        title: 'ngAir 180 - Angular in the .NET World with Jeremy Likness',
-        displayDate: 'Tuesday, Oct 9th, 2018',
-        date: '2018-10-09',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/ipEC6aDGJeM',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },
-      {
-        number: 181,
-        title: 'ngAir 181 - Policy-Based Client-Side Encryption in Angular with Robert Pinna',
-        displayDate: 'Tuesday, Oct 23rd, 2018',
-        date: '2018-10-23',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/jiR2AcsTkTE',
+        hangoutUrl: 'https://youtu.be/8PxIror_iI4',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2246,6 +2224,39 @@
         date: '2018-09-24',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/mrNPQOVRtao',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 179,
+        title: 'ngAir 179 - AngularConnect Preview with Pete Bacon Darwin',
+        displayDate: 'Wed, Oct 3rd, 2018',
+        date: '2018-10-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/IzmlHOHFnJU',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 180,
+        title: 'ngAir 180 - Angular in the .NET World with Jeremy Likness',
+        displayDate: 'Tuesday, Oct 9th, 2018',
+        date: '2018-10-09',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/ipEC6aDGJeM',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 181,
+        title: 'ngAir 181 - Policy-Based Client-Side Encryption in Angular with Robert Pinna',
+        displayDate: 'Tuesday, Oct 23rd, 2018',
+        date: '2018-10-23',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/jiR2AcsTkTE',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
