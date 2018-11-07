@@ -47,12 +47,12 @@
 
     vm.episodes = [
       {
-        number: 182,
-        title: 'ngAir 182 - Angular 7',
-        displayDate: 'Wednesday, Oct 31st, 2018',
-        date: '2018-10-31',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/8PxIror_iI4',
+        number: 183,
+        title: 'ngAir 183 - Live from AngularConnect 2018',
+        displayDate: 'Wednesday, Nov 7th, 2018',
+        date: '2018-11-07',
+        time: '12:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/quNwuCirav4',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2257,6 +2257,17 @@
         date: '2018-10-23',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/jiR2AcsTkTE',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 182,
+        title: 'ngAir 182 - Angular 7',
+        displayDate: 'Wednesday, Oct 31st, 2018',
+        date: '2018-10-31',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/8PxIror_iI4',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
