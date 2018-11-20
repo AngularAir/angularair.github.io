@@ -47,21 +47,11 @@
 
     vm.episodes = [
       {
-        number: 184,
-        title: 'ngAir 184 - The ngVikings Crew',
-        displayDate: 'Wednesday, Nov 14th, 2018',
-        date: '2018-11-14',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/rsTXgaNTbUo',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },{
         number: 185,
         title: 'ngAir 185 - Introducing Angular for the Visual Learner With Samantha Rhodes',
         displayDate: 'Wednesday, Nov 21st, 2018',
         date: '2018-11-21',
-        time: '8:00 AM (Pacific Time)',
+        time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/gAYJ0G514t4',
         guests: [[]],
         hasNotes: false,
@@ -2299,6 +2289,17 @@
         date: '2018-11-07',
         time: '12:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/quNwuCirav4',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 184,
+        title: 'ngAir 184 - The ngVikings Crew',
+        displayDate: 'Wednesday, Nov 14th, 2018',
+        date: '2018-11-14',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/rsTXgaNTbUo',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
