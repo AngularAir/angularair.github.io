@@ -47,12 +47,12 @@
 
     vm.episodes = [
       {
-        number: 187,
-        title: 'ngAir 187 - Beyond the lab Air Edition: Making user data work for you with Leonardo Zizzamia',
-        displayDate: 'Wednesday, Dec 12th, 2018',
-        date: '2018-12-12',
+        number: 188,
+        title: 'ngAir 188 - The challenges and realities of building the first ngAtlanta conference app, website a custom CMS and the challenges of keeping our world in sync with Zackary Chapple',
+        displayDate: 'Friday, Dec 21st, 2018',
+        date: '2018-12-21',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/_AlwB9k-2dg',
+        hangoutUrl: 'https://youtu.be/LyKkBIna-Ac',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2314,7 +2314,18 @@
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
-      }
+      },
+      {
+        number: 187,
+        title: 'ngAir 187 - Beyond the lab Air Edition: Making user data work for you with Leonardo Zizzamia',
+        displayDate: 'Wednesday, Dec 12th, 2018',
+        date: '2018-12-12',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/_AlwB9k-2dg',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
