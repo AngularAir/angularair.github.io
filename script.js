@@ -47,12 +47,62 @@
 
     vm.episodes = [
       {
-        number: 188,
-        title: 'ngAir 188 - The challenges and realities of building the first ngAtlanta conference app, website a custom CMS and the challenges of keeping our world in sync with Zackary Chapple',
-        displayDate: 'Friday, Dec 21st, 2018',
-        date: '2018-12-21',
+        number: 189,
+        title: 'ngAir 189 - Angular CDK Drag and Drop with Alyssa Nicoll',
+        displayDate: 'Wednesday, Jan 16th, 2019',
+        date: '2019-01-16',
         time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/LyKkBIna-Ac',
+        hangoutUrl: 'https://youtu.be/_ZtlN2lDxrY',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 191,
+        title: 'ngAir 191 - Dry Forms with Sander Elias',
+        displayDate: 'Wednesday, Jan 30th, 2019',
+        date: '2019-01-30',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/NHMUVDCSCxc',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 192,
+        title: 'ngAir 192 - Scalable Angular Architectures with Juan Herrera',
+        displayDate: 'Wednesday, Feb 6th, 2019',
+        date: '2019-02-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/vibkXCQLkXc',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 193,
+        title: 'ngAir 193 - Manageable and Extendable Objects / Inter-component Communication with Bjorn Schijff',
+        displayDate: 'Wednesday, Feb 13th, 2019',
+        date: '2019-02-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/1lhx6L0Y-GQ',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 194,
+        title: 'ngAir 194 - Ionic V4 with Mike Hartington',
+        displayDate: 'Wednesday, Feb 20th, 2019',
+        date: '2019-02-20',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/fmBzH5lHX_s',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 195,
+        title: 'ngAir 195 - xLayers with Wassim Chegham',
+        displayDate: 'Wednesday, Feb 27th, 2019',
+        date: '2019-02-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/sBJuTMBkcfA',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2322,6 +2372,17 @@
         date: '2018-12-12',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/_AlwB9k-2dg',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 188,
+        title: 'ngAir 188 - The challenges and realities of building the first ngAtlanta conference app, website a custom CMS and the challenges of keeping our world in sync with Zackary Chapple',
+        displayDate: 'Friday, Dec 21st, 2018',
+        date: '2018-12-21',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/LyKkBIna-Ac',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
