@@ -47,12 +47,12 @@
 
     vm.episodes = [
       {
-        number: 189,
-        title: 'ngAir 189 - Angular CDK Drag and Drop with Alyssa Nicoll',
-        displayDate: 'Wednesday, Jan 16th, 2019',
-        date: '2019-01-16',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/_ZtlN2lDxrY',
+        number: 190,
+        title: 'ngAir 190 - Angular and Bazel With Minko Gechev',
+        displayDate: 'Wednesday, Jan 23rd, 2019',
+        date: '2019-01-23',
+        time: '3:00 PM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/vlIhnYnMAX0',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2383,6 +2383,17 @@
         date: '2018-12-21',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/LyKkBIna-Ac',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 189,
+        title: 'ngAir 189 - Angular CDK Drag and Drop with Alyssa Nicoll',
+        displayDate: 'Wednesday, Jan 16th, 2019',
+        date: '2019-01-16',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/_ZtlN2lDxrY',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
