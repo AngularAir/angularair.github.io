@@ -49,8 +49,8 @@
      {
         number: 194,
         title: 'ngAir 194 - Ionic V4 with Mike Hartington',
-        displayDate: 'Wednesday, Feb 20th, 2019',
-        date: '2019-02-20',
+        displayDate: 'Thursday, Feb 21st, 2019',
+        date: '2019-02-21',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/fmBzH5lHX_s',
         guests: [[]],
