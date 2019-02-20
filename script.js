@@ -46,47 +46,7 @@
     ];
 
     vm.episodes = [
-      {
-        number: 190,
-        title: 'ngAir 190 - Angular and Bazel With Minko Gechev',
-        displayDate: 'Wednesday, Jan 23rd, 2019',
-        date: '2019-01-23',
-        time: '3:00 PM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/vlIhnYnMAX0',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },{
-        number: 191,
-        title: 'ngAir 191 - Dry Forms with Sander Elias',
-        displayDate: 'Wednesday, Jan 30th, 2019',
-        date: '2019-01-30',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/NHMUVDCSCxc',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },{
-        number: 192,
-        title: 'ngAir 192 - Scalable Angular Architectures with Juan Herrera',
-        displayDate: 'Wednesday, Feb 6th, 2019',
-        date: '2019-02-06',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/vibkXCQLkXc',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },{
-        number: 193,
-        title: 'ngAir 193 - Manageable and Extendable Objects / Inter-component Communication with Bjorn Schijff',
-        displayDate: 'Wednesday, Feb 13th, 2019',
-        date: '2019-02-13',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/1lhx6L0Y-GQ',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },{
+     {
         number: 194,
         title: 'ngAir 194 - Ionic V4 with Mike Hartington',
         displayDate: 'Wednesday, Feb 20th, 2019',
@@ -2394,6 +2354,47 @@
         date: '2019-01-16',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/_ZtlN2lDxrY',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+       {
+        number: 190,
+        title: 'ngAir 190 - Angular and Bazel With Minko Gechev',
+        displayDate: 'Wednesday, Jan 23rd, 2019',
+        date: '2019-01-23',
+        time: '3:00 PM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/vlIhnYnMAX0',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 191,
+        title: 'ngAir 191 - Dry Forms with Sander Elias',
+        displayDate: 'Wednesday, Jan 30th, 2019',
+        date: '2019-01-30',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/NHMUVDCSCxc',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 192,
+        title: 'ngAir 192 - Scalable Angular Architectures with Juan Herrera',
+        displayDate: 'Wednesday, Feb 6th, 2019',
+        date: '2019-02-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/vibkXCQLkXc',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },{
+        number: 193,
+        title: 'ngAir 193 - Manageable and Extendable Objects / Inter-component Communication with Bjorn Schijff',
+        displayDate: 'Wednesday, Feb 13th, 2019',
+        date: '2019-02-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/1lhx6L0Y-GQ',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
