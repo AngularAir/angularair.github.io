@@ -47,21 +47,11 @@
 
     vm.episodes = [
      {
-        number: 194,
-        title: 'ngAir 194 - Ionic V4 with Mike Hartington',
-        displayDate: 'Friday, Feb 22nd, 2019',
-        date: '2019-02-22',
-        time: '11:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/fmBzH5lHX_s',
-        guests: [[]],
-        hasNotes: false,
-        notesAreVisible: false
-      },{
         number: 195,
         title: 'ngAir 195 - xLayers with Wassim Chegham',
         displayDate: 'Wednesday, Feb 27th, 2019',
         date: '2019-02-27',
-        time: '11:00 AM (Pacific Time)',
+        time: '8:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/sBJuTMBkcfA',
         guests: [[]],
         hasNotes: false,
@@ -2395,6 +2385,17 @@
         date: '2019-02-13',
         time: '11:00 AM (Pacific Time)',
         hangoutUrl: 'https://youtu.be/1lhx6L0Y-GQ',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 194,
+        title: 'ngAir 194 - Ionic V4 with Mike Hartington',
+        displayDate: 'Friday, Feb 22nd, 2019',
+        date: '2019-02-22',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://youtu.be/fmBzH5lHX_s',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
