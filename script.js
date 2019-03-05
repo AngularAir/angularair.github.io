@@ -46,13 +46,46 @@
     ];
 
     vm.episodes = [
-     {
-        number: 195,
-        title: 'ngAir 195 - xLayers with Wassim Chegham',
-        displayDate: 'Wednesday, Feb 27th, 2019',
-        date: '2019-02-27',
-        time: '8:00 AM (Pacific Time)',
-        hangoutUrl: 'https://youtu.be/sBJuTMBkcfA',
+      {
+        number: 196,
+        title: 'ngAir 196 - One year of NGXS with Mark Whitfeld',
+        displayDate: 'Wednesday, March 6th, 2019',
+        date: '2019-03-06',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://www.youtube.com/watch?v=B7m7eWywJB0',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 197,
+        title: 'ngAir 197 - Runtime Configuration in Angular with Preston Lamb',
+        displayDate: 'Wednesday, March 13th, 2019',
+        date: '2019-03-13',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://www.youtube.com/watch?v=FGVt0_xVWcI',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 199,
+        title: 'ngAir 199 - Next-Gen Web Application Testing with Cypress with Amir Rustamzadeh',
+        displayDate: 'Wednesday, March 27th, 2019',
+        date: '2019-03-27',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://www.youtube.com/watch?v=tFWbe4PNROw',
+        guests: [[]],
+        hasNotes: false,
+        notesAreVisible: false
+      },
+      {
+        number: 200,
+        title: 'ngAir 200 - Angular Denver CFP with Brian Love',
+        displayDate: 'Wednesday, April 3rd, 2019',
+        date: '2019-04-03',
+        time: '11:00 AM (Pacific Time)',
+        hangoutUrl: 'https://www.youtube.com/watch?v=b-V249iyAGw',
         guests: [[]],
         hasNotes: false,
         notesAreVisible: false
@@ -2400,6 +2433,17 @@
         hasNotes: false,
         notesAreVisible: false
       },
+      {
+         number: 195,
+         title: 'ngAir 195 - xLayers with Wassim Chegham',
+         displayDate: 'Wednesday, Feb 27th, 2019',
+         date: '2019-02-27',
+         time: '8:00 AM (Pacific Time)',
+         hangoutUrl: 'https://youtu.be/sBJuTMBkcfA',
+         guests: [[]],
+         hasNotes: false,
+         notesAreVisible: false
+       },
     ];
 
     angular.forEach(vm.panelists, function(panelistGroup) {
