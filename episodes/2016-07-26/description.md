@@ -1,1 +1,0 @@
-The new Angular CLI has the promise to make everyone's life easier. Mike joins us to show off some of the latest and greatest.

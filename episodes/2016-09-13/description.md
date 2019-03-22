@@ -1,1 +1,0 @@
-Carlos and Lukas are the grand masters of technical content. Whether it's recording a new episode of a podcast, writing a book or mentoring junior developers, these guys know how to create developer eye and ear candy. In this show, we will talk about what it takes to create podcasts (like AngularAir) or other forms of consumable content. 

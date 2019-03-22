@@ -1,1 +1,0 @@
-[Aaron Frost](https://twitter.com/js_dev) joins us to talk about the awesome and amazing Angular Community.
