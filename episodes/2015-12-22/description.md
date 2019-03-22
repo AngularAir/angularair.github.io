@@ -1,2 +1,0 @@
-[Ari Lerner](https://twitter.com/auser) has been hard at work on the perfect Christmas gift for your favorite Angular developer: 
-[ng-book 2](https://www.ng-book.com/2/). We ask Ari about the book and try to pick his brain for some of his best productivity tips.﻿

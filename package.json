@@ -1,0 +1,25 @@
+{
+  "name": "angularair.github.io",
+  "version": "1.0.0",
+  "description": "Website for Angular Air",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "npm run minify:html",
+    "minify:html": "html-minifier --minify-css --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype index_raw.html -o index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angularair/angularair.github.io.git"
+  },
+  "author": "Justin Schwartzenberger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angularair/angularair.github.io/issues"
+  },
+  "homepage": "https://github.com/angularair/angularair.github.io#readme",
+  "devDependencies": {
+    "html-minifier": "^3.5.21",
+    "live-server": "^1.2.1"
+  }
+}

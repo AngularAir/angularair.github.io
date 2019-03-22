@@ -1,1 +1,0 @@
-Carmen, Patrick, Olivier and many others are headed to Amsterdam for ng-nl. This show will be live from the conference.﻿
