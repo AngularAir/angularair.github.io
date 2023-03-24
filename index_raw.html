@@ -59,10 +59,11 @@
       align-items: center;
     }
     body > div {
-      max-width: 900px;
+      max-width: 800px;
       display: flex;
       flex-flow: column nowrap;
       align-items: center;
+      padding-bottom: 24px;
     }
     h1 {
       font-family: 'Bowlby One SC', Arial, Helvetica, sans-serif;
@@ -107,6 +108,9 @@
       align-items: center;
       width: 300px;
     }
+    .panelists {
+      width: 100%;
+    }
     .panelists .avatar-card {
       width: 200px;
     }
@@ -147,7 +151,8 @@
       margin-top: 2rem;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-between;
+      justify-content: center;
+      column-gap: 22px;
     }
     .panelists > h2 {
       flex: 100%;
@@ -231,20 +236,17 @@
       border-left-style: solid;
     }
     @media only screen and (max-width: 920px) {
-      body > div {
-        max-width: 600px;
-      }
       h1 {
         font-size: 60pt;
-      }
-      .panelists {
-        max-width: 460px;
       }
       .panelists .avatar-card {
         margin-bottom: 1.2rem;
       }
     }
     @media only screen and (max-width: 680px) {
+      body > div {
+        max-width: 80vw;
+      }
       h1 {
         font-size: 42pt;
       }
@@ -299,7 +301,7 @@
 
     <section class="about">
       <p>
-        A live videocast on YouTube about all things <strong>Angular</strong> (by Google), a JavaScript platform for building mobile and desktop web applications.<br />
+        A live stream on YouTube about all things <strong>Angular</strong> (by Google), a JavaScript platform for building mobile and desktop web applications.<br />
       </p>
       <h2>Watch on YouTube at</h2>
       <a class="social-card" href="https://www.youtube.com/AngularAirPodcast">
@@ -307,30 +309,19 @@
         <span>AngularAirPodcast</span>
       </a>
     </section>
-    <section class="host">
-      <h2>Hosted by</h2>
-      <a href="https://twitter.com/schwarty" class="avatar-card">
-        <img src="assets/JustinSchwartzenberger.jpg" alt="Justin Schwartzenberger Avatar Image">
-        <p>Justin Schwartzenberger<br />@schwarty</p>
-      </a>
-    </section>
     <section class="panelists">
-      <h2>Featuring the following panelists</h2>
+      <h2>Hosted by</h2>
       <a href="https://twitter.com/AlyssaNicoll" class="avatar-card">
         <img src="assets/AlyssaNicoll.jpg" alt="Alyssa Nicoll Avatar Image">
         <p>Alyssa Nicoll<br />@AlyssaNicoll</p>
       </a>
+      <a href="https://twitter.com/schwarty" class="avatar-card">
+        <img src="assets/JustinSchwartzenberger.jpg" alt="Justin Schwartzenberger Avatar Image">
+        <p>Justin Schwartzenberger<br />@schwarty</p>
+      </a>
       <a href="https://twitter.com/brocco" class="avatar-card">
         <img src="assets/MikeBrocchi.jpg" alt="Mike Brocci Avatar Image">
         <p>Mike Brocchi<br />@brocco</p>
-      </a>
-      <a href="https://twitter.com/bonnster75" class="avatar-card">
-        <img src="assets/BonnieBrennan.jpg" alt="Bonnie Avatar Image">
-        <p>Bonnie Brennan<br />@bonnster75</p>
-      </a>
-      <a href="https://twitter.com/amcdnl" class="avatar-card">
-        <img src="assets/AustinMcDaniel.jpg" alt="Austin McDaniel Avatar Image">
-        <p>Austin McDaniel<br />@amcdnl</p>
       </a>
     </section>
 
@@ -339,26 +330,6 @@
       <a class="social-card" href="https://twitter.com/angularair">
         <span class="fab fa-twitter-square fa-2x"></span>
         <span>@angularair</span>
-      </a>
-    </section>
-
-    <section class="audio-links">
-      <h3>Audio Available At</h3>
-      <a href="https://itunes.apple.com/us/podcast/angular-air/id940806858?mt=2">
-        <span class="fab fa-itunes fa-2x"></span>
-        <span>iTunes</span>
-      </a>
-      <a href="https://play.google.com/music/m/Ir6r6qpervpmqmw27zrm73eocfa?t=Angular_Air">
-        <span class="fab fa-google-play fa-2x"></span>
-        <span>Google Play Music</span>
-      </a>
-      <a href="https://open.spotify.com/show/3THWJ15Ni9LfdqnS9x5og5">
-        <span class="fab fa-spotify fa-2x"></span>
-        <span>Spotify</span>
-      </a>
-      <a href="https://anchor.fm/s/166001ec/podcast/rss">
-        <span class="fas fa-rss-square fa-2x"></span>
-        <span>RSS Feed</span>
       </a>
     </section>
   </div>
